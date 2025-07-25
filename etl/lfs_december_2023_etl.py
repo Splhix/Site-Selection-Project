@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # File paths
-raw_path = "../data/raw/lfs_december_2023_539248763514.csv"
-cleaned_path = "../data/cleaned/lfs_december_2023_cleaned.csv"
+raw_path = "data/raw/lfs_december_2023_539248763514.csv"
+cleaned_path = "data/cleaned/lfs_december_2023_cleaned.csv"
 
 # Load CSV
 df = pd.read_csv(raw_path)
