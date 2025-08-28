@@ -1,0 +1,864 @@
+Region,Year,GRDP,PriceType
+National Capital Region (NCR),2000,1237450701,Current Prices
+Cordillera Administrative Region (CAR),2000,90446009,Current Prices
+Region I (Ilocos Region),2000,128944988,Current Prices
+Region II (Cagayan Valley),2000,85937981,Current Prices
+Region III (Central Luzon),2000,368786804,Current Prices
+Region IV-A (CALABARZON),2000,601691426,Current Prices
+MIMAROPA Region,2000,66182382,Current Prices
+Region V (Bicol Region),2000,96854451,Current Prices
+Region VI (Western Visayas),2000,180855163,Current Prices
+Region VII (Central Visayas),2000,201368028,Current Prices
+Region VIII (Eastern Visayas),2000,103764213,Current Prices
+Region IX (Zamboanga Peninsula),2000,71512156,Current Prices
+Region X (Northern Mindanao),2000,122602899,Current Prices
+Region XI (Davao Region),2000,152937206,Current Prices
+Region XII (SOCCSKSARGEN),2000,90192440,Current Prices
+Region XIII (Caraga),2000,52357709,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2000,45671649,Current Prices
+Philippines,2000,3697556205,Current Prices
+National Capital Region (NCR),2001,1349240704,Current Prices
+Cordillera Administrative Region (CAR),2001,95301368,Current Prices
+Region I (Ilocos Region),2001,137048662,Current Prices
+Region II (Cagayan Valley),2001,93104321,Current Prices
+Region III (Central Luzon),2001,406500228,Current Prices
+Region IV-A (CALABARZON),2001,671228264,Current Prices
+MIMAROPA Region,2001,71908260,Current Prices
+Region V (Bicol Region),2001,105014935,Current Prices
+Region VI (Western Visayas),2001,190527313,Current Prices
+Region VII (Central Visayas),2001,221348981,Current Prices
+Region VIII (Eastern Visayas),2001,111662287,Current Prices
+Region IX (Zamboanga Peninsula),2001,76332913,Current Prices
+Region X (Northern Mindanao),2001,136862102,Current Prices
+Region XI (Davao Region),2001,162157754,Current Prices
+Region XII (SOCCSKSARGEN),2001,95184436,Current Prices
+Region XIII (Caraga),2001,56225051,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2001,44751362,Current Prices
+Philippines,2001,4024398940,Current Prices
+National Capital Region (NCR),2002,1435447457,Current Prices
+Cordillera Administrative Region (CAR),2002,104838201,Current Prices
+Region I (Ilocos Region),2002,147243617,Current Prices
+Region II (Cagayan Valley),2002,96648982,Current Prices
+Region III (Central Luzon),2002,452337803,Current Prices
+Region IV-A (CALABARZON),2002,713061159,Current Prices
+MIMAROPA Region,2002,83490454,Current Prices
+Region V (Bicol Region),2002,113543367,Current Prices
+Region VI (Western Visayas),2002,206272535,Current Prices
+Region VII (Central Visayas),2002,236861695,Current Prices
+Region VIII (Eastern Visayas),2002,118558368,Current Prices
+Region IX (Zamboanga Peninsula),2002,81220537,Current Prices
+Region X (Northern Mindanao),2002,158949261,Current Prices
+Region XI (Davao Region),2002,177461785,Current Prices
+Region XII (SOCCSKSARGEN),2002,109032491,Current Prices
+Region XIII (Caraga),2002,62421224,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2002,53170834,Current Prices
+Philippines,2002,4350559772,Current Prices
+National Capital Region (NCR),2003,1545711905,Current Prices
+Cordillera Administrative Region (CAR),2003,113075065,Current Prices
+Region I (Ilocos Region),2003,157948520,Current Prices
+Region II (Cagayan Valley),2003,99116555,Current Prices
+Region III (Central Luzon),2003,494424474,Current Prices
+Region IV-A (CALABARZON),2003,788436127,Current Prices
+MIMAROPA Region,2003,95423489,Current Prices
+Region V (Bicol Region),2003,120066693,Current Prices
+Region VI (Western Visayas),2003,220844486,Current Prices
+Region VII (Central Visayas),2003,251698543,Current Prices
+Region VIII (Eastern Visayas),2003,126148913,Current Prices
+Region IX (Zamboanga Peninsula),2003,86783931,Current Prices
+Region X (Northern Mindanao),2003,177471012,Current Prices
+Region XI (Davao Region),2003,194422080,Current Prices
+Region XII (SOCCSKSARGEN),2003,120147954,Current Prices
+Region XIII (Caraga),2003,68343455,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2003,57745738,Current Prices
+Philippines,2003,4717808940,Current Prices
+National Capital Region (NCR),2004,1743576537,Current Prices
+Cordillera Administrative Region (CAR),2004,126064714,Current Prices
+Region I (Ilocos Region),2004,178137944,Current Prices
+Region II (Cagayan Valley),2004,117674721,Current Prices
+Region III (Central Luzon),2004,548718978,Current Prices
+Region IV-A (CALABARZON),2004,881529587,Current Prices
+MIMAROPA Region,2004,103521732,Current Prices
+Region V (Bicol Region),2004,135875452,Current Prices
+Region VI (Western Visayas),2004,244363281,Current Prices
+Region VII (Central Visayas),2004,286487926,Current Prices
+Region VIII (Eastern Visayas),2004,147430426,Current Prices
+Region IX (Zamboanga Peninsula),2004,96967352,Current Prices
+Region X (Northern Mindanao),2004,204146137,Current Prices
+Region XI (Davao Region),2004,221493390,Current Prices
+Region XII (SOCCSKSARGEN),2004,139197728,Current Prices
+Region XIII (Caraga),2004,77441587,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2004,71276682,Current Prices
+Philippines,2004,5323904177,Current Prices
+National Capital Region (NCR),2005,1954778997,Current Prices
+Cordillera Administrative Region (CAR),2005,133005766,Current Prices
+Region I (Ilocos Region),2005,198599341,Current Prices
+Region II (Cagayan Valley),2005,121542578,Current Prices
+Region III (Central Luzon),2005,610192972,Current Prices
+Region IV-A (CALABARZON),2005,987614867,Current Prices
+MIMAROPA Region,2005,121806090,Current Prices
+Region V (Bicol Region),2005,148022711,Current Prices
+Region VI (Western Visayas),2005,270572999,Current Prices
+Region VII (Central Visayas),2005,321657954,Current Prices
+Region VIII (Eastern Visayas),2005,164052811,Current Prices
+Region IX (Zamboanga Peninsula),2005,110091946,Current Prices
+Region X (Northern Mindanao),2005,224201372,Current Prices
+Region XI (Davao Region),2005,240651281,Current Prices
+Region XII (SOCCSKSARGEN),2005,146556546,Current Prices
+Region XIII (Caraga),2005,84420023,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2005,79514046,Current Prices
+Philippines,2005,5917282301,Current Prices
+National Capital Region (NCR),2006,2176864045,Current Prices
+Cordillera Administrative Region (CAR),2006,145857673,Current Prices
+Region I (Ilocos Region),2006,218353822,Current Prices
+Region II (Cagayan Valley),2006,139253836,Current Prices
+Region III (Central Luzon),2006,668848239,Current Prices
+Region IV-A (CALABARZON),2006,1093698856,Current Prices
+MIMAROPA Region,2006,131197013,Current Prices
+Region V (Bicol Region),2006,158101543,Current Prices
+Region VI (Western Visayas),2006,299925476,Current Prices
+Region VII (Central Visayas),2006,354599746,Current Prices
+Region VIII (Eastern Visayas),2006,183249360,Current Prices
+Region IX (Zamboanga Peninsula),2006,124161636,Current Prices
+Region X (Northern Mindanao),2006,248747368,Current Prices
+Region XI (Davao Region),2006,260394849,Current Prices
+Region XII (SOCCSKSARGEN),2006,162095898,Current Prices
+Region XIII (Caraga),2006,95817471,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2006,89250281,Current Prices
+Philippines,2006,6550417113,Current Prices
+National Capital Region (NCR),2007,2399583921,Current Prices
+Cordillera Administrative Region (CAR),2007,153956921,Current Prices
+Region I (Ilocos Region),2007,235792743,Current Prices
+Region II (Cagayan Valley),2007,154237291,Current Prices
+Region III (Central Luzon),2007,721803908,Current Prices
+Region IV-A (CALABARZON),2007,1194749373,Current Prices
+MIMAROPA Region,2007,148513117,Current Prices
+Region V (Bicol Region),2007,178100846,Current Prices
+Region VI (Western Visayas),2007,329317934,Current Prices
+Region VII (Central Visayas),2007,394422136,Current Prices
+Region VIII (Eastern Visayas),2007,187305762,Current Prices
+Region IX (Zamboanga Peninsula),2007,140783508,Current Prices
+Region X (Northern Mindanao),2007,278501999,Current Prices
+Region XI (Davao Region),2007,289561841,Current Prices
+Region XII (SOCCSKSARGEN),2007,185204666,Current Prices
+Region XIII (Caraga),2007,111530938,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2007,94877985,Current Prices
+Philippines,2007,7198244888,Current Prices
+National Capital Region (NCR),2008,2655351616,Current Prices
+Cordillera Administrative Region (CAR),2008,165532965,Current Prices
+Region I (Ilocos Region),2008,265782293,Current Prices
+Region II (Cagayan Valley),2008,174606287,Current Prices
+Region III (Central Luzon),2008,832147448,Current Prices
+Region IV-A (CALABARZON),2008,1286125893,Current Prices
+MIMAROPA Region,2008,174989809,Current Prices
+Region V (Bicol Region),2008,203567999,Current Prices
+Region VI (Western Visayas),2008,375511999,Current Prices
+Region VII (Central Visayas),2008,442118144,Current Prices
+Region VIII (Eastern Visayas),2008,225450370,Current Prices
+Region IX (Zamboanga Peninsula),2008,162968224,Current Prices
+Region X (Northern Mindanao),2008,322020334,Current Prices
+Region XI (Davao Region),2008,328336322,Current Prices
+Region XII (SOCCSKSARGEN),2008,211332780,Current Prices
+Region XIII (Caraga),2008,119394512,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2008,104963626,Current Prices
+Philippines,2008,8050200621,Current Prices
+National Capital Region (NCR),2009,2754035852,Current Prices
+Cordillera Administrative Region (CAR),2009,172017163,Current Prices
+Region I (Ilocos Region),2009,278946712,Current Prices
+Region II (Cagayan Valley),2009,184247388,Current Prices
+Region III (Central Luzon),2009,854442889,Current Prices
+Region IV-A (CALABARZON),2009,1283795207,Current Prices
+MIMAROPA Region,2009,184665344,Current Prices
+Region V (Bicol Region),2009,223520298,Current Prices
+Region VI (Western Visayas),2009,407178512,Current Prices
+Region VII (Central Visayas),2009,465442221,Current Prices
+Region VIII (Eastern Visayas),2009,241850136,Current Prices
+Region IX (Zamboanga Peninsula),2009,178223978,Current Prices
+Region X (Northern Mindanao),2009,346382742,Current Prices
+Region XI (Davao Region),2009,358638649,Current Prices
+Region XII (SOCCSKSARGEN),2009,220826218,Current Prices
+Region XIII (Caraga),2009,125030284,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2009,111177863,Current Prices
+Philippines,2009,8390421456,Current Prices
+National Capital Region (NCR),2010,3053160348,Current Prices
+Cordillera Administrative Region (CAR),2010,189766817,Current Prices
+Region I (Ilocos Region),2010,312628376,Current Prices
+Region II (Cagayan Valley),2010,192880304,Current Prices
+Region III (Central Luzon),2010,979287700,Current Prices
+Region IV-A (CALABARZON),2010,1486403920,Current Prices
+MIMAROPA Region,2010,191713018,Current Prices
+Region V (Bicol Region),2010,246110918,Current Prices
+Region VI (Western Visayas),2010,433178888,Current Prices
+Region VII (Central Visayas),2010,539482115,Current Prices
+Region VIII (Eastern Visayas),2010,254164654,Current Prices
+Region IX (Zamboanga Peninsula),2010,195081265,Current Prices
+Region X (Northern Mindanao),2010,394980142,Current Prices
+Region XI (Davao Region),2010,403461237,Current Prices
+Region XII (SOCCSKSARGEN),2010,252178036,Current Prices
+Region XIII (Caraga),2010,143337552,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2010,131635468,Current Prices
+Philippines,2010,9399450758,Current Prices
+National Capital Region (NCR),2011,3237138656,Current Prices
+Cordillera Administrative Region (CAR),2011,200486679,Current Prices
+Region I (Ilocos Region),2011,334384268,Current Prices
+Region II (Cagayan Valley),2011,213085202,Current Prices
+Region III (Central Luzon),2011,1096258667,Current Prices
+Region IV-A (CALABARZON),2011,1582459854,Current Prices
+MIMAROPA Region,2011,212158911,Current Prices
+Region V (Bicol Region),2011,266892594,Current Prices
+Region VI (Western Visayas),2011,477427428,Current Prices
+Region VII (Central Visayas),2011,592227842,Current Prices
+Region VIII (Eastern Visayas),2011,272677861,Current Prices
+Region IX (Zamboanga Peninsula),2011,210255381,Current Prices
+Region X (Northern Mindanao),2011,436363852,Current Prices
+Region XI (Davao Region),2011,437559437,Current Prices
+Region XII (SOCCSKSARGEN),2011,277035863,Current Prices
+Region XIII (Caraga),2011,156504793,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2011,141744037,Current Prices
+Philippines,2011,10144661327,Current Prices
+National Capital Region (NCR),2012,3553088571,Current Prices
+Cordillera Administrative Region (CAR),2012,201836502,Current Prices
+Region I (Ilocos Region),2012,356651167,Current Prices
+Region II (Cagayan Valley),2012,234724620,Current Prices
+Region III (Central Luzon),2012,1206580595,Current Prices
+Region IV-A (CALABARZON),2012,1721867470,Current Prices
+MIMAROPA Region,2012,231318002,Current Prices
+Region V (Bicol Region),2012,298247874,Current Prices
+Region VI (Western Visayas),2012,527279962,Current Prices
+Region VII (Central Visayas),2012,674544563,Current Prices
+Region VIII (Eastern Visayas),2012,265041353,Current Prices
+Region IX (Zamboanga Peninsula),2012,236734323,Current Prices
+Region X (Northern Mindanao),2012,472652726,Current Prices
+Region XI (Davao Region),2012,454315711,Current Prices
+Region XII (SOCCSKSARGEN),2012,291093120,Current Prices
+Region XIII (Caraga),2012,180393968,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2012,154218301,Current Prices
+Philippines,2012,11060588831,Current Prices
+National Capital Region (NCR),2013,3890702252,Current Prices
+Cordillera Administrative Region (CAR),2013,219989238,Current Prices
+Region I (Ilocos Region),2013,393993447,Current Prices
+Region II (Cagayan Valley),2013,268304482,Current Prices
+Region III (Central Luzon),2013,1306617621,Current Prices
+Region IV-A (CALABARZON),2013,1847878662,Current Prices
+MIMAROPA Region,2013,242953220,Current Prices
+Region V (Bicol Region),2013,332295863,Current Prices
+Region VI (Western Visayas),2013,566792962,Current Prices
+Region VII (Central Visayas),2013,746139449,Current Prices
+Region VIII (Eastern Visayas),2013,292195740,Current Prices
+Region IX (Zamboanga Peninsula),2013,253224354,Current Prices
+Region X (Northern Mindanao),2013,509881162,Current Prices
+Region XI (Davao Region),2013,495294298,Current Prices
+Region XII (SOCCSKSARGEN),2013,324370805,Current Prices
+Region XIII (Caraga),2013,194874139,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2013,165084288,Current Prices
+Philippines,2013,12050591984,Current Prices
+National Capital Region (NCR),2014,4215201150,Current Prices
+Cordillera Administrative Region (CAR),2014,237096008,Current Prices
+Region I (Ilocos Region),2014,430678687,Current Prices
+Region II (Cagayan Valley),2014,304061090,Current Prices
+Region III (Central Luzon),2014,1461916690,Current Prices
+Region IV-A (CALABARZON),2014,2006907506,Current Prices
+MIMAROPA Region,2014,276139956,Current Prices
+Region V (Bicol Region),2014,366663555,Current Prices
+Region VI (Western Visayas),2014,615916323,Current Prices
+Region VII (Central Visayas),2014,829547258,Current Prices
+Region VIII (Eastern Visayas),2014,305697115,Current Prices
+Region IX (Zamboanga Peninsula),2014,276633110,Current Prices
+Region X (Northern Mindanao),2014,569991317,Current Prices
+Region XI (Davao Region),2014,555456044,Current Prices
+Region XII (SOCCSKSARGEN),2014,352653227,Current Prices
+Region XIII (Caraga),2014,223865240,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2014,178403975,Current Prices
+Philippines,2014,13206828252,Current Prices
+National Capital Region (NCR),2015,4532443704,Current Prices
+Cordillera Administrative Region (CAR),2015,243673958,Current Prices
+Region I (Ilocos Region),2015,449373363,Current Prices
+Region II (Cagayan Valley),2015,303113509,Current Prices
+Region III (Central Luzon),2015,1511232438,Current Prices
+Region IV-A (CALABARZON),2015,2076801161,Current Prices
+MIMAROPA Region,2015,274605684,Current Prices
+Region V (Bicol Region),2015,395256951,Current Prices
+Region VI (Western Visayas),2015,667996261,Current Prices
+Region VII (Central Visayas),2015,889023020,Current Prices
+Region VIII (Eastern Visayas),2015,324929357,Current Prices
+Region IX (Zamboanga Peninsula),2015,300939935,Current Prices
+Region X (Northern Mindanao),2015,609017243,Current Prices
+Region XI (Davao Region),2015,602911849,Current Prices
+Region XII (SOCCSKSARGEN),2015,354753546,Current Prices
+Region XIII (Caraga),2015,235177755,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2015,172907713,Current Prices
+Philippines,2015,13944157448,Current Prices
+National Capital Region (NCR),2016,4928222539,Current Prices
+Cordillera Administrative Region (CAR),2016,255584787,Current Prices
+Region I (Ilocos Region),2016,490900560,Current Prices
+Region II (Cagayan Valley),2016,323458416,Current Prices
+Region III (Central Luzon),2016,1640708336,Current Prices
+Region IV-A (CALABARZON),2016,2206254090,Current Prices
+MIMAROPA Region,2016,287300274,Current Prices
+Region V (Bicol Region),2016,431762419,Current Prices
+Region VI (Western Visayas),2016,720566797,Current Prices
+Region VII (Central Visayas),2016,977480106,Current Prices
+Region VIII (Eastern Visayas),2016,376587299,Current Prices
+Region IX (Zamboanga Peninsula),2016,322282583,Current Prices
+Region X (Northern Mindanao),2016,679435851,Current Prices
+Region XI (Davao Region),2016,674076172,Current Prices
+Region XII (SOCCSKSARGEN),2016,381711706,Current Prices
+Region XIII (Caraga),2016,251476878,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2016,184572658,Current Prices
+Philippines,2016,15132381470,Current Prices
+National Capital Region (NCR),2017,5327124065,Current Prices
+Cordillera Administrative Region (CAR),2017,280805810,Current Prices
+Region I (Ilocos Region),2017,527801491,Current Prices
+Region II (Cagayan Valley),2017,358686602,Current Prices
+Region III (Central Luzon),2017,1860323671,Current Prices
+Region IV-A (CALABARZON),2017,2423069480,Current Prices
+MIMAROPA Region,2017,321948705,Current Prices
+Region V (Bicol Region),2017,465966050,Current Prices
+Region VI (Western Visayas),2017,791281769,Current Prices
+Region VII (Central Visayas),2017,1067272679,Current Prices
+Region VIII (Eastern Visayas),2017,397386688,Current Prices
+Region IX (Zamboanga Peninsula),2017,344667607,Current Prices
+Region X (Northern Mindanao),2017,737898187,Current Prices
+Region XI (Davao Region),2017,748538551,Current Prices
+Region XII (SOCCSKSARGEN),2017,420127877,Current Prices
+Region XIII (Caraga),2017,273088164,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2017,210663685,Current Prices
+Philippines,2017,16556651083,Current Prices
+National Capital Region (NCR),2018,5814440130,Current Prices
+Cordillera Administrative Region (CAR),2018,308267122,Current Prices
+Region I (Ilocos Region),2018,587597251,Current Prices
+Region II (Cagayan Valley),2018,385061271,Current Prices
+Region III (Central Luzon),2018,2062393875,Current Prices
+Region IV-A (CALABARZON),2018,2706994745,Current Prices
+MIMAROPA Region,2018,370744808,Current Prices
+Region V (Bicol Region),2018,522014835,Current Prices
+Region VI (Western Visayas),2018,860107768,Current Prices
+Region VII (Central Visayas),2018,1180945761,Current Prices
+Region VIII (Eastern Visayas),2018,444384029,Current Prices
+Region IX (Zamboanga Peninsula),2018,379428020,Current Prices
+Region X (Northern Mindanao),2018,821122015,Current Prices
+Region XI (Davao Region),2018,841429225,Current Prices
+Region XII (SOCCSKSARGEN),2018,454304549,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2018,235393060,Current Prices
+Philippines,2018,18265190258,Current Prices
+National Capital Region (NCR),2019,6294194685,Current Prices
+Cordillera Administrative Region (CAR),2019,322106088,Current Prices
+Region I (Ilocos Region),2019,630300658,Current Prices
+Region II (Cagayan Valley),2019,399370781,Current Prices
+Region III (Central Luzon),2019,2184815143,Current Prices
+Region IV-A (CALABARZON),2019,2865792547,Current Prices
+MIMAROPA Region,2019,375589553,Current Prices
+Region V (Bicol Region),2019,560835429,Current Prices
+Region VI (Western Visayas),2019,919163055,Current Prices
+Region VII (Central Visayas),2019,1270612311,Current Prices
+Region VIII (Eastern Visayas),2019,455533643,Current Prices
+Region IX (Zamboanga Peninsula),2019,399109397,Current Prices
+Region X (Northern Mindanao),2019,885223985,Current Prices
+Region XI (Davao Region),2019,922613763,Current Prices
+Region XII (SOCCSKSARGEN),2019,474892618,Current Prices
+Region XIII (Caraga),2019,302930146,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2019,254779370,Current Prices
+Philippines,2019,19517863172,Current Prices
+National Capital Region (NCR),2020,5800819179,Current Prices
+Cordillera Administrative Region (CAR),2020,295502542,Current Prices
+Region I (Ilocos Region),2020,597917300,Current Prices
+Region II (Cagayan Valley),2020,367331248,Current Prices
+Region III (Central Luzon),2020,1864111182,Current Prices
+Region IV-A (CALABARZON),2020,2565120461,Current Prices
+MIMAROPA Region,2020,342643478,Current Prices
+Region V (Bicol Region),2020,516847516,Current Prices
+Region VI (Western Visayas),2020,850797186,Current Prices
+Region VII (Central Visayas),2020,1170115820,Current Prices
+Region VIII (Eastern Visayas),2020,414265871,Current Prices
+Region IX (Zamboanga Peninsula),2020,394821669,Current Prices
+Region X (Northern Mindanao),2020,860415357,Current Prices
+Region XI (Davao Region),2020,890607548,Current Prices
+Region XII (SOCCSKSARGEN),2020,467334771,Current Prices
+Region XIII (Caraga),2020,292574562,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2020,260347879,Current Prices
+Philippines,2020,17951573570,Current Prices
+National Capital Region (NCR),2021,6157504618,Current Prices
+Cordillera Administrative Region (CAR),2021,323883881,Current Prices
+Region I (Ilocos Region),2021,644125310,Current Prices
+Region II (Cagayan Valley),2021,400003438,Current Prices
+Region III (Central Luzon),2021,2062335867,Current Prices
+Region IV-A (CALABARZON),2021,2785990792,Current Prices
+MIMAROPA Region,2021,382709950,Current Prices
+Region V (Bicol Region),2021,564637176,Current Prices
+Region VI (Western Visayas),2021,937010126,Current Prices
+Region VII (Central Visayas),2021,1237764942,Current Prices
+Region VIII (Eastern Visayas),2021,450146977,Current Prices
+Region IX (Zamboanga Peninsula),2021,428106861,Current Prices
+Region X (Northern Mindanao),2021,948892065,Current Prices
+Region XI (Davao Region),2021,967140487,Current Prices
+Region XII (SOCCSKSARGEN),2021,503888631,Current Prices
+Region XIII (Caraga),2021,331856215,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2021,284617149,Current Prices
+Philippines,2021,19410614486,Current Prices
+National Capital Region (NCR),2022,6892127003,Current Prices
+Cordillera Administrative Region (CAR),2022,366057851,Current Prices
+Region I (Ilocos Region),2022,729469681,Current Prices
+Region II (Cagayan Valley),2022,455676928,Current Prices
+Region III (Central Luzon),2022,2367250960,Current Prices
+Region IV-A (CALABARZON),2022,3140377483,Current Prices
+MIMAROPA Region,2022,453089929,Current Prices
+Region V (Bicol Region),2022,645781755,Current Prices
+Region VI (Western Visayas),2022,1134194218,Current Prices
+Region VII (Central Visayas),2022,1406489640,Current Prices
+Region VIII (Eastern Visayas),2022,512826609,Current Prices
+Region IX (Zamboanga Peninsula),2022,490181436,Current Prices
+Region X (Northern Mindanao),2022,1070791029,Current Prices
+Region XI (Davao Region),2022,1096004125,Current Prices
+Region XII (SOCCSKSARGEN),2022,564300355,Current Prices
+Region XIII (Caraga),2022,376843866,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2022,326813470,Current Prices
+Philippines,2022,22028276338,Current Prices
+National Capital Region (NCR),2023,7572347073,Current Prices
+Cordillera Administrative Region (CAR),2023,410562374,Current Prices
+Region I (Ilocos Region),2023,814288143,Current Prices
+Region II (Cagayan Valley),2023,510834729,Current Prices
+Region III (Central Luzon),2023,2650681588,Current Prices
+Region IV-A (CALABARZON),2023,3436079161,Current Prices
+MIMAROPA Region,2023,472213804,Current Prices
+Region V (Bicol Region),2023,701723005,Current Prices
+Region VI (Western Visayas),2023,1244688483,Current Prices
+Region VII (Central Visayas),2023,1579060110,Current Prices
+Region VIII (Eastern Visayas),2023,568717613,Current Prices
+Region IX (Zamboanga Peninsula),2023,531738174,Current Prices
+Region X (Northern Mindanao),2023,1180098638,Current Prices
+Region XI (Davao Region),2023,1255053914,Current Prices
+Region XII (SOCCSKSARGEN),2023,620379069,Current Prices
+Region XIII (Caraga),2023,406454861,Current Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2023,363690662,Current Prices
+Philippines,2023,24318611399,Current Prices
+National Capital Region (NCR),2000,2416391870,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2000,143658283,Constant 2018 Prices
+Region I (Ilocos Region),2000,240124758,Constant 2018 Prices
+Region II (Cagayan Valley),2000,158218411,Constant 2018 Prices
+Region III (Central Luzon),2000,707245644,Constant 2018 Prices
+Region IV-A (CALABARZON),2000,1050505077,Constant 2018 Prices
+MIMAROPA Region,2000,124948855,Constant 2018 Prices
+Region V (Bicol Region),2000,176358450,Constant 2018 Prices
+Region VI (Western Visayas),2000,323742052,Constant 2018 Prices
+Region VII (Central Visayas),2000,382350583,Constant 2018 Prices
+Region VIII (Eastern Visayas),2000,197055277,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2000,153478479,Constant 2018 Prices
+Region X (Northern Mindanao),2000,254909002,Constant 2018 Prices
+Region XI (Davao Region),2000,286212024,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2000,175244994,Constant 2018 Prices
+Region XIII (Caraga),2000,96921630,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2000,98017851,Constant 2018 Prices
+Philippines,2000,6985383240,Constant 2018 Prices
+National Capital Region (NCR),2001,2483504980,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2001,149394641,Constant 2018 Prices
+Region I (Ilocos Region),2001,245289940,Constant 2018 Prices
+Region II (Cagayan Valley),2001,163979540,Constant 2018 Prices
+Region III (Central Luzon),2001,749289527,Constant 2018 Prices
+Region IV-A (CALABARZON),2001,1068135114,Constant 2018 Prices
+MIMAROPA Region,2001,129576632,Constant 2018 Prices
+Region V (Bicol Region),2001,181995859,Constant 2018 Prices
+Region VI (Western Visayas),2001,331474894,Constant 2018 Prices
+Region VII (Central Visayas),2001,398961448,Constant 2018 Prices
+Region VIII (Eastern Visayas),2001,201720341,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2001,156632083,Constant 2018 Prices
+Region X (Northern Mindanao),2001,272386379,Constant 2018 Prices
+Region XI (Davao Region),2001,293475895,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2001,176820019,Constant 2018 Prices
+Region XIII (Caraga),2001,101609542,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2001,94136902,Constant 2018 Prices
+Philippines,2001,7198383735,Constant 2018 Prices
+National Capital Region (NCR),2002,2507171644,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2002,156294714,Constant 2018 Prices
+Region I (Ilocos Region),2002,252727880,Constant 2018 Prices
+Region II (Cagayan Valley),2002,166495687,Constant 2018 Prices
+Region III (Central Luzon),2002,791683392,Constant 2018 Prices
+Region IV-A (CALABARZON),2002,1120500727,Constant 2018 Prices
+MIMAROPA Region,2002,148590811,Constant 2018 Prices
+Region V (Bicol Region),2002,189219301,Constant 2018 Prices
+Region VI (Western Visayas),2002,340556420,Constant 2018 Prices
+Region VII (Central Visayas),2002,406689373,Constant 2018 Prices
+Region VIII (Eastern Visayas),2002,207527497,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2002,161152567,Constant 2018 Prices
+Region X (Northern Mindanao),2002,299873812,Constant 2018 Prices
+Region XI (Davao Region),2002,309524303,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2002,194583624,Constant 2018 Prices
+Region XIII (Caraga),2002,107557223,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2002,105745055,Constant 2018 Prices
+Philippines,2002,7465894031,Constant 2018 Prices
+National Capital Region (NCR),2003,2624052475,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2003,164434850,Constant 2018 Prices
+Region I (Ilocos Region),2003,264116263,Constant 2018 Prices
+Region II (Cagayan Valley),2003,170783478,Constant 2018 Prices
+Region III (Central Luzon),2003,826169061,Constant 2018 Prices
+Region IV-A (CALABARZON),2003,1179350176,Constant 2018 Prices
+MIMAROPA Region,2003,163145111,Constant 2018 Prices
+Region V (Bicol Region),2003,199696474,Constant 2018 Prices
+Region VI (Western Visayas),2003,360566385,Constant 2018 Prices
+Region VII (Central Visayas),2003,424323970,Constant 2018 Prices
+Region VIII (Eastern Visayas),2003,219236477,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2003,168261350,Constant 2018 Prices
+Region X (Northern Mindanao),2003,319682061,Constant 2018 Prices
+Region XI (Davao Region),2003,331450707,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2003,206949168,Constant 2018 Prices
+Region XIII (Caraga),2003,112632685,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2003,110826733,Constant 2018 Prices
+Philippines,2003,7845677426,Constant 2018 Prices
+National Capital Region (NCR),2004,2841837836,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2004,173236667,Constant 2018 Prices
+Region I (Ilocos Region),2004,277856799,Constant 2018 Prices
+Region II (Cagayan Valley),2004,186059551,Constant 2018 Prices
+Region III (Central Luzon),2004,852296755,Constant 2018 Prices
+Region IV-A (CALABARZON),2004,1244396888,Constant 2018 Prices
+MIMAROPA Region,2004,169206374,Constant 2018 Prices
+Region V (Bicol Region),2004,210676947,Constant 2018 Prices
+Region VI (Western Visayas),2004,388102456,Constant 2018 Prices
+Region VII (Central Visayas),2004,453194307,Constant 2018 Prices
+Region VIII (Eastern Visayas),2004,231739076,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2004,175819789,Constant 2018 Prices
+Region X (Northern Mindanao),2004,346219338,Constant 2018 Prices
+Region XI (Davao Region),2004,352703211,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2004,218756257,Constant 2018 Prices
+Region XIII (Caraga),2004,119223129,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2004,119752524,Constant 2018 Prices
+Philippines,2004,8361077904,Constant 2018 Prices
+National Capital Region (NCR),2005,2988546218,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2005,176315299,Constant 2018 Prices
+Region I (Ilocos Region),2005,290757292,Constant 2018 Prices
+Region II (Cagayan Valley),2005,182540224,Constant 2018 Prices
+Region III (Central Luzon),2005,885593565,Constant 2018 Prices
+Region IV-A (CALABARZON),2005,1310160075,Constant 2018 Prices
+MIMAROPA Region,2005,184832219,Constant 2018 Prices
+Region V (Bicol Region),2005,222207767,Constant 2018 Prices
+Region VI (Western Visayas),2005,407685036,Constant 2018 Prices
+Region VII (Central Visayas),2005,485139298,Constant 2018 Prices
+Region VIII (Eastern Visayas),2005,245209038,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2005,188931320,Constant 2018 Prices
+Region X (Northern Mindanao),2005,364973391,Constant 2018 Prices
+Region XI (Davao Region),2005,367442175,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2005,223108764,Constant 2018 Prices
+Region XIII (Caraga),2005,124555442,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2005,126327483,Constant 2018 Prices
+Philippines,2005,8774324608,Constant 2018 Prices
+National Capital Region (NCR),2006,3157102605,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2006,182923099,Constant 2018 Prices
+Region I (Ilocos Region),2006,307818091,Constant 2018 Prices
+Region II (Cagayan Valley),2006,200542676,Constant 2018 Prices
+Region III (Central Luzon),2006,927301530,Constant 2018 Prices
+Region IV-A (CALABARZON),2006,1369674210,Constant 2018 Prices
+MIMAROPA Region,2006,191998208,Constant 2018 Prices
+Region V (Bicol Region),2006,229731835,Constant 2018 Prices
+Region VI (Western Visayas),2006,430039527,Constant 2018 Prices
+Region VII (Central Visayas),2006,507783275,Constant 2018 Prices
+Region VIII (Eastern Visayas),2006,261794426,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2006,196123519,Constant 2018 Prices
+Region X (Northern Mindanao),2006,389672303,Constant 2018 Prices
+Region XI (Davao Region),2006,384620255,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2006,237237885,Constant 2018 Prices
+Region XIII (Caraga),2006,132729349,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2006,133711481,Constant 2018 Prices
+Philippines,2006,9240804277,Constant 2018 Prices
+National Capital Region (NCR),2007,3372129301,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2007,196165501,Constant 2018 Prices
+Region I (Ilocos Region),2007,326055249,Constant 2018 Prices
+Region II (Cagayan Valley),2007,213644370,Constant 2018 Prices
+Region III (Central Luzon),2007,981902705,Constant 2018 Prices
+Region IV-A (CALABARZON),2007,1446188225,Constant 2018 Prices
+MIMAROPA Region,2007,210149963,Constant 2018 Prices
+Region V (Bicol Region),2007,246621525,Constant 2018 Prices
+Region VI (Western Visayas),2007,458869067,Constant 2018 Prices
+Region VII (Central Visayas),2007,549142789,Constant 2018 Prices
+Region VIII (Eastern Visayas),2007,270150926,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2007,211043562,Constant 2018 Prices
+Region X (Northern Mindanao),2007,418466127,Constant 2018 Prices
+Region XI (Davao Region),2007,408318046,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2007,252449432,Constant 2018 Prices
+Region XIII (Caraga),2007,141280994,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2007,140661469,Constant 2018 Prices
+Philippines,2007,9843239249,Constant 2018 Prices
+National Capital Region (NCR),2008,3524902698,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2008,203317240,Constant 2018 Prices
+Region I (Ilocos Region),2008,335759337,Constant 2018 Prices
+Region II (Cagayan Valley),2008,218872182,Constant 2018 Prices
+Region III (Central Luzon),2008,1032623864,Constant 2018 Prices
+Region IV-A (CALABARZON),2008,1497994676,Constant 2018 Prices
+MIMAROPA Region,2008,220607038,Constant 2018 Prices
+Region V (Bicol Region),2008,259226365,Constant 2018 Prices
+Region VI (Western Visayas),2008,480892689,Constant 2018 Prices
+Region VII (Central Visayas),2008,577396656,Constant 2018 Prices
+Region VIII (Eastern Visayas),2008,283219881,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2008,217350412,Constant 2018 Prices
+Region X (Northern Mindanao),2008,441550494,Constant 2018 Prices
+Region XI (Davao Region),2008,424207244,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2008,264630696,Constant 2018 Prices
+Region XIII (Caraga),2008,145216552,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2008,143109506,Constant 2018 Prices
+Philippines,2008,10270877529,Constant 2018 Prices
+National Capital Region (NCR),2009,3522558104,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2009,207767713,Constant 2018 Prices
+Region I (Ilocos Region),2009,335356395,Constant 2018 Prices
+Region II (Cagayan Valley),2009,223636839,Constant 2018 Prices
+Region III (Central Luzon),2009,1039474095,Constant 2018 Prices
+Region IV-A (CALABARZON),2009,1486472826,Constant 2018 Prices
+MIMAROPA Region,2009,230687037,Constant 2018 Prices
+Region V (Bicol Region),2009,277463581,Constant 2018 Prices
+Region VI (Western Visayas),2009,507844955,Constant 2018 Prices
+Region VII (Central Visayas),2009,594859094,Constant 2018 Prices
+Region VIII (Eastern Visayas),2009,294361211,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2009,232017626,Constant 2018 Prices
+Region X (Northern Mindanao),2009,456214263,Constant 2018 Prices
+Region XI (Davao Region),2009,445109409,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2009,269570793,Constant 2018 Prices
+Region XIII (Caraga),2009,148064425,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2009,148174653,Constant 2018 Prices
+Philippines,2009,10419633017,Constant 2018 Prices
+National Capital Region (NCR),2010,3745124533,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2010,220343710,Constant 2018 Prices
+Region I (Ilocos Region),2010,364366356,Constant 2018 Prices
+Region II (Cagayan Valley),2010,232748963,Constant 2018 Prices
+Region III (Central Luzon),2010,1143777786,Constant 2018 Prices
+Region IV-A (CALABARZON),2010,1638482343,Constant 2018 Prices
+MIMAROPA Region,2010,232547423,Constant 2018 Prices
+Region V (Bicol Region),2010,293875751,Constant 2018 Prices
+Region VI (Western Visayas),2010,531457374,Constant 2018 Prices
+Region VII (Central Visayas),2010,666353769,Constant 2018 Prices
+Region VIII (Eastern Visayas),2010,311990058,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2010,239770872,Constant 2018 Prices
+Region X (Northern Mindanao),2010,484523975,Constant 2018 Prices
+Region XI (Davao Region),2010,474508281,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2010,278784645,Constant 2018 Prices
+Region XIII (Caraga),2010,163468004,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2010,161737153,Constant 2018 Prices
+Philippines,2010,11183860997,Constant 2018 Prices
+National Capital Region (NCR),2011,3833040760,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2011,221420475,Constant 2018 Prices
+Region I (Ilocos Region),2011,378621382,Constant 2018 Prices
+Region II (Cagayan Valley),2011,247587301,Constant 2018 Prices
+Region III (Central Luzon),2011,1233431610,Constant 2018 Prices
+Region IV-A (CALABARZON),2011,1676719329,Constant 2018 Prices
+MIMAROPA Region,2011,241561347,Constant 2018 Prices
+Region V (Bicol Region),2011,304077556,Constant 2018 Prices
+Region VI (Western Visayas),2011,564705465,Constant 2018 Prices
+Region VII (Central Visayas),2011,713605729,Constant 2018 Prices
+Region VIII (Eastern Visayas),2011,320330763,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2011,240130505,Constant 2018 Prices
+Region X (Northern Mindanao),2011,513466854,Constant 2018 Prices
+Region XI (Davao Region),2011,493082130,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2011,292232263,Constant 2018 Prices
+Region XIII (Caraga),2011,174932167,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2011,166414758,Constant 2018 Prices
+Philippines,2011,11615360393,Constant 2018 Prices
+National Capital Region (NCR),2012,4072189800,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2012,221950621,Constant 2018 Prices
+Region I (Ilocos Region),2012,398616600,Constant 2018 Prices
+Region II (Cagayan Valley),2012,264876624,Constant 2018 Prices
+Region III (Central Luzon),2012,1336963348,Constant 2018 Prices
+Region IV-A (CALABARZON),2012,1809708699,Constant 2018 Prices
+MIMAROPA Region,2012,254595082,Constant 2018 Prices
+Region V (Bicol Region),2012,334658891,Constant 2018 Prices
+Region VI (Western Visayas),2012,605376449,Constant 2018 Prices
+Region VII (Central Visayas),2012,779760030,Constant 2018 Prices
+Region VIII (Eastern Visayas),2012,312295545,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2012,267034112,Constant 2018 Prices
+Region X (Northern Mindanao),2012,551141548,Constant 2018 Prices
+Region XI (Davao Region),2012,528097604,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2012,315391176,Constant 2018 Prices
+Region XIII (Caraga),2012,193102956,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2012,170707107,Constant 2018 Prices
+Philippines,2012,12416466190,Constant 2018 Prices
+National Capital Region (NCR),2013,4339858704,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2013,236871362,Constant 2018 Prices
+Region I (Ilocos Region),2013,432692177,Constant 2018 Prices
+Region II (Cagayan Valley),2013,288512422,Constant 2018 Prices
+Region III (Central Luzon),2013,1417025690,Constant 2018 Prices
+Region IV-A (CALABARZON),2013,1942476533,Constant 2018 Prices
+MIMAROPA Region,2013,265363628,Constant 2018 Prices
+Region V (Bicol Region),2013,368570786,Constant 2018 Prices
+Region VI (Western Visayas),2013,631660677,Constant 2018 Prices
+Region VII (Central Visayas),2013,841425750,Constant 2018 Prices
+Region VIII (Eastern Visayas),2013,331113701,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2013,281049615,Constant 2018 Prices
+Region X (Northern Mindanao),2013,583766826,Constant 2018 Prices
+Region XI (Davao Region),2013,560762183,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2013,343680815,Constant 2018 Prices
+Region XIII (Caraga),2013,211269822,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2013,178542938,Constant 2018 Prices
+Philippines,2013,13254643627,Constant 2018 Prices
+National Capital Region (NCR),2014,4576914911,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2014,248982342,Constant 2018 Prices
+Region I (Ilocos Region),2014,461217885,Constant 2018 Prices
+Region II (Cagayan Valley),2014,312814849,Constant 2018 Prices
+Region III (Central Luzon),2014,1526621058,Constant 2018 Prices
+Region IV-A (CALABARZON),2014,2054936917,Constant 2018 Prices
+MIMAROPA Region,2014,292033215,Constant 2018 Prices
+Region V (Bicol Region),2014,390488251,Constant 2018 Prices
+Region VI (Western Visayas),2014,665091892,Constant 2018 Prices
+Region VII (Central Visayas),2014,903755199,Constant 2018 Prices
+Region VIII (Eastern Visayas),2014,331605886,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2014,301747243,Constant 2018 Prices
+Region X (Northern Mindanao),2014,633651974,Constant 2018 Prices
+Region XI (Davao Region),2014,611602549,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2014,364657867,Constant 2018 Prices
+Region XIII (Caraga),2014,230076396,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2014,189848311,Constant 2018 Prices
+Philippines,2014,14096046745,Constant 2018 Prices
+National Capital Region (NCR),2015,4865073608,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2015,259526063,Constant 2018 Prices
+Region I (Ilocos Region),2015,486062080,Constant 2018 Prices
+Region II (Cagayan Valley),2015,325728274,Constant 2018 Prices
+Region III (Central Luzon),2015,1619134911,Constant 2018 Prices
+Region IV-A (CALABARZON),2015,2196313576,Constant 2018 Prices
+MIMAROPA Region,2015,305952533,Constant 2018 Prices
+Region V (Bicol Region),2015,431896619,Constant 2018 Prices
+Region VI (Western Visayas),2015,715495909,Constant 2018 Prices
+Region VII (Central Visayas),2015,958557189,Constant 2018 Prices
+Region VIII (Eastern Visayas),2015,352680877,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2015,329285978,Constant 2018 Prices
+Region X (Northern Mindanao),2015,670356960,Constant 2018 Prices
+Region XI (Davao Region),2015,660489974,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2015,377171442,Constant 2018 Prices
+Region XIII (Caraga),2015,245363390,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2015,191818068,Constant 2018 Prices
+Philippines,2015,14990907450,Constant 2018 Prices
+National Capital Region (NCR),2016,5216091453,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2016,266691916,Constant 2018 Prices
+Region I (Ilocos Region),2016,525389666,Constant 2018 Prices
+Region II (Cagayan Valley),2016,341540501,Constant 2018 Prices
+Region III (Central Luzon),2016,1747565400,Constant 2018 Prices
+Region IV-A (CALABARZON),2016,2346818115,Constant 2018 Prices
+MIMAROPA Region,2016,321170118,Constant 2018 Prices
+Region V (Bicol Region),2016,462821105,Constant 2018 Prices
+Region VI (Western Visayas),2016,758042789,Constant 2018 Prices
+Region VII (Central Visayas),2016,1029641257,Constant 2018 Prices
+Region VIII (Eastern Visayas),2016,402993768,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2016,346005979,Constant 2018 Prices
+Region X (Northern Mindanao),2016,723308958,Constant 2018 Prices
+Region XI (Davao Region),2016,721550629,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2016,394076962,Constant 2018 Prices
+Region XIII (Caraga),2016,260522888,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2016,198444393,Constant 2018 Prices
+Philippines,2016,16062675895,Constant 2018 Prices
+National Capital Region (NCR),2017,5507681038,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2017,291775205,Constant 2018 Prices
+Region I (Ilocos Region),2017,554680762,Constant 2018 Prices
+Region II (Cagayan Valley),2017,368250759,Constant 2018 Prices
+Region III (Central Luzon),2017,1929193858,Constant 2018 Prices
+Region IV-A (CALABARZON),2017,2527658901,Constant 2018 Prices
+MIMAROPA Region,2017,341505717,Constant 2018 Prices
+Region V (Bicol Region),2017,488370132,Constant 2018 Prices
+Region VI (Western Visayas),2017,820773095,Constant 2018 Prices
+Region VII (Central Visayas),2017,1102761503,Constant 2018 Prices
+Region VIII (Eastern Visayas),2017,415257479,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2017,356798449,Constant 2018 Prices
+Region X (Northern Mindanao),2017,766435831,Constant 2018 Prices
+Region XI (Davao Region),2017,785051181,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2017,424972061,Constant 2018 Prices
+Region XIII (Caraga),2017,276299208,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2017,218512906,Constant 2018 Prices
+Philippines,2017,17175978086,Constant 2018 Prices
+National Capital Region (NCR),2018,5814440130,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2018,308267122,Constant 2018 Prices
+Region I (Ilocos Region),2018,587597251,Constant 2018 Prices
+Region II (Cagayan Valley),2018,385061271,Constant 2018 Prices
+Region III (Central Luzon),2018,2062393875,Constant 2018 Prices
+Region IV-A (CALABARZON),2018,2706994745,Constant 2018 Prices
+MIMAROPA Region,2018,370744808,Constant 2018 Prices
+Region V (Bicol Region),2018,522014835,Constant 2018 Prices
+Region VI (Western Visayas),2018,860107768,Constant 2018 Prices
+Region VII (Central Visayas),2018,1180945761,Constant 2018 Prices
+Region VIII (Eastern Visayas),2018,444384029,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2018,379428020,Constant 2018 Prices
+Region X (Northern Mindanao),2018,821122015,Constant 2018 Prices
+Region XI (Davao Region),2018,841429225,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2018,454304549,Constant 2018 Prices
+Region XIII (Caraga),2018,290561794,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2018,235393060,Constant 2018 Prices
+Philippines,2018,18265190258,Constant 2018 Prices
+National Capital Region (NCR),2019,6224134457,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2019,321722276,Constant 2018 Prices
+Region I (Ilocos Region),2019,630362667,Constant 2018 Prices
+Region II (Cagayan Valley),2019,411513567,Constant 2018 Prices
+Region III (Central Luzon),2019,2183779631,Constant 2018 Prices
+Region IV-A (CALABARZON),2019,2831599919,Constant 2018 Prices
+MIMAROPA Region,2019,386783632,Constant 2018 Prices
+Region V (Bicol Region),2019,564941774,Constant 2018 Prices
+Region VI (Western Visayas),2019,913909365,Constant 2018 Prices
+Region VII (Central Visayas),2019,1254113393,Constant 2018 Prices
+Region VIII (Eastern Visayas),2019,469292504,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2019,396878798,Constant 2018 Prices
+Region X (Northern Mindanao),2019,867432424,Constant 2018 Prices
+Region XI (Davao Region),2019,900885668,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2019,469982193,Constant 2018 Prices
+Region XIII (Caraga),2019,306260878,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2019,249157465,Constant 2018 Prices
+Philippines,2019,19382750611,Constant 2018 Prices
+National Capital Region (NCR),2020,5599931197,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2020,288876582,Constant 2018 Prices
+Region I (Ilocos Region),2020,581877977,Constant 2018 Prices
+Region II (Cagayan Valley),2020,371102979,Constant 2018 Prices
+Region III (Central Luzon),2020,1881277315,Constant 2018 Prices
+Region IV-A (CALABARZON),2020,2534444265,Constant 2018 Prices
+MIMAROPA Region,2020,357780630,Constant 2018 Prices
+Region V (Bicol Region),2020,517770299,Constant 2018 Prices
+Region VI (Western Visayas),2020,825369599,Constant 2018 Prices
+Region VII (Central Visayas),2020,1134912345,Constant 2018 Prices
+Region VIII (Eastern Visayas),2020,434767718,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2020,376299326,Constant 2018 Prices
+Region X (Northern Mindanao),2020,821433093,Constant 2018 Prices
+Region XI (Davao Region),2020,833225496,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2020,449247792,Constant 2018 Prices
+Region XIII (Caraga),2020,285001928,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2020,244524738,Constant 2018 Prices
+Philippines,2020,17537843279,Constant 2018 Prices
+National Capital Region (NCR),2021,5845619151,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2021,310765858,Constant 2018 Prices
+Region I (Ilocos Region),2021,608618834,Constant 2018 Prices
+Region II (Cagayan Valley),2021,389954561,Constant 2018 Prices
+Region III (Central Luzon),2021,2021186175,Constant 2018 Prices
+Region IV-A (CALABARZON),2021,2728935837,Constant 2018 Prices
+MIMAROPA Region,2021,369725008,Constant 2018 Prices
+Region V (Bicol Region),2021,540189747,Constant 2018 Prices
+Region VI (Western Visayas),2021,874086695,Constant 2018 Prices
+Region VII (Central Visayas),2021,1195978557,Constant 2018 Prices
+Region VIII (Eastern Visayas),2021,461066832,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2021,397862811,Constant 2018 Prices
+Region X (Northern Mindanao),2021,872805112,Constant 2018 Prices
+Region XI (Davao Region),2021,882189256,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2021,472510818,Constant 2018 Prices
+Region XIII (Caraga),2021,305704709,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2021,262884259,Constant 2018 Prices
+Philippines,2021,18540084220,Constant 2018 Prices
+National Capital Region (NCR),2022,6268351531,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2022,337753055,Constant 2018 Prices
+Region I (Ilocos Region),2022,654835322,Constant 2018 Prices
+Region II (Cagayan Valley),2022,421045562,Constant 2018 Prices
+Region III (Central Luzon),2022,2184784695,Constant 2018 Prices
+Region IV-A (CALABARZON),2022,2942514950,Constant 2018 Prices
+MIMAROPA Region,2022,392967267,Constant 2018 Prices
+Region V (Bicol Region),2022,583603946,Constant 2018 Prices
+Region VI (Western Visayas),2022,955136055,Constant 2018 Prices
+Region VII (Central Visayas),2022,1287438109,Constant 2018 Prices
+Region VIII (Eastern Visayas),2022,492180254,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2022,427670777,Constant 2018 Prices
+Region X (Northern Mindanao),2022,935273521,Constant 2018 Prices
+Region XI (Davao Region),2022,954232421,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2022,503656063,Constant 2018 Prices
+Region XIII (Caraga),2022,323893245,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2022,280267918,Constant 2018 Prices
+Philippines,2022,19945604691,Constant 2018 Prices
+National Capital Region (NCR),2023,6574340155,Constant 2018 Prices
+Cordillera Administrative Region (CAR),2023,361078914,Constant 2018 Prices
+Region I (Ilocos Region),2023,701468660,Constant 2018 Prices
+Region II (Cagayan Valley),2023,447073156,Constant 2018 Prices
+Region III (Central Luzon),2023,2318428274,Constant 2018 Prices
+Region IV-A (CALABARZON),2023,3095255701,Constant 2018 Prices
+MIMAROPA Region,2023,411434973,Constant 2018 Prices
+Region V (Bicol Region),2023,610339864,Constant 2018 Prices
+Region VI (Western Visayas),2023,1024269862,Constant 2018 Prices
+Region VII (Central Visayas),2023,1381172064,Constant 2018 Prices
+Region VIII (Eastern Visayas),2023,523561133,Constant 2018 Prices
+Region IX (Zamboanga Peninsula),2023,447320967,Constant 2018 Prices
+Region X (Northern Mindanao),2023,984750304,Constant 2018 Prices
+Region XI (Davao Region),2023,1018200795,Constant 2018 Prices
+Region XII (SOCCSKSARGEN),2023,521184984,Constant 2018 Prices
+Region XIII (Caraga),2023,339650679,Constant 2018 Prices
+Bangsamoro Autonomous Region in Muslim Mindanao (BARMM),2023,292227757,Constant 2018 Prices
+Philippines,2023,21051758242,Constant 2018 Prices
