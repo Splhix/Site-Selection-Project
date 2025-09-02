@@ -1,0 +1,33 @@
+Region,Region_slug,Area_display,Area_slug,Area_Level,Total_Population,Household_Population,Number_of_Households,avg_household_size,qc_hhsize_outlier,qc_household_gt_total
+NCR,ncr,Caloocan,caloocan,Province,1661584.0,1659025.0,404252.0,4.103937642856436,False,False
+NCR,ncr,Las Piñas,las pinas,Province,606293.0,604283.0,156899.0,3.851413966946889,False,False
+NCR,ncr,Makati,makati,Province,629616.0,624032.0,186381.0,3.34815244043116,False,False
+NCR,ncr,Malabon,malabon,Province,380522.0,379463.0,94241.0,4.0265171209982915,False,False
+NCR,ncr,Mandaluyong,mandaluyong,Province,425758.0,419333.0,116954.0,3.585452400088924,False,False
+NCR,ncr,Manila,manila,Province,1846513.0,1837785.0,486293.0,3.7791722274431256,False,False
+NCR,ncr,Marikina,marikina,Province,456059.0,452961.0,104415.0,4.338083608676914,False,False
+NCR,ncr,Muntinlupa,muntinlupa,Province,543445.0,519112.0,138331.0,3.752680165689542,False,False
+NCR,ncr,Navotas,navotas,Province,247543.0,246743.0,63167.0,3.906201022685896,False,False
+NCR,ncr,Parañaque,paranaque,Province,689992.0,686313.0,182216.0,3.7664804407955392,False,False
+NCR,ncr,Pasay City,pasay city,HUC/City,440656.0,437003.0,127629.0,3.4240102171136653,False,False
+NCR,ncr,Pasig,pasig,Province,803159.0,801439.0,212895.0,3.7644801427933956,False,False
+NCR,ncr,Pateros,pateros,Province,65227.0,65064.0,15838.0,4.108094456370754,False,False
+NCR,ncr,Quezon City,quezon city,HUC/City,2960048.0,2950493.0,738724.0,3.994039722548611,False,False
+NCR,ncr,San Juan,san juan,Province,126347.0,124699.0,31519.0,3.956312065738126,False,False
+NCR,ncr,Taguig,taguig,Province,886722.0,882622.0,246873.0,3.5752066852187157,False,False
+NCR,ncr,Valenzuela,valenzuela,Province,714978.0,713181.0,193025.0,3.694759746146872,False,False
+Region III (Central Luzon),region iii central luzon,Angeles,angeles,Province,462928.0,461165.0,116343.0,3.9638396809434173,False,False
+Region III (Central Luzon),region iii central luzon,Aurora,aurora,Province,235750.0,234991.0,57037.0,4.119974753230359,False,False
+Region III (Central Luzon),region iii central luzon,Bataan,bataan,Province,853373.0,849575.0,208941.0,4.066099999521396,False,False
+Region III (Central Luzon),region iii central luzon,Bulacan,bulacan,Province,3708890.0,3696937.0,920608.0,4.01575589175849,False,False
+Region III (Central Luzon),region iii central luzon,Nueva Ecija,nueva ecija,Province,2310134.0,2306751.0,572583.0,4.028675318687422,False,False
+Region III (Central Luzon),region iii central luzon,Olongapo,olongapo,Province,260317.0,258639.0,66450.0,3.892234762979684,False,False
+Region III (Central Luzon),region iii central luzon,Pampanga,pampanga,Province,2437709.0,2433144.0,573920.0,4.239517702815723,False,False
+Region III (Central Luzon),region iii central luzon,Tarlac,tarlac,Province,1503456.0,1499064.0,359561.0,4.169150714343324,False,False
+Region III (Central Luzon),region iii central luzon,Zambales,zambales,Province,649615.0,647545.0,165045.0,3.9234451210275987,False,False
+Region IV-A (CALABARZON),region iv a calabarzon,Batangas,batangas,Province,2908494.0,2902855.0,716192.0,4.053179873553461,False,False
+Region IV-A (CALABARZON),region iv a calabarzon,Cavite,cavite,Province,4344829.0,4318663.0,1096120.0,3.93995456701821,False,False
+Region IV-A (CALABARZON),region iv a calabarzon,Laguna,laguna,Province,3382193.0,3373136.0,915398.0,3.684884607569604,False,False
+Region IV-A (CALABARZON),region iv a calabarzon,Lucena,lucena,Province,278924.0,278347.0,66905.0,4.160331813765787,False,False
+Region IV-A (CALABARZON),region iv a calabarzon,Quezon,quezon,Province,1950459.0,1945444.0,483703.0,4.021980430139982,False,False
+Region IV-A (CALABARZON),region iv a calabarzon,Rizal,rizal,Province,3330143.0,3321325.0,784402.0,4.234212814347745,False,False
