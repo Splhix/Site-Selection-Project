@@ -1,0 +1,240 @@
+Region,Province,Area_display,Year,n_records,employed_rate_unweighted,employed_rate_weighted,sum_weight
+NCR,Abra,Bangued,2023,6.0,1.0,1.0,7574.8955
+NCR,Aklan,Altavas,2023,1.0,1.0,1.0,414.6321
+NCR,Aklan,Makato,2023,1.0,1.0,1.0,571.0938
+NCR,Antique,San Jose,2023,1.0,1.0,1.0,670.5601
+NCR,Batangas,San Juan,2023,2.0,1.0,1.0,1591.0072
+NCR,Batangas,Taal,2023,1.0,1.0,1.0,2125.194
+NCR,Benguet,Baguio,2023,1.0,1.0,1.0,1616.7629
+NCR,Bulacan,Angat,2023,2.0,1.0,1.0,3696.8546
+NCR,Bulacan,Bocaue,2023,2.0,1.0,1.0,10904.5176
+NCR,Bulacan,Guiguinto,2023,1.0,1.0,1.0,744.5297
+NCR,Bulacan,Malolos,2023,1.0,1.0,1.0,554.0711
+NCR,Bulacan,Marilao,2023,3.0,1.0,1.0,3871.7461999999996
+NCR,Bulacan,Obando,2023,2.0,1.0,1.0,1255.7287999999999
+NCR,Bulacan,Pulilan,2023,1.0,1.0,1.0,2013.3738
+NCR,Bulacan,San Jose Del Monte,2023,4.0,1.0,1.0,18535.8969
+NCR,Bulacan,Santa Maria,2023,5.0,1.0,1.0,14096.232099999997
+NCR,Cavite,Bacoor,2023,3.0,1.0,1.0,9726.1128
+NCR,Cavite,Carmona,2023,2.0,1.0,1.0,2810.8573
+NCR,Cavite,Dasmarinas,2023,3.0,1.0,1.0,7394.1959
+NCR,Cavite,General Trias,2023,2.0,1.0,1.0,2909.5152
+NCR,Cavite,Imus,2023,5.0,1.0,1.0,6625.1336
+NCR,Cavite,Naic,2023,1.0,1.0,1.0,577.5461
+NCR,Cavite,Silang,2023,2.0,1.0,1.0,2017.2388
+NCR,Cavite,Tanza,2023,1.0,1.0,1.0,6907.7258
+NCR,Cavite,Trece Martires,2023,1.0,1.0,1.0,5892.6886
+NCR,City Of Manila,Binondo,2023,14.0,1.0,1.0,27076.3515
+NCR,City Of Manila,Ermita,2023,15.0,1.0,1.0,35316.780099999996
+NCR,City Of Manila,Intramuros,2023,3.0,1.0,1.0,8786.8413
+NCR,City Of Manila,Malate,2023,25.0,1.0,1.0,92023.1089
+NCR,City Of Manila,Paco,2023,13.0,1.0,1.0,48333.5339
+NCR,City Of Manila,Pandacan,2023,16.0,1.0,1.0,62713.717399999994
+NCR,City Of Manila,Port Area,2023,5.0,1.0,1.0,10053.577499999998
+NCR,City Of Manila,Quiapo,2023,7.0,1.0,1.0,18958.722500000003
+NCR,City Of Manila,Sampaloc,2023,8.0,1.0,1.0,23832.6938
+NCR,City Of Manila,San Miguel,2023,14.0,1.0,1.0,52259.20120000001
+NCR,City Of Manila,Santa Cruz,2023,21.0,1.0,1.0,50437.19300000001
+NCR,City Of Manila,Tondo I/Ii,2023,78.0,0.9871794871794872,0.9827887795229537,279376.3177
+NCR,Laguna,Binan,2023,1.0,1.0,1.0,2456.3046
+NCR,Laguna,Calamba,2023,3.0,1.0,1.0,5559.3279
+NCR,Laguna,San Pedro,2023,2.0,1.0,1.0,11018.965400000001
+NCR,Laguna,Santa Rosa,2023,1.0,1.0,1.0,1612.3931
+NCR,NCR,Caloocan,2023,113.0,0.9911504424778761,0.9852906964041074,397618.2191
+NCR,NCR,Las Pinas,2023,117.0,1.0,1.0,204219.6699
+NCR,NCR,Makati,2023,233.0,1.0,1.0,560459.228
+NCR,NCR,Malabon,2023,115.0,1.0,1.0,104230.3672
+NCR,NCR,Mandaluyong,2023,167.0,1.0,1.0,263896.6444
+NCR,NCR,Marikina,2023,101.0,1.0,1.0,136623.3382
+NCR,NCR,Muntinlupa,2023,173.0,0.9884393063583815,0.9916385901072103,258239.61839999998
+NCR,NCR,Navotas,2023,129.0,0.9922480620155039,0.9935226849554073,69693.95449999999
+NCR,NCR,Paranaque,2023,149.0,0.9865771812080537,0.9866218284599976,287216.09589999996
+NCR,NCR,Pasay City,2023,116.0,1.0,1.0,244180.6642
+NCR,NCR,Pasig,2023,202.0,1.0,1.0,438773.70320000005
+NCR,NCR,Pateros,2023,28.0,1.0,1.0,16078.671800000002
+NCR,NCR,Quezon City,2023,334.0,1.0,1.0,1677253.2607
+NCR,NCR,San Juan,2023,63.0,1.0,1.0,67196.7122
+NCR,NCR,Taguig,2023,196.0,1.0,1.0,445416.03800000006
+NCR,NCR,Valenzuela,2023,172.0,1.0,1.0,277288.4183
+NCR,Pampanga,Angeles,2023,2.0,1.0,1.0,10862.484100000001
+NCR,Pampanga,San Fernando,2023,1.0,1.0,1.0,1535.8154
+NCR,Pangasinan,Anda,2023,1.0,1.0,1.0,7118.3339
+NCR,Rizal,Antipolo,2023,4.0,1.0,1.0,7074.2699999999995
+NCR,Rizal,Cainta,2023,1.0,1.0,1.0,1602.0386
+NCR,Rizal,San Mateo,2023,2.0,1.0,1.0,2065.1711
+NCR,Rizal,Taytay,2023,7.0,1.0,1.0,23857.901399999995
+NCR,Sorsogon,Sorsogon,2023,1.0,1.0,1.0,1982.5316
+NCR,Tarlac,Capas,2023,1.0,1.0,1.0,954.8049
+NCR,,,2023,3358.0,0.0,0.0,7968920.898899999
+Region III (Central Luzon),Aurora,Baler,2023,3.0,1.0,1.0,2021.1924999999999
+Region III (Central Luzon),Aurora,Casiguran,2023,65.0,1.0,1.0,41955.19599999999
+Region III (Central Luzon),Aurora,Dilasag,2023,20.0,1.0,1.0,12155.689100000001
+Region III (Central Luzon),Aurora,Dingalan,2023,27.0,1.0,1.0,16029.527199999999
+Region III (Central Luzon),Aurora,Dipaculao,2023,1.0,1.0,1.0,482.6843
+Region III (Central Luzon),Aurora,Maria Aurora,2023,22.0,1.0,1.0,14358.191899999998
+Region III (Central Luzon),Aurora,San Luis,2023,8.0,1.0,1.0,5344.7607
+Region III (Central Luzon),Bataan,Abucay,2023,33.0,1.0,1.0,69613.8017
+Region III (Central Luzon),Bataan,Balanga,2023,18.0,1.0,1.0,35574.4519
+Region III (Central Luzon),Bataan,Dinalupihan,2023,19.0,1.0,1.0,36611.56169999999
+Region III (Central Luzon),Bataan,Hermosa,2023,4.0,1.0,1.0,8179.2662
+Region III (Central Luzon),Bataan,Limay,2023,39.0,0.9230769230769231,0.9281175881227814,75965.6995
+Region III (Central Luzon),Bataan,Mariveles,2023,35.0,0.9714285714285714,0.9673238198980448,71447.69959999999
+Region III (Central Luzon),Bataan,Morong,2023,1.0,1.0,1.0,1737.0651
+Region III (Central Luzon),Bataan,Orion,2023,4.0,1.0,1.0,8220.8029
+Region III (Central Luzon),Bataan,Pilar,2023,32.0,1.0,1.0,63269.486699999994
+Region III (Central Luzon),Benguet,Baguio,2023,1.0,1.0,1.0,3538.7811
+Region III (Central Luzon),Bulacan,Balagtas,2023,1.0,1.0,1.0,8787.2871
+Region III (Central Luzon),Bulacan,Baliuag,2023,1.0,1.0,1.0,9748.9304
+Region III (Central Luzon),Bulacan,Bocaue,2023,1.0,1.0,1.0,10007.554
+Region III (Central Luzon),Bulacan,Bulacan,2023,24.0,1.0,1.0,238806.5501
+Region III (Central Luzon),Bulacan,Guiguinto,2023,37.0,1.0,1.0,372896.56529999996
+Region III (Central Luzon),Bulacan,Malolos,2023,2.0,1.0,1.0,16871.030600000002
+Region III (Central Luzon),Bulacan,Marilao,2023,6.0,1.0,1.0,58382.761
+Region III (Central Luzon),Bulacan,Meycauayan,2023,35.0,1.0,1.0,341144.1971
+Region III (Central Luzon),Bulacan,San Jose Del Monte,2023,21.0,1.0,1.0,200819.73119999998
+Region III (Central Luzon),Bulacan,Santa Maria,2023,33.0,1.0,1.0,329727.1315
+Region III (Central Luzon),Cavite,Cavite,2023,1.0,1.0,1.0,2043.0805
+Region III (Central Luzon),Cavite,Kawit,2023,1.0,1.0,1.0,8683.9038
+Region III (Central Luzon),City Of Manila,Ermita,2023,1.0,1.0,1.0,10007.554
+Region III (Central Luzon),City Of Manila,Intramuros,2023,2.0,1.0,1.0,3157.5510999999997
+Region III (Central Luzon),City Of Manila,Malate,2023,2.0,1.0,1.0,11834.349600000001
+Region III (Central Luzon),City Of Manila,Paco,2023,1.0,1.0,1.0,8861.4558
+Region III (Central Luzon),City Of Manila,Port Area,2023,2.0,1.0,1.0,16255.839100000001
+Region III (Central Luzon),City Of Manila,Sampaloc,2023,4.0,1.0,1.0,26651.7129
+Region III (Central Luzon),City Of Manila,Santa Ana,2023,1.0,1.0,1.0,2330.0392
+Region III (Central Luzon),City Of Manila,Santa Cruz,2023,6.0,1.0,1.0,47154.0067
+Region III (Central Luzon),Ilocos Norte,Laoag,2023,1.0,1.0,1.0,1737.0651
+Region III (Central Luzon),Laguna,Cabuyao,2023,1.0,1.0,1.0,2204.4918
+Region III (Central Luzon),NCR,Makati,2023,5.0,1.0,1.0,46957.22839999999
+Region III (Central Luzon),NCR,Mandaluyong,2023,1.0,1.0,1.0,8603.4225
+Region III (Central Luzon),NCR,Navotas,2023,1.0,1.0,1.0,10691.821
+Region III (Central Luzon),NCR,Paranaque,2023,1.0,1.0,1.0,3466.0172
+Region III (Central Luzon),NCR,Pasay City,2023,2.0,1.0,1.0,6474.4250999999995
+Region III (Central Luzon),NCR,Pasig,2023,2.0,1.0,1.0,18918.2033
+Region III (Central Luzon),NCR,Quezon City,2023,6.0,1.0,1.0,35039.108
+Region III (Central Luzon),NCR,San Juan,2023,1.0,1.0,1.0,10007.554
+Region III (Central Luzon),NCR,Valenzuela,2023,2.0,1.0,1.0,19382.9723
+Region III (Central Luzon),Nueva Ecija,Cabanatuan,2023,28.0,1.0,1.0,202996.68469999998
+Region III (Central Luzon),Nueva Ecija,Cuyapo,2023,22.0,1.0,1.0,159502.08750000002
+Region III (Central Luzon),Nueva Ecija,Gapan,2023,38.0,1.0,1.0,261979.64659999998
+Region III (Central Luzon),Nueva Ecija,Nampicuan,2023,41.0,1.0,1.0,305196.352
+Region III (Central Luzon),Nueva Ecija,Palayan,2023,1.0,1.0,1.0,7665.1423
+Region III (Central Luzon),Nueva Ecija,Pantabangan,2023,1.0,1.0,1.0,654.5579
+Region III (Central Luzon),Nueva Ecija,Santa Rosa,2023,1.0,1.0,1.0,10995.2793
+Region III (Central Luzon),Nueva Ecija,Science City Of Munoz,2023,31.0,1.0,1.0,231492.20419999995
+Region III (Central Luzon),Nueva Ecija,Zaragoza,2023,26.0,1.0,1.0,191298.633
+Region III (Central Luzon),Pampanga,Angeles,2023,198.0,1.0,1.0,352958.43240000005
+Region III (Central Luzon),Pampanga,Arayat,2023,1.0,1.0,1.0,3588.2745
+Region III (Central Luzon),Pampanga,Bacolor,2023,2.0,1.0,1.0,6420.7756
+Region III (Central Luzon),Pampanga,Candaba,2023,1.0,1.0,1.0,5635.9079
+Region III (Central Luzon),Pampanga,Floridablanca,2023,76.0,1.0,1.0,446465.2126
+Region III (Central Luzon),Pampanga,Guagua,2023,1.0,1.0,1.0,5635.9079
+Region III (Central Luzon),Pampanga,Mabalacat City,2023,35.0,1.0,1.0,101760.3805
+Region III (Central Luzon),Pampanga,Macabebe,2023,1.0,1.0,1.0,7158.0845
+Region III (Central Luzon),Pampanga,Magalang,2023,23.0,1.0,1.0,129262.4959
+Region III (Central Luzon),Pampanga,Mexico,2023,23.0,1.0,1.0,133629.1222
+Region III (Central Luzon),Pampanga,Porac,2023,2.0,1.0,1.0,9492.1014
+Region III (Central Luzon),Pampanga,San Fernando,2023,61.0,1.0,1.0,348018.6024
+Region III (Central Luzon),Pangasinan,Bolinao,2023,2.0,1.0,1.0,3128.8028
+Region III (Central Luzon),Rizal,Antipolo,2023,1.0,1.0,1.0,710.912
+Region III (Central Luzon),Tarlac,Bamban,2023,40.0,1.0,1.0,150249.1472
+Region III (Central Luzon),Tarlac,Capas,2023,1.0,1.0,1.0,4843.7701
+Region III (Central Luzon),Tarlac,Concepcion,2023,24.0,1.0,1.0,84164.89869999999
+Region III (Central Luzon),Tarlac,Gerona,2023,2.0,1.0,1.0,10511.2914
+Region III (Central Luzon),Tarlac,La Paz,2023,1.0,1.0,1.0,4843.7701
+Region III (Central Luzon),Tarlac,Paniqui,2023,18.0,0.9444444444444444,0.9517308104146354,58763.209500000004
+Region III (Central Luzon),Tarlac,Pura,2023,12.0,1.0,1.0,39575.1527
+Region III (Central Luzon),Tarlac,San Clemente,2023,1.0,1.0,1.0,7393.3602
+Region III (Central Luzon),Tarlac,Tarlac,2023,11.0,1.0,1.0,47079.594
+Region III (Central Luzon),Tarlac,Victoria,2023,36.0,1.0,1.0,126488.04479999997
+Region III (Central Luzon),Zambales,Candelaria,2023,15.0,1.0,1.0,27799.3312
+Region III (Central Luzon),Zambales,Iba,2023,24.0,1.0,1.0,49982.342300000004
+Region III (Central Luzon),Zambales,Olongapo,2023,197.0,0.9898477157360406,0.9926428739418601,129194.74160000001
+Region III (Central Luzon),Zambales,San Antonio,2023,27.0,1.0,1.0,49995.01900000001
+Region III (Central Luzon),Zambales,San Narciso,2023,17.0,1.0,1.0,33766.033299999996
+Region III (Central Luzon),Zambales,Santa Cruz,2023,29.0,1.0,1.0,56458.1178
+Region III (Central Luzon),Zambales,Subic,2023,20.0,1.0,1.0,40091.00780000001
+Region III (Central Luzon),,,2023,1874.0,0.0,0.0,6765883.1644
+Region IV-A (CALABARZON),Bataan,Balanga,2023,1.0,1.0,1.0,5788.8564
+Region IV-A (CALABARZON),Batangas,Balayan,2023,1.0,1.0,1.0,11102.6624
+Region IV-A (CALABARZON),Batangas,Batangas City,2023,11.0,1.0,1.0,85896.5892
+Region IV-A (CALABARZON),Batangas,Bauan,2023,6.0,1.0,1.0,40754.287
+Region IV-A (CALABARZON),Batangas,Calaca,2023,2.0,1.0,1.0,16363.8616
+Region IV-A (CALABARZON),Batangas,Lemery,2023,26.0,1.0,1.0,205496.79729999998
+Region IV-A (CALABARZON),Batangas,Lipa,2023,33.0,1.0,1.0,263424.3878
+Region IV-A (CALABARZON),Batangas,Nasugbu,2023,30.0,1.0,1.0,245914.2964
+Region IV-A (CALABARZON),Batangas,Santo Tomas,2023,41.0,1.0,1.0,336200.425
+Region IV-A (CALABARZON),Batangas,Taal,2023,1.0,1.0,1.0,7489.3368
+Region IV-A (CALABARZON),Batangas,Tanauan,2023,1.0,1.0,1.0,5788.8564
+Region IV-A (CALABARZON),Batangas,Tuy,2023,1.0,1.0,1.0,6064.5162
+Region IV-A (CALABARZON),Bulacan,Bulacan,2023,1.0,1.0,1.0,10701.5607
+Region IV-A (CALABARZON),Bulacan,Calumpit,2023,1.0,1.0,1.0,1137.8485
+Region IV-A (CALABARZON),Bulacan,San Miguel,2023,1.0,1.0,1.0,9603.4653
+Region IV-A (CALABARZON),Cavite,Bacoor,2023,15.0,1.0,1.0,171065.28470000002
+Region IV-A (CALABARZON),Cavite,Carmona,2023,2.0,1.0,1.0,18738.8243
+Region IV-A (CALABARZON),Cavite,Cavite,2023,5.0,1.0,1.0,58859.31
+Region IV-A (CALABARZON),Cavite,Dasmarinas,2023,13.0,1.0,1.0,143819.3673
+Region IV-A (CALABARZON),Cavite,Gen. Mariano Alvarez,2023,2.0,1.0,1.0,16808.0332
+Region IV-A (CALABARZON),Cavite,General Trias,2023,19.0,1.0,1.0,218307.71190000002
+Region IV-A (CALABARZON),Cavite,Imus,2023,5.0,1.0,1.0,58542.1339
+Region IV-A (CALABARZON),Cavite,Kawit,2023,3.0,1.0,1.0,37194.651
+Region IV-A (CALABARZON),Cavite,Naic,2023,3.0,1.0,1.0,37465.0412
+Region IV-A (CALABARZON),Cavite,Noveleta,2023,26.0,1.0,1.0,273584.9448
+Region IV-A (CALABARZON),Cavite,Rosario,2023,21.0,1.0,1.0,257174.8865
+Region IV-A (CALABARZON),Cavite,Silang,2023,2.0,1.0,1.0,17132.4235
+Region IV-A (CALABARZON),Cavite,Tagaytay,2023,2.0,1.0,1.0,9965.9352
+Region IV-A (CALABARZON),Cavite,Tanza,2023,24.0,1.0,1.0,268277.5894
+Region IV-A (CALABARZON),City Of Manila,Quiapo,2023,1.0,1.0,1.0,12510.8291
+Region IV-A (CALABARZON),City Of Manila,Santa Cruz,2023,1.0,1.0,1.0,9236.7114
+Region IV-A (CALABARZON),City Of Manila,Tondo I/Ii,2023,1.0,1.0,1.0,7083.702
+Region IV-A (CALABARZON),Laguna,Bay,2023,1.0,1.0,1.0,10522.7133
+Region IV-A (CALABARZON),Laguna,Binan,2023,28.0,1.0,1.0,243640.13260000004
+Region IV-A (CALABARZON),Laguna,Calamba,2023,4.0,1.0,1.0,36903.1356
+Region IV-A (CALABARZON),Laguna,Famy,2023,1.0,1.0,1.0,10412.2518
+Region IV-A (CALABARZON),Laguna,Kalayaan,2023,24.0,1.0,1.0,187525.3621
+Region IV-A (CALABARZON),Laguna,Luisiana,2023,24.0,1.0,1.0,192988.016
+Region IV-A (CALABARZON),Laguna,Nagcarlan,2023,31.0,1.0,1.0,273266.33410000004
+Region IV-A (CALABARZON),Laguna,Rizal,2023,1.0,1.0,1.0,7083.702
+Region IV-A (CALABARZON),Laguna,San Pablo,2023,29.0,1.0,1.0,225578.6316
+Region IV-A (CALABARZON),Laguna,San Pedro,2023,3.0,1.0,1.0,30996.1296
+Region IV-A (CALABARZON),Laguna,Santa Cruz,2023,1.0,1.0,1.0,10299.3057
+Region IV-A (CALABARZON),Laguna,Santa Rosa,2023,15.0,1.0,1.0,133733.28920000003
+Region IV-A (CALABARZON),NCR,Caloocan,2023,1.0,1.0,1.0,7190.6594
+Region IV-A (CALABARZON),NCR,Las Pinas,2023,6.0,1.0,1.0,57144.800800000005
+Region IV-A (CALABARZON),NCR,Makati,2023,15.0,1.0,1.0,144253.07349999997
+Region IV-A (CALABARZON),NCR,Mandaluyong,2023,5.0,1.0,1.0,36529.5971
+Region IV-A (CALABARZON),NCR,Marikina,2023,11.0,1.0,1.0,78354.44230000001
+Region IV-A (CALABARZON),NCR,Muntinlupa,2023,4.0,0.75,0.7161238524417721,44071.434700000005
+Region IV-A (CALABARZON),NCR,Paranaque,2023,4.0,1.0,1.0,31383.7856
+Region IV-A (CALABARZON),NCR,Pasay City,2023,10.0,1.0,1.0,116233.05380000001
+Region IV-A (CALABARZON),NCR,Pasig,2023,7.0,1.0,1.0,54942.597499999996
+Region IV-A (CALABARZON),NCR,Quezon City,2023,27.0,1.0,1.0,223214.10690000004
+Region IV-A (CALABARZON),NCR,San Juan,2023,1.0,1.0,1.0,6549.0539
+Region IV-A (CALABARZON),NCR,Taguig,2023,15.0,1.0,1.0,165016.7556
+Region IV-A (CALABARZON),NCR,Valenzuela,2023,1.0,1.0,1.0,7545.9271
+Region IV-A (CALABARZON),Pampanga,Angeles,2023,1.0,1.0,1.0,954.8369
+Region IV-A (CALABARZON),Quezon,Atimonan,2023,1.0,1.0,1.0,7070.2158
+Region IV-A (CALABARZON),Quezon,Catanauan,2023,1.0,1.0,1.0,10284.8734
+Region IV-A (CALABARZON),Quezon,General Luna,2023,15.0,1.0,1.0,74742.63650000001
+Region IV-A (CALABARZON),Quezon,Guinayangan,2023,26.0,1.0,1.0,164237.58229999998
+Region IV-A (CALABARZON),Quezon,Gumaca,2023,1.0,1.0,1.0,728.829
+Region IV-A (CALABARZON),Quezon,Infanta,2023,17.0,1.0,1.0,97017.3886
+Region IV-A (CALABARZON),Quezon,Lucban,2023,30.0,0.9333333333333333,0.9656817451365532,203554.97759999995
+Region IV-A (CALABARZON),Quezon,Lucena,2023,110.0,0.990909090909091,0.9933485899644452,141237.1655
+Region IV-A (CALABARZON),Quezon,Mulanay,2023,1.0,1.0,1.0,4198.8954
+Region IV-A (CALABARZON),Quezon,Pagbilao,2023,4.0,1.0,1.0,4810.2137
+Region IV-A (CALABARZON),Quezon,Pitogo,2023,1.0,1.0,1.0,954.8369
+Region IV-A (CALABARZON),Quezon,Sariaya,2023,7.0,1.0,1.0,35424.185600000004
+Region IV-A (CALABARZON),Quezon,Tiaong,2023,34.0,1.0,1.0,214683.42270000002
+Region IV-A (CALABARZON),Rizal,Angono,2023,1.0,1.0,1.0,9955.1663
+Region IV-A (CALABARZON),Rizal,Antipolo,2023,76.0,1.0,1.0,648633.5971
+Region IV-A (CALABARZON),Rizal,Baras,2023,1.0,1.0,1.0,9657.3893
+Region IV-A (CALABARZON),Rizal,Binangonan,2023,13.0,1.0,1.0,112614.97810000001
+Region IV-A (CALABARZON),Rizal,Cainta,2023,7.0,1.0,1.0,60048.2049
+Region IV-A (CALABARZON),Rizal,Rodriguez,2023,35.0,0.9428571428571428,0.9480287044156731,272017.9811
+Region IV-A (CALABARZON),Rizal,San Mateo,2023,3.0,1.0,1.0,25575.440899999998
+Region IV-A (CALABARZON),Rizal,Taytay,2023,23.0,1.0,1.0,179234.55160000004
+Region IV-A (CALABARZON),Rizal,Teresa,2023,2.0,1.0,1.0,15082.0141
+Region IV-A (CALABARZON),Surigao Del Norte,Del Carmen,2023,1.0,1.0,1.0,6708.2323
+Region IV-A (CALABARZON),Zambales,Iba,2023,1.0,1.0,1.0,7705.1272
+Region IV-A (CALABARZON),,,2023,1252.0,0.0,0.0,9544870.8433
