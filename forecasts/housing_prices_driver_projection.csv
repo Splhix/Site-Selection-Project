@@ -1,0 +1,92 @@
+Area_slug,Price,Year,Area_display,Region
+bulacan,2182300.0,2023,Bulacan,Region III (Central Luzon)
+bulacan,2239978.2102046786,2024,Bulacan,Region III (Central Luzon)
+bulacan,2299203.9247661694,2025,Bulacan,Region III (Central Luzon)
+bulacan,2359983.744924972,2026,Bulacan,Region III (Central Luzon)
+bulacan,2422358.1382345106,2027,Bulacan,Region III (Central Luzon)
+bulacan,2486368.617787898,2028,Bulacan,Region III (Central Luzon)
+bulacan,2552057.7690176633,2029,Bulacan,Region III (Central Luzon)
+caloocan,4500000.0,2023,Caloocan,NCR
+caloocan,4518991.3324155845,2024,Caloocan,NCR
+caloocan,4538062.813877151,2025,Caloocan,NCR
+caloocan,4557214.7826374015,2026,Caloocan,NCR
+caloocan,4576447.578376575,2027,Caloocan,NCR
+caloocan,4595761.542208449,2028,Caloocan,NCR
+caloocan,4615157.016686413,2029,Caloocan,NCR
+makati,78000000.0,2023,Makati,NCR
+makati,78329183.09520346,2024,Makati,NCR
+makati,78659755.44053727,2025,Makati,NCR
+makati,78991722.89904827,2026,Makati,NCR
+makati,79325091.35852729,2027,Makati,NCR
+makati,79659866.7316131,2028,Makati,NCR
+makati,79996054.95589781,2029,Makati,NCR
+mandaluyong,28500000.0,2023,Mandaluyong,NCR
+mandaluyong,28620278.438632034,2024,Mandaluyong,NCR
+mandaluyong,28741064.48788862,2025,Mandaluyong,NCR
+mandaluyong,28862360.29003687,2026,Mandaluyong,NCR
+mandaluyong,28984167.996384967,2027,Mandaluyong,NCR
+mandaluyong,29106489.767320167,2028,Mandaluyong,NCR
+mandaluyong,29229327.772347275,2029,Mandaluyong,NCR
+manila,13000000.0,2023,Manila,NCR
+manila,13054863.849200577,2024,Manila,NCR
+manila,13109959.240089547,2025,Manila,NCR
+manila,13165287.14984138,2026,Manila,NCR
+manila,13220848.559754549,2027,Manila,NCR
+manila,13276644.45526885,2028,Manila,NCR
+manila,13332675.82598297,2029,Manila,NCR
+marikina,9700000.0,2023,Marikina,NCR
+marikina,9740936.872095816,2024,Marikina,NCR
+marikina,9782046.50991297,2025,Marikina,NCR
+marikina,9823329.642573953,2026,Marikina,NCR
+marikina,9864787.002278393,2027,Marikina,NCR
+marikina,9906419.324315988,2028,Marikina,NCR
+marikina,9948227.3470796,2029,Marikina,NCR
+muntinlupa,28727000.0,2023,Muntinlupa,NCR
+muntinlupa,28848236.445844997,2024,Muntinlupa,NCR
+muntinlupa,28969984.545388646,2025,Muntinlupa,NCR
+muntinlupa,29092246.457961023,2026,Muntinlupa,NCR
+muntinlupa,29215024.3520053,2027,Muntinlupa,NCR
+muntinlupa,29338320.405116018,2028,Muntinlupa,NCR
+muntinlupa,29462136.8040779,2029,Muntinlupa,NCR
+pasig,24500000.0,2023,Pasig,NCR
+pasig,24603397.254262626,2024,Pasig,NCR
+pasig,24707230.875553377,2025,Pasig,NCR
+pasig,24811502.705470294,2026,Pasig,NCR
+pasig,24916214.593383573,2027,Pasig,NCR
+pasig,25021368.39646822,2028,Pasig,NCR
+pasig,25126965.979737137,2029,Pasig,NCR
+quezon city,16247500.0,2023,Quezon City,NCR
+quezon city,16316069.26076049,2024,Quezon City,NCR
+quezon city,16384927.904104223,2025,Quezon City,NCR
+quezon city,16454077.151311371,2026,Quezon City,NCR
+quezon city,16523518.22881631,2027,Quezon City,NCR
+quezon city,16593252.368229281,2028,Quezon City,NCR
+quezon city,16663280.806358332,2029,Quezon City,NCR
+san juan,30000000.0,2023,San Juan,NCR
+san juan,30126608.88277056,2024,San Juan,NCR
+san juan,30253752.092514336,2025,San Juan,NCR
+san juan,30381431.884249337,2026,San Juan,NCR
+san juan,30509650.522510495,2027,San Juan,NCR
+san juan,30638410.281389654,2028,San Juan,NCR
+san juan,30767713.44457608,2029,San Juan,NCR
+taguig,35000000.0,2023,Taguig,NCR
+taguig,35147710.36323232,2024,Taguig,NCR
+taguig,35296044.107933395,2025,Taguig,NCR
+taguig,35445003.86495756,2026,Taguig,NCR
+taguig,35594592.276262246,2027,Taguig,NCR
+taguig,35744811.9949546,2028,Taguig,NCR
+taguig,35895665.685338765,2029,Taguig,NCR
+tarlac,5740500.0,2023,Tarlac,Region III (Central Luzon)
+tarlac,5892221.4707785165,2024,Tarlac,Region III (Central Luzon)
+tarlac,6048013.623296611,2025,Tarlac,Region III (Central Luzon)
+tarlac,6207893.821995967,2026,Tarlac,Region III (Central Luzon)
+tarlac,6371968.516031346,2027,Tarlac,Region III (Central Luzon)
+tarlac,6540346.904830421,2028,Tarlac,Region III (Central Luzon)
+tarlac,6713141.008589973,2029,Tarlac,Region III (Central Luzon)
+valenzuela,9200000.0,2023,Valenzuela,NCR
+valenzuela,9238826.724049639,2024,Valenzuela,NCR
+valenzuela,9277817.308371063,2025,Valenzuela,NCR
+valenzuela,9316972.44450313,2026,Valenzuela,NCR
+valenzuela,9356292.826903218,2027,Valenzuela,NCR
+valenzuela,9395779.152959494,2028,Valenzuela,NCR
+valenzuela,9435432.123003332,2029,Valenzuela,NCR
