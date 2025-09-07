@@ -1,0 +1,7 @@
+forecast_horizons: [3, 5]
+common_horizon_end: 2029
+bounded_percent: false
+positive_only: false
+min_train_for_arima: 10
+min_train_for_ets: 5
+backtest_min_train: 5
