@@ -1,0 +1,901 @@
+Area_slug,Year,Value,variable,type,method,pi80_lo,pi80_hi,pi95_lo,pi95_hi,__source__
+aurora,2026,4.19449197461092,EQ_max_mag,forecast,ARIMA,4.0675458754937015,4.321438073728139,4.000105760337679,4.388878188884162,earthquakes_max_mag_city_forecast.csv
+aurora,2027,4.158918512468322,EQ_max_mag,forecast,ARIMA,4.031972413351103,4.2858646115855406,3.964532298195081,4.353304726741563,earthquakes_max_mag_city_forecast.csv
+aurora,2028,4.062209928170116,EQ_max_mag,forecast,ARIMA,3.9352638290528974,4.189156027287335,3.867823713896875,4.256596142443358,earthquakes_max_mag_city_forecast.csv
+aurora,2029,4.062209928170116,EQ_max_mag,forecast,ARIMA,3.9352638290528974,4.189156027287335,3.867823713896875,4.256596142443358,earthquakes_max_mag_city_forecast.csv
+aurora,2016,3.4,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2017,3.3,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2018,4.6,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2019,4.4,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2020,5.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2021,4.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2022,4.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2023,4.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2024,4.2,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2025,4.4,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+aurora,2026,2.1625,EQ_mean_mag,forecast,ARIMA,2.0740802656689077,2.2509197343310925,2.027107281805515,2.2978927181944853,earthquakes_mean_mag_city_forecast.csv
+aurora,2027,2.1625,EQ_mean_mag,forecast,ARIMA,2.0740802656689077,2.2509197343310925,2.027107281805515,2.2978927181944853,earthquakes_mean_mag_city_forecast.csv
+aurora,2028,2.1625,EQ_mean_mag,forecast,ARIMA,2.0740802656689077,2.2509197343310925,2.027107281805515,2.2978927181944853,earthquakes_mean_mag_city_forecast.csv
+aurora,2029,2.1625,EQ_mean_mag,forecast,ARIMA,2.0740802656689077,2.2509197343310925,2.027107281805515,2.2978927181944853,earthquakes_mean_mag_city_forecast.csv
+aurora,2016,2.7,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2017,2.4404761904761907,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2018,2.4404761904761907,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2019,2.4877358490566035,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2020,2.33359375,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2021,2.2647368421052634,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2022,2.2036458333333333,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2023,2.150967741935484,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2024,2.264406779661017,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2025,2.1625,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+aurora,2026,0.0999949626406599,EQ_num_M5plus,forecast,ARIMA,-0.4938343239290157,0.6938242492103357,-0.8093061324191559,1.009296057700476,earthquakes_num_M5plus_city_forecast.csv
+aurora,2027,0.0999949626406599,EQ_num_M5plus,forecast,ARIMA,-0.4938343239290157,0.6938242492103357,-0.8093061324191559,1.009296057700476,earthquakes_num_M5plus_city_forecast.csv
+aurora,2028,0.0999949626406599,EQ_num_M5plus,forecast,ARIMA,-0.4938343239290157,0.6938242492103357,-0.8093061324191559,1.009296057700476,earthquakes_num_M5plus_city_forecast.csv
+aurora,2029,0.0999949626406599,EQ_num_M5plus,forecast,ARIMA,-0.4938343239290157,0.6938242492103357,-0.8093061324191559,1.009296057700476,earthquakes_num_M5plus_city_forecast.csv
+aurora,2016,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2017,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2018,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2019,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2020,1.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2021,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2022,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2023,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2024,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2025,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+aurora,2026,28.93800936965537,EQ_num_quakes,forecast,ARIMA,28.220326250028524,29.655692489282213,27.839057092726765,30.036961646583972,earthquakes_num_quakes_city_forecast.csv
+aurora,2027,15.57779565085275,EQ_num_quakes,forecast,ARIMA,14.860112531225903,16.295478770479594,14.478843373924144,16.676747927781353,earthquakes_num_quakes_city_forecast.csv
+aurora,2028,9.608301295449136,EQ_num_quakes,forecast,ARIMA,8.890618175822292,10.32598441507598,8.509349018520531,10.70725357237774,earthquakes_num_quakes_city_forecast.csv
+aurora,2029,6.590264189128203,EQ_num_quakes,forecast,ARIMA,5.87258106950136,7.307947308755047,5.491311912199599,7.689216466056807,earthquakes_num_quakes_city_forecast.csv
+aurora,2016,4.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2017,42.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2018,84.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2019,106.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2020,128.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2021,190.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2022,192.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2023,155.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2024,177.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2025,64.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+aurora,2026,255.80857311845443,EQ_shallow_quakes,forecast,ETS,255.02977314862883,256.58737308828006,254.61603566465897,257.0011105722499,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2027,323.14299121870835,EQ_shallow_quakes,forecast,ETS,322.3641912488827,323.921791188534,321.9504537649129,324.3355286725038,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2028,408.20130264133434,EQ_shallow_quakes,forecast,ETS,407.4225026715087,408.98010261116,407.00876518753887,409.3938400951298,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2029,515.6488242237805,EQ_shallow_quakes,forecast,ETS,514.8700242539549,516.4276241936061,514.456286769985,516.841361677576,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2016,4.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2017,37.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2018,76.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2019,87.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2020,106.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2021,163.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2022,164.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2023,139.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2024,157.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+aurora,2025,52.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2026,3.479723589146544,EQ_max_mag,forecast,ARIMA,3.24551453984131,3.713932638451778,3.1210909823979045,3.8383561958951833,earthquakes_max_mag_city_forecast.csv
+bataan,2027,3.479723589146544,EQ_max_mag,forecast,ARIMA,3.24551453984131,3.713932638451778,3.1210909823979045,3.8383561958951833,earthquakes_max_mag_city_forecast.csv
+bataan,2028,3.479723589146544,EQ_max_mag,forecast,ARIMA,3.24551453984131,3.713932638451778,3.1210909823979045,3.8383561958951833,earthquakes_max_mag_city_forecast.csv
+bataan,2029,3.479723589146544,EQ_max_mag,forecast,ARIMA,3.24551453984131,3.713932638451778,3.1210909823979045,3.8383561958951833,earthquakes_max_mag_city_forecast.csv
+bataan,2016,3.4,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2017,3.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2018,3.0,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2019,3.7,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2020,4.6,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2021,3.3,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2022,3.8,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2023,3.5,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2024,3.8,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2025,2.9,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+bataan,2026,1.88125,EQ_mean_mag,forecast,ARIMA,1.7960554213461943,1.9664445786538056,1.75079580143636,2.01170419856364,earthquakes_mean_mag_city_forecast.csv
+bataan,2027,1.88125,EQ_mean_mag,forecast,ARIMA,1.7960554213461943,1.9664445786538056,1.75079580143636,2.01170419856364,earthquakes_mean_mag_city_forecast.csv
+bataan,2028,1.88125,EQ_mean_mag,forecast,ARIMA,1.7960554213461943,1.9664445786538056,1.75079580143636,2.01170419856364,earthquakes_mean_mag_city_forecast.csv
+bataan,2029,1.88125,EQ_mean_mag,forecast,ARIMA,1.7960554213461943,1.9664445786538056,1.75079580143636,2.01170419856364,earthquakes_mean_mag_city_forecast.csv
+bataan,2016,2.7,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2017,2.425,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2018,2.3285714285714287,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2019,2.3057142857142856,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2020,2.3190476190476192,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2021,2.2973684210526315,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2022,2.2531914893617024,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2023,1.9851851851851847,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2024,2.0416666666666665,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2025,1.88125,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+bataan,2026,-4.824558165895683e-06,EQ_num_M5plus,forecast,ARIMA,-1.099999261824217e-05,1.3508762864508034e-06,-1.428069217105124e-05,4.631575839259875e-06,earthquakes_num_M5plus_city_forecast.csv
+bataan,2027,-4.824558165895683e-06,EQ_num_M5plus,forecast,ARIMA,-1.099999261824217e-05,1.3508762864508034e-06,-1.428069217105124e-05,4.631575839259875e-06,earthquakes_num_M5plus_city_forecast.csv
+bataan,2028,-4.824558165895683e-06,EQ_num_M5plus,forecast,ARIMA,-1.099999261824217e-05,1.3508762864508034e-06,-1.428069217105124e-05,4.631575839259875e-06,earthquakes_num_M5plus_city_forecast.csv
+bataan,2029,-4.824558165895683e-06,EQ_num_M5plus,forecast,ARIMA,-1.099999261824217e-05,1.3508762864508034e-06,-1.428069217105124e-05,4.631575839259875e-06,earthquakes_num_M5plus_city_forecast.csv
+bataan,2016,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2017,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2018,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2019,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2020,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2021,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2022,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2023,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2024,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2025,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+bataan,2026,15.999999999999991,EQ_num_quakes,forecast,ARIMA,15.005313793955558,16.994686206044424,14.476886746994454,17.523113253005526,earthquakes_num_quakes_city_forecast.csv
+bataan,2027,15.999999999999991,EQ_num_quakes,forecast,ARIMA,15.005313793955558,16.994686206044424,14.476886746994454,17.523113253005526,earthquakes_num_quakes_city_forecast.csv
+bataan,2028,15.999999999999991,EQ_num_quakes,forecast,ARIMA,15.005313793955558,16.994686206044424,14.476886746994454,17.523113253005526,earthquakes_num_quakes_city_forecast.csv
+bataan,2029,15.999999999999991,EQ_num_quakes,forecast,ARIMA,15.005313793955558,16.994686206044424,14.476886746994454,17.523113253005526,earthquakes_num_quakes_city_forecast.csv
+bataan,2016,9.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2017,8.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2018,28.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2019,35.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2020,42.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2021,38.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2022,47.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2023,54.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2024,84.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2025,16.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+bataan,2026,8.602530877986043,EQ_shallow_quakes,forecast,ETS,7.76164850518285,9.443413250789234,7.314929744631154,9.890132011340931,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2027,8.631708064516888,EQ_shallow_quakes,forecast,ETS,7.790825691713695,9.47259043732008,7.344106931161999,9.919309197871776,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2028,8.660984211252106,EQ_shallow_quakes,forecast,ETS,7.820101838448914,9.501866584055298,7.373383077897218,9.948585344606997,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2029,8.690359653834832,EQ_shallow_quakes,forecast,ETS,7.84947728103164,9.531242026638024,7.402758520479944,9.97796078718972,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2016,8.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2017,6.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2018,8.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2019,17.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2020,7.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2021,6.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2022,8.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2023,14.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2024,15.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bataan,2025,4.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2026,5.601553850210832,EQ_max_mag,forecast,ARIMA,5.374166446685332,5.828941253736333,5.25336688856241,5.949740811859255,earthquakes_max_mag_city_forecast.csv
+batangas,2027,5.601553850210832,EQ_max_mag,forecast,ARIMA,5.374166446685332,5.828941253736333,5.25336688856241,5.949740811859255,earthquakes_max_mag_city_forecast.csv
+batangas,2028,5.601553850210832,EQ_max_mag,forecast,ARIMA,5.374166446685332,5.828941253736333,5.25336688856241,5.949740811859255,earthquakes_max_mag_city_forecast.csv
+batangas,2029,5.601553850210832,EQ_max_mag,forecast,ARIMA,5.374166446685332,5.828941253736333,5.25336688856241,5.949740811859255,earthquakes_max_mag_city_forecast.csv
+batangas,2016,4.4,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2017,6.3,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2018,5.2,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2019,4.9,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2020,6.3,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2021,6.6,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2022,6.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2023,6.3,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2024,4.9,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2025,5.5,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+batangas,2026,1.9978260869565216,EQ_mean_mag,forecast,ARIMA,1.8667064030684175,2.1289457708446258,1.7970490710028624,2.198603102910181,earthquakes_mean_mag_city_forecast.csv
+batangas,2027,1.9978260869565216,EQ_mean_mag,forecast,ARIMA,1.8667064030684175,2.1289457708446258,1.7970490710028624,2.198603102910181,earthquakes_mean_mag_city_forecast.csv
+batangas,2028,1.9978260869565216,EQ_mean_mag,forecast,ARIMA,1.8667064030684175,2.1289457708446258,1.7970490710028624,2.198603102910181,earthquakes_mean_mag_city_forecast.csv
+batangas,2029,1.9978260869565216,EQ_mean_mag,forecast,ARIMA,1.8667064030684175,2.1289457708446258,1.7970490710028624,2.198603102910181,earthquakes_mean_mag_city_forecast.csv
+batangas,2016,2.692,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2017,2.5834814814814813,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2018,2.3021660649819498,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2019,2.2896969696969696,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2020,2.3611890447561787,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2021,2.257603686635945,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2022,2.102802547770701,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2023,1.99869109947644,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2024,2.1147569444444443,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2025,1.9978260869565216,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas,2026,1.5000002804601866,EQ_num_M5plus,forecast,ARIMA,-1.9084484177947536,4.908448978715127,-3.7191867887426904,6.719187349663064,earthquakes_num_M5plus_city_forecast.csv
+batangas,2027,1.5000002804601866,EQ_num_M5plus,forecast,ARIMA,-1.9084484177947536,4.908448978715127,-3.7191867887426904,6.719187349663064,earthquakes_num_M5plus_city_forecast.csv
+batangas,2028,1.5000002804601866,EQ_num_M5plus,forecast,ARIMA,-1.9084484177947536,4.908448978715127,-3.7191867887426904,6.719187349663064,earthquakes_num_M5plus_city_forecast.csv
+batangas,2029,1.5000002804601866,EQ_num_M5plus,forecast,ARIMA,-1.9084484177947536,4.908448978715127,-3.7191867887426904,6.719187349663064,earthquakes_num_M5plus_city_forecast.csv
+batangas,2016,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2017,2.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2018,1.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2019,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2020,2.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2021,5.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2022,1.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2023,2.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2024,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2025,2.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas,2026,275.9999999999999,EQ_num_quakes,forecast,ARIMA,275.4482800826324,276.5517199173674,275.1551788765309,276.8448211234689,earthquakes_num_quakes_city_forecast.csv
+batangas,2027,275.9999999999999,EQ_num_quakes,forecast,ARIMA,275.4482800826324,276.5517199173674,275.1551788765309,276.8448211234689,earthquakes_num_quakes_city_forecast.csv
+batangas,2028,275.9999999999999,EQ_num_quakes,forecast,ARIMA,275.4482800826324,276.5517199173674,275.1551788765309,276.8448211234689,earthquakes_num_quakes_city_forecast.csv
+batangas,2029,275.9999999999999,EQ_num_quakes,forecast,ARIMA,275.4482800826324,276.5517199173674,275.1551788765309,276.8448211234689,earthquakes_num_quakes_city_forecast.csv
+batangas,2016,25.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2017,135.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2018,277.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2019,330.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2020,1497.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2021,868.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2022,785.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2023,764.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2024,576.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2025,276.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas,2026,98.07329114677236,EQ_shallow_quakes,forecast,ETS,96.00311142436728,100.14347086917742,94.90332844683958,101.24325384670512,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2027,105.04363088558335,EQ_shallow_quakes,forecast,ETS,102.9734511631783,107.11381060798844,101.8736681856506,108.21359358551614,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2028,112.50937192587358,EQ_shallow_quakes,forecast,ETS,110.43919220346852,114.57955164827864,109.3394092259408,115.67933462580636,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2029,120.5057238067332,EQ_shallow_quakes,forecast,ETS,118.43554408432811,122.57590352913826,117.33576110680042,123.67568650666595,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2016,11.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2017,46.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2018,59.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2019,62.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2020,791.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2021,88.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2022,89.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2023,88.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2024,89.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas,2025,21.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas city,2026,1.2446259300428368,EQ_max_mag,forecast,ETS,-0.0183650596320694,2.5076169197177434,-0.6893290228968636,3.178580882982537,earthquakes_max_mag_city_forecast.csv
+batangas city,2027,0.9745756644048914,EQ_max_mag,forecast,ETS,-0.2884153252700149,2.2375666540797976,-0.959379288534809,2.9085306173445917,earthquakes_max_mag_city_forecast.csv
+batangas city,2028,0.7631190245390003,EQ_max_mag,forecast,ETS,-0.499871965135906,2.0261100142139066,-1.1708359284007002,2.6970739774787007,earthquakes_max_mag_city_forecast.csv
+batangas city,2029,0.5975427736223622,EQ_max_mag,forecast,ETS,-0.6654482160525441,1.8605337632972685,-1.3364121793173382,2.531497726562063,earthquakes_max_mag_city_forecast.csv
+batangas city,2021,3.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+batangas city,2022,4.1,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+batangas city,2023,3.0,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+batangas city,2024,1.7,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+batangas city,2025,1.6,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+batangas city,2026,1.4040987487476375,EQ_mean_mag,forecast,ETS,0.8536288908173458,1.9545686066779295,0.5611917787918782,2.2470057187033974,earthquakes_mean_mag_city_forecast.csv
+batangas city,2027,1.2260396600271717,EQ_mean_mag,forecast,ETS,0.6755698020968796,1.7765095179574637,0.3831326900714119,2.068946629982931,earthquakes_mean_mag_city_forecast.csv
+batangas city,2028,1.0705609198072945,EQ_mean_mag,forecast,ETS,0.5200910618770026,1.6210307777375863,0.2276539498515349,1.9134678897630544,earthquakes_mean_mag_city_forecast.csv
+batangas city,2029,0.9347990284370088,EQ_mean_mag,forecast,ETS,0.384329170506717,1.485268886367301,0.0918920584812493,1.7777059983927683,earthquakes_mean_mag_city_forecast.csv
+batangas city,2021,2.5166666666666666,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas city,2022,2.6666666666666665,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas city,2023,2.2857142857142856,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas city,2024,1.7,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas city,2025,1.6,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+batangas city,2026,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+batangas city,2027,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+batangas city,2028,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+batangas city,2029,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+batangas city,2021,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas city,2022,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas city,2023,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas city,2024,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas city,2025,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+batangas city,2026,0.602481825816562,EQ_num_quakes,forecast,ETS,-2.7743900995013058,3.9793537511344295,-4.568353309826423,5.773316961459547,earthquakes_num_quakes_city_forecast.csv
+batangas city,2027,0.3519642594709588,EQ_num_quakes,forecast,ETS,-3.024907665846909,3.7288361847888263,-4.818870876172026,5.522799395113944,earthquakes_num_quakes_city_forecast.csv
+batangas city,2028,0.2056142353788741,EQ_num_quakes,forecast,ETS,-3.1712576899389937,3.5824861606967415,-4.965220900264111,5.3764493710218595,earthquakes_num_quakes_city_forecast.csv
+batangas city,2029,0.1201179172396264,EQ_num_quakes,forecast,ETS,-3.256754008078241,3.496989842557494,-5.050717218403359,5.290953052882611,earthquakes_num_quakes_city_forecast.csv
+batangas city,2021,6.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas city,2022,6.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas city,2023,7.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas city,2024,1.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas city,2025,1.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+batangas city,2026,0.6309571960689115,EQ_shallow_quakes,forecast,ETS,-1.7153215597484788,2.9772359518863016,-2.961782148776467,4.223696540914291,earthquakes_shallow_quakes_city_forecast.csv
+batangas city,2027,0.398107043626664,EQ_shallow_quakes,forecast,ETS,-1.9481717121907265,2.7443857994440544,-3.1946323012187148,3.990846388472043,earthquakes_shallow_quakes_city_forecast.csv
+batangas city,2028,0.2511885420637198,EQ_shallow_quakes,forecast,ETS,-2.0950902137536707,2.59746729788111,-3.341550802781659,3.8439278869090985,earthquakes_shallow_quakes_city_forecast.csv
+batangas city,2029,0.1584892422131242,EQ_shallow_quakes,forecast,ETS,-2.187789513604266,2.5047679980305144,-3.4342501026322547,3.751228587058503,earthquakes_shallow_quakes_city_forecast.csv
+batangas city,2021,5.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas city,2022,4.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas city,2023,5.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas city,2024,1.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+batangas city,2025,1.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2026,2.0540670252475253,EQ_max_mag,forecast,ETS,1.557961148294411,2.5501729022006394,1.294404901163069,2.813729149331982,earthquakes_max_mag_city_forecast.csv
+bulacan,2027,1.9957026443554864,EQ_max_mag,forecast,ETS,1.4995967674023722,2.491808521308601,1.2360405202710305,2.755364768439943,earthquakes_max_mag_city_forecast.csv
+bulacan,2028,1.9389966324042087,EQ_max_mag,forecast,ETS,1.4428907554510944,2.435102509357323,1.1793345083197524,2.698658756488665,earthquakes_max_mag_city_forecast.csv
+bulacan,2029,1.8839018684013729,EQ_max_mag,forecast,ETS,1.3877959914482585,2.380007745354487,1.1242397443169163,2.643563992485829,earthquakes_max_mag_city_forecast.csv
+bulacan,2017,2.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+bulacan,2018,2.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+bulacan,2019,2.4,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+bulacan,2020,3.3,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+bulacan,2021,1.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+bulacan,2022,2.7,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+bulacan,2023,3.3,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+bulacan,2024,2.4,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+bulacan,2025,1.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+bulacan,2026,1.5842305289471454,EQ_mean_mag,forecast,ETS,1.2273437574705923,1.9411173004236983,1.037747660123674,2.130713397770617,earthquakes_mean_mag_city_forecast.csv
+bulacan,2027,1.5232429647543877,EQ_mean_mag,forecast,ETS,1.1663561932778346,1.8801297362309404,0.9767600959309158,2.069725833577859,earthquakes_mean_mag_city_forecast.csv
+bulacan,2028,1.4646032173207455,EQ_mean_mag,forecast,ETS,1.1077164458441926,1.8214899887972984,0.918120348497274,2.0110860861442172,earthquakes_mean_mag_city_forecast.csv
+bulacan,2029,1.4082209035721074,EQ_mean_mag,forecast,ETS,1.0513341320955545,1.7651076750486605,0.8617380347486358,1.954703772395579,earthquakes_mean_mag_city_forecast.csv
+bulacan,2017,2.5,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+bulacan,2018,2.05,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+bulacan,2019,1.95,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+bulacan,2020,2.052941176470588,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+bulacan,2021,1.45,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+bulacan,2022,2.3000000000000003,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+bulacan,2023,2.15,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+bulacan,2024,1.6666666666666667,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+bulacan,2025,1.5,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+bulacan,2026,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2027,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2028,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2029,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2017,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2018,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2019,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2020,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2021,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2022,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2023,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2024,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2025,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+bulacan,2026,4.352904345634286,EQ_num_quakes,forecast,ETS,2.7215829019844833,5.984225789284089,1.8549433850455253,6.850865306223048,earthquakes_num_quakes_city_forecast.csv
+bulacan,2027,4.506787825315546,EQ_num_quakes,forecast,ETS,2.875466381665743,6.138109268965349,2.008826864726785,7.004748785904306,earthquakes_num_quakes_city_forecast.csv
+bulacan,2028,4.6661113798154865,EQ_num_quakes,forecast,ETS,3.0347899361656836,6.297432823465289,2.1681504192267256,7.164072340404248,earthquakes_num_quakes_city_forecast.csv
+bulacan,2029,4.831067326165764,EQ_num_quakes,forecast,ETS,3.199745882515961,6.462388769815567,2.333106365577003,7.329028286754525,earthquakes_num_quakes_city_forecast.csv
+bulacan,2017,1.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+bulacan,2018,4.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+bulacan,2019,4.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+bulacan,2020,17.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+bulacan,2021,2.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+bulacan,2022,3.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+bulacan,2023,8.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+bulacan,2024,9.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+bulacan,2025,1.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+bulacan,2026,0.0,EQ_shallow_quakes,forecast,Hold(fallback),-inf,inf,-inf,inf,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2027,0.0,EQ_shallow_quakes,forecast,Hold(fallback),-inf,inf,-inf,inf,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2028,0.0,EQ_shallow_quakes,forecast,Hold(fallback),-inf,inf,-inf,inf,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2029,0.0,EQ_shallow_quakes,forecast,Hold(fallback),-inf,inf,-inf,inf,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2017,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2018,4.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2019,4.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2020,6.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2021,2.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2022,3.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2023,7.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2024,7.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+bulacan,2025,0.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2026,1.5357777511354689,EQ_max_mag,forecast,ETS,1.2399981215008329,1.8315573807701049,1.0828651932574325,1.9886903090135053,earthquakes_max_mag_city_forecast.csv
+cavite,2027,1.408565189378725,EQ_max_mag,forecast,ETS,1.112785559744089,1.704344819013361,0.9556526315006886,1.8614777472567616,earthquakes_max_mag_city_forecast.csv
+cavite,2028,1.2918899829500865,EQ_max_mag,forecast,ETS,0.9961103533154504,1.5876696125847225,0.8389774250720501,1.744802540828123,earthquakes_max_mag_city_forecast.csv
+cavite,2029,1.1848792946408897,EQ_max_mag,forecast,ETS,0.8890996650062537,1.4806589242755257,0.7319667367628533,1.637791852518926,earthquakes_max_mag_city_forecast.csv
+cavite,2018,1.6,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+cavite,2020,4.0,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+cavite,2022,2.8,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+cavite,2023,1.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+cavite,2024,2.0,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+cavite,2025,1.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+cavite,2026,1.548281649970105,EQ_mean_mag,forecast,ETS,1.340340138159589,1.7562231617806217,1.2298712100102522,1.8666920899299584,earthquakes_mean_mag_city_forecast.csv
+cavite,2027,1.4791493026651124,EQ_mean_mag,forecast,ETS,1.271207790854596,1.6870908144756287,1.1607388627052593,1.7975597426249654,earthquakes_mean_mag_city_forecast.csv
+cavite,2028,1.4131037848423331,EQ_mean_mag,forecast,ETS,1.2051622730318168,1.6210452966528497,1.09469334488248,1.7315142248021862,earthquakes_mean_mag_city_forecast.csv
+cavite,2029,1.3500072664319995,EQ_mean_mag,forecast,ETS,1.1420657546214832,1.557948778242516,1.0315968264721465,1.6684177063918526,earthquakes_mean_mag_city_forecast.csv
+cavite,2018,1.6,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+cavite,2020,2.5106382978723403,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+cavite,2022,2.15,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+cavite,2023,1.5,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+cavite,2024,1.85,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+cavite,2025,1.5,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+cavite,2026,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+cavite,2027,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+cavite,2028,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+cavite,2029,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+cavite,2018,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+cavite,2020,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+cavite,2022,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+cavite,2023,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+cavite,2024,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+cavite,2025,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+cavite,2026,0.9071343387291994,EQ_num_quakes,forecast,ETS,0.335279244902088,1.4789894325563109,0.0314812263064351,1.7827874511519637,earthquakes_num_quakes_city_forecast.csv
+cavite,2027,0.6651962315364203,EQ_num_quakes,forecast,ETS,0.0933411377093089,1.2370513253635316,-0.2104568808863439,1.5408493439591844,earthquakes_num_quakes_city_forecast.csv
+cavite,2028,0.4877844521574738,EQ_num_quakes,forecast,ETS,-0.0840706416696374,1.059639545984585,-0.3878686602652904,1.363437564580238,earthquakes_num_quakes_city_forecast.csv
+cavite,2029,0.3576894463412782,EQ_num_quakes,forecast,ETS,-0.2141656474858331,0.9295445401683896,-0.517963666081486,1.2333425587640423,earthquakes_num_quakes_city_forecast.csv
+cavite,2018,1.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+cavite,2020,47.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+cavite,2022,4.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+cavite,2023,1.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+cavite,2024,2.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+cavite,2025,1.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+cavite,2026,1.0,EQ_shallow_quakes,forecast,Hold(fallback),-15.419738798842758,17.419738798842758,-24.142725035727977,26.142725035727977,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2027,1.0,EQ_shallow_quakes,forecast,Hold(fallback),-15.419738798842758,17.419738798842758,-24.142725035727977,26.142725035727977,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2028,1.0,EQ_shallow_quakes,forecast,Hold(fallback),-15.419738798842758,17.419738798842758,-24.142725035727977,26.142725035727977,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2029,1.0,EQ_shallow_quakes,forecast,Hold(fallback),-15.419738798842758,17.419738798842758,-24.142725035727977,26.142725035727977,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2018,0.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2020,35.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2022,0.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2023,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2024,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+cavite,2025,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2026,2.3622135055294846,EQ_max_mag,forecast,ETS,2.205343653852933,2.519083357206036,2.122006545149765,2.602420465909204,earthquakes_max_mag_city_forecast.csv
+laguna,2027,2.2273662934067,EQ_max_mag,forecast,ETS,2.0704964417301484,2.384236145083251,1.9871593330269808,2.4675732537864192,earthquakes_max_mag_city_forecast.csv
+laguna,2028,2.100216848896674,EQ_max_mag,forecast,ETS,1.9433469972201225,2.257086700573226,1.8600098885169547,2.340423809276394,earthquakes_max_mag_city_forecast.csv
+laguna,2029,1.9803257441070008,EQ_max_mag,forecast,ETS,1.8234558924304491,2.137195595783552,1.7401187837272811,2.22053270448672,earthquakes_max_mag_city_forecast.csv
+laguna,2017,4.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+laguna,2018,3.3,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+laguna,2019,3.6,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+laguna,2020,3.7,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+laguna,2021,2.8,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+laguna,2022,3.2,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+laguna,2023,2.6,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+laguna,2024,2.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+laguna,2025,2.8,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+laguna,2026,1.541633838838789,EQ_mean_mag,forecast,ETS,1.3480347083015176,1.7352329693760598,1.2451851702035923,1.838082507473985,earthquakes_mean_mag_city_forecast.csv
+laguna,2027,1.434026100019214,EQ_mean_mag,forecast,ETS,1.240426969481943,1.6276252305564851,1.1375774313840177,1.7304747686544104,earthquakes_mean_mag_city_forecast.csv
+laguna,2028,1.3339294998125435,EQ_mean_mag,forecast,ETS,1.1403303692752726,1.5275286303498148,1.0374808311773474,1.63037816844774,earthquakes_mean_mag_city_forecast.csv
+laguna,2029,1.2408197524761244,EQ_mean_mag,forecast,ETS,1.0472206219388531,1.4344188830133957,0.944371083840928,1.537268421111321,earthquakes_mean_mag_city_forecast.csv
+laguna,2017,3.25,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+laguna,2018,3.0,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+laguna,2019,2.44,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+laguna,2020,2.065,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+laguna,2021,2.022222222222222,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+laguna,2022,2.0,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+laguna,2023,2.075,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+laguna,2024,1.64,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+laguna,2025,1.8875,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+laguna,2026,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+laguna,2027,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+laguna,2028,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+laguna,2029,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+laguna,2017,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+laguna,2018,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+laguna,2019,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+laguna,2020,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+laguna,2021,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+laguna,2022,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+laguna,2023,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+laguna,2024,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+laguna,2025,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+laguna,2026,19.262329181170685,EQ_num_quakes,forecast,ETS,17.054385029142693,21.470273333198676,15.88141469837782,22.64324366396355,earthquakes_num_quakes_city_forecast.csv
+laguna,2027,23.062221828897076,EQ_num_quakes,forecast,ETS,20.85427767686908,25.27016598092507,19.681307346104212,26.44313631168994,earthquakes_num_quakes_city_forecast.csv
+laguna,2028,27.61172185787204,EQ_num_quakes,forecast,ETS,25.40377770584405,29.819666009900033,24.230807375079177,30.992636340664905,earthquakes_num_quakes_city_forecast.csv
+laguna,2029,33.05870482093743,EQ_num_quakes,forecast,ETS,30.850760668909437,35.26664897296542,29.677790338144565,36.4396193037303,earthquakes_num_quakes_city_forecast.csv
+laguna,2017,2.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+laguna,2018,2.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+laguna,2019,5.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+laguna,2020,40.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+laguna,2021,18.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+laguna,2022,12.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+laguna,2023,4.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+laguna,2024,20.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+laguna,2025,8.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+laguna,2026,6.268342596181144,EQ_shallow_quakes,forecast,ETS,4.207611063573836,8.329074128788452,3.1128474368762036,9.423837755486083,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2027,7.000947557109602,EQ_shallow_quakes,forecast,ETS,4.940216024502294,9.061679089716913,3.8454523978046615,10.156442716414542,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2028,7.819174836943216,EQ_shallow_quakes,forecast,ETS,5.758443304335907,9.879906369550524,4.6636796776382745,10.974669996248156,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2029,8.73303144066514,EQ_shallow_quakes,forecast,ETS,6.672299908057832,10.793762973272448,5.577536281360199,11.88852659997008,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2017,2.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2018,2.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2019,4.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2020,27.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2021,15.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2022,9.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2023,3.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2024,10.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+laguna,2025,4.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2026,3.0327619321115176,EQ_max_mag,forecast,ARIMA,2.688816769690818,3.3767070945322173,2.506095902154821,3.5594279620682143,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2027,3.0327619321115176,EQ_max_mag,forecast,ARIMA,2.688816769690818,3.3767070945322173,2.506095902154821,3.5594279620682143,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2028,3.0327619321115176,EQ_max_mag,forecast,ARIMA,2.688816769690818,3.3767070945322173,2.506095902154821,3.5594279620682143,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2029,3.0327619321115176,EQ_max_mag,forecast,ARIMA,2.688816769690818,3.3767070945322173,2.506095902154821,3.5594279620682143,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2016,2.8,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2017,2.0,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2018,3.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2019,3.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2020,2.7,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2021,4.7,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2022,3.0,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2023,3.5,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2024,3.4,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2025,2.7,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+nueva ecija,2026,2.142336594701655,EQ_mean_mag,forecast,ARIMA,1.9748612664982024,2.3098119229051073,1.8858899983901185,2.3987831910131914,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2027,2.142336594701655,EQ_mean_mag,forecast,ARIMA,1.9748612664982024,2.3098119229051073,1.8858899983901185,2.3987831910131914,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2028,2.142336594701655,EQ_mean_mag,forecast,ARIMA,1.9748612664982024,2.3098119229051073,1.8858899983901185,2.3987831910131914,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2029,2.142336594701655,EQ_mean_mag,forecast,ARIMA,1.9748612664982024,2.3098119229051073,1.8858899983901185,2.3987831910131914,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2016,2.8,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2017,2.0,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2018,2.327272727272728,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2019,2.2,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2020,2.127272727272727,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2021,2.13,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2022,2.0576923076923075,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2023,2.117647058823529,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2024,1.9529411764705884,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2025,1.8421052631578947,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+nueva ecija,2026,-4.824558165895683e-06,EQ_num_M5plus,forecast,ARIMA,-1.099999261824217e-05,1.3508762864508034e-06,-1.428069217105124e-05,4.631575839259875e-06,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2027,-4.824558165895683e-06,EQ_num_M5plus,forecast,ARIMA,-1.099999261824217e-05,1.3508762864508034e-06,-1.428069217105124e-05,4.631575839259875e-06,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2028,-4.824558165895683e-06,EQ_num_M5plus,forecast,ARIMA,-1.099999261824217e-05,1.3508762864508034e-06,-1.428069217105124e-05,4.631575839259875e-06,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2029,-4.824558165895683e-06,EQ_num_M5plus,forecast,ARIMA,-1.099999261824217e-05,1.3508762864508034e-06,-1.428069217105124e-05,4.631575839259875e-06,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2016,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2017,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2018,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2019,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2020,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2021,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2022,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2023,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2024,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2025,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+nueva ecija,2026,18.999999999999996,EQ_num_quakes,forecast,ARIMA,18.138908632089382,19.86109136791061,17.681453842886867,20.31854615711313,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2027,18.999999999999996,EQ_num_quakes,forecast,ARIMA,18.138908632089382,19.86109136791061,17.681453842886867,20.31854615711313,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2028,18.999999999999996,EQ_num_quakes,forecast,ARIMA,18.138908632089382,19.86109136791061,17.681453842886867,20.31854615711313,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2029,18.999999999999996,EQ_num_quakes,forecast,ARIMA,18.138908632089382,19.86109136791061,17.681453842886867,20.31854615711313,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2016,1.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2017,1.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2018,11.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2019,15.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2020,11.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2021,40.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2022,26.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2023,34.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2024,34.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2025,19.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+nueva ecija,2026,53.12041177023212,EQ_shallow_quakes,forecast,ETS,51.640081488636895,54.60074205182734,50.85365602653943,55.3871675139248,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2027,73.09627157961464,EQ_shallow_quakes,forecast,ETS,71.61594129801941,74.57660186120987,70.82951583592195,75.36302732330732,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2028,100.58402675701691,EQ_shallow_quakes,forecast,ETS,99.10369647542169,102.06435703861214,98.31727101332424,102.8507825007096,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2029,138.40851551008237,EQ_shallow_quakes,forecast,ETS,136.92818522848714,139.8888457916776,136.14175976638967,140.6752712537751,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2016,1.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2017,1.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2018,9.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2019,11.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2020,10.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2021,29.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2022,20.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2023,24.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2024,28.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+nueva ecija,2025,11.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2026,2.0267285946244886,EQ_max_mag,forecast,ETS,1.4664483539260873,2.58700883532289,1.1687994760550615,2.8846577131939157,earthquakes_max_mag_city_forecast.csv
+pampanga,2027,2.0017078869889513,EQ_max_mag,forecast,ETS,1.44142764629055,2.5619881276873526,1.1437787684195242,2.8596370055583784,earthquakes_max_mag_city_forecast.csv
+pampanga,2028,1.9769960691634476,EQ_max_mag,forecast,ETS,1.4167158284650463,2.537276309861849,1.1190669505940205,2.8349251877328747,earthquakes_max_mag_city_forecast.csv
+pampanga,2029,1.9525893277900128,EQ_max_mag,forecast,ETS,1.3923090870916113,2.512869568488414,1.0946602092205855,2.8105184463594397,earthquakes_max_mag_city_forecast.csv
+pampanga,2017,2.2,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+pampanga,2018,2.2,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+pampanga,2019,3.8,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+pampanga,2020,3.4,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+pampanga,2021,3.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+pampanga,2022,3.3,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+pampanga,2023,3.2,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+pampanga,2024,3.3,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+pampanga,2025,1.8,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+pampanga,2026,1.6252431272278989,EQ_mean_mag,forecast,ETS,1.3666528880954398,1.883833366360358,1.229276823556321,2.021209430899477,earthquakes_mean_mag_city_forecast.csv
+pampanga,2027,1.4329579022930752,EQ_mean_mag,forecast,ETS,1.174367663160616,1.6915481414255342,1.0369915986214973,1.828924205964653,earthquakes_mean_mag_city_forecast.csv
+pampanga,2028,1.2634222630102765,EQ_mean_mag,forecast,ETS,1.0048320238778174,1.5220125021427355,0.8674559593386986,1.6593885666818544,earthquakes_mean_mag_city_forecast.csv
+pampanga,2029,1.1139446679596443,EQ_mean_mag,forecast,ETS,0.8553544288271853,1.3725349070921034,0.7179783642880664,1.5099109716312222,earthquakes_mean_mag_city_forecast.csv
+pampanga,2017,2.1333333333333333,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+pampanga,2018,1.9,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+pampanga,2019,2.3000000000000003,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+pampanga,2020,2.442857142857143,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+pampanga,2021,2.4038461538461537,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+pampanga,2022,2.221052631578948,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+pampanga,2023,2.269230769230769,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+pampanga,2024,2.223076923076923,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+pampanga,2025,1.65,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+pampanga,2026,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2027,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2028,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2029,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2017,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2018,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2019,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2020,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2021,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2022,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2023,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2024,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2025,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+pampanga,2026,1.8980418636955476,EQ_num_quakes,forecast,ETS,-0.031647419057539,3.8277311464486345,-1.056794850520116,4.852878577911211,earthquakes_num_quakes_city_forecast.csv
+pampanga,2027,0.8566156541146915,EQ_num_quakes,forecast,ETS,-1.073073628638395,2.7863049368677784,-2.0982210601009723,3.811452368330355,earthquakes_num_quakes_city_forecast.csv
+pampanga,2028,0.386603895788488,EQ_num_quakes,forecast,ETS,-1.5430853869645986,2.316293178541575,-2.568232818427176,3.3414406100041516,earthquakes_num_quakes_city_forecast.csv
+pampanga,2029,0.1744803185896771,EQ_num_quakes,forecast,ETS,-1.7552089641634097,2.104169601342764,-2.7803563956259865,3.129317032805341,earthquakes_num_quakes_city_forecast.csv
+pampanga,2017,3.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+pampanga,2018,4.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+pampanga,2019,29.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+pampanga,2020,7.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+pampanga,2021,26.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+pampanga,2022,19.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+pampanga,2023,13.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+pampanga,2024,13.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+pampanga,2025,2.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+pampanga,2026,0.4756413334681053,EQ_shallow_quakes,forecast,ETS,-1.2997898302807636,2.251072497216974,-2.24298763602235,3.1942703029585604,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2027,0.1374587440398629,EQ_shallow_quakes,forecast,ETS,-1.637972419709006,1.912889907788732,-2.581170225450592,2.8560877135303184,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2028,0.0397251142478423,EQ_shallow_quakes,forecast,ETS,-1.7357060495010266,1.8151562779967112,-2.6789038552426128,2.758354083738298,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2029,0.0114804242758575,EQ_shallow_quakes,forecast,ETS,-1.7639507394730114,1.7869115880247264,-2.7071485452145976,2.730109393766313,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2017,1.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2018,2.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2019,5.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2020,4.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2021,18.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2022,14.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2023,8.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2024,8.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+pampanga,2025,1.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2026,5.4301115869412975,EQ_max_mag,forecast,ARIMA,5.264565880949295,5.5956572929333,5.176619724641043,5.683603449241552,earthquakes_max_mag_city_forecast.csv
+quezon,2027,4.738342062388647,EQ_max_mag,forecast,ARIMA,4.572796356396645,4.90388776838065,4.484850200088393,4.991833924688902,earthquakes_max_mag_city_forecast.csv
+quezon,2028,4.738342062388647,EQ_max_mag,forecast,ARIMA,4.572796356396645,4.90388776838065,4.484850200088393,4.991833924688902,earthquakes_max_mag_city_forecast.csv
+quezon,2029,4.738342062388647,EQ_max_mag,forecast,ARIMA,4.572796356396645,4.90388776838065,4.484850200088393,4.991833924688902,earthquakes_max_mag_city_forecast.csv
+quezon,2016,5.2,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2017,4.3,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2018,4.3,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2019,5.5,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2020,5.2,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2021,4.4,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2022,4.5,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2023,4.8,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2024,5.3,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2025,3.7,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+quezon,2026,2.255421686746988,EQ_mean_mag,forecast,ARIMA,2.168387475867452,2.3424558976265235,2.1221505513376986,2.388692822156277,earthquakes_mean_mag_city_forecast.csv
+quezon,2027,2.255421686746988,EQ_mean_mag,forecast,ARIMA,2.168387475867452,2.3424558976265235,2.1221505513376986,2.388692822156277,earthquakes_mean_mag_city_forecast.csv
+quezon,2028,2.255421686746988,EQ_mean_mag,forecast,ARIMA,2.168387475867452,2.3424558976265235,2.1221505513376986,2.388692822156277,earthquakes_mean_mag_city_forecast.csv
+quezon,2029,2.255421686746988,EQ_mean_mag,forecast,ARIMA,2.168387475867452,2.3424558976265235,2.1221505513376986,2.388692822156277,earthquakes_mean_mag_city_forecast.csv
+quezon,2016,2.986206896551724,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2017,2.511627906976744,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2018,2.4968421052631578,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2019,2.4693251533742333,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2020,2.31774193548387,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2021,2.2539568345323744,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2022,2.3695876288659794,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2023,2.3184782608695653,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2024,2.4018382352941177,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2025,2.255421686746988,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+quezon,2026,0.5999950317601754,EQ_num_M5plus,forecast,ARIMA,-1.037607925954483,2.2375979894748337,-1.9075844972403952,3.107574560760746,earthquakes_num_M5plus_city_forecast.csv
+quezon,2027,0.5999950317601754,EQ_num_M5plus,forecast,ARIMA,-1.037607925954483,2.2375979894748337,-1.9075844972403952,3.107574560760746,earthquakes_num_M5plus_city_forecast.csv
+quezon,2028,0.5999950317601754,EQ_num_M5plus,forecast,ARIMA,-1.037607925954483,2.2375979894748337,-1.9075844972403952,3.107574560760746,earthquakes_num_M5plus_city_forecast.csv
+quezon,2029,0.5999950317601754,EQ_num_M5plus,forecast,ARIMA,-1.037607925954483,2.2375979894748337,-1.9075844972403952,3.107574560760746,earthquakes_num_M5plus_city_forecast.csv
+quezon,2016,2.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2017,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2018,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2019,2.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2020,1.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2021,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2022,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2023,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2024,1.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2025,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+quezon,2026,83.00000000000003,EQ_num_quakes,forecast,ARIMA,81.88664920402076,84.1133507959793,81.29518159365676,84.70481840634329,earthquakes_num_quakes_city_forecast.csv
+quezon,2027,83.00000000000003,EQ_num_quakes,forecast,ARIMA,81.88664920402076,84.1133507959793,81.29518159365676,84.70481840634329,earthquakes_num_quakes_city_forecast.csv
+quezon,2028,83.00000000000003,EQ_num_quakes,forecast,ARIMA,81.88664920402076,84.1133507959793,81.29518159365676,84.70481840634329,earthquakes_num_quakes_city_forecast.csv
+quezon,2029,83.00000000000003,EQ_num_quakes,forecast,ARIMA,81.88664920402076,84.1133507959793,81.29518159365676,84.70481840634329,earthquakes_num_quakes_city_forecast.csv
+quezon,2016,29.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2017,43.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2018,95.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2019,163.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2020,248.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2021,139.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2022,194.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2023,184.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2024,272.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2025,83.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+quezon,2026,253.57616701347985,EQ_shallow_quakes,forecast,ETS,252.4180343256573,254.73429970130235,251.80277633525156,255.34955769170807,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2027,299.1880315089649,EQ_shallow_quakes,forecast,ETS,298.0298988211424,300.3461641967874,297.4146408307367,300.96142218719314,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2028,353.0043034109387,EQ_shallow_quakes,forecast,ETS,351.8461707231162,354.1624360987612,351.23091273271046,354.7776940891669,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2029,416.500745695465,EQ_shallow_quakes,forecast,ETS,415.3426130076425,417.6588783832875,414.7273550172368,418.2741363736933,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2016,25.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2017,36.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2018,88.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2019,124.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2020,196.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2021,116.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2022,172.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2023,168.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2024,251.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+quezon,2025,76.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2025,4.905039492180782,EQ_max_mag,forecast,ETS,4.335289902286869,5.474789082074695,4.032610432655726,5.777468551705837,earthquakes_max_mag_city_forecast.csv
+rizal,2026,6.6708121316712745,EQ_max_mag,forecast,ETS,6.101062541777361,7.240561721565188,5.798383072146219,7.54324119119633,earthquakes_max_mag_city_forecast.csv
+rizal,2027,9.072247953760728,EQ_max_mag,forecast,ETS,8.502498363866815,9.64199754365464,8.199818894235673,9.944677013285784,earthquakes_max_mag_city_forecast.csv
+rizal,2028,12.338180315969296,EQ_max_mag,forecast,ETS,11.768430726075382,12.907929905863208,11.46575125644424,13.21060937549435,earthquakes_max_mag_city_forecast.csv
+rizal,2029,16.779820644812492,EQ_max_mag,forecast,ETS,16.21007105491858,17.349570234706405,15.907391585287437,17.652249704337546,earthquakes_max_mag_city_forecast.csv
+rizal,2017,4.2,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+rizal,2018,2.4,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+rizal,2019,2.2,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+rizal,2020,2.3,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+rizal,2021,2.3,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+rizal,2022,1.8,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+rizal,2023,2.9,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+rizal,2024,3.9,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+rizal,2025,2.3249932529000157,EQ_mean_mag,forecast,ETS,1.981936951887443,2.6680495539125886,1.7996882919745136,2.8502982138255177,earthquakes_mean_mag_city_forecast.csv
+rizal,2026,2.5166951422623636,EQ_mean_mag,forecast,ETS,2.1736388412497907,2.8597514432749365,1.9913901813368615,3.0420001031878656,earthquakes_mean_mag_city_forecast.csv
+rizal,2027,2.724203363251376,EQ_mean_mag,forecast,ETS,2.381147062238803,3.0672596642639487,2.1988984023258737,3.249508324176878,earthquakes_mean_mag_city_forecast.csv
+rizal,2028,2.9488211900305097,EQ_mean_mag,forecast,ETS,2.605764889017937,3.2918774910430826,2.4235162291050076,3.4741261509560117,earthquakes_mean_mag_city_forecast.csv
+rizal,2029,3.1919593551909764,EQ_mean_mag,forecast,ETS,2.8489030541784035,3.5350156562035493,2.6666543942654743,3.7172643161164785,earthquakes_mean_mag_city_forecast.csv
+rizal,2017,2.625,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+rizal,2018,2.25,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+rizal,2019,1.95,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+rizal,2020,1.7473684210526317,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+rizal,2021,1.9166666666666667,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+rizal,2022,1.6333333333333335,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+rizal,2023,2.325,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+rizal,2024,2.1,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+rizal,2025,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+rizal,2026,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+rizal,2027,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+rizal,2028,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+rizal,2029,0.0,EQ_num_M5plus,forecast,ETS,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+rizal,2017,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+rizal,2018,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+rizal,2019,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+rizal,2020,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+rizal,2021,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+rizal,2022,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+rizal,2023,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+rizal,2024,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+rizal,2025,4.1526208110319,EQ_num_quakes,forecast,ETS,3.373513734940236,4.931727887123564,2.959613100766539,5.345628521297261,earthquakes_num_quakes_city_forecast.csv
+rizal,2026,3.9276682657495647,EQ_num_quakes,forecast,ETS,3.1485611896579004,4.7067753418412295,2.7346605554842034,5.120675976014926,earthquakes_num_quakes_city_forecast.csv
+rizal,2027,3.714901674815522,EQ_num_quakes,forecast,ETS,2.9357945987238576,4.494008750907186,2.521893964550161,4.907909385080883,earthquakes_num_quakes_city_forecast.csv
+rizal,2028,3.513660910187243,EQ_num_quakes,forecast,ETS,2.734553834095579,4.292767986278908,2.320653199921882,4.7066686204526045,earthquakes_num_quakes_city_forecast.csv
+rizal,2029,3.3233216037651725,EQ_num_quakes,forecast,ETS,2.544214527673508,4.102428679856837,2.130313893499811,4.516329314030534,earthquakes_num_quakes_city_forecast.csv
+rizal,2017,12.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+rizal,2018,2.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+rizal,2019,4.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+rizal,2020,19.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+rizal,2021,6.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+rizal,2022,3.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+rizal,2023,4.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+rizal,2024,5.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+rizal,2025,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2026,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2027,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2028,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2029,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2017,12.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2018,2.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2019,0.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2020,7.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2021,3.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2022,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2023,4.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+rizal,2024,4.0,EQ_shallow_quakes,history,Hold(fallback),,,,,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2021,3.7549363562616103,EQ_max_mag,forecast,Linear,3.3781145592982886,4.131758153224932,3.1779279796615243,4.331944732861697,earthquakes_max_mag_city_forecast.csv
+san juan,2022,4.076435121113026,EQ_max_mag,forecast,Linear,3.6996133241497047,4.453256918076348,3.4994267445129403,4.653443497713113,earthquakes_max_mag_city_forecast.csv
+san juan,2023,4.425460705594328,EQ_max_mag,forecast,Linear,4.048638908631006,4.80228250255765,3.848452328994242,5.002469082194414,earthquakes_max_mag_city_forecast.csv
+san juan,2024,4.8043699641691,EQ_max_mag,forecast,Linear,4.427548167205778,5.181191761132421,4.227361587569013,5.381378340769186,earthquakes_max_mag_city_forecast.csv
+san juan,2025,5.215721545879369,EQ_max_mag,forecast,Linear,4.838899748916047,5.59254334284269,4.638713169279282,5.792729922479455,earthquakes_max_mag_city_forecast.csv
+san juan,2026,5.662293172056807,EQ_max_mag,forecast,Linear,5.285471375093485,6.039114969020129,5.085284795456721,6.2393015486568935,earthquakes_max_mag_city_forecast.csv
+san juan,2027,6.147100393358052,EQ_max_mag,forecast,Linear,5.77027859639473,6.5239221903213735,5.5700920167579655,6.724108769958138,earthquakes_max_mag_city_forecast.csv
+san juan,2028,6.67341695278167,EQ_max_mag,forecast,Linear,6.296595155818348,7.050238749744992,6.096408576181584,7.250425329381756,earthquakes_max_mag_city_forecast.csv
+san juan,2029,7.24479689217246,EQ_max_mag,forecast,Linear,6.867975095209139,7.621618689135782,6.667788515572374,7.821805268772547,earthquakes_max_mag_city_forecast.csv
+san juan,2018,2.8,EQ_max_mag,history,Linear,,,,,earthquakes_max_mag_city_forecast.csv
+san juan,2019,3.5,EQ_max_mag,history,Linear,,,,,earthquakes_max_mag_city_forecast.csv
+san juan,2020,3.3,EQ_max_mag,history,Linear,,,,,earthquakes_max_mag_city_forecast.csv
+san juan,2021,2.1660844589221213,EQ_mean_mag,forecast,Linear,2.101445671499196,2.230723246345047,2.0671063156807667,2.265062602163476,earthquakes_mean_mag_city_forecast.csv
+san juan,2022,2.1093554624013926,EQ_mean_mag,forecast,Linear,2.044716674978467,2.173994249824318,2.010377319160038,2.208333605642747,earthquakes_mean_mag_city_forecast.csv
+san juan,2023,2.0541121785143632,EQ_mean_mag,forecast,Linear,1.9894733910914375,2.1187509659372887,1.9551340352730084,2.153090321755718,earthquakes_mean_mag_city_forecast.csv
+san juan,2024,2.000315696965309,EQ_mean_mag,forecast,Linear,1.9356769095423836,2.0649544843882346,1.9013375537239543,2.0992938402066637,earthquakes_mean_mag_city_forecast.csv
+san juan,2025,1.9479281265055817,EQ_mean_mag,forecast,Linear,1.883289339082656,2.012566913928507,1.8489499832642269,2.046906269746936,earthquakes_mean_mag_city_forecast.csv
+san juan,2026,1.8969125682451595,EQ_mean_mag,forecast,Linear,1.8322737808222345,1.9615513556680853,1.797934425003805,1.9958907114865143,earthquakes_mean_mag_city_forecast.csv
+san juan,2027,1.8472330896630296,EQ_mean_mag,forecast,Linear,1.7825943022401043,1.9118718770859553,1.748254946421675,1.9462112329043848,earthquakes_mean_mag_city_forecast.csv
+san juan,2028,1.7988546992984236,EQ_mean_mag,forecast,Linear,1.734215911875498,1.863493486721349,1.6998765560570688,1.8978328425397784,earthquakes_mean_mag_city_forecast.csv
+san juan,2029,1.7517433221046874,EQ_mean_mag,forecast,Linear,1.687104534681762,1.816382109527613,1.6527651788633326,1.8507214653460424,earthquakes_mean_mag_city_forecast.csv
+san juan,2018,2.3375,EQ_mean_mag,history,Linear,,,,,earthquakes_mean_mag_city_forecast.csv
+san juan,2019,2.3,EQ_mean_mag,history,Linear,,,,,earthquakes_mean_mag_city_forecast.csv
+san juan,2020,2.216666666666667,EQ_mean_mag,history,Linear,,,,,earthquakes_mean_mag_city_forecast.csv
+san juan,2021,0.0,EQ_num_M5plus,forecast,Linear,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+san juan,2022,0.0,EQ_num_M5plus,forecast,Linear,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+san juan,2023,0.0,EQ_num_M5plus,forecast,Linear,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+san juan,2024,0.0,EQ_num_M5plus,forecast,Linear,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+san juan,2025,0.0,EQ_num_M5plus,forecast,Linear,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+san juan,2026,0.0,EQ_num_M5plus,forecast,Linear,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+san juan,2027,0.0,EQ_num_M5plus,forecast,Linear,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+san juan,2028,0.0,EQ_num_M5plus,forecast,Linear,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+san juan,2029,0.0,EQ_num_M5plus,forecast,Linear,0.0,0.0,0.0,0.0,earthquakes_num_M5plus_city_forecast.csv
+san juan,2018,0.0,EQ_num_M5plus,history,Linear,,,,,earthquakes_num_M5plus_city_forecast.csv
+san juan,2019,0.0,EQ_num_M5plus,history,Linear,,,,,earthquakes_num_M5plus_city_forecast.csv
+san juan,2020,0.0,EQ_num_M5plus,history,Linear,,,,,earthquakes_num_M5plus_city_forecast.csv
+san juan,2021,14.28660946771537,EQ_num_quakes,forecast,Linear,12.111027808582447,16.462191126848293,10.955250052168084,17.617968883262655,earthquakes_num_quakes_city_forecast.csv
+san juan,2022,17.49745167515888,EQ_num_quakes,forecast,Linear,15.32187001602596,19.6730333342918,14.166092259611595,20.828811090706168,earthquakes_num_quakes_city_forecast.csv
+san juan,2023,21.42991420157418,EQ_num_quakes,forecast,Linear,19.25433254244126,23.6054958607071,18.098554786026895,24.761273617121468,earthquakes_num_quakes_city_forecast.csv
+san juan,2024,26.2461775127412,EQ_num_quakes,forecast,Linear,24.070595853608275,28.42175917187412,22.914818097193912,29.577536928288485,earthquakes_num_quakes_city_forecast.csv
+san juan,2025,32.144871302362965,EQ_num_quakes,forecast,Linear,29.96928964323004,34.32045296149589,28.81351188681568,35.476230717910255,earthquakes_num_quakes_city_forecast.csv
+san juan,2026,39.369266269113865,EQ_num_quakes,forecast,Linear,37.19368460998094,41.54484792824679,36.03790685356658,42.70062568466115,earthquakes_num_quakes_city_forecast.csv
+san juan,2027,48.21730695354699,EQ_num_quakes,forecast,Linear,46.041725294414064,50.39288861267991,44.8859475379997,51.54866636909428,earthquakes_num_quakes_city_forecast.csv
+san juan,2028,59.05389940367391,EQ_num_quakes,forecast,Linear,56.878317744540986,61.22948106280683,55.72253998812663,62.38525881922119,earthquakes_num_quakes_city_forecast.csv
+san juan,2029,72.32596043032429,EQ_num_quakes,forecast,Linear,70.15037877119137,74.5015420894572,68.994601014777,75.65731984587157,earthquakes_num_quakes_city_forecast.csv
+san juan,2018,8.0,EQ_num_quakes,history,Linear,,,,,earthquakes_num_quakes_city_forecast.csv
+san juan,2019,9.0,EQ_num_quakes,history,Linear,,,,,earthquakes_num_quakes_city_forecast.csv
+san juan,2020,12.0,EQ_num_quakes,history,Linear,,,,,earthquakes_num_quakes_city_forecast.csv
+san juan,2021,9.52572896233633,EQ_shallow_quakes,forecast,Linear,7.435497715161352,11.615960209511307,6.325062365099645,12.726395559573016,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2022,11.270994506673803,EQ_shallow_quakes,forecast,Linear,9.180763259498828,13.361225753848784,8.070327909437118,14.471661103910492,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2023,13.33602054727303,EQ_shallow_quakes,forecast,Linear,11.245789300098052,15.426251794448008,10.135353950036343,16.536687144509717,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2024,15.779392309344995,EQ_shallow_quakes,forecast,Linear,13.689161062170015,17.869623556519976,12.578725712108309,18.98005890658168,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2025,18.670428766184216,EQ_shallow_quakes,forecast,Linear,16.580197519009236,20.760660013359196,15.469762168947527,21.871095363420903,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2026,22.091149233086583,EQ_shallow_quakes,forecast,Linear,20.00091798591161,24.181380480261566,18.8904826358499,25.291815830323273,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2027,26.138600272662153,EQ_shallow_quakes,forecast,Linear,24.048369025487172,28.228831519837133,22.937933675425462,29.33926686989884,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2028,30.927608926326247,EQ_shallow_quakes,forecast,Linear,28.837377679151267,33.01784017350123,27.72694232908956,34.128275523562934,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2029,36.59404038173296,EQ_shallow_quakes,forecast,Linear,34.50380913455798,38.684271628907936,33.393373784496276,39.79470697896964,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2018,5.0,EQ_shallow_quakes,history,Linear,,,,,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2019,9.0,EQ_shallow_quakes,history,Linear,,,,,earthquakes_shallow_quakes_city_forecast.csv
+san juan,2020,7.0,EQ_shallow_quakes,history,Linear,,,,,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2026,4.375093764185292,EQ_max_mag,forecast,ETS,3.833269650113759,4.916917878256824,3.5454255895132567,5.2047619388573265,earthquakes_max_mag_city_forecast.csv
+tarlac,2027,4.518116624366659,EQ_max_mag,forecast,ETS,3.976292510295126,5.059940738438192,3.688448449694624,5.347784799038694,earthquakes_max_mag_city_forecast.csv
+tarlac,2028,4.66581493600964,EQ_max_mag,forecast,ETS,4.123990821938107,5.2076390500811724,3.836146761337605,5.495483110681675,earthquakes_max_mag_city_forecast.csv
+tarlac,2029,4.81834154073929,EQ_max_mag,forecast,ETS,4.276517426667757,5.360165654810823,3.988673366067255,5.648009715411325,earthquakes_max_mag_city_forecast.csv
+tarlac,2017,2.9,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+tarlac,2018,3.5,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+tarlac,2019,2.7,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+tarlac,2020,4.6,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+tarlac,2021,3.7,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+tarlac,2022,5.2,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+tarlac,2023,3.7,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+tarlac,2024,5.7,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+tarlac,2025,2.7,EQ_max_mag,history,ETS,,,,,earthquakes_max_mag_city_forecast.csv
+tarlac,2026,2.119417926437691,EQ_mean_mag,forecast,ETS,2.0006760653162634,2.2381597875591184,1.9375944515955048,2.301241401279877,earthquakes_mean_mag_city_forecast.csv
+tarlac,2027,2.0922490327269943,EQ_mean_mag,forecast,ETS,1.9735071716055663,2.2109908938484217,1.910425557884808,2.2740725075691803,earthquakes_mean_mag_city_forecast.csv
+tarlac,2028,2.0654284180301983,EQ_mean_mag,forecast,ETS,1.9466865569087703,2.1841702791516258,1.883604943188012,2.2472518928723844,earthquakes_mean_mag_city_forecast.csv
+tarlac,2029,2.0389516177462483,EQ_mean_mag,forecast,ETS,1.9202097566248209,2.157693478867676,1.8571281429040625,2.2207750925884344,earthquakes_mean_mag_city_forecast.csv
+tarlac,2017,2.38,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+tarlac,2018,2.294736842105263,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+tarlac,2019,2.1,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+tarlac,2020,2.7,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+tarlac,2021,2.196,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+tarlac,2022,2.35945945945946,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+tarlac,2023,2.017073170731708,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+tarlac,2024,2.324242424242424,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+tarlac,2025,2.0500000000000003,EQ_mean_mag,history,ETS,,,,,earthquakes_mean_mag_city_forecast.csv
+tarlac,2026,0.5555548404591545,EQ_num_M5plus,forecast,ETS,-0.4335137963076365,1.5446234772259455,-0.958956509589994,2.070066190508303,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2027,0.6222214704169762,EQ_num_M5plus,forecast,ETS,-0.3668471663498148,1.611290107183767,-0.8922898796321723,2.1367328204661247,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2028,0.6888881003747978,EQ_num_M5plus,forecast,ETS,-0.3001805363919932,1.6779567371415889,-0.8256232496743507,2.2033994504239462,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2029,0.7555547303326194,EQ_num_M5plus,forecast,ETS,-0.2335139064341715,1.7446233670994105,-0.7589566197165291,2.270066080381768,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2017,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2018,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2019,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2020,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2021,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2022,1.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2023,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2024,1.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2025,0.0,EQ_num_M5plus,history,ETS,,,,,earthquakes_num_M5plus_city_forecast.csv
+tarlac,2026,13.76606063799123,EQ_num_quakes,forecast,ETS,12.617847740743125,14.914273535239335,12.007859639080063,15.524261636902391,earthquakes_num_quakes_city_forecast.csv
+tarlac,2027,9.322288064107193,EQ_num_quakes,forecast,ETS,8.174075166859083,10.4705009613553,7.564087065196027,11.080489063018357,earthquakes_num_quakes_city_forecast.csv
+tarlac,2028,6.312993748578803,EQ_num_quakes,forecast,ETS,5.164780851330696,7.46120664582691,4.554792749667639,8.071194747489967,earthquakes_num_quakes_city_forecast.csv
+tarlac,2029,4.275118918824348,EQ_num_quakes,forecast,ETS,3.126906021576241,5.423331816072455,2.516917919913184,6.033319917735512,earthquakes_num_quakes_city_forecast.csv
+tarlac,2017,5.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+tarlac,2018,19.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+tarlac,2019,10.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+tarlac,2020,23.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+tarlac,2021,25.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+tarlac,2022,37.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+tarlac,2023,41.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+tarlac,2024,33.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+tarlac,2025,12.0,EQ_num_quakes,history,ETS,,,,,earthquakes_num_quakes_city_forecast.csv
+tarlac,2026,2.0388670925424774,EQ_shallow_quakes,forecast,ETS,1.0467358094287709,3.030998375656184,0.5196660652746143,3.5580681198103408,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2027,0.8253221723892554,EQ_shallow_quakes,forecast,ETS,-0.1668091107244511,1.817453455502962,-0.6938788548786077,2.3445231996571185,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2028,0.3340858708881873,EQ_shallow_quakes,forecast,ETS,-0.6580454122255193,1.326217154001894,-1.1851151563796758,1.8532868981560504,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2029,0.1352361209489924,EQ_shallow_quakes,forecast,ETS,-0.8568951621647142,1.127367404062699,-1.3839649063188706,1.6544371482168556,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2017,2.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2018,4.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2019,5.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2020,10.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2021,16.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2022,16.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2023,15.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2024,15.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+tarlac,2025,4.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2026,4.516878964025325,EQ_max_mag,forecast,ARIMA,4.342501573270909,4.69125635477974,4.249863584432625,4.783894343618024,earthquakes_max_mag_city_forecast.csv
+zambales,2027,4.556851555843799,EQ_max_mag,forecast,ARIMA,4.382474165089384,4.731228946598215,4.2898361762511,4.823866935436499,earthquakes_max_mag_city_forecast.csv
+zambales,2028,4.670044678852958,EQ_max_mag,forecast,ARIMA,4.495667288098542,4.844422069607373,4.403029299260258,4.937060058445657,earthquakes_max_mag_city_forecast.csv
+zambales,2029,4.670044678852958,EQ_max_mag,forecast,ARIMA,4.495667288098542,4.844422069607373,4.403029299260258,4.937060058445657,earthquakes_max_mag_city_forecast.csv
+zambales,2016,3.6,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2017,4.2,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2018,5.2,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2019,6.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2020,5.0,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2021,5.1,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2022,5.0,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2023,5.0,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2024,4.5,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2025,4.4,EQ_max_mag,history,ARIMA,,,,,earthquakes_max_mag_city_forecast.csv
+zambales,2026,2.3038331078559877,EQ_mean_mag,forecast,ARIMA,2.206092826052776,2.4015733896591995,2.1541683013448196,2.453497914367156,earthquakes_mean_mag_city_forecast.csv
+zambales,2027,2.3721926124828694,EQ_mean_mag,forecast,ARIMA,2.2744523306796576,2.469932894286081,2.2225278059717013,2.5218574189940375,earthquakes_mean_mag_city_forecast.csv
+zambales,2028,2.3721926124828694,EQ_mean_mag,forecast,ARIMA,2.2744523306796576,2.469932894286081,2.2225278059717013,2.5218574189940375,earthquakes_mean_mag_city_forecast.csv
+zambales,2029,2.3721926124828694,EQ_mean_mag,forecast,ARIMA,2.2744523306796576,2.469932894286081,2.2225278059717013,2.5218574189940375,earthquakes_mean_mag_city_forecast.csv
+zambales,2016,2.75,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2017,2.6196969696969696,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2018,2.3634831460674155,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2019,2.226941747572816,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2020,2.370873786407767,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2021,2.495149253731344,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2022,2.2397476340694005,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2023,2.2305841924398626,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2024,2.24115523465704,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2025,2.1771929824561407,EQ_mean_mag,history,ARIMA,,,,,earthquakes_mean_mag_city_forecast.csv
+zambales,2026,-0.7216980188073133,EQ_num_M5plus,forecast,ARIMA,-3.017876013536658,1.574479975922031,-4.237720573236622,2.7943245356219952,earthquakes_num_M5plus_city_forecast.csv
+zambales,2027,-0.3170541792918296,EQ_num_M5plus,forecast,ARIMA,-2.613232174021174,1.9791238154375148,-3.833076733721138,3.198968375137479,earthquakes_num_M5plus_city_forecast.csv
+zambales,2028,-0.3170541792918296,EQ_num_M5plus,forecast,ARIMA,-2.613232174021174,1.9791238154375148,-3.833076733721138,3.198968375137479,earthquakes_num_M5plus_city_forecast.csv
+zambales,2029,-0.3170541792918296,EQ_num_M5plus,forecast,ARIMA,-2.613232174021174,1.9791238154375148,-3.833076733721138,3.198968375137479,earthquakes_num_M5plus_city_forecast.csv
+zambales,2016,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2017,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2018,1.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2019,2.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2020,1.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2021,3.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2022,1.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2023,1.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2024,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2025,0.0,EQ_num_M5plus,history,ARIMA,,,,,earthquakes_num_M5plus_city_forecast.csv
+zambales,2026,74.92413413024546,EQ_num_quakes,forecast,ARIMA,74.39623876471224,75.45202949577869,74.11579435177272,75.7324739087182,earthquakes_num_quakes_city_forecast.csv
+zambales,2027,50.24513442982136,EQ_num_quakes,forecast,ARIMA,49.71723906428814,50.773029795354574,49.43679465134861,51.0534742082941,earthquakes_num_quakes_city_forecast.csv
+zambales,2028,50.24513442982136,EQ_num_quakes,forecast,ARIMA,49.71723906428814,50.773029795354574,49.43679465134861,51.0534742082941,earthquakes_num_quakes_city_forecast.csv
+zambales,2029,50.24513442982136,EQ_num_quakes,forecast,ARIMA,49.71723906428814,50.773029795354574,49.43679465134861,51.0534742082941,earthquakes_num_quakes_city_forecast.csv
+zambales,2016,14.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2017,66.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2018,178.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2019,412.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2020,309.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2021,268.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2022,317.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2023,291.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2024,277.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2025,114.0,EQ_num_quakes,history,ARIMA,,,,,earthquakes_num_quakes_city_forecast.csv
+zambales,2026,96.5390597668488,EQ_shallow_quakes,forecast,ETS,95.79583606016637,97.28228347353124,95.40099846599132,97.67712106770628,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2027,117.9720243337913,EQ_shallow_quakes,forecast,ETS,117.22880062710884,118.71524804047374,116.8339630329338,119.11008563464878,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2028,144.16339416423273,EQ_shallow_quakes,forecast,ETS,143.42017045755028,144.90661787091517,143.02533286337524,145.3014554650902,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2029,176.1695989732959,EQ_shallow_quakes,forecast,ETS,175.42637526661346,176.91282267997835,175.03153767243842,177.3076602741534,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2016,13.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2017,39.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2018,114.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2019,200.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2020,160.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2021,185.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2022,232.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2023,199.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2024,175.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv
+zambales,2025,79.0,EQ_shallow_quakes,history,ETS,,,,,earthquakes_shallow_quakes_city_forecast.csv

@@ -1,0 +1,181 @@
+Area_slug,Year,Value,variable,type,method,pi80_lo,pi80_hi,pi95_lo,pi95_hi
+aurora,2016,4.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2017,37.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2018,76.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2019,87.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2020,106.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2021,163.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2022,164.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2023,139.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2024,157.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2025,52.0,EQ_shallow_quakes,history,ETS,,,,
+aurora,2026,255.80857311845443,EQ_shallow_quakes,forecast,ETS,255.02977314862883,256.58737308828006,254.61603566465897,257.0011105722499
+aurora,2027,323.14299121870835,EQ_shallow_quakes,forecast,ETS,322.3641912488827,323.921791188534,321.9504537649129,324.3355286725038
+aurora,2028,408.20130264133434,EQ_shallow_quakes,forecast,ETS,407.4225026715087,408.98010261115996,407.00876518753887,409.3938400951298
+aurora,2029,515.6488242237805,EQ_shallow_quakes,forecast,ETS,514.8700242539549,516.4276241936061,514.456286769985,516.841361677576
+bataan,2016,8.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2017,6.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2018,8.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2019,17.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2020,7.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2021,6.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2022,8.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2023,14.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2024,15.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2025,4.0,EQ_shallow_quakes,history,ETS,,,,
+bataan,2026,8.602530877986043,EQ_shallow_quakes,forecast,ETS,7.76164850518285,9.443413250789234,7.314929744631154,9.890132011340931
+bataan,2027,8.631708064516888,EQ_shallow_quakes,forecast,ETS,7.790825691713695,9.472590437320079,7.344106931161999,9.919309197871776
+bataan,2028,8.660984211252106,EQ_shallow_quakes,forecast,ETS,7.820101838448914,9.501866584055298,7.373383077897218,9.948585344606995
+bataan,2029,8.690359653834832,EQ_shallow_quakes,forecast,ETS,7.84947728103164,9.531242026638024,7.402758520479944,9.977960787189721
+batangas,2016,11.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2017,46.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2018,59.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2019,62.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2020,791.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2021,88.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2022,89.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2023,88.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2024,89.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2025,21.0,EQ_shallow_quakes,history,ETS,,,,
+batangas,2026,98.07329114677235,EQ_shallow_quakes,forecast,ETS,96.00311142436728,100.14347086917742,94.90332844683958,101.24325384670512
+batangas,2027,105.04363088558337,EQ_shallow_quakes,forecast,ETS,102.9734511631783,107.11381060798844,101.8736681856506,108.21359358551614
+batangas,2028,112.50937192587358,EQ_shallow_quakes,forecast,ETS,110.43919220346851,114.57955164827865,109.33940922594081,115.67933462580635
+batangas,2029,120.50572380673319,EQ_shallow_quakes,forecast,ETS,118.43554408432811,122.57590352913826,117.33576110680042,123.67568650666595
+batangas city,2021,5.0,EQ_shallow_quakes,history,ETS,,,,
+batangas city,2022,4.0,EQ_shallow_quakes,history,ETS,,,,
+batangas city,2023,5.0,EQ_shallow_quakes,history,ETS,,,,
+batangas city,2024,1.0,EQ_shallow_quakes,history,ETS,,,,
+batangas city,2025,1.0,EQ_shallow_quakes,history,ETS,,,,
+batangas city,2026,0.6309571960689115,EQ_shallow_quakes,forecast,ETS,-1.7153215597484788,2.9772359518863016,-2.961782148776467,4.223696540914291
+batangas city,2027,0.398107043626664,EQ_shallow_quakes,forecast,ETS,-1.9481717121907263,2.7443857994440544,-3.1946323012187148,3.990846388472043
+batangas city,2028,0.2511885420637198,EQ_shallow_quakes,forecast,ETS,-2.0950902137536707,2.59746729788111,-3.341550802781659,3.8439278869090985
+batangas city,2029,0.15848924221312422,EQ_shallow_quakes,forecast,ETS,-2.187789513604266,2.5047679980305144,-3.4342501026322547,3.751228587058503
+bulacan,2017,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+bulacan,2018,4.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+bulacan,2019,4.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+bulacan,2020,6.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+bulacan,2021,2.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+bulacan,2022,3.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+bulacan,2023,7.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+bulacan,2024,7.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+bulacan,2025,0.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+bulacan,2026,0.0,EQ_shallow_quakes,forecast,Hold(fallback),-inf,inf,-inf,inf
+bulacan,2027,0.0,EQ_shallow_quakes,forecast,Hold(fallback),-inf,inf,-inf,inf
+bulacan,2028,0.0,EQ_shallow_quakes,forecast,Hold(fallback),-inf,inf,-inf,inf
+bulacan,2029,0.0,EQ_shallow_quakes,forecast,Hold(fallback),-inf,inf,-inf,inf
+cavite,2018,0.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+cavite,2020,35.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+cavite,2022,0.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+cavite,2023,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+cavite,2024,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+cavite,2025,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+cavite,2026,1.0,EQ_shallow_quakes,forecast,Hold(fallback),-15.419738798842758,17.419738798842758,-24.142725035727974,26.142725035727974
+cavite,2027,1.0,EQ_shallow_quakes,forecast,Hold(fallback),-15.419738798842758,17.419738798842758,-24.142725035727974,26.142725035727974
+cavite,2028,1.0,EQ_shallow_quakes,forecast,Hold(fallback),-15.419738798842758,17.419738798842758,-24.142725035727974,26.142725035727974
+cavite,2029,1.0,EQ_shallow_quakes,forecast,Hold(fallback),-15.419738798842758,17.419738798842758,-24.142725035727974,26.142725035727974
+laguna,2017,2.0,EQ_shallow_quakes,history,ETS,,,,
+laguna,2018,2.0,EQ_shallow_quakes,history,ETS,,,,
+laguna,2019,4.0,EQ_shallow_quakes,history,ETS,,,,
+laguna,2020,27.0,EQ_shallow_quakes,history,ETS,,,,
+laguna,2021,15.0,EQ_shallow_quakes,history,ETS,,,,
+laguna,2022,9.0,EQ_shallow_quakes,history,ETS,,,,
+laguna,2023,3.0,EQ_shallow_quakes,history,ETS,,,,
+laguna,2024,10.0,EQ_shallow_quakes,history,ETS,,,,
+laguna,2025,4.0,EQ_shallow_quakes,history,ETS,,,,
+laguna,2026,6.268342596181144,EQ_shallow_quakes,forecast,ETS,4.207611063573836,8.329074128788452,3.1128474368762036,9.423837755486085
+laguna,2027,7.000947557109602,EQ_shallow_quakes,forecast,ETS,4.940216024502294,9.061679089716911,3.8454523978046615,10.156442716414542
+laguna,2028,7.8191748369432155,EQ_shallow_quakes,forecast,ETS,5.758443304335907,9.879906369550524,4.6636796776382745,10.974669996248156
+laguna,2029,8.73303144066514,EQ_shallow_quakes,forecast,ETS,6.672299908057832,10.793762973272448,5.577536281360199,11.888526599970081
+nueva ecija,2016,1.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2017,1.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2018,9.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2019,11.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2020,10.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2021,29.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2022,20.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2023,24.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2024,28.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2025,11.0,EQ_shallow_quakes,history,ETS,,,,
+nueva ecija,2026,53.12041177023212,EQ_shallow_quakes,forecast,ETS,51.640081488636895,54.60074205182734,50.85365602653943,55.3871675139248
+nueva ecija,2027,73.09627157961464,EQ_shallow_quakes,forecast,ETS,71.61594129801941,74.57660186120987,70.82951583592195,75.36302732330732
+nueva ecija,2028,100.58402675701691,EQ_shallow_quakes,forecast,ETS,99.10369647542169,102.06435703861214,98.31727101332423,102.8507825007096
+nueva ecija,2029,138.40851551008237,EQ_shallow_quakes,forecast,ETS,136.92818522848714,139.8888457916776,136.14175976638967,140.67527125377507
+pampanga,2017,1.0,EQ_shallow_quakes,history,ETS,,,,
+pampanga,2018,2.0,EQ_shallow_quakes,history,ETS,,,,
+pampanga,2019,5.0,EQ_shallow_quakes,history,ETS,,,,
+pampanga,2020,4.0,EQ_shallow_quakes,history,ETS,,,,
+pampanga,2021,18.0,EQ_shallow_quakes,history,ETS,,,,
+pampanga,2022,14.0,EQ_shallow_quakes,history,ETS,,,,
+pampanga,2023,8.0,EQ_shallow_quakes,history,ETS,,,,
+pampanga,2024,8.0,EQ_shallow_quakes,history,ETS,,,,
+pampanga,2025,1.0,EQ_shallow_quakes,history,ETS,,,,
+pampanga,2026,0.4756413334681053,EQ_shallow_quakes,forecast,ETS,-1.2997898302807636,2.251072497216974,-2.24298763602235,3.1942703029585604
+pampanga,2027,0.13745874403986297,EQ_shallow_quakes,forecast,ETS,-1.637972419709006,1.9128899077887318,-2.581170225450592,2.8560877135303184
+pampanga,2028,0.03972511424784236,EQ_shallow_quakes,forecast,ETS,-1.7357060495010266,1.8151562779967112,-2.6789038552426128,2.758354083738298
+pampanga,2029,0.011480424275857515,EQ_shallow_quakes,forecast,ETS,-1.7639507394730114,1.7869115880247264,-2.7071485452145976,2.730109393766313
+quezon,2016,25.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2017,36.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2018,88.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2019,124.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2020,196.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2021,116.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2022,172.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2023,168.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2024,251.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2025,76.0,EQ_shallow_quakes,history,ETS,,,,
+quezon,2026,253.57616701347982,EQ_shallow_quakes,forecast,ETS,252.4180343256573,254.73429970130235,251.80277633525156,255.34955769170807
+quezon,2027,299.1880315089649,EQ_shallow_quakes,forecast,ETS,298.0298988211424,300.3461641967874,297.4146408307367,300.96142218719314
+quezon,2028,353.0043034109387,EQ_shallow_quakes,forecast,ETS,351.8461707231162,354.1624360987612,351.23091273271046,354.7776940891669
+quezon,2029,416.500745695465,EQ_shallow_quakes,forecast,ETS,415.3426130076425,417.6588783832875,414.7273550172368,418.27413637369324
+rizal,2017,12.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+rizal,2018,2.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+rizal,2019,0.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+rizal,2020,7.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+rizal,2021,3.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+rizal,2022,1.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+rizal,2023,4.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+rizal,2024,4.0,EQ_shallow_quakes,history,Hold(fallback),,,,
+rizal,2025,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715
+rizal,2026,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715
+rizal,2027,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715
+rizal,2028,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715
+rizal,2029,4.0,EQ_shallow_quakes,forecast,Hold(fallback),-0.5900762520899363,8.590076252089936,-3.028554261012715,11.028554261012715
+san juan,2018,5.0,EQ_shallow_quakes,history,Linear,,,,
+san juan,2019,9.0,EQ_shallow_quakes,history,Linear,,,,
+san juan,2020,7.0,EQ_shallow_quakes,history,Linear,,,,
+san juan,2021,9.52572896233633,EQ_shallow_quakes,forecast,Linear,7.435497715161352,11.615960209511309,6.325062365099645,12.726395559573017
+san juan,2022,11.270994506673805,EQ_shallow_quakes,forecast,Linear,9.180763259498827,13.361225753848784,8.070327909437118,14.471661103910492
+san juan,2023,13.33602054727303,EQ_shallow_quakes,forecast,Linear,11.245789300098052,15.426251794448008,10.135353950036343,16.536687144509717
+san juan,2024,15.779392309344995,EQ_shallow_quakes,forecast,Linear,13.689161062170017,17.869623556519976,12.578725712108309,18.980058906581682
+san juan,2025,18.670428766184216,EQ_shallow_quakes,forecast,Linear,16.580197519009236,20.760660013359196,15.469762168947529,21.871095363420903
+san juan,2026,22.091149233086586,EQ_shallow_quakes,forecast,Linear,20.000917985911606,24.181380480261566,18.8904826358499,25.291815830323273
+san juan,2027,26.138600272662153,EQ_shallow_quakes,forecast,Linear,24.048369025487172,28.228831519837133,22.937933675425466,29.33926686989884
+san juan,2028,30.927608926326247,EQ_shallow_quakes,forecast,Linear,28.837377679151267,33.01784017350123,27.72694232908956,34.128275523562934
+san juan,2029,36.59404038173296,EQ_shallow_quakes,forecast,Linear,34.50380913455798,38.684271628907936,33.393373784496276,39.79470697896964
+tarlac,2017,2.0,EQ_shallow_quakes,history,ETS,,,,
+tarlac,2018,4.0,EQ_shallow_quakes,history,ETS,,,,
+tarlac,2019,5.0,EQ_shallow_quakes,history,ETS,,,,
+tarlac,2020,10.0,EQ_shallow_quakes,history,ETS,,,,
+tarlac,2021,16.0,EQ_shallow_quakes,history,ETS,,,,
+tarlac,2022,16.0,EQ_shallow_quakes,history,ETS,,,,
+tarlac,2023,15.0,EQ_shallow_quakes,history,ETS,,,,
+tarlac,2024,15.0,EQ_shallow_quakes,history,ETS,,,,
+tarlac,2025,4.0,EQ_shallow_quakes,history,ETS,,,,
+tarlac,2026,2.0388670925424774,EQ_shallow_quakes,forecast,ETS,1.0467358094287709,3.030998375656184,0.5196660652746143,3.5580681198103408
+tarlac,2027,0.8253221723892554,EQ_shallow_quakes,forecast,ETS,-0.16680911072445115,1.817453455502962,-0.6938788548786077,2.3445231996571185
+tarlac,2028,0.3340858708881873,EQ_shallow_quakes,forecast,ETS,-0.6580454122255193,1.3262171540018939,-1.1851151563796758,1.8532868981560504
+tarlac,2029,0.13523612094899243,EQ_shallow_quakes,forecast,ETS,-0.8568951621647142,1.127367404062699,-1.3839649063188706,1.6544371482168556
+zambales,2016,13.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2017,39.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2018,114.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2019,200.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2020,160.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2021,185.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2022,232.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2023,199.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2024,175.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2025,79.0,EQ_shallow_quakes,history,ETS,,,,
+zambales,2026,96.5390597668488,EQ_shallow_quakes,forecast,ETS,95.79583606016635,97.28228347353124,95.40099846599131,97.67712106770628
+zambales,2027,117.9720243337913,EQ_shallow_quakes,forecast,ETS,117.22880062710885,118.71524804047374,116.83396303293381,119.11008563464878
+zambales,2028,144.16339416423273,EQ_shallow_quakes,forecast,ETS,143.42017045755028,144.90661787091517,143.02533286337524,145.3014554650902
+zambales,2029,176.1695989732959,EQ_shallow_quakes,forecast,ETS,175.42637526661346,176.91282267997835,175.03153767243842,177.3076602741534

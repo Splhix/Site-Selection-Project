@@ -109,23 +109,38 @@ def fcst_ets(model, steps):
     _, m = model
     return np.array(m.forecast(steps))
 
+def _safe_forecast(fc, ys, steps):
+    import numpy as np
+    # If any NaN/inf appears, fall back to Linear (or Hold)
+    if fc is None or not np.all(np.isfinite(fc)):
+        years = ys.index.values
+        if len(ys) >= 3 and np.std(ys.values.astype(float)) > 0:
+            s, b = np.polyfit(years, ys.values.astype(float), 1)
+            future_years = np.arange(int(years[-1]) + 1, int(years[-1]) + 1 + steps)
+            return s * future_years + b, "Linear(fallback)"
+        else:
+            return np.array([ys.iloc[-1]] * steps), "Hold(fallback)"
+    return fc, None
+
+
 def choose_and_fit(y: pd.Series, positive_only=True, bounded_percent=False):
     # optional transforms
     transform = safe_logit if bounded_percent else (safe_log if positive_only else None)
     inv_transform = inv_logit if bounded_percent else (inv_log if positive_only else None)
     y_mod = transform(y) if transform else y.copy()
 
-    if len(y_mod) >= 10:
-        try:
-            return ("ARIMA", fit_arima(y_mod), transform, inv_transform)
-        except:
-            pass
+    # HARD-DISABLE ARIMA to avoid NaNs/long runtimes on sparse series
+    # (If you ever want ARIMA back, revert this block and reinstate the ARIMA branch.)
     if len(y_mod) >= 5:
         try:
-            return ("ETS", fit_ets(y_mod), transform, inv_transform)
-        except:
+            m = fit_ets(y_mod)
+            return ("ETS", m, transform, inv_transform)
+        except Exception:
             pass
+
+    # Linear/Hold fallback
     return ("LinearOrHold", None, transform, inv_transform)
+
 
 def forecast_series(y: pd.Series, cfg: Config, steps: int):
     positive_only = cfg.positive_only or (y.min() > 0)
@@ -148,6 +163,9 @@ def forecast_series(y: pd.Series, cfg: Config, steps: int):
         scores = _compute_scores_bounded(res_bt)
 
         fc = fcst_ets(model, steps)
+        fc, _ov = _safe_forecast(fc, ys, steps)
+        method = _ov or method
+
     else:
         # Linear or Hold
         rows = []
@@ -171,6 +189,9 @@ def forecast_series(y: pd.Series, cfg: Config, steps: int):
             future_years = np.arange(int(years[-1])+1, int(years[-1])+1+steps)
             fc = slope*future_years + intercept
             method = "Linear"
+            fc, _ov = _safe_forecast(fc, ys, steps)
+            method = _ov or method
+
         else:
             res_bt = pd.DataFrame(columns=["year","actual","forecast","error"])
             scores = {"mape": np.nan, "smape": np.nan, "rmse": np.nan}
