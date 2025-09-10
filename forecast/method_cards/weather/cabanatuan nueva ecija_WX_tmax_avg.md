@@ -5,8 +5,9 @@
 **Why:** Decision ladder + backtests.
 
 **Backtest (rolling-origin):**
-- sMAPE: nan
-- MAPE: nan
+- sMAPE (%): nan
+- MAPE (bounded, 0–1): N/A
+- WAPE (%): nan
 - RMSE: nan
 
 **Forecast horizon:** 2019–2029  

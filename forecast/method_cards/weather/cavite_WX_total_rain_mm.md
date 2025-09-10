@@ -5,8 +5,9 @@
 **Why:** Decision ladder + backtests.
 
 **Backtest (rolling-origin):**
-- sMAPE: 2.382
-- MAPE: 2.354
+- sMAPE (%): 2.382
+- MAPE (bounded, 0–1): 0.024
+- WAPE (%): 2.354
 - RMSE: 0.177
 
 **Forecast horizon:** 2024–2029  

@@ -32,6 +32,33 @@ class Config:
     min_train_for_ets: int = 5
     backtest_min_train: int = 5
 
+# --- zero-safe, bounded metrics for backtests ---
+def _compute_scores_bounded(res_bt: pd.DataFrame):
+    """
+    Returns:
+      smape_pct: sMAPE in percent
+      mape_bounded: MAPE in [0,1] (each term min(|e|/max(|a|,eps), 1.0))
+      wape_pct: WAPE in percent
+      rmse: root mean squared error (units of target)
+    """
+    import numpy as np
+    if res_bt is None or res_bt.empty:
+        return {"smape_pct": np.nan, "mape_bounded": np.nan, "wape_pct": np.nan, "rmse": np.nan}
+
+    a = res_bt["actual"].astype(float).to_numpy()
+    f = res_bt["forecast"].astype(float).to_numpy()
+    e = res_bt["error"].astype(float).to_numpy()
+    eps = 1e-9
+
+    smape_pct = 100.0 * np.mean(2.0*np.abs(f-a) / (np.abs(f)+np.abs(a)+eps))
+    # bounded per-term: avoids ∞ when a=0 and caps tiny-actual explosions
+    mape_terms = np.minimum(np.abs(e) / np.maximum(np.abs(a), eps), 1.0)
+    mape_bounded = float(np.mean(mape_terms))  # 0..1 (NOT percent)
+    wape_pct = 100.0 * (np.sum(np.abs(e)) / (np.sum(np.abs(a)) + eps))
+    rmse = float(np.sqrt(np.mean(e**2)))
+    return {"smape_pct": float(smape_pct), "mape_bounded": mape_bounded, "wape_pct": float(wape_pct), "rmse": rmse}
+
+
 def load_config(path):
     import yaml
     with open(path, "r", encoding="utf-8") as f:
@@ -110,12 +137,16 @@ def forecast_series(y: pd.Series, cfg: Config, steps: int):
     if method == "ARIMA":
         fit_func = lambda train: fit_arima(train)
         fc_func = lambda m, s: fcst_arima(m, s)
-        res_bt, scores = rolling_origin_forecast(ys, fit_func, fc_func, min_train=cfg.backtest_min_train, steps=1)
+        res_bt, _ = rolling_origin_forecast(ys, fit_func, fc_func, min_train=cfg.backtest_min_train, steps=1)
+        scores = _compute_scores_bounded(res_bt)
+
         fc = fcst_arima(model, steps)
     elif method == "ETS":
         fit_func = lambda train: fit_ets(train)
         fc_func = lambda m, s: fcst_ets(m, s)
-        res_bt, scores = rolling_origin_forecast(ys, fit_func, fc_func, min_train=cfg.backtest_min_train, steps=1)
+        res_bt, _ = rolling_origin_forecast(ys, fit_func, fc_func, min_train=cfg.backtest_min_train, steps=1)
+        scores = _compute_scores_bounded(res_bt)
+
         fc = fcst_ets(model, steps)
     else:
         # Linear or Hold
@@ -224,6 +255,8 @@ def main():
                                 "variable": variable_label, "method": method})
 
         area_display = g["Area_display"].iloc[0] if "Area_display" in g.columns else str(cid)
+        mape_b = scores.get('mape_bounded', float('nan'))
+        mape_str = f"{mape_b:.3f}" if np.isfinite(mape_b) else "N/A"
         md = f"""# Method Card — {area_display} ({variable_label})
 
 **History:** {int(y.index.min())}–{int(y.index.max())} ({len(y)} points)  
@@ -231,8 +264,9 @@ def main():
 **Why:** Decision ladder + backtests.
 
 **Backtest (rolling-origin):**
-- sMAPE: {scores.get('smape', float('nan')):.3f}
-- MAPE: {scores.get('mape', float('nan')):.3f}
+- sMAPE (%): {scores.get('smape_pct', float('nan')):.3f}
+- MAPE (bounded, 0–1): {mape_str}
+- WAPE (%): {scores.get('wape_pct', float('nan')):.3f}
 - RMSE: {scores.get('rmse', float('nan')):.3f}
 
 **Forecast horizon:** {fc_years[0] if fc_years else '—'}–{fc_years[-1] if fc_years else '—'}  
@@ -240,6 +274,7 @@ def main():
 
 **Guardrails:** {'Positive-only' if positive_only else 'Unbounded'}; {'Percent-bounded [0,100]' if bounded_percent else 'Not a percent series'}.
 """
+
         card_path = pathlib.Path(args.method_cards) / f"{cid}_{variable_label}.md"
         os.makedirs(os.path.dirname(card_path), exist_ok=True)
         with open(card_path, "w", encoding="utf-8") as f:
