@@ -1,0 +1,103 @@
+Area_slug,Area_display,Region,Year,Value
+manila,Manila,NCR,2018,197174.25
+manila,Manila,NCR,2021,204369.69
+manila,Manila,NCR,2023,246232.67
+mandaluyong,Mandaluyong,NCR,2018,77146.17
+mandaluyong,Mandaluyong,NCR,2021,62352.7
+mandaluyong,Mandaluyong,NCR,2023,93875.35
+san juan,San Juan,NCR,2018,17024.55
+san juan,San Juan,NCR,2021,15840.53
+san juan,San Juan,NCR,2023,24320.15
+quezon,Quezon,Region IV-A (Calabarzon),2018,340450.04
+quezon city,Quezon City,NCR,2018,340450.04
+quezon,Quezon,Region IV-A (Calabarzon),2021,315867.49
+quezon city,Quezon City,NCR,2021,315867.49
+quezon,Quezon,Region IV-A (Calabarzon),2023,359208.8
+quezon city,Quezon City,NCR,2023,359208.8
+marikina,Marikina,NCR,2018,48538.67
+marikina,Marikina,NCR,2021,51462.72
+marikina,Marikina,NCR,2023,60399.48
+pasig,Pasig,NCR,2018,88774.66
+pasig,Pasig,NCR,2021,91036.89
+pasig,Pasig,NCR,2023,130765.02
+caloocan,Caloocan,NCR,2018,141351.28
+caloocan,Caloocan,NCR,2021,129885.82
+caloocan,Caloocan,NCR,2023,154161.91
+malabon,Malabon,NCR,2018,31750.68
+malabon,Malabon,NCR,2021,31403.2
+malabon,Malabon,NCR,2023,34270.92
+navotas,Navotas,NCR,2018,21905.68
+navotas,Navotas,NCR,2021,20510.06
+navotas,Navotas,NCR,2023,21291.41
+valenzuela,Valenzuela,NCR,2018,60113.79
+valenzuela,Valenzuela,NCR,2021,62704.85
+valenzuela,Valenzuela,NCR,2023,69892.16
+las pinas,Las Piñas,NCR,2018,77305.75
+las pinas,Las Piñas,NCR,2021,65582.27
+las pinas,Las Piñas,NCR,2023,96816.95
+muntinlupa,Muntinlupa,NCR,2018,64274.79
+muntinlupa,Muntinlupa,NCR,2021,60390.76
+muntinlupa,Muntinlupa,NCR,2023,80328.59
+paranaque,Parañaque,NCR,2018,93913.75
+paranaque,Parañaque,NCR,2021,93220.34
+paranaque,Parañaque,NCR,2023,114375.68
+pasay city,Pasay City,NCR,2018,49277.21
+pasay city,Pasay City,NCR,2021,46705.45
+pasay city,Pasay City,NCR,2023,58005.62
+makati,Makati,NCR,2018,112920.17
+makati,Makati,NCR,2021,111574.69
+makati,Makati,NCR,2023,164347.09
+pateros,Pateros,NCR,2018,6132.02
+pateros,Pateros,NCR,2021,5094.35
+pateros,Pateros,NCR,2023,7135.91
+taguig,Taguig,NCR,2018,99716.19
+taguig,Taguig,NCR,2021,99626.64
+taguig,Taguig,NCR,2023,150373.59
+aurora,Aurora,Region III (Central Luzon),2018,14727.37
+aurora,Aurora,Region III (Central Luzon),2021,15420.13
+aurora,Aurora,Region III (Central Luzon),2023,17467.09
+bataan,Bataan,Region III (Central Luzon),2018,74626.73
+bataan,Bataan,Region III (Central Luzon),2021,76371.47
+bataan,Bataan,Region III (Central Luzon),2023,83190.7
+bulacan,Bulacan,Region III (Central Luzon),2018,289140.33
+bulacan,Bulacan,Region III (Central Luzon),2021,301231.77
+bulacan,Bulacan,Region III (Central Luzon),2023,342693.71
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2018,165534.08
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2021,153064.11
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2023,194488.54
+pampanga,Pampanga,Region III (Central Luzon),2018,186598.49
+pampanga,Pampanga,Region III (Central Luzon),2021,208224.49
+pampanga,Pampanga,Region III (Central Luzon),2023,251756.6
+angeles,Angeles,Region III (Central Luzon),2018,39223.47
+angeles,Angeles,Region III (Central Luzon),2021,56827.9
+angeles,Angeles,Region III (Central Luzon),2023,69727.85
+tarlac,Tarlac,Region III (Central Luzon),2018,91533.05
+tarlac,Tarlac,Region III (Central Luzon),2021,107978.41
+tarlac,Tarlac,Region III (Central Luzon),2023,134488.68
+zambales,Zambales,Region III (Central Luzon),2018,45949.56
+zambales,Zambales,Region III (Central Luzon),2021,42752.79
+zambales,Zambales,Region III (Central Luzon),2023,53999.2
+olongapo,Olongapo,Region III (Central Luzon),2018,22265.22
+olongapo,Olongapo,Region III (Central Luzon),2021,20650.47
+olongapo,Olongapo,Region III (Central Luzon),2023,24236.46
+batangas,Batangas,Region IV-A (Calabarzon),2018,245525.68
+batangas,Batangas,Region IV-A (Calabarzon),2021,270317.58
+batangas,Batangas,Region IV-A (Calabarzon),2023,327130.55
+cavite,Cavite,Region IV-A (Calabarzon),2018,391492.64
+cavite,Cavite,Region IV-A (Calabarzon),2021,426816.26
+cavite,Cavite,Region IV-A (Calabarzon),2023,527020.97
+laguna,Laguna,Region IV-A (Calabarzon),2018,344571.35
+laguna,Laguna,Region IV-A (Calabarzon),2021,326574.32
+laguna,Laguna,Region IV-A (Calabarzon),2023,440820.18
+quezon,Quezon,Region IV-A (Calabarzon),2018,105870.62
+quezon city,Quezon City,NCR,2018,105870.62
+quezon,Quezon,Region IV-A (Calabarzon),2021,105817.25
+quezon city,Quezon City,NCR,2021,105817.25
+quezon,Quezon,Region IV-A (Calabarzon),2023,122275.35
+quezon city,Quezon City,NCR,2023,122275.35
+lucena,Lucena,Region IV-A (Calabarzon),2018,23064.57
+lucena,Lucena,Region IV-A (Calabarzon),2021,21943.32
+lucena,Lucena,Region IV-A (Calabarzon),2023,24776.36
+rizal,Rizal,Region IV-A (Calabarzon),2018,333903.8
+rizal,Rizal,Region IV-A (Calabarzon),2021,322250.62
+rizal,Rizal,Region IV-A (Calabarzon),2023,393926.36
