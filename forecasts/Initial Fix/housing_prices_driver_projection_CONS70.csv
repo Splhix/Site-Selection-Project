@@ -1,0 +1,225 @@
+Area_slug,Area_display,Region,Year,Price
+angeles,Angeles,Region III (Central Luzon),2023,3961400.0
+angeles,Angeles,Region III (Central Luzon),2024,3853053.8730790056
+angeles,Angeles,Region III (Central Luzon),2025,3895829.28315068
+angeles,Angeles,Region III (Central Luzon),2026,3937955.0788336755
+angeles,Angeles,Region III (Central Luzon),2027,3979467.055164569
+angeles,Angeles,Region III (Central Luzon),2028,4020398.1940342216
+angeles,Angeles,Region III (Central Luzon),2029,4060778.957194573
+aurora,Aurora,Region III (Central Luzon),2023,3961400.0
+aurora,Aurora,Region III (Central Luzon),2024,3853053.8730790056
+aurora,Aurora,Region III (Central Luzon),2025,3895829.28315068
+aurora,Aurora,Region III (Central Luzon),2026,3937955.0788336755
+aurora,Aurora,Region III (Central Luzon),2027,3979467.055164569
+aurora,Aurora,Region III (Central Luzon),2028,4020398.1940342216
+aurora,Aurora,Region III (Central Luzon),2029,4060778.957194573
+bataan,Bataan,Region III (Central Luzon),2023,3961400.0
+bataan,Bataan,Region III (Central Luzon),2024,3853053.8730790056
+bataan,Bataan,Region III (Central Luzon),2025,3895829.28315068
+bataan,Bataan,Region III (Central Luzon),2026,3937955.0788336755
+bataan,Bataan,Region III (Central Luzon),2027,3979467.055164569
+bataan,Bataan,Region III (Central Luzon),2028,4020398.1940342216
+bataan,Bataan,Region III (Central Luzon),2029,4060778.957194573
+batangas,Batangas,Region IV-A (Calabarzon),2023,14623750.0
+batangas,Batangas,Region IV-A (Calabarzon),2024,14264798.632027404
+batangas,Batangas,Region IV-A (Calabarzon),2025,14483203.5904334
+batangas,Batangas,Region IV-A (Calabarzon),2026,14701190.303909114
+batangas,Batangas,Region IV-A (Calabarzon),2027,14918853.710167259
+batangas,Batangas,Region IV-A (Calabarzon),2028,15136282.129098509
+batangas,Batangas,Region IV-A (Calabarzon),2029,15353557.936002526
+bulacan,Bulacan,Region III (Central Luzon),2023,2182300.0
+bulacan,Bulacan,Region III (Central Luzon),2024,2122613.0830565747
+bulacan,Bulacan,Region III (Central Luzon),2025,2146177.675725685
+bulacan,Bulacan,Region III (Central Luzon),2026,2169384.4016102212
+bulacan,Bulacan,Region III (Central Luzon),2027,2192252.979877225
+bulacan,Bulacan,Region III (Central Luzon),2028,2214801.579956804
+bulacan,Bulacan,Region III (Central Luzon),2029,2237046.9829569636
+caloocan,Caloocan,NCR,2023,4500000.0
+caloocan,Caloocan,NCR,2024,4363329.178448551
+caloocan,Caloocan,NCR,2025,4413206.013250492
+caloocan,Caloocan,NCR,2026,4463213.803774586
+caloocan,Caloocan,NCR,2027,4513359.797548447
+caloocan,Caloocan,NCR,2028,4563650.985421294
+caloocan,Caloocan,NCR,2029,4614094.119179999
+cavite,Cavite,Region IV-A (Calabarzon),2023,14623750.0
+cavite,Cavite,Region IV-A (Calabarzon),2024,14264798.632027404
+cavite,Cavite,Region IV-A (Calabarzon),2025,14483203.5904334
+cavite,Cavite,Region IV-A (Calabarzon),2026,14701190.303909114
+cavite,Cavite,Region IV-A (Calabarzon),2027,14918853.710167259
+cavite,Cavite,Region IV-A (Calabarzon),2028,15136282.129098509
+cavite,Cavite,Region IV-A (Calabarzon),2029,15353557.936002526
+laguna,Laguna,Region IV-A (Calabarzon),2023,14623750.0
+laguna,Laguna,Region IV-A (Calabarzon),2024,14264798.632027404
+laguna,Laguna,Region IV-A (Calabarzon),2025,14483203.5904334
+laguna,Laguna,Region IV-A (Calabarzon),2026,14701190.303909114
+laguna,Laguna,Region IV-A (Calabarzon),2027,14918853.710167259
+laguna,Laguna,Region IV-A (Calabarzon),2028,15136282.129098509
+laguna,Laguna,Region IV-A (Calabarzon),2029,15353557.936002526
+las pinas,Las Piñas,NCR,2023,24500000.0
+las pinas,Las Piñas,NCR,2024,23755903.304886557
+las pinas,Las Piñas,NCR,2025,24027454.961030457
+las pinas,Las Piñas,NCR,2026,24299719.598328304
+las pinas,Las Piñas,NCR,2027,24572736.675541546
+las pinas,Las Piñas,NCR,2028,24846544.25396038
+las pinas,Las Piñas,NCR,2029,25121179.09331333
+lucena,Lucena,Region IV-A (Calabarzon),2023,14623750.0
+lucena,Lucena,Region IV-A (Calabarzon),2024,14264798.632027404
+lucena,Lucena,Region IV-A (Calabarzon),2025,14483203.5904334
+lucena,Lucena,Region IV-A (Calabarzon),2026,14701190.303909114
+lucena,Lucena,Region IV-A (Calabarzon),2027,14918853.710167259
+lucena,Lucena,Region IV-A (Calabarzon),2028,15136282.129098509
+lucena,Lucena,Region IV-A (Calabarzon),2029,15353557.936002526
+makati,Makati,NCR,2023,78000000.0
+makati,Makati,NCR,2024,75631039.09310822
+makati,Makati,NCR,2025,76495570.89634186
+makati,Makati,NCR,2026,77362372.59875949
+makati,Makati,NCR,2027,78231569.82417308
+makati,Makati,NCR,2028,79103283.74730243
+makati,Makati,NCR,2029,79977631.39911999
+malabon,Malabon,NCR,2023,24500000.0
+malabon,Malabon,NCR,2024,23755903.304886557
+malabon,Malabon,NCR,2025,24027454.961030457
+malabon,Malabon,NCR,2026,24299719.598328304
+malabon,Malabon,NCR,2027,24572736.675541546
+malabon,Malabon,NCR,2028,24846544.25396038
+malabon,Malabon,NCR,2029,25121179.09331333
+mandaluyong,Mandaluyong,NCR,2023,28500000.0
+mandaluyong,Mandaluyong,NCR,2024,27634418.13017416
+mandaluyong,Mandaluyong,NCR,2025,27950304.75058645
+mandaluyong,Mandaluyong,NCR,2026,28267020.757239044
+mandaluyong,Mandaluyong,NCR,2027,28584612.051140163
+mandaluyong,Mandaluyong,NCR,2028,28903122.907668196
+mandaluyong,Mandaluyong,NCR,2029,29222596.088139996
+manila,Manila,NCR,2023,13000000.0
+manila,Manila,NCR,2024,12605173.182184704
+manila,Manila,NCR,2025,12749261.816056976
+manila,Manila,NCR,2026,12893728.766459916
+manila,Manila,NCR,2027,13038594.970695514
+manila,Manila,NCR,2028,13183880.624550404
+manila,Manila,NCR,2029,13329605.233186664
+marikina,Marikina,NCR,2023,9700000.0
+marikina,Marikina,NCR,2024,9405398.451322433
+marikina,Marikina,NCR,2025,9512910.739673283
+marikina,Marikina,NCR,2026,9620705.310358552
+marikina,Marikina,NCR,2027,9728797.785826653
+marikina,Marikina,NCR,2028,9837203.235241456
+marikina,Marikina,NCR,2029,9945936.212454665
+muntinlupa,Muntinlupa,NCR,2023,28727000.0
+muntinlupa,Muntinlupa,NCR,2024,27854523.846509233
+muntinlupa,Muntinlupa,NCR,2025,28172926.47614375
+muntinlupa,Muntinlupa,NCR,2026,28492165.09800723
+muntinlupa,Muntinlupa,NCR,2027,28812285.978705388
+muntinlupa,Muntinlupa,NCR,2028,29133333.74626611
+muntinlupa,Muntinlupa,NCR,2029,29455351.502596408
+navotas,Navotas,NCR,2023,24500000.0
+navotas,Navotas,NCR,2024,23755903.304886557
+navotas,Navotas,NCR,2025,24027454.961030457
+navotas,Navotas,NCR,2026,24299719.598328304
+navotas,Navotas,NCR,2027,24572736.675541546
+navotas,Navotas,NCR,2028,24846544.25396038
+navotas,Navotas,NCR,2029,25121179.09331333
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2023,3961400.0
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2024,3853053.8730790056
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2025,3895829.28315068
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2026,3937955.0788336755
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2027,3979467.055164569
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2028,4020398.1940342216
+nueva ecija,Nueva Ecija,Region III (Central Luzon),2029,4060778.957194573
+olongapo,Olongapo,Region III (Central Luzon),2023,3961400.0
+olongapo,Olongapo,Region III (Central Luzon),2024,3853053.8730790056
+olongapo,Olongapo,Region III (Central Luzon),2025,3895829.28315068
+olongapo,Olongapo,Region III (Central Luzon),2026,3937955.0788336755
+olongapo,Olongapo,Region III (Central Luzon),2027,3979467.055164569
+olongapo,Olongapo,Region III (Central Luzon),2028,4020398.1940342216
+olongapo,Olongapo,Region III (Central Luzon),2029,4060778.957194573
+pampanga,Pampanga,Region III (Central Luzon),2023,3961400.0
+pampanga,Pampanga,Region III (Central Luzon),2024,3853053.8730790056
+pampanga,Pampanga,Region III (Central Luzon),2025,3895829.28315068
+pampanga,Pampanga,Region III (Central Luzon),2026,3937955.0788336755
+pampanga,Pampanga,Region III (Central Luzon),2027,3979467.055164569
+pampanga,Pampanga,Region III (Central Luzon),2028,4020398.1940342216
+pampanga,Pampanga,Region III (Central Luzon),2029,4060778.957194573
+paranaque,Parañaque,NCR,2023,24500000.0
+paranaque,Parañaque,NCR,2024,23755903.304886557
+paranaque,Parañaque,NCR,2025,24027454.961030457
+paranaque,Parañaque,NCR,2026,24299719.598328304
+paranaque,Parañaque,NCR,2027,24572736.675541546
+paranaque,Parañaque,NCR,2028,24846544.25396038
+paranaque,Parañaque,NCR,2029,25121179.09331333
+pasay city,Pasay City,NCR,2023,24500000.0
+pasay city,Pasay City,NCR,2024,23755903.304886557
+pasay city,Pasay City,NCR,2025,24027454.961030457
+pasay city,Pasay City,NCR,2026,24299719.598328304
+pasay city,Pasay City,NCR,2027,24572736.675541546
+pasay city,Pasay City,NCR,2028,24846544.25396038
+pasay city,Pasay City,NCR,2029,25121179.09331333
+pasig,Pasig,NCR,2023,24500000.0
+pasig,Pasig,NCR,2024,23755903.304886557
+pasig,Pasig,NCR,2025,24027454.961030457
+pasig,Pasig,NCR,2026,24299719.598328304
+pasig,Pasig,NCR,2027,24572736.675541546
+pasig,Pasig,NCR,2028,24846544.25396038
+pasig,Pasig,NCR,2029,25121179.09331333
+pateros,Pateros,NCR,2023,24500000.0
+pateros,Pateros,NCR,2024,23755903.304886557
+pateros,Pateros,NCR,2025,24027454.961030457
+pateros,Pateros,NCR,2026,24299719.598328304
+pateros,Pateros,NCR,2027,24572736.675541546
+pateros,Pateros,NCR,2028,24846544.25396038
+pateros,Pateros,NCR,2029,25121179.09331333
+quezon,Quezon,Region IV-A (Calabarzon),2023,14623750.0
+quezon,Quezon,Region IV-A (Calabarzon),2024,14264798.632027404
+quezon,Quezon,Region IV-A (Calabarzon),2025,14483203.5904334
+quezon,Quezon,Region IV-A (Calabarzon),2026,14701190.303909114
+quezon,Quezon,Region IV-A (Calabarzon),2027,14918853.710167259
+quezon,Quezon,Region IV-A (Calabarzon),2028,15136282.129098509
+quezon,Quezon,Region IV-A (Calabarzon),2029,15353557.936002526
+quezon city,Quezon City,NCR,2023,16247500.0
+quezon city,Quezon City,NCR,2024,15754042.405965077
+quezon city,Quezon City,NCR,2025,15934125.488952748
+quezon city,Quezon City,NCR,2026,16114681.394850574
+quezon city,Quezon City,NCR,2027,16295736.291259643
+quezon city,Quezon City,NCR,2028,16477315.419029439
+quezon city,Quezon City,NCR,2029,16659443.155861564
+rizal,Rizal,Region IV-A (Calabarzon),2023,14623750.0
+rizal,Rizal,Region IV-A (Calabarzon),2024,14264798.632027404
+rizal,Rizal,Region IV-A (Calabarzon),2025,14483203.5904334
+rizal,Rizal,Region IV-A (Calabarzon),2026,14701190.303909114
+rizal,Rizal,Region IV-A (Calabarzon),2027,14918853.710167259
+rizal,Rizal,Region IV-A (Calabarzon),2028,15136282.129098509
+rizal,Rizal,Region IV-A (Calabarzon),2029,15353557.936002526
+san juan,San Juan,NCR,2023,30000000.0
+san juan,San Juan,NCR,2024,29088861.18965701
+san juan,San Juan,NCR,2025,29421373.421669945
+san juan,San Juan,NCR,2026,29754758.691830575
+san juan,San Juan,NCR,2027,30089065.316989645
+san juan,San Juan,NCR,2028,30424339.902808625
+san juan,San Juan,NCR,2029,30760627.461199995
+taguig,Taguig,NCR,2023,35000000.0
+taguig,Taguig,NCR,2024,33937004.721266516
+taguig,Taguig,NCR,2025,34324935.65861494
+taguig,Taguig,NCR,2026,34713885.140469
+taguig,Taguig,NCR,2027,35103909.53648792
+taguig,Taguig,NCR,2028,35495063.2199434
+taguig,Taguig,NCR,2029,35887398.70473333
+tarlac,Tarlac,Region III (Central Luzon),2023,5740500.0
+tarlac,Tarlac,Region III (Central Luzon),2024,5583494.663101437
+tarlac,Tarlac,Region III (Central Luzon),2025,5645480.890575675
+tarlac,Tarlac,Region III (Central Luzon),2026,5706525.75605713
+tarlac,Tarlac,Region III (Central Luzon),2027,5766681.130451913
+tarlac,Tarlac,Region III (Central Luzon),2028,5825994.80811164
+tarlac,Tarlac,Region III (Central Luzon),2029,5884510.931432182
+valenzuela,Valenzuela,NCR,2023,9200000.0
+valenzuela,Valenzuela,NCR,2024,8920584.098161483
+valenzuela,Valenzuela,NCR,2025,9022554.515978783
+valenzuela,Valenzuela,NCR,2026,9124792.66549471
+valenzuela,Valenzuela,NCR,2027,9227313.363876825
+valenzuela,Valenzuela,NCR,2028,9330130.903527979
+valenzuela,Valenzuela,NCR,2029,9433259.088101331
+zambales,Zambales,Region III (Central Luzon),2023,3961400.0
+zambales,Zambales,Region III (Central Luzon),2024,3853053.8730790056
+zambales,Zambales,Region III (Central Luzon),2025,3895829.28315068
+zambales,Zambales,Region III (Central Luzon),2026,3937955.0788336755
+zambales,Zambales,Region III (Central Luzon),2027,3979467.055164569
+zambales,Zambales,Region III (Central Luzon),2028,4020398.1940342216
+zambales,Zambales,Region III (Central Luzon),2029,4060778.957194573
