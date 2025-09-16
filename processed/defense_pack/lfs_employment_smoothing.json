@@ -1,0 +1,10 @@
+{
+  "source": "PSA Table 4, Employment Rate by Region (July 2024, Jan 2025, Apr 2025, Jul 2025)",
+  "base_definition": "Employment Rate = Employed / Labor Force, regional",
+  "construction": {
+    "base_2025": "Average of Jan/Apr/Jul 2025 regional Employment Rate",
+    "year_2024": "Use July 2024 observed value if available, else base_2025",
+    "drift": "Linear regression slope (pp/year) across 2024-07, 2025-01, 2025-04, 2025-07; shrink by 0.5; cap within +/-0.5 pp/year",
+    "caps_level": "[90, 98] for 2026\u20132029"
+  }
+}
