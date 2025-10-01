@@ -9,6 +9,8 @@ LFS_FILES = {
     "2024-04": "data/raw/Workforce/lfs_april_2024_1612512661365.csv",
     "2024-05": "data/raw/Workforce/lfs_may_2024_1523919684245.csv",
     "2024-06": "data/raw/Workforce/lfs_june_2024_712879761172.csv",
+    "2024-07": "data/raw/Workforce/lfs_july_2024_1301219798866.csv",
+    "2024-08": "data/raw/Workforce/lfs_august_2024_15378875738.csv",
 }
 
 OUT_MAIN = "lfs_city_monthly_agg_2024_BYCODE_WORKONLY.csv"
@@ -104,8 +106,8 @@ if frames:
 else:
     emp_agg = pd.DataFrame(columns=["year","month","loc_code","EMP_w","EMP_n"])
 
-# ========= ENSURE COMPLETE PANEL (Jan–Jun × all codes) =========
-months = [1,2,3,4,5,6]
+# ========= ENSURE COMPLETE PANEL (Jan–Aug × all codes) =========
+months = [1,2,3,4,5,6,7,8]
 panel = pd.MultiIndex.from_product([[2024], months, VALID_CODES],
                                    names=["year","month","loc_code"]).to_frame(index=False)
 
@@ -132,4 +134,4 @@ out = out[[
 ]]
 
 out.to_csv(OUT_MAIN, index=False)
-print(f"[OK] Saved {OUT_MAIN} with {len(out)} rows (Jan–Jun panel by work-location; no invented LF/UNEMP/POP15+)")
+print(f"[OK] Saved {OUT_MAIN} with {len(out)} rows (Jan–Aug panel by work-location; no invented LF/UNEMP/POP15+)")
