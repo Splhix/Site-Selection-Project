@@ -40,9 +40,7 @@ Notes:
 
 ### 4.1 Compute regional OHU CAGR (2015→2020)
 
-\[
-\text{CAGR\_occ}_{r,2015\to 2020} = \left( \frac{\text{OHU}_{r,2020}}{\text{OHU}_{r,2015}} \right)^{1/5} - 1
-\]
+`CAGR_occ_{r,2015→2020} = (OHU_{r,2020} / OHU_{r,2015})^(1/5) - 1`
 
 Compute once per standardized region. This is the fallback growth applied to all cities within that region.
 
@@ -50,9 +48,7 @@ Compute once per standardized region. This is the fallback growth applied to all
 
 For each city metric `X_c,2020` and its region’s growth `g_r`:
 
-\[
-X_{c,2024} = X_{c,2020} \times (1 + g_r)^4
-\]
+`X_{c,2024} = X_{c,2020} * (1 + g_r)^4`
 
 - Years forward = 4 (2020 → 2024)
 - `g_r` = `CAGR_occ_2015_2020` from PSA `T1`
