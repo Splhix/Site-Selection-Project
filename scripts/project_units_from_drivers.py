@@ -1,112 +1,122 @@
-# scripts/project_units_from_drivers.py
-import argparse, pandas as pd, numpy as np, os, re
+# scripts/project_units_from_drivers_v4.py
+import argparse, pandas as pd, numpy as np, os
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--snapshot", required=True, help="housing_units_ready_v3.csv (2020 snapshot, includes Housing_Type)")
+ap.add_argument("--snapshot", required=True, help="housing_units_ready_v3.csv (2020 base)")
 ap.add_argument("--grdp_forecast", required=False, help="forecasts/grdp_city_forecast.csv")
 ap.add_argument("--cons_forecast", required=False, help="forecasts/consumption_city_forecast.csv")
 ap.add_argument("--id-col", default="Area_slug")
-ap.add_argument("--out", required=True, help="Output CSV with projected Total_Units (and Occupied, optional)")
-ap.add_argument("--elasticity", type=float, default=0.7, help="Elasticity of supply to composite driver growth (0..1)")
-ap.add_argument("--alpha-grdp", type=float, default=0.5, help="Weight on GRDP growth (if provided)")
-ap.add_argument("--beta-cons", type=float, default=0.5, help="Weight on Consumption growth (if provided)")
-ap.add_argument("--max-annual-growth", type=float, default=0.06, help="Cap annual supply growth (e.g., 0.06 = 6%)")
-ap.add_argument("--min-annual-growth", type=float, default=0.0, help="Floor annual supply growth")
+ap.add_argument("--out", required=True)
+ap.add_argument("--elasticity", type=float, default=0.7)
+ap.add_argument("--alpha-grdp", type=float, default=0.5)
+ap.add_argument("--beta-cons", type=float, default=0.5)
+ap.add_argument("--max-annual-growth", type=float, default=0.06)
+ap.add_argument("--min-annual-growth", type=float, default=0.00)
+ap.add_argument("--lag-years", type=int, default=0, help="Lag for supply response to drivers (e.g., 1=use previous year's driver growth)")
+ap.add_argument("--occ-cap", type=float, default=None, help="Optional occupancy ceiling (e.g., 0.95)")
 args = ap.parse_args()
 
 snap = pd.read_csv(args.snapshot)
-
-# Pick totals row per city (Housing_Type like "All Types Of Building")
 mask_all = snap["Housing_Type"].astype(str).str.contains("All Types", case=False, na=False)
-totals = snap.loc[mask_all, [args.id_col, "Area_display", "Region", "Year", "Total_Units", "Occupied_Housing_Units", "Number_of_Households", "Household_Population", "avg_household_size"]].copy()
+totals = snap.loc[mask_all, [args.id_col,"Area_display","Region","Year","Total_Units","Occupied_Housing_Units"]].copy()
 
 if totals["Year"].nunique() != 1:
-    raise SystemExit("Snapshot should have a single base year per city. Found years: %s" % totals["Year"].unique())
+    raise SystemExit(f"Expected single base year; found {totals['Year'].unique()}")
 base_year = int(totals["Year"].iloc[0])
 
-# Load driver forecasts
-def tidy(fc, var_name):
-    df = pd.read_csv(fc)
-    df = df[df["type"]=="forecast"]
-    df = df[[args.id_col, "Year", "Value"]].rename(columns={"Value": f"{var_name}_level"})
-    return df.sort_values([args.id_col, "Year"])
+base = totals.rename(columns={"Total_Units":"Units","Occupied_Housing_Units":"Occupied"})
+base["occ_rate0"] = (base["Occupied"]/base["Units"]).clip(0.0,1.0)
+if args.occ_cap is not None:
+    base["occ_rate0"] = base["occ_rate0"].clip(upper=args.occ_cap)
 
-def growth_from_levels(df, var):
-    df = df.sort_values([args.id_col, "Year"])
-    df[f"{var}_growth"] = df.groupby(args.id_col)[f"{var}_level"].pct_change()
+def tidy(path):
+    if not path: return None
+    df = pd.read_csv(path)
+    # keep both history and forecast to compute growth from base onward
+    cols = [c for c in ["type", args.id_col, "Year", "Value"] if c in df.columns]
+    df = df[cols].copy()
     return df
 
-g_tidy = tidy(args.grdp_forecast, "GRDP") if args.grdp_forecast else None
-c_tidy = tidy(args.cons_forecast, "CONS") if args.cons_forecast else None
+gr = tidy(args.grdp_forecast)
+cs = tidy(args.cons_forecast)
+if gr is None and cs is None:
+    raise SystemExit("No driver files provided.")
 
-if g_tidy is not None: g_tidy = growth_from_levels(g_tidy, "GRDP")
-if c_tidy is not None: c_tidy = growth_from_levels(c_tidy, "CONS")
+# Prepare driver growth per city-year from BOTH history & forecast
+def growth_from(df, varname):
+    if df is None: 
+        return None
+    d = df.copy()
+    d = d.sort_values([args.id_col, "Year"])
+    d = d[[args.id_col,"Year","Value"]]
+    d = d.rename(columns={"Value": f"{varname}_level"})
+    d[f"{varname}_growth"] = d.groupby(args.id_col)[f"{varname}_level"].pct_change()
+    return d
 
-if g_tidy is not None and c_tidy is not None:
-    merge = pd.merge(g_tidy[[args.id_col,"Year","GRDP_growth"]],
-                     c_tidy[[args.id_col,"Year","CONS_growth"]],
-                     on=[args.id_col,"Year"], how="outer")
-elif g_tidy is not None:
-    merge = g_tidy[[args.id_col,"Year","GRDP_growth"]].copy()
-elif c_tidy is not None:
-    merge = c_tidy[[args.id_col,"Year","CONS_growth"]].copy()
+g = growth_from(gr, "GRDP")
+c = growth_from(cs, "CONS")
+
+# Merge the two (outer), so we have growth for 2021..end_year
+if g is not None and c is not None:
+    m = pd.merge(g[[args.id_col,"Year","GRDP_growth"]], c[[args.id_col,"Year","CONS_growth"]], on=[args.id_col,"Year"], how="outer")
 else:
-    raise SystemExit("No driver forecasts provided.")
+    m = g if g is not None else c
 
-# Fill initial missing growth with group median, then zeros for any residual NaNs
+# Fill missing early growth with group medians; residual NaNs -> 0
 for col in ["GRDP_growth","CONS_growth"]:
-    if col in merge.columns:
-        merge[col] = merge.groupby(args.id_col)[col].transform(lambda s: s.fillna(s.median()))
-        merge[col] = merge[col].fillna(0.0)
+    if col in m.columns:
+        m[col] = m.groupby(args.id_col)[col].transform(lambda s: s.fillna(s.median()))
+        m[col] = m[col].fillna(0.0)
 
-# Determine weights and elasticity
+# Weighted composite
 ag, bc = args.alpha_grdp, args.beta_cons
-if "GRDP_growth" not in merge.columns: ag = 0.0
-if "CONS_growth" not in merge.columns: bc = 0.0
-if ag + bc == 0:
-    raise SystemExit("All driver weights are zero; set at least one of --alpha-grdp or --beta-cons")
-# normalize weights if both > 0
+if "GRDP_growth" not in m.columns: ag = 0.0
+if "CONS_growth" not in m.columns: bc = 0.0
+if ag + bc == 0: 
+    raise SystemExit("All driver weights are zero.")
 if ag > 0 and bc > 0:
     s = ag + bc
     ag, bc = ag/s, bc/s
+m["driver_growth"] = 0.0
+if "GRDP_growth" in m.columns: m["driver_growth"] += ag*m["GRDP_growth"]
+if "CONS_growth" in m.columns: m["driver_growth"] += bc*m["CONS_growth"]
 
-# Composite driver growth
-merge["driver_growth"] = 0.0
-if "GRDP_growth" in merge.columns: merge["driver_growth"] += ag*merge["GRDP_growth"]
-if "CONS_growth" in merge.columns: merge["driver_growth"] += bc*merge["CONS_growth"]
+# Apply lag if requested
+if args.lag_years != 0:
+    m = m.sort_values([args.id_col,"Year"])
+    m["driver_growth_lagged"] = m.groupby(args.id_col)["driver_growth"].shift(args.lag_years)
+    m["driver_growth"] = m["driver_growth_lagged"].fillna(0.0)
 
-# Supply response with elasticity and caps
-merge["supply_growth"] = args.elasticity * merge["driver_growth"]
-merge["supply_growth"] = merge["supply_growth"].clip(lower=args.min_annual_growth, upper=args.max_annual_growth)
+# Convert to supply growth with caps
+m["supply_growth"] = (args.elasticity * m["driver_growth"]).clip(lower=args.min_annual_growth, upper=args.max_annual_growth)
 
-# Build projection
-first_fore_year = int(merge["Year"].min())
-if first_fore_year != base_year + 1:
-    # Insert missing intermediate years if needed?
-    # We assume forecasts start right after base.
-    pass
+# Determine projection horizon: from base+1 to last available driver year
+end_year = int(m["Year"].max())
+years = list(range(base_year, end_year+1))
 
-base = totals[[args.id_col, "Area_display", "Region", "Total_Units", "Occupied_Housing_Units"]].rename(
-    columns={"Total_Units":"Units", "Occupied_Housing_Units":"Occupied"}
-)
-base["Year"] = base_year
+# Build projection path
+rows = []
+prev = base[[args.id_col,"Units","Occupied","occ_rate0"]].copy()
+prev["Year"] = base_year
+rows.append(prev.copy())
 
-proj = base.copy()
-for yr in sorted(merge["Year"].unique()):
-    g = merge[merge["Year"]==yr][[args.id_col, "supply_growth"]]
-    prev = proj[proj["Year"]==yr-1][[args.id_col, "Units","Occupied"]]
-    step = pd.merge(prev, g, on=args.id_col, how="left")
-    # apply growth to Units; Occupied keeps baseline occupancy rate unless you want alternative logic
-    occ_rate = (step["Occupied"] / step["Units"]).fillna(0.95).clip(0.5, 1.0)
-    step["Units"] = step["Units"] * (1.0 + step["supply_growth"].fillna(0.0))
-    step["Occupied"] = (step["Units"] * occ_rate).clip(0, step["Units"])
-    step["Year"] = yr
-    step = step[[args.id_col, "Year", "Units", "Occupied"]]
-    proj = pd.concat([proj, step], ignore_index=True)
+growth_dict = m.set_index([args.id_col,"Year"])["supply_growth"].to_dict()
 
-# Attach labels and export
-proj = proj.merge(totals[[args.id_col,"Area_display","Region"]].drop_duplicates(args.id_col), on=args.id_col, how="left")
-proj = proj.sort_values([args.id_col, "Year"]).reset_index(drop=True)
+for yr in range(base_year+1, end_year+1):
+    p = rows[-1][[args.id_col,"Units","occ_rate0"]].rename(columns={"Units":"Units_prev"})
+    p["Year"] = yr
+    p["supply_growth"] = p.apply(lambda r: growth_dict.get((r[args.id_col], yr), 0.0), axis=1)
+    p["Units"] = p["Units_prev"] * (1.0 + p["supply_growth"])
+    occ_rate = p["occ_rate0"]
+    if args.occ_cap is not None:
+        occ_rate = occ_rate.clip(upper=args.occ_cap)
+    p["Occupied"] = (p["Units"] * occ_rate).clip(0, p["Units"])
+    rows.append(p[[args.id_col,"Year","Units","Occupied","occ_rate0"]])
+
+proj = pd.concat(rows, ignore_index=True)
+proj = proj.merge(base[[args.id_col,"Area_display","Region"]], on=args.id_col, how="left")
+proj = proj.sort_values([args.id_col,"Year"]).reset_index(drop=True)
+
 os.makedirs(os.path.dirname(args.out), exist_ok=True)
 proj.to_csv(args.out, index=False)
-print(f"Wrote {args.out}")
+print(f"Wrote {args.out} with years {base_year}..{end_year}, lag={args.lag_years}, cities={proj[args.id_col].nunique()}")
