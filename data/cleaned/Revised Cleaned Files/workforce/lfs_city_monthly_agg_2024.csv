@@ -1,513 +1,402 @@
-year,month,loc_code,Region,Province,City,city_raw,EMP_w,EMP_n,UNEMP_w,LF_w,POP15p_w,UNEMP_n,LF_n,POP15p_n
-2024,1,7501,NCR,NCR,Caloocan City,Caloocan City,466093,2004,,,,,,
-2024,1,NA,NCR,NCR,City of Manila,City of Manila,1003410,3763,,,,,,
-2024,1,3901,NCR,NCR,City of Manila,City of Manila,259445,920,,,,,,
-2024,1,3902,NCR,NCR,City of Manila,City of Manila,60064,293,,,,,,
-2024,1,3903,NCR,NCR,City of Manila,City of Manila,46829,182,,,,,,
-2024,1,3904,NCR,NCR,City of Manila,City of Manila,12993,44,,,,,,
-2024,1,3905,NCR,NCR,City of Manila,City of Manila,117110,408,,,,,,
-2024,1,3906,NCR,NCR,City of Manila,City of Manila,146627,527,,,,,,
-2024,1,3907,NCR,NCR,City of Manila,City of Manila,14311,54,,,,,,
-2024,1,3908,NCR,NCR,City of Manila,City of Manila,56008,232,,,,,,
-2024,1,3909,NCR,NCR,City of Manila,City of Manila,28208,149,,,,,,
-2024,1,3910,NCR,NCR,City of Manila,City of Manila,103182,397,,,,,,
-2024,1,3911,NCR,NCR,City of Manila,City of Manila,36422,124,,,,,,
-2024,1,3912,NCR,NCR,City of Manila,City of Manila,16695,67,,,,,,
-2024,1,3913,NCR,NCR,City of Manila,City of Manila,47024,172,,,,,,
-2024,1,3914,NCR,NCR,City of Manila,City of Manila,58493,194,,,,,,
-2024,1,7601,NCR,NCR,Las Pinas City,Las Piñas City,227117,1925,,,,,,
-2024,1,7602,NCR,NCR,Makati City,Makati City,711049,3794,,,,,,
-2024,1,7502,NCR,NCR,Malabon City,Malabon City,123339,1903,,,,,,
-2024,1,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,281088,2321,,,,,,
-2024,1,7402,NCR,NCR,Marikina City,Marikina City,198056,1858,,,,,,
-2024,1,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,322227,2630,,,,,,
-2024,1,7503,NCR,NCR,Navotas City,Navotas City,73256,1917,,,,,,
-2024,1,7604,NCR,NCR,Paranaque City,Parañaque City,394815,2766,,,,,,
-2024,1,7605,NCR,NCR,Pasay City,Pasay City,330464,2527,,,,,,
-2024,1,7403,NCR,NCR,Pasig City,Pasig City,535667,2814,,,,,,
-2024,1,7404,NCR,NCR,Quezon City,Quezon City,1754776,5036,,,,,,
-2024,1,7405,NCR,NCR,San Juan City,San Juan City,62969,648,,,,,,
-2024,1,7607,NCR,NCR,Taguig City,Taguig City,642038,3463,,,,,,
-2024,1,7504,NCR,NCR,Valenzuela City,Valenzuela City,271961,2210,,,,,,
-2024,1,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,49383,335,,,,,,
-2024,1,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,78278,149,,,,,,
-2024,1,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,88182,192,,,,,,
-2024,1,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,180825,303,,,,,,
-2024,1,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,181003,468,,,,,,
-2024,1,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,44153,120,,,,,,
-2024,1,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,21598,53,,,,,,
-2024,1,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,105766,272,,,,,,
-2024,1,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,61975,170,,,,,,
-2024,1,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,335532,2991,,,,,,
-2024,1,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,134003,524,,,,,,
-2024,1,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,158414,500,,,,,,
-2024,1,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,198515,744,,,,,,
-2024,1,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,120200,2523,,,,,,
-2024,1,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,163479,369,,,,,,
-2024,1,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,266721,547,,,,,,
-2024,1,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,69464,143,,,,,,
-2024,1,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,249725,391,,,,,,
-2024,1,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,38378,118,,,,,,
-2024,1,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,40316,73,,,,,,
-2024,1,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,231596,344,,,,,,
-2024,1,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,187723,247,,,,,,
-2024,1,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,140805,202,,,,,,
-2024,1,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,40741,84,,,,,,
-2024,1,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,93654,117,,,,,,
-2024,1,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,224967,423,,,,,,
-2024,1,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,115022,243,,,,,,
-2024,1,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,331233,654,,,,,,
-2024,1,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,114307,217,,,,,,
-2024,1,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,89660,194,,,,,,
-2024,1,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,198385,392,,,,,,
-2024,1,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,119118,1542,,,,,,
-2024,1,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,46322,142,,,,,,
-2024,1,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,296813,622,,,,,,
-2024,2,7501,NCR,NCR,Caloocan City,Caloocan City,541479,144,,,,,,
-2024,2,NA,NCR,NCR,City of Manila,City of Manila,736978,201,,,,,,
-2024,2,3901,NCR,NCR,City of Manila,City of Manila,216294,57,,,,,,
-2024,2,3902,NCR,NCR,City of Manila,City of Manila,56449,13,,,,,,
-2024,2,3903,NCR,NCR,City of Manila,City of Manila,25330,10,,,,,,
-2024,2,3904,NCR,NCR,City of Manila,City of Manila,,,,,,,,
-2024,2,3905,NCR,NCR,City of Manila,City of Manila,78940,23,,,,,,
-2024,2,3906,NCR,NCR,City of Manila,City of Manila,56350,14,,,,,,
-2024,2,3907,NCR,NCR,City of Manila,City of Manila,3073,2,,,,,,
-2024,2,3908,NCR,NCR,City of Manila,City of Manila,19898,9,,,,,,
-2024,2,3909,NCR,NCR,City of Manila,City of Manila,15282,3,,,,,,
-2024,2,3910,NCR,NCR,City of Manila,City of Manila,80976,24,,,,,,
-2024,2,3911,NCR,NCR,City of Manila,City of Manila,130939,29,,,,,,
-2024,2,3912,NCR,NCR,City of Manila,City of Manila,34063,7,,,,,,
-2024,2,3913,NCR,NCR,City of Manila,City of Manila,3065,3,,,,,,
-2024,2,3914,NCR,NCR,City of Manila,City of Manila,16319,7,,,,,,
-2024,2,7601,NCR,NCR,Las Pinas City,Las Piñas City,205736,126,,,,,,
-2024,2,7602,NCR,NCR,Makati City,Makati City,682679,234,,,,,,
-2024,2,7502,NCR,NCR,Malabon City,Malabon City,124415,126,,,,,,
-2024,2,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,245405,102,,,,,,
-2024,2,7402,NCR,NCR,Marikina City,Marikina City,244003,116,,,,,,
-2024,2,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,317101,179,,,,,,
-2024,2,7503,NCR,NCR,Navotas City,Navotas City,103301,160,,,,,,
-2024,2,7604,NCR,NCR,Paranaque City,Parañaque City,476213,178,,,,,,
-2024,2,7605,NCR,NCR,Pasay City,Pasay City,328318,181,,,,,,
-2024,2,7403,NCR,NCR,Pasig City,Pasig City,501976,201,,,,,,
-2024,2,7404,NCR,NCR,Quezon City,Quezon City,1694714,319,,,,,,
-2024,2,7405,NCR,NCR,San Juan City,San Juan City,71916,41,,,,,,
-2024,2,7607,NCR,NCR,Taguig City,Taguig City,694566,242,,,,,,
-2024,2,7504,NCR,NCR,Valenzuela City,Valenzuela City,290431,162,,,,,,
-2024,2,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,19449,8,,,,,,
-2024,2,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,1776,1,,,,,,
-2024,2,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,3150,1,,,,,,
-2024,2,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,11343,3,,,,,,
-2024,2,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,290236,37,,,,,,
-2024,2,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,,,,,,,,
-2024,2,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,,,,,,,
-2024,2,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,199645,28,,,,,,
-2024,2,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,,,,,,,,
-2024,2,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,309406,193,,,,,,
-2024,2,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,75267,26,,,,,,
-2024,2,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,360359,67,,,,,,
-2024,2,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,132197,46,,,,,,
-2024,2,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,111825,127,,,,,,
-2024,2,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,39086,9,,,,,,
-2024,2,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,237207,32,,,,,,
-2024,2,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,126685,14,,,,,,
-2024,2,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,276847,24,,,,,,
-2024,2,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,260477,25,,,,,,
-2024,2,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,103904,10,,,,,,
-2024,2,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,289026,23,,,,,,
-2024,2,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,6960,1,,,,,,
-2024,2,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,52332,7,,,,,,
-2024,2,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,8748,4,,,,,,
-2024,2,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,22880,2,,,,,,
-2024,2,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,280018,34,,,,,,
-2024,2,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,83334,11,,,,,,
-2024,2,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,54588,10,,,,,,
-2024,2,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,1874,1,,,,,,
-2024,2,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,15072,2,,,,,,
-2024,2,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,220926,26,,,,,,
-2024,2,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,120983,110,,,,,,
-2024,2,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,106270,20,,,,,,
-2024,2,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,442876,58,,,,,,
-2024,3,7501,NCR,NCR,Caloocan City,Caloocan City,457025,143,,,,,,
-2024,3,NA,NCR,NCR,City of Manila,City of Manila,857379,210,,,,,,
-2024,3,3901,NCR,NCR,City of Manila,City of Manila,316625,69,,,,,,
-2024,3,3902,NCR,NCR,City of Manila,City of Manila,65055,20,,,,,,
-2024,3,3903,NCR,NCR,City of Manila,City of Manila,38890,12,,,,,,
-2024,3,3904,NCR,NCR,City of Manila,City of Manila,1232,1,,,,,,
-2024,3,3905,NCR,NCR,City of Manila,City of Manila,79685,20,,,,,,
-2024,3,3906,NCR,NCR,City of Manila,City of Manila,212781,44,,,,,,
-2024,3,3907,NCR,NCR,City of Manila,City of Manila,11897,2,,,,,,
-2024,3,3908,NCR,NCR,City of Manila,City of Manila,28230,7,,,,,,
-2024,3,3909,NCR,NCR,City of Manila,City of Manila,32443,11,,,,,,
-2024,3,3910,NCR,NCR,City of Manila,City of Manila,36810,10,,,,,,
-2024,3,3911,NCR,NCR,City of Manila,City of Manila,1144,1,,,,,,
-2024,3,3912,NCR,NCR,City of Manila,City of Manila,6613,1,,,,,,
-2024,3,3913,NCR,NCR,City of Manila,City of Manila,20803,8,,,,,,
-2024,3,3914,NCR,NCR,City of Manila,City of Manila,5169,4,,,,,,
-2024,3,7601,NCR,NCR,Las Pinas City,Las Piñas City,204184,108,,,,,,
-2024,3,7602,NCR,NCR,Makati City,Makati City,577315,190,,,,,,
-2024,3,7502,NCR,NCR,Malabon City,Malabon City,130316,124,,,,,,
-2024,3,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,368114,174,,,,,,
-2024,3,7402,NCR,NCR,Marikina City,Marikina City,159435,111,,,,,,
-2024,3,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,300885,128,,,,,,
-2024,3,7503,NCR,NCR,Navotas City,Navotas City,69378,137,,,,,,
-2024,3,7604,NCR,NCR,Paranaque City,Parañaque City,292501,126,,,,,,
-2024,3,7605,NCR,NCR,Pasay City,Pasay City,277655,159,,,,,,
-2024,3,7403,NCR,NCR,Pasig City,Pasig City,592824,173,,,,,,
-2024,3,7404,NCR,NCR,Quezon City,Quezon City,2072558,422,,,,,,
-2024,3,7405,NCR,NCR,San Juan City,San Juan City,50782,53,,,,,,
-2024,3,7607,NCR,NCR,Taguig City,Taguig City,690574,228,,,,,,
-2024,3,7504,NCR,NCR,Valenzuela City,Valenzuela City,267922,159,,,,,,
-2024,3,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,165968,76,,,,,,
-2024,3,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,55234,5,,,,,,
-2024,3,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,219560,27,,,,,,
-2024,3,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,189584,20,,,,,,
-2024,3,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,71227,10,,,,,,
-2024,3,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,,,,,,,,
-2024,3,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,,,,,,,
-2024,3,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,23386,4,,,,,,
-2024,3,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,,,,,,,,
-2024,3,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,388362,192,,,,,,
-2024,3,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,33511,12,,,,,,
-2024,3,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,143699,31,,,,,,
-2024,3,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,41266,8,,,,,,
-2024,3,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,137042,170,,,,,,
-2024,3,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,130336,20,,,,,,
-2024,3,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,477998,59,,,,,,
-2024,3,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,391035,50,,,,,,
-2024,3,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,33132,7,,,,,,
-2024,3,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,16031,6,,,,,,
-2024,3,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,33287,7,,,,,,
-2024,3,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,377230,38,,,,,,
-2024,3,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,396776,34,,,,,,
-2024,3,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,251551,24,,,,,,
-2024,3,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,5509,2,,,,,,
-2024,3,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,,,,,,,,
-2024,3,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,58535,11,,,,,,
-2024,3,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,198922,25,,,,,,
-2024,3,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,84727,14,,,,,,
-2024,3,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,246814,31,,,,,,
-2024,3,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,9990,2,,,,,,
-2024,3,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,407843,52,,,,,,
-2024,3,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,142492,111,,,,,,
-2024,3,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,12493,3,,,,,,
-2024,3,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,254426,41,,,,,,
-2024,4,7501,NCR,NCR,Caloocan City,Caloocan City,409008,477,,,,,,
-2024,4,NA,NCR,NCR,City of Manila,City of Manila,871315,915,,,,,,
-2024,4,3901,NCR,NCR,City of Manila,City of Manila,252348,248,,,,,,
-2024,4,3902,NCR,NCR,City of Manila,City of Manila,62037,77,,,,,,
-2024,4,3903,NCR,NCR,City of Manila,City of Manila,23759,36,,,,,,
-2024,4,3904,NCR,NCR,City of Manila,City of Manila,14956,15,,,,,,
-2024,4,3905,NCR,NCR,City of Manila,City of Manila,62584,73,,,,,,
-2024,4,3906,NCR,NCR,City of Manila,City of Manila,130681,135,,,,,,
-2024,4,3907,NCR,NCR,City of Manila,City of Manila,11231,12,,,,,,
-2024,4,3908,NCR,NCR,City of Manila,City of Manila,46367,48,,,,,,
-2024,4,3909,NCR,NCR,City of Manila,City of Manila,28529,29,,,,,,
-2024,4,3910,NCR,NCR,City of Manila,City of Manila,55745,74,,,,,,
-2024,4,3911,NCR,NCR,City of Manila,City of Manila,27833,22,,,,,,
-2024,4,3912,NCR,NCR,City of Manila,City of Manila,18822,19,,,,,,
-2024,4,3913,NCR,NCR,City of Manila,City of Manila,43602,48,,,,,,
-2024,4,3914,NCR,NCR,City of Manila,City of Manila,92823,79,,,,,,
-2024,4,7601,NCR,NCR,Las Pinas City,Las Piñas City,212738,489,,,,,,
-2024,4,7602,NCR,NCR,Makati City,Makati City,756406,1054,,,,,,
-2024,4,7502,NCR,NCR,Malabon City,Malabon City,135021,434,,,,,,
-2024,4,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,287106,502,,,,,,
-2024,4,7402,NCR,NCR,Marikina City,Marikina City,246389,545,,,,,,
-2024,4,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,369340,704,,,,,,
-2024,4,7503,NCR,NCR,Navotas City,Navotas City,73111,501,,,,,,
-2024,4,7604,NCR,NCR,Paranaque City,Parañaque City,401743,721,,,,,,
-2024,4,7605,NCR,NCR,Pasay City,Pasay City,324293,630,,,,,,
-2024,4,7403,NCR,NCR,Pasig City,Pasig City,525749,692,,,,,,
-2024,4,7404,NCR,NCR,Quezon City,Quezon City,1799038,1391,,,,,,
-2024,4,7405,NCR,NCR,San Juan City,San Juan City,66331,189,,,,,,
-2024,4,7607,NCR,NCR,Taguig City,Taguig City,624428,911,,,,,,
-2024,4,7504,NCR,NCR,Valenzuela City,Valenzuela City,255039,485,,,,,,
-2024,4,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,71153,123,,,,,,
-2024,4,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,133642,65,,,,,,
-2024,4,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,47536,31,,,,,,
-2024,4,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,152646,72,,,,,,
-2024,4,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,188323,117,,,,,,
-2024,4,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,130581,66,,,,,,
-2024,4,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,3005,2,,,,,,
-2024,4,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,42074,28,,,,,,
-2024,4,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,16569,8,,,,,,
-2024,4,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,362663,781,,,,,,
-2024,4,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,99587,103,,,,,,
-2024,4,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,257887,188,,,,,,
-2024,4,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,196456,224,,,,,,
-2024,4,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,143824,748,,,,,,
-2024,4,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,65890,40,,,,,,
-2024,4,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,171284,97,,,,,,
-2024,4,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,94180,49,,,,,,
-2024,4,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,139484,53,,,,,,
-2024,4,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,6261,8,,,,,,
-2024,4,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,170558,56,,,,,,
-2024,4,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,137130,64,,,,,,
-2024,4,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,117380,43,,,,,,
-2024,4,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,260718,104,,,,,,
-2024,4,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,25469,16,,,,,,
-2024,4,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,10317,4,,,,,,
-2024,4,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,58634,38,,,,,,
-2024,4,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,258481,131,,,,,,
-2024,4,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,250197,132,,,,,,
-2024,4,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,166006,79,,,,,,
-2024,4,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,194384,99,,,,,,
-2024,4,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,180404,94,,,,,,
-2024,4,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,118581,393,,,,,,
-2024,4,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,4507,8,,,,,,
-2024,4,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,364130,212,,,,,,
-2024,5,7501,NCR,NCR,Caloocan City,Caloocan City,464020,132,,,,,,
-2024,5,NA,NCR,NCR,City of Manila,City of Manila,900296,218,,,,,,
-2024,5,3901,NCR,NCR,City of Manila,City of Manila,318462,70,,,,,,
-2024,5,3902,NCR,NCR,City of Manila,City of Manila,63129,16,,,,,,
-2024,5,3903,NCR,NCR,City of Manila,City of Manila,2645,1,,,,,,
-2024,5,3904,NCR,NCR,City of Manila,City of Manila,,,,,,,,
-2024,5,3905,NCR,NCR,City of Manila,City of Manila,119170,30,,,,,,
-2024,5,3906,NCR,NCR,City of Manila,City of Manila,163866,38,,,,,,
-2024,5,3907,NCR,NCR,City of Manila,City of Manila,1908,1,,,,,,
-2024,5,3908,NCR,NCR,City of Manila,City of Manila,131480,28,,,,,,
-2024,5,3909,NCR,NCR,City of Manila,City of Manila,21150,8,,,,,,
-2024,5,3910,NCR,NCR,City of Manila,City of Manila,18015,9,,,,,,
-2024,5,3911,NCR,NCR,City of Manila,City of Manila,12301,5,,,,,,
-2024,5,3912,NCR,NCR,City of Manila,City of Manila,43578,10,,,,,,
-2024,5,3913,NCR,NCR,City of Manila,City of Manila,1348,1,,,,,,
-2024,5,3914,NCR,NCR,City of Manila,City of Manila,3244,1,,,,,,
-2024,5,7601,NCR,NCR,Las Pinas City,Las Piñas City,224541,118,,,,,,
-2024,5,7602,NCR,NCR,Makati City,Makati City,704804,201,,,,,,
-2024,5,7502,NCR,NCR,Malabon City,Malabon City,136389,141,,,,,,
-2024,5,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,285556,164,,,,,,
-2024,5,7402,NCR,NCR,Marikina City,Marikina City,224788,118,,,,,,
-2024,5,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,267461,155,,,,,,
-2024,5,7503,NCR,NCR,Navotas City,Navotas City,107786,184,,,,,,
-2024,5,7604,NCR,NCR,Paranaque City,Parañaque City,386271,145,,,,,,
-2024,5,7605,NCR,NCR,Pasay City,Pasay City,349782,177,,,,,,
-2024,5,7403,NCR,NCR,Pasig City,Pasig City,551262,194,,,,,,
-2024,5,7404,NCR,NCR,Quezon City,Quezon City,1819734,322,,,,,,
-2024,5,7405,NCR,NCR,San Juan City,San Juan City,88894,50,,,,,,
-2024,5,7607,NCR,NCR,Taguig City,Taguig City,613455,214,,,,,,
-2024,5,7504,NCR,NCR,Valenzuela City,Valenzuela City,261587,121,,,,,,
-2024,5,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,8834,4,,,,,,
-2024,5,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,293697,33,,,,,,
-2024,5,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,231944,30,,,,,,
-2024,5,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,8366,2,,,,,,
-2024,5,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,156387,22,,,,,,
-2024,5,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,5685,1,,,,,,
-2024,5,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,,,,,,,
-2024,5,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,,,,,,,,
-2024,5,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,,,,,,,,
-2024,5,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,336089,221,,,,,,
-2024,5,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,52446,15,,,,,,
-2024,5,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,201482,39,,,,,,
-2024,5,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,41615,11,,,,,,
-2024,5,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,126784,165,,,,,,
-2024,5,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,10473,3,,,,,,
-2024,5,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,41573,5,,,,,,
-2024,5,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,142111,17,,,,,,
-2024,5,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,33543,7,,,,,,
-2024,5,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,17462,5,,,,,,
-2024,5,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,22670,4,,,,,,
-2024,5,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,377091,32,,,,,,
-2024,5,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,358341,30,,,,,,
-2024,5,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,168725,16,,,,,,
-2024,5,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,20174,2,,,,,,
-2024,5,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,192905,17,,,,,,
-2024,5,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,162531,28,,,,,,
-2024,5,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,287932,41,,,,,,
-2024,5,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,316255,45,,,,,,
-2024,5,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,17562,4,,,,,,
-2024,5,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,8186,2,,,,,,
-2024,5,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,189986,23,,,,,,
-2024,5,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,124408,100,,,,,,
-2024,5,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,1366,1,,,,,,
-2024,5,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,246831,32,,,,,,
-2024,6,7501,NCR,NCR,Caloocan City,Caloocan City,402897,107,,,,,,
-2024,6,NA,NCR,NCR,City of Manila,City of Manila,730400,166,,,,,,
-2024,6,3901,NCR,NCR,City of Manila,City of Manila,187608,43,,,,,,
-2024,6,3902,NCR,NCR,City of Manila,City of Manila,39339,15,,,,,,
-2024,6,3903,NCR,NCR,City of Manila,City of Manila,15798,6,,,,,,
-2024,6,3904,NCR,NCR,City of Manila,City of Manila,65585,7,,,,,,
-2024,6,3905,NCR,NCR,City of Manila,City of Manila,93763,18,,,,,,
-2024,6,3906,NCR,NCR,City of Manila,City of Manila,145977,30,,,,,,
-2024,6,3907,NCR,NCR,City of Manila,City of Manila,3074,2,,,,,,
-2024,6,3908,NCR,NCR,City of Manila,City of Manila,60989,12,,,,,,
-2024,6,3909,NCR,NCR,City of Manila,City of Manila,12159,5,,,,,,
-2024,6,3910,NCR,NCR,City of Manila,City of Manila,43877,14,,,,,,
-2024,6,3911,NCR,NCR,City of Manila,City of Manila,43365,8,,,,,,
-2024,6,3912,NCR,NCR,City of Manila,City of Manila,,,,,,,,
-2024,6,3913,NCR,NCR,City of Manila,City of Manila,8029,3,,,,,,
-2024,6,3914,NCR,NCR,City of Manila,City of Manila,10836,3,,,,,,
-2024,6,7601,NCR,NCR,Las Pinas City,Las Piñas City,188571,96,,,,,,
-2024,6,7602,NCR,NCR,Makati City,Makati City,603367,222,,,,,,
-2024,6,7502,NCR,NCR,Malabon City,Malabon City,102784,90,,,,,,
-2024,6,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,349382,173,,,,,,
-2024,6,7402,NCR,NCR,Marikina City,Marikina City,173775,115,,,,,,
-2024,6,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,449010,157,,,,,,
-2024,6,7503,NCR,NCR,Navotas City,Navotas City,80171,147,,,,,,
-2024,6,7604,NCR,NCR,Paranaque City,Parañaque City,408066,142,,,,,,
-2024,6,7605,NCR,NCR,Pasay City,Pasay City,340270,178,,,,,,
-2024,6,7403,NCR,NCR,Pasig City,Pasig City,526636,220,,,,,,
-2024,6,7404,NCR,NCR,Quezon City,Quezon City,1920359,331,,,,,,
-2024,6,7405,NCR,NCR,San Juan City,San Juan City,41106,17,,,,,,
-2024,6,7607,NCR,NCR,Taguig City,Taguig City,664218,192,,,,,,
-2024,6,7504,NCR,NCR,Valenzuela City,Valenzuela City,276732,135,,,,,,
-2024,6,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,97360,49,,,,,,
-2024,6,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,52480,8,,,,,,
-2024,6,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,25318,5,,,,,,
-2024,6,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,395608,44,,,,,,
-2024,6,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,233572,29,,,,,,
-2024,6,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,9703,1,,,,,,
-2024,6,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,,,,,,,
-2024,6,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,,,,,,,,
-2024,6,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,510676,68,,,,,,
-2024,6,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,345196,227,,,,,,
-2024,6,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,361042,65,,,,,,
-2024,6,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,263162,52,,,,,,
-2024,6,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,35510,8,,,,,,
-2024,6,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,134352,187,,,,,,
-2024,6,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,235574,26,,,,,,
-2024,6,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,262601,30,,,,,,
-2024,6,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,37640,4,,,,,,
-2024,6,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,8146,4,,,,,,
-2024,6,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,25975,7,,,,,,
-2024,6,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,389395,21,,,,,,
-2024,6,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,85536,13,,,,,,
-2024,6,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,453262,60,,,,,,
-2024,6,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,20944,3,,,,,,
-2024,6,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,,,,,,,,
-2024,6,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,,,,,,,,
-2024,6,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,479378,62,,,,,,
-2024,6,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,369423,44,,,,,,
-2024,6,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,132699,20,,,,,,
-2024,6,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,,,,,,,,
-2024,6,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,9328,2,,,,,,
-2024,6,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,305301,41,,,,,,
-2024,6,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,104485,92,,,,,,
-2024,6,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,306263,35,,,,,,
-2024,6,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,490210,68,,,,,,
-2024,7,7501,NCR,NCR,Caloocan City,Caloocan City,446730,516,,,,,,
-2024,7,NA,NCR,NCR,City of Manila,City of Manila,901567,883,,,,,,
-2024,7,3901,NCR,NCR,City of Manila,City of Manila,249680,231,,,,,,
-2024,7,3902,NCR,NCR,City of Manila,City of Manila,55742,69,,,,,,
-2024,7,3903,NCR,NCR,City of Manila,City of Manila,37158,46,,,,,,
-2024,7,3904,NCR,NCR,City of Manila,City of Manila,3294,4,,,,,,
-2024,7,3905,NCR,NCR,City of Manila,City of Manila,89039,84,,,,,,
-2024,7,3906,NCR,NCR,City of Manila,City of Manila,187008,154,,,,,,
-2024,7,3907,NCR,NCR,City of Manila,City of Manila,11978,14,,,,,,
-2024,7,3908,NCR,NCR,City of Manila,City of Manila,44078,48,,,,,,
-2024,7,3909,NCR,NCR,City of Manila,City of Manila,46616,54,,,,,,
-2024,7,3910,NCR,NCR,City of Manila,City of Manila,88809,91,,,,,,
-2024,7,3911,NCR,NCR,City of Manila,City of Manila,14529,16,,,,,,
-2024,7,3912,NCR,NCR,City of Manila,City of Manila,36569,31,,,,,,
-2024,7,3913,NCR,NCR,City of Manila,City of Manila,21439,22,,,,,,
-2024,7,3914,NCR,NCR,City of Manila,City of Manila,15626,19,,,,,,
-2024,7,7601,NCR,NCR,Las Pinas City,Las Piñas City,219596,415,,,,,,
-2024,7,7602,NCR,NCR,Makati City,Makati City,580118,808,,,,,,
-2024,7,7502,NCR,NCR,Malabon City,Malabon City,114664,461,,,,,,
-2024,7,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,306771,547,,,,,,
-2024,7,7402,NCR,NCR,Marikina City,Marikina City,187823,557,,,,,,
-2024,7,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,253449,525,,,,,,
-2024,7,7503,NCR,NCR,Navotas City,Navotas City,78299,503,,,,,,
-2024,7,7604,NCR,NCR,Paranaque City,Parañaque City,413374,716,,,,,,
-2024,7,7605,NCR,NCR,Pasay City,Pasay City,348800,738,,,,,,
-2024,7,7403,NCR,NCR,Pasig City,Pasig City,556327,788,,,,,,
-2024,7,7404,NCR,NCR,Quezon City,Quezon City,1751465,1229,,,,,,
-2024,7,7405,NCR,NCR,San Juan City,San Juan City,50925,119,,,,,,
-2024,7,7607,NCR,NCR,Taguig City,Taguig City,679258,887,,,,,,
-2024,7,7504,NCR,NCR,Valenzuela City,Valenzuela City,268907,561,,,,,,
-2024,7,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,44683,77,,,,,,
-2024,7,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,18368,13,,,,,,
-2024,7,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,111845,51,,,,,,
-2024,7,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,389772,169,,,,,,
-2024,7,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,195364,104,,,,,,
-2024,7,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,5120,4,,,,,,
-2024,7,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,2653,2,,,,,,
-2024,7,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,1465,1,,,,,,
-2024,7,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,10749,6,,,,,,
-2024,7,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,350271,748,,,,,,
-2024,7,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,200897,169,,,,,,
-2024,7,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,188566,131,,,,,,
-2024,7,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,179828,187,,,,,,
-2024,7,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,137421,675,,,,,,
-2024,7,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,204280,111,,,,,,
-2024,7,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,139392,71,,,,,,
-2024,7,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,14365,7,,,,,,
-2024,7,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,298827,89,,,,,,
-2024,7,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,100595,60,,,,,,
-2024,7,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,34246,13,,,,,,
-2024,7,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,168915,75,,,,,,
-2024,7,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,69492,31,,,,,,
-2024,7,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,174154,72,,,,,,
-2024,7,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,52601,25,,,,,,
-2024,7,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,37054,16,,,,,,
-2024,7,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,291657,128,,,,,,
-2024,7,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,94890,54,,,,,,
-2024,7,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,362251,167,,,,,,
-2024,7,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,86162,43,,,,,,
-2024,7,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,23967,22,,,,,,
-2024,7,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,164982,85,,,,,,
-2024,7,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,137601,432,,,,,,
-2024,7,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,52237,33,,,,,,
-2024,7,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,254499,170,,,,,,
-2024,8,7501,NCR,NCR,Caloocan City,Caloocan City,559353,152,,,,,,
-2024,8,NA,NCR,NCR,City of Manila,City of Manila,827307,211,,,,,,
-2024,8,3901,NCR,NCR,City of Manila,City of Manila,177280,49,,,,,,
-2024,8,3902,NCR,NCR,City of Manila,City of Manila,67879,18,,,,,,
-2024,8,3903,NCR,NCR,City of Manila,City of Manila,18145,5,,,,,,
-2024,8,3904,NCR,NCR,City of Manila,City of Manila,3413,3,,,,,,
-2024,8,3905,NCR,NCR,City of Manila,City of Manila,39084,11,,,,,,
-2024,8,3906,NCR,NCR,City of Manila,City of Manila,317607,70,,,,,,
-2024,8,3907,NCR,NCR,City of Manila,City of Manila,8906,2,,,,,,
-2024,8,3908,NCR,NCR,City of Manila,City of Manila,48335,13,,,,,,
-2024,8,3909,NCR,NCR,City of Manila,City of Manila,27157,7,,,,,,
-2024,8,3910,NCR,NCR,City of Manila,City of Manila,67980,19,,,,,,
-2024,8,3911,NCR,NCR,City of Manila,City of Manila,27672,5,,,,,,
-2024,8,3912,NCR,NCR,City of Manila,City of Manila,4165,1,,,,,,
-2024,8,3913,NCR,NCR,City of Manila,City of Manila,17990,5,,,,,,
-2024,8,3914,NCR,NCR,City of Manila,City of Manila,1692,3,,,,,,
-2024,8,7601,NCR,NCR,Las Pinas City,Las Piñas City,186414,105,,,,,,
-2024,8,7602,NCR,NCR,Makati City,Makati City,602095,179,,,,,,
-2024,8,7502,NCR,NCR,Malabon City,Malabon City,179756,152,,,,,,
-2024,8,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,309053,141,,,,,,
-2024,8,7402,NCR,NCR,Marikina City,Marikina City,251085,143,,,,,,
-2024,8,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,283281,143,,,,,,
-2024,8,7503,NCR,NCR,Navotas City,Navotas City,90882,136,,,,,,
-2024,8,7604,NCR,NCR,Paranaque City,Parañaque City,397859,201,,,,,,
-2024,8,7605,NCR,NCR,Pasay City,Pasay City,302165,117,,,,,,
-2024,8,7403,NCR,NCR,Pasig City,Pasig City,526090,176,,,,,,
-2024,8,7404,NCR,NCR,Quezon City,Quezon City,1789186,352,,,,,,
-2024,8,7405,NCR,NCR,San Juan City,San Juan City,103107,38,,,,,,
-2024,8,7607,NCR,NCR,Taguig City,Taguig City,621946,215,,,,,,
-2024,8,7504,NCR,NCR,Valenzuela City,Valenzuela City,325774,155,,,,,,
-2024,8,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,44550,19,,,,,,
-2024,8,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,14228,4,,,,,,
-2024,8,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,2919,3,,,,,,
-2024,8,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,229064,24,,,,,,
-2024,8,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,346099,44,,,,,,
-2024,8,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,5244,1,,,,,,
-2024,8,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,,,,,,,
-2024,8,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,,,,,,,,
-2024,8,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,390232,49,,,,,,
-2024,8,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,378034,200,,,,,,
-2024,8,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,166116,30,,,,,,
-2024,8,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,148431,27,,,,,,
-2024,8,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,177467,46,,,,,,
-2024,8,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,116420,168,,,,,,
-2024,8,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,27125,6,,,,,,
-2024,8,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,319622,41,,,,,,
-2024,8,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,,,,,,,,
-2024,8,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,81418,9,,,,,,
-2024,8,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,433961,35,,,,,,
-2024,8,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,170987,20,,,,,,
-2024,8,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,67226,8,,,,,,
-2024,8,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,748623,57,,,,,,
-2024,8,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,48221,6,,,,,,
-2024,8,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,1795,1,,,,,,
-2024,8,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,12116,1,,,,,,
-2024,8,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,45019,9,,,,,,
-2024,8,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,472629,54,,,,,,
-2024,8,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,363689,47,,,,,,
-2024,8,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,133097,16,,,,,,
-2024,8,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,5203,4,,,,,,
-2024,8,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,219772,26,,,,,,
-2024,8,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,122437,88,,,,,,
-2024,8,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,3629,3,,,,,,
-2024,8,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,58024,11,,,,,,
+year,month,loc_code,Region,Province,City,city_raw,EMP_w,EMP_n
+2024,1,7501,NCR,NCR,Caloocan City,Caloocan City,466093,2004
+2024,1,NA,NCR,NCR,City of Manila,City of Manila,1003410,3763
+2024,1,7601,NCR,NCR,Las Pinas City,Las Piñas City,227117,1925
+2024,1,7602,NCR,NCR,Makati City,Makati City,711049,3794
+2024,1,7502,NCR,NCR,Malabon City,Malabon City,123339,1903
+2024,1,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,281088,2321
+2024,1,7402,NCR,NCR,Marikina City,Marikina City,198056,1858
+2024,1,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,322227,2630
+2024,1,7503,NCR,NCR,Navotas City,Navotas City,73256,1917
+2024,1,7604,NCR,NCR,Paranaque City,Parañaque City,394815,2766
+2024,1,7605,NCR,NCR,Pasay City,Pasay City,330464,2527
+2024,1,7403,NCR,NCR,Pasig City,Pasig City,535667,2814
+2024,1,7404,NCR,NCR,Quezon City,Quezon City,1754776,5036
+2024,1,7405,NCR,NCR,San Juan City,San Juan City,62969,648
+2024,1,7607,NCR,NCR,Taguig City,Taguig City,642038,3463
+2024,1,7504,NCR,NCR,Valenzuela City,Valenzuela City,271961,2210
+2024,1,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,49383,335
+2024,1,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,78278,149
+2024,1,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,88182,192
+2024,1,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,180825,303
+2024,1,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,181003,468
+2024,1,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,44153,120
+2024,1,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,21598,53
+2024,1,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,105766,272
+2024,1,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,61975,170
+2024,1,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,335532,2991
+2024,1,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,134003,524
+2024,1,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,158414,500
+2024,1,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,198515,744
+2024,1,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,120200,2523
+2024,1,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,163479,369
+2024,1,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,266721,547
+2024,1,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,69464,143
+2024,1,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,249725,391
+2024,1,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,38378,118
+2024,1,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,40316,73
+2024,1,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,231596,344
+2024,1,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,187723,247
+2024,1,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,140805,202
+2024,1,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,40741,84
+2024,1,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,93654,117
+2024,1,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,224967,423
+2024,1,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,115022,243
+2024,1,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,331233,654
+2024,1,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,114307,217
+2024,1,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,89660,194
+2024,1,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,198385,392
+2024,1,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,119118,1542
+2024,1,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,46322,142
+2024,1,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,296813,622
+2024,2,7501,NCR,NCR,Caloocan City,Caloocan City,541479,144
+2024,2,NA,NCR,NCR,City of Manila,City of Manila,736978,201
+2024,2,7601,NCR,NCR,Las Pinas City,Las Piñas City,205736,126
+2024,2,7602,NCR,NCR,Makati City,Makati City,682679,234
+2024,2,7502,NCR,NCR,Malabon City,Malabon City,124415,126
+2024,2,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,245405,102
+2024,2,7402,NCR,NCR,Marikina City,Marikina City,244003,116
+2024,2,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,317101,179
+2024,2,7503,NCR,NCR,Navotas City,Navotas City,103301,160
+2024,2,7604,NCR,NCR,Paranaque City,Parañaque City,476213,178
+2024,2,7605,NCR,NCR,Pasay City,Pasay City,328318,181
+2024,2,7403,NCR,NCR,Pasig City,Pasig City,501976,201
+2024,2,7404,NCR,NCR,Quezon City,Quezon City,1694714,319
+2024,2,7405,NCR,NCR,San Juan City,San Juan City,71916,41
+2024,2,7607,NCR,NCR,Taguig City,Taguig City,694566,242
+2024,2,7504,NCR,NCR,Valenzuela City,Valenzuela City,290431,162
+2024,2,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,19449,8
+2024,2,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,1776,1
+2024,2,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,3150,1
+2024,2,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,11343,3
+2024,2,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,290236,37
+2024,2,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,,
+2024,2,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,
+2024,2,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,199645,28
+2024,2,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,,
+2024,2,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,309406,193
+2024,2,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,75267,26
+2024,2,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,360359,67
+2024,2,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,132197,46
+2024,2,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,111825,127
+2024,2,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,39086,9
+2024,2,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,237207,32
+2024,2,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,126685,14
+2024,2,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,276847,24
+2024,2,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,260477,25
+2024,2,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,103904,10
+2024,2,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,289026,23
+2024,2,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,6960,1
+2024,2,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,52332,7
+2024,2,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,8748,4
+2024,2,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,22880,2
+2024,2,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,280018,34
+2024,2,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,83334,11
+2024,2,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,54588,10
+2024,2,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,1874,1
+2024,2,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,15072,2
+2024,2,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,220926,26
+2024,2,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,120983,110
+2024,2,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,106270,20
+2024,2,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,442876,58
+2024,3,7501,NCR,NCR,Caloocan City,Caloocan City,457025,143
+2024,3,NA,NCR,NCR,City of Manila,City of Manila,857379,210
+2024,3,7601,NCR,NCR,Las Pinas City,Las Piñas City,204184,108
+2024,3,7602,NCR,NCR,Makati City,Makati City,577315,190
+2024,3,7502,NCR,NCR,Malabon City,Malabon City,130316,124
+2024,3,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,368114,174
+2024,3,7402,NCR,NCR,Marikina City,Marikina City,159435,111
+2024,3,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,300885,128
+2024,3,7503,NCR,NCR,Navotas City,Navotas City,69378,137
+2024,3,7604,NCR,NCR,Paranaque City,Parañaque City,292501,126
+2024,3,7605,NCR,NCR,Pasay City,Pasay City,277655,159
+2024,3,7403,NCR,NCR,Pasig City,Pasig City,592824,173
+2024,3,7404,NCR,NCR,Quezon City,Quezon City,2072558,422
+2024,3,7405,NCR,NCR,San Juan City,San Juan City,50782,53
+2024,3,7607,NCR,NCR,Taguig City,Taguig City,690574,228
+2024,3,7504,NCR,NCR,Valenzuela City,Valenzuela City,267922,159
+2024,3,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,165968,76
+2024,3,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,55234,5
+2024,3,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,219560,27
+2024,3,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,189584,20
+2024,3,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,71227,10
+2024,3,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,,
+2024,3,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,
+2024,3,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,23386,4
+2024,3,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,,
+2024,3,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,388362,192
+2024,3,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,33511,12
+2024,3,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,143699,31
+2024,3,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,41266,8
+2024,3,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,137042,170
+2024,3,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,130336,20
+2024,3,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,477998,59
+2024,3,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,391035,50
+2024,3,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,33132,7
+2024,3,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,16031,6
+2024,3,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,33287,7
+2024,3,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,377230,38
+2024,3,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,396776,34
+2024,3,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,251551,24
+2024,3,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,5509,2
+2024,3,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,,
+2024,3,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,58535,11
+2024,3,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,198922,25
+2024,3,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,84727,14
+2024,3,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,246814,31
+2024,3,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,9990,2
+2024,3,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,407843,52
+2024,3,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,142492,111
+2024,3,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,12493,3
+2024,3,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,254426,41
+2024,4,7501,NCR,NCR,Caloocan City,Caloocan City,409008,477
+2024,4,NA,NCR,NCR,City of Manila,City of Manila,871315,915
+2024,4,7601,NCR,NCR,Las Pinas City,Las Piñas City,212738,489
+2024,4,7602,NCR,NCR,Makati City,Makati City,756406,1054
+2024,4,7502,NCR,NCR,Malabon City,Malabon City,135021,434
+2024,4,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,287106,502
+2024,4,7402,NCR,NCR,Marikina City,Marikina City,246389,545
+2024,4,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,369340,704
+2024,4,7503,NCR,NCR,Navotas City,Navotas City,73111,501
+2024,4,7604,NCR,NCR,Paranaque City,Parañaque City,401743,721
+2024,4,7605,NCR,NCR,Pasay City,Pasay City,324293,630
+2024,4,7403,NCR,NCR,Pasig City,Pasig City,525749,692
+2024,4,7404,NCR,NCR,Quezon City,Quezon City,1799038,1391
+2024,4,7405,NCR,NCR,San Juan City,San Juan City,66331,189
+2024,4,7607,NCR,NCR,Taguig City,Taguig City,624428,911
+2024,4,7504,NCR,NCR,Valenzuela City,Valenzuela City,255039,485
+2024,4,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,71153,123
+2024,4,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,133642,65
+2024,4,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,47536,31
+2024,4,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,152646,72
+2024,4,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,188323,117
+2024,4,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,130581,66
+2024,4,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,3005,2
+2024,4,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,42074,28
+2024,4,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,16569,8
+2024,4,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,362663,781
+2024,4,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,99587,103
+2024,4,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,257887,188
+2024,4,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,196456,224
+2024,4,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,143824,748
+2024,4,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,65890,40
+2024,4,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,171284,97
+2024,4,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,94180,49
+2024,4,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,139484,53
+2024,4,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,6261,8
+2024,4,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,170558,56
+2024,4,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,137130,64
+2024,4,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,117380,43
+2024,4,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,260718,104
+2024,4,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,25469,16
+2024,4,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,10317,4
+2024,4,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,58634,38
+2024,4,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,258481,131
+2024,4,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,250197,132
+2024,4,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,166006,79
+2024,4,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,194384,99
+2024,4,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,180404,94
+2024,4,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,118581,393
+2024,4,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,4507,8
+2024,4,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,364130,212
+2024,5,7501,NCR,NCR,Caloocan City,Caloocan City,464020,132
+2024,5,NA,NCR,NCR,City of Manila,City of Manila,900296,218
+2024,5,7601,NCR,NCR,Las Pinas City,Las Piñas City,224541,118
+2024,5,7602,NCR,NCR,Makati City,Makati City,704804,201
+2024,5,7502,NCR,NCR,Malabon City,Malabon City,136389,141
+2024,5,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,285556,164
+2024,5,7402,NCR,NCR,Marikina City,Marikina City,224788,118
+2024,5,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,267461,155
+2024,5,7503,NCR,NCR,Navotas City,Navotas City,107786,184
+2024,5,7604,NCR,NCR,Paranaque City,Parañaque City,386271,145
+2024,5,7605,NCR,NCR,Pasay City,Pasay City,349782,177
+2024,5,7403,NCR,NCR,Pasig City,Pasig City,551262,194
+2024,5,7404,NCR,NCR,Quezon City,Quezon City,1819734,322
+2024,5,7405,NCR,NCR,San Juan City,San Juan City,88894,50
+2024,5,7607,NCR,NCR,Taguig City,Taguig City,613455,214
+2024,5,7504,NCR,NCR,Valenzuela City,Valenzuela City,261587,121
+2024,5,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,8834,4
+2024,5,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,293697,33
+2024,5,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,231944,30
+2024,5,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,8366,2
+2024,5,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,156387,22
+2024,5,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,5685,1
+2024,5,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,
+2024,5,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,,
+2024,5,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,,
+2024,5,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,336089,221
+2024,5,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,52446,15
+2024,5,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,201482,39
+2024,5,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,41615,11
+2024,5,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,126784,165
+2024,5,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,10473,3
+2024,5,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,41573,5
+2024,5,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,142111,17
+2024,5,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,33543,7
+2024,5,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,17462,5
+2024,5,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,22670,4
+2024,5,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,377091,32
+2024,5,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,358341,30
+2024,5,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,168725,16
+2024,5,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,20174,2
+2024,5,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,192905,17
+2024,5,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,162531,28
+2024,5,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,287932,41
+2024,5,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,316255,45
+2024,5,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,17562,4
+2024,5,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,8186,2
+2024,5,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,189986,23
+2024,5,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,124408,100
+2024,5,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,1366,1
+2024,5,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,246831,32
+2024,6,7501,NCR,NCR,Caloocan City,Caloocan City,402897,107
+2024,6,NA,NCR,NCR,City of Manila,City of Manila,730400,166
+2024,6,3914,NCR,NCR,City of Manila,City of Manila,10836,3
+2024,6,7601,NCR,NCR,Las Pinas City,Las Piñas City,188571,96
+2024,6,7602,NCR,NCR,Makati City,Makati City,603367,222
+2024,6,7502,NCR,NCR,Malabon City,Malabon City,102784,90
+2024,6,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,349382,173
+2024,6,7402,NCR,NCR,Marikina City,Marikina City,173775,115
+2024,6,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,449010,157
+2024,6,7503,NCR,NCR,Navotas City,Navotas City,80171,147
+2024,6,7604,NCR,NCR,Paranaque City,Parañaque City,408066,142
+2024,6,7605,NCR,NCR,Pasay City,Pasay City,340270,178
+2024,6,7403,NCR,NCR,Pasig City,Pasig City,526636,220
+2024,6,7404,NCR,NCR,Quezon City,Quezon City,1920359,331
+2024,6,7405,NCR,NCR,San Juan City,San Juan City,41106,17
+2024,6,7607,NCR,NCR,Taguig City,Taguig City,664218,192
+2024,6,7504,NCR,NCR,Valenzuela City,Valenzuela City,276732,135
+2024,6,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,97360,49
+2024,6,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,52480,8
+2024,6,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,25318,5
+2024,6,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,395608,44
+2024,6,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,233572,29
+2024,6,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,9703,1
+2024,6,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,
+2024,6,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,,
+2024,6,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,510676,68
+2024,6,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,345196,227
+2024,6,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,361042,65
+2024,6,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,263162,52
+2024,6,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,35510,8
+2024,6,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,134352,187
+2024,6,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,235574,26
+2024,6,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,262601,30
+2024,6,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,37640,4
+2024,6,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,8146,4
+2024,6,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,25975,7
+2024,6,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,389395,21
+2024,6,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,85536,13
+2024,6,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,453262,60
+2024,6,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,20944,3
+2024,6,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,,
+2024,6,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,,
+2024,6,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,479378,62
+2024,6,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,369423,44
+2024,6,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,132699,20
+2024,6,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,,
+2024,6,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,9328,2
+2024,6,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,305301,41
+2024,6,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,104485,92
+2024,6,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,306263,35
+2024,6,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,490210,68
+2024,7,7501,NCR,NCR,Caloocan City,Caloocan City,446730,516
+2024,7,NA,NCR,NCR,City of Manila,City of Manila,901567,883
+2024,7,7601,NCR,NCR,Las Pinas City,Las Piñas City,219596,415
+2024,7,7602,NCR,NCR,Makati City,Makati City,580118,808
+2024,7,7502,NCR,NCR,Malabon City,Malabon City,114664,461
+2024,7,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,306771,547
+2024,7,7402,NCR,NCR,Marikina City,Marikina City,187823,557
+2024,7,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,253449,525
+2024,7,7503,NCR,NCR,Navotas City,Navotas City,78299,503
+2024,7,7604,NCR,NCR,Paranaque City,Parañaque City,413374,716
+2024,7,7605,NCR,NCR,Pasay City,Pasay City,348800,738
+2024,7,7403,NCR,NCR,Pasig City,Pasig City,556327,788
+2024,7,7404,NCR,NCR,Quezon City,Quezon City,1751465,1229
+2024,7,7405,NCR,NCR,San Juan City,San Juan City,50925,119
+2024,7,7607,NCR,NCR,Taguig City,Taguig City,679258,887
+2024,7,7504,NCR,NCR,Valenzuela City,Valenzuela City,268907,561
+2024,7,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,44683,77
+2024,7,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,18368,13
+2024,7,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,111845,51
+2024,7,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,389772,169
+2024,7,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,195364,104
+2024,7,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,5120,4
+2024,7,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,2653,2
+2024,7,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,1465,1
+2024,7,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,10749,6
+2024,7,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,350271,748
+2024,7,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,200897,169
+2024,7,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,188566,131
+2024,7,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,179828,187
+2024,7,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,137421,675
+2024,7,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,204280,111
+2024,7,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,139392,71
+2024,7,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,14365,7
+2024,7,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,298827,89
+2024,7,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,100595,60
+2024,7,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,34246,13
+2024,7,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,168915,75
+2024,7,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,69492,31
+2024,7,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,174154,72
+2024,7,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,52601,25
+2024,7,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,37054,16
+2024,7,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,291657,128
+2024,7,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,94890,54
+2024,7,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,362251,167
+2024,7,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,86162,43
+2024,7,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,23967,22
+2024,7,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,164982,85
+2024,7,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,137601,432
+2024,7,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,52237,33
+2024,7,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,254499,170
+2024,8,7501,NCR,NCR,Caloocan City,Caloocan City,559353,152
+2024,8,NA,NCR,NCR,City of Manila,City of Manila,827307,211
+2024,8,7601,NCR,NCR,Las Pinas City,Las Piñas City,186414,105
+2024,8,7602,NCR,NCR,Makati City,Makati City,602095,179
+2024,8,7502,NCR,NCR,Malabon City,Malabon City,179756,152
+2024,8,7401,NCR,NCR,Mandaluyong City,Mandaluyong City,309053,141
+2024,8,7402,NCR,NCR,Marikina City,Marikina City,251085,143
+2024,8,7603,NCR,NCR,Muntinlupa City,Muntinlupa City,283281,143
+2024,8,7503,NCR,NCR,Navotas City,Navotas City,90882,136
+2024,8,7604,NCR,NCR,Paranaque City,Parañaque City,397859,201
+2024,8,7605,NCR,NCR,Pasay City,Pasay City,302165,117
+2024,8,7403,NCR,NCR,Pasig City,Pasig City,526090,176
+2024,8,7404,NCR,NCR,Quezon City,Quezon City,1789186,352
+2024,8,7405,NCR,NCR,San Juan City,San Juan City,103107,38
+2024,8,7607,NCR,NCR,Taguig City,Taguig City,621946,215
+2024,8,7504,NCR,NCR,Valenzuela City,Valenzuela City,325774,155
+2024,8,803,Region III (Central Luzon),Bataan,Balanga City,Balanga City,44550,19
+2024,8,1410,Region III (Central Luzon),Bulacan,Malolos City,Malolos City,14228,4
+2024,8,1412,Region III (Central Luzon),Bulacan,Meycauayan City,Meycauayan City,2919,3
+2024,8,1420,Region III (Central Luzon),Bulacan,San Jose del Monte City,San Jose del Monte City,229064,24
+2024,8,4903,Region III (Central Luzon),Nueva Ecija,Cabanatuan City,Cabanatuan City,346099,44
+2024,8,4908,Region III (Central Luzon),Nueva Ecija,Gapan City,Gapan City,5244,1
+2024,8,4919,Region III (Central Luzon),Nueva Ecija,Palayan City,Palayan City,,
+2024,8,4926,Region III (Central Luzon),Nueva Ecija,San Jose City,San Jose City,,
+2024,8,4917,Region III (Central Luzon),Nueva Ecija,Science City of Munoz,Science City of Muñoz,390232,49
+2024,8,5401,Region III (Central Luzon),Pampanga,Angeles City,Angeles City,378034,200
+2024,8,5409,Region III (Central Luzon),Pampanga,Mabalacat City,Mabalacat City,166116,30
+2024,8,5416,Region III (Central Luzon),Pampanga,San Fernando City,San Fernando City,148431,27
+2024,8,6916,Region III (Central Luzon),Tarlac,Tarlac City,Tarlac City,177467,46
+2024,8,7107,Region III (Central Luzon),Zambales,Olongapo City,Olongapo City,116420,168
+2024,8,1005,Region IV-A (CALABARZON),Batangas,Batangas City,Batangas City,27125,6
+2024,8,1014,Region IV-A (CALABARZON),Batangas,Lipa City,Lipa City,319622,41
+2024,8,1031,Region IV-A (CALABARZON),Batangas,Tanauan City,Tanauan City,,
+2024,8,2103,Region IV-A (CALABARZON),Cavite,Bacoor City,Bacoor City,81418,9
+2024,8,2105,Region IV-A (CALABARZON),Cavite,Cavite City,Cavite City,433961,35
+2024,8,2104,Region IV-A (CALABARZON),Cavite,City of Carmona,City of Carmona,170987,20
+2024,8,2106,Region IV-A (CALABARZON),Cavite,Dasmarinas City,Dasmariñas City,67226,8
+2024,8,2108,Region IV-A (CALABARZON),Cavite,General Trias City,General Trias City,748623,57
+2024,8,2109,Region IV-A (CALABARZON),Cavite,Imus City,Imus City,48221,6
+2024,8,2119,Region IV-A (CALABARZON),Cavite,Tagaytay City,Tagaytay City,1795,1
+2024,8,2122,Region IV-A (CALABARZON),Cavite,Trece Martires City,Trece Martires City,12116,1
+2024,8,3403,Region IV-A (CALABARZON),Laguna,Binan City,Biñan City,45019,9
+2024,8,3404,Region IV-A (CALABARZON),Laguna,Cabuyao City,Cabuyao City,472629,54
+2024,8,3405,Region IV-A (CALABARZON),Laguna,Calamba City,Calamba City,363689,47
+2024,8,3424,Region IV-A (CALABARZON),Laguna,San Pablo City,San Pablo City,133097,16
+2024,8,3425,Region IV-A (CALABARZON),Laguna,San Pedro City,San Pedro City,5203,4
+2024,8,3428,Region IV-A (CALABARZON),Laguna,Santa Rosa City,Santa Rosa City,219772,26
+2024,8,5624,Region IV-A (CALABARZON),Quezon,Lucena City,Lucena City,122437,88
+2024,8,5647,Region IV-A (CALABARZON),Quezon,Tayabas City,Tayabas City,3629,3
+2024,8,5802,Region IV-A (CALABARZON),Rizal,Antipolo City,Antipolo City,58024,11
