@@ -1,19 +1,49 @@
 # lfs_city_by_work_only.py
 import pandas as pd, numpy as np, re
+import os, glob
 
-# ========= CONFIG (keep your original file paths) =========
-LFS_FILES = {
-    "2024-01": "data/raw/Workforce/lfs_january_2024_714186541812.csv",
-    "2024-02": "data/raw/Workforce/lfs_february_2024_1155652079312.csv",
-    "2024-03": "data/raw/Workforce/lfs_march_2024_1259594005757.csv",
-    "2024-04": "data/raw/Workforce/lfs_april_2024_1612512661365.csv",
-    "2024-05": "data/raw/Workforce/lfs_may_2024_1523919684245.csv",
-    "2024-06": "data/raw/Workforce/lfs_june_2024_712879761172.csv",
-    "2024-07": "data/raw/Workforce/lfs_july_2024_1301219798866.csv",
-    "2024-08": "data/raw/Workforce/lfs_august_2024_15378875738.csv",
+"""Build monthly city aggregates for full years 2021–2023 (Jan–Dec)."""
+
+# ========= CONFIG =========
+YEARS = [2021, 2022, 2023]
+
+# Discover monthly LFS files under data/raw/Workforce/<year>/
+MONTH_NAME_TO_NUM = {
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
 }
 
-OUT_MAIN = "lfs_city_monthly_agg_2024_BYCODE_WORKONLY.csv"
+def infer_month_from_name(filename):
+    base = os.path.basename(filename).lower()
+    # Prefer month names
+    for name, idx in MONTH_NAME_TO_NUM.items():
+        if name in base:
+            return idx
+    # Try to catch patterns with _MM_ or -MM- or MM as a standalone token
+    m = re.search(r"(?<!\d)(1[0-2]|0?[1-9])(?!\d)", base)
+    if m:
+        mm = int(m.group(1))
+        if 1 <= mm <= 12:
+            return mm
+    return None
+
+def discover_lfs_files(years):
+    mapping = {}
+    for y in years:
+        dir_path = os.path.join("data", "raw", "Workforce", str(y))
+        for fp in sorted(glob.glob(os.path.join(dir_path, "*.csv"))):
+            m = infer_month_from_name(fp)
+            if m is None:
+                continue
+            key = f"{y}-{m:02d}"
+            # Keep first seen per (year, month)
+            if key not in mapping:
+                mapping[key] = fp
+    return mapping
+
+LFS_FILES = discover_lfs_files(YEARS)
+
+OUT_MAIN = "lfs_city_monthly_agg_2021_2023_BYCODE_WORKONLY.csv"
 
 # Scope codes (every code appears monthly even if no rows)
 VALID_CODES = [
@@ -106,9 +136,9 @@ if frames:
 else:
     emp_agg = pd.DataFrame(columns=["year","month","loc_code","EMP_w","EMP_n"])
 
-# ========= ENSURE COMPLETE PANEL (Jan–Aug × all codes) =========
-months = [1,2,3,4,5,6,7,8]
-panel = pd.MultiIndex.from_product([[2024], months, VALID_CODES],
+# ========= ENSURE COMPLETE PANEL (Jan–Dec × 2021–2023 × all codes) =========
+months = list(range(1, 13))
+panel = pd.MultiIndex.from_product([YEARS, months, VALID_CODES],
                                    names=["year","month","loc_code"]).to_frame(index=False)
 
 out = panel.merge(emp_agg, on=["year","month","loc_code"], how="left")
@@ -134,4 +164,4 @@ out = out[[
 ]]
 
 out.to_csv(OUT_MAIN, index=False)
-print(f"[OK] Saved {OUT_MAIN} with {len(out)} rows (Jan–Aug panel by work-location; no invented LF/UNEMP/POP15+)")
+print(f"[OK] Saved {OUT_MAIN} with {len(out)} rows (2021–2023 Jan–Dec panel by work-location; no invented LF/UNEMP/POP15+)")
