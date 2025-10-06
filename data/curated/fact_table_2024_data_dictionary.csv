@@ -1,0 +1,67 @@
+column,description
+Region,Region name (PSA-aligned string)
+Province,Province name (PSA-aligned string)
+City,City name (PSA-aligned string)
+EMP_w_2024,Weighted employed (EMP_w) annual signal for 2024 (mean of 12 months; ETS-only projected where needed)
+months_observed_2024,Count of observed months in 2024 before projection
+quality_flag,A: ≥8 observed months; B: 5–7; C: <5 (before projection)
+projection_note,Provenance note for workforce projection (ETS-only)
+DEM_Region_std,Demand extrapolated metric(s) for 2024
+DEM_geo_source_for_demand,Demand extrapolated metric(s) for 2024
+DEM_households_single_duplex_2020,Demand extrapolated metric(s) for 2024
+DEM_units_single_duplex_2020,Demand extrapolated metric(s) for 2024
+DEM_single_house_households_2020,Demand extrapolated metric(s) for 2024
+DEM_single_house_occupied_units_2020,Demand extrapolated metric(s) for 2024
+DEM_duplex_households_2020,Demand extrapolated metric(s) for 2024
+DEM_duplex_occupied_units_2020,Demand extrapolated metric(s) for 2024
+DEM_CAGR_occ_2015_2020,Demand extrapolated metric(s) for 2024
+DEM_households_single_duplex_2024,Demand extrapolated metric(s) for 2024
+DEM_units_single_duplex_2024,Demand extrapolated metric(s) for 2024
+DEM_single_house_households_2024,Demand extrapolated metric(s) for 2024
+DEM_single_house_occupied_units_2024,Demand extrapolated metric(s) for 2024
+DEM_duplex_households_2024,Demand extrapolated metric(s) for 2024
+DEM_duplex_occupied_units_2024,Demand extrapolated metric(s) for 2024
+DEM_CAGR_occ_2015_2020.1,Demand extrapolated metric(s) for 2024
+DEM_growth_rate_used_value,Demand extrapolated metric(s) for 2024
+DEM_growth_rate_used_basis,Demand extrapolated metric(s) for 2024
+DEM_growth_rate_geo_source,Demand extrapolated metric(s) for 2024
+DEM_years_used_from,Demand extrapolated metric(s) for 2024
+DEM_years_used_to,Demand extrapolated metric(s) for 2024
+GRDP_city_raw,GRDP per-capita or economy metric (2024 mapping)
+GRDP_grdp_pc_2024_const,GRDP per-capita or economy metric (2024 mapping)
+GRDP_geo_source_for_grdp,GRDP per-capita or economy metric (2024 mapping)
+INC_income_per_hh_2018,Income metrics aligned to 2024 (switch rule applied)
+INC_income_per_hh_2021,Income metrics aligned to 2024 (switch rule applied)
+INC_income_per_hh_2023p,Income metrics aligned to 2024 (switch rule applied)
+INC_income_total_2023p_millions,Income metrics aligned to 2024 (switch rule applied)
+INC_geo_source_for_income,Income metrics aligned to 2024 (switch rule applied)
+INC_cagr_21_23p,Income metrics aligned to 2024 (switch rule applied)
+INC_cagr_18_23p,Income metrics aligned to 2024 (switch rule applied)
+INC_growth_rate_used_income,Income metrics aligned to 2024 (switch rule applied)
+INC_years_used_income,Income metrics aligned to 2024 (switch rule applied)
+INC_growth_rate_geo_source_income,Income metrics aligned to 2024 (switch rule applied)
+INC_switched_to_longer_cagr,Income metrics aligned to 2024 (switch rule applied)
+INC_switch_reason,Income metrics aligned to 2024 (switch rule applied)
+INC_income_per_hh_2024,Income metrics aligned to 2024 (switch rule applied)
+INC_qa_flag_missing_any_cagr,Income metrics aligned to 2024 (switch rule applied)
+INC_qa_flag_nonpositive_2024,Income metrics aligned to 2024 (switch rule applied)
+RISK_Risk_Gate,Risk & hazard metrics and gates
+RISK_Risk_Gate_Reasons,Risk & hazard metrics and gates
+RISK_Fault_Distance_km,Risk & hazard metrics and gates
+RISK_Nearest_Fault_Name,Risk & hazard metrics and gates
+RISK_Flood_Level_Num,Risk & hazard metrics and gates
+RISK_StormSurge_Level_Num,Risk & hazard metrics and gates
+RISK_Landslide_Level_Num,Risk & hazard metrics and gates
+RISK_events_50km,Risk & hazard metrics and gates
+RISK_events_50km_per_year,Risk & hazard metrics and gates
+RISK_m5plus_50km,Risk & hazard metrics and gates
+RISK_avg_mag_50km,Risk & hazard metrics and gates
+RISK_avg_depth_km_50km,Risk & hazard metrics and gates
+RISK_EarthquakeRisk,Risk & hazard metrics and gates
+RISK_HydroMean,Risk & hazard metrics and gates
+RISK_HazardSafetyIndex,Risk & hazard metrics and gates
+RISK_Flood_Level_Tip,Risk & hazard metrics and gates
+RISK_StormSurge_Level_Tip,Risk & hazard metrics and gates
+RISK_Landslide_Level_Tip,Risk & hazard metrics and gates
+RISK_Risk_Gate_Tip,Risk & hazard metrics and gates
+RISK_Risk_Gate_Reasons_ASCII,Risk & hazard metrics and gates
