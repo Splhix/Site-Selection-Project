@@ -1,0 +1,51 @@
+Region,Province,City,CITY_median_price,CITY_count,PROV_median_price,PROV_count,REG_median_price,REG_count,PRICE_median_2024_final,price_source_flag,PRICE_count_listings_city,PRICE_count_listings_province,PRICE_count_listings_region
+NCR,NCR,Caloocan City,4500000.0,7.0,28643000.0,428.0,28643000.0,428,4500000.0,city_median>=5,7,428,428
+NCR,NCR,City of Manila,,,28643000.0,428.0,28643000.0,428,28643000.0,inherit_province,0,428,428
+NCR,NCR,Las Pinas City,17000000.0,42.0,28643000.0,428.0,28643000.0,428,17000000.0,city_median>=5,42,428,428
+NCR,NCR,Makati City,121500000.0,14.0,28643000.0,428.0,28643000.0,428,121500000.0,city_median>=5,14,428,428
+NCR,NCR,Malabon City,,,28643000.0,428.0,28643000.0,428,28643000.0,inherit_province,0,428,428
+NCR,NCR,Mandaluyong City,24000000.0,3.0,28643000.0,428.0,28643000.0,428,28643000.0,inherit_province,3,428,428
+NCR,NCR,Marikina City,8500000.0,9.0,28643000.0,428.0,28643000.0,428,8500000.0,city_median>=5,9,428,428
+NCR,NCR,Muntinlupa City,33904000.0,108.0,28643000.0,428.0,28643000.0,428,33904000.0,city_median>=5,108,428,428
+NCR,NCR,Navotas City,,,28643000.0,428.0,28643000.0,428,28643000.0,inherit_province,0,428,428
+NCR,NCR,Paranaque City,24950000.0,59.0,28643000.0,428.0,28643000.0,428,24950000.0,city_median>=5,59,428,428
+NCR,NCR,Pasay City,66750000.0,2.0,28643000.0,428.0,28643000.0,428,28643000.0,inherit_province,2,428,428
+NCR,NCR,Pasig City,25500000.0,29.0,28643000.0,428.0,28643000.0,428,25500000.0,city_median>=5,29,428,428
+NCR,NCR,Quezon City,22995980.0,115.0,28643000.0,428.0,28643000.0,428,22995980.0,city_median>=5,115,428,428
+NCR,NCR,San Juan City,28000000.0,21.0,28643000.0,428.0,28643000.0,428,28000000.0,city_median>=5,21,428,428
+NCR,NCR,Taguig City,112000000.0,16.0,28643000.0,428.0,28643000.0,428,112000000.0,city_median>=5,16,428,428
+NCR,NCR,Valenzuela City,9200000.0,3.0,28643000.0,428.0,28643000.0,428,28643000.0,inherit_province,3,428,428
+Region III (Central Luzon),Bataan,Balanga City,2900000.0,1.0,2900000.0,1.0,6262000.0,221,6262000.0,inherit_region,1,1,221
+Region III (Central Luzon),Bulacan,Malolos City,5733000.0,25.0,5638500.0,26.0,6262000.0,221,5733000.0,city_median>=5,25,26,221
+Region III (Central Luzon),Bulacan,Meycauayan City,3500000.0,1.0,5638500.0,26.0,6262000.0,221,5638500.0,inherit_province,1,26,221
+Region III (Central Luzon),Bulacan,San Jose del Monte City,,,5638500.0,26.0,6262000.0,221,5638500.0,inherit_province,0,26,221
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,5403000.0,70.0,5180500.0,80.0,6262000.0,221,5403000.0,city_median>=5,70,80,221
+Region III (Central Luzon),Nueva Ecija,Gapan City,,,5180500.0,80.0,6262000.0,221,5180500.0,inherit_province,0,80,221
+Region III (Central Luzon),Nueva Ecija,Palayan City,,,5180500.0,80.0,6262000.0,221,5180500.0,inherit_province,0,80,221
+Region III (Central Luzon),Nueva Ecija,San Jose City,2931250.0,10.0,5180500.0,80.0,6262000.0,221,2931250.0,city_median>=5,10,80,221
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,,,5180500.0,80.0,6262000.0,221,5180500.0,inherit_province,0,80,221
+Region III (Central Luzon),Pampanga,Angeles City,12400000.0,24.0,10000000.0,67.0,6262000.0,221,12400000.0,city_median>=5,24,67,221
+Region III (Central Luzon),Pampanga,Mabalacat City,2706500.0,22.0,10000000.0,67.0,6262000.0,221,2706500.0,city_median>=5,22,67,221
+Region III (Central Luzon),Pampanga,San Fernando City,8300000.0,21.0,10000000.0,67.0,6262000.0,221,8300000.0,city_median>=5,21,67,221
+Region III (Central Luzon),Tarlac,Tarlac City,5705000.0,47.0,5705000.0,47.0,6262000.0,221,5705000.0,city_median>=5,47,47,221
+Region III (Central Luzon),Zambales,Olongapo City,,,,,6262000.0,221,6262000.0,inherit_region,0,0,221
+Region IV-A (CALABARZON),Batangas,Batangas City,4332483.0,6.0,4337472.0,27.0,5450827.0,208,4332483.0,city_median>=5,6,27,208
+Region IV-A (CALABARZON),Batangas,Lipa City,5026399.0,15.0,4337472.0,27.0,5450827.0,208,5026399.0,city_median>=5,15,27,208
+Region IV-A (CALABARZON),Batangas,Tanauan City,2180000.0,6.0,4337472.0,27.0,5450827.0,208,2180000.0,city_median>=5,6,27,208
+Region IV-A (CALABARZON),Cavite,Bacoor City,9779200.0,8.0,5234791.0,84.0,5450827.0,208,9779200.0,city_median>=5,8,84,208
+Region IV-A (CALABARZON),Cavite,Cavite City,2356700.0,2.0,5234791.0,84.0,5450827.0,208,5234791.0,inherit_province,2,84,208
+Region IV-A (CALABARZON),Cavite,City of Carmona,,,5234791.0,84.0,5450827.0,208,5234791.0,inherit_province,0,84,208
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,9500000.0,14.0,5234791.0,84.0,5450827.0,208,9500000.0,city_median>=5,14,84,208
+Region IV-A (CALABARZON),Cavite,General Trias City,4058400.0,23.0,5234791.0,84.0,5450827.0,208,4058400.0,city_median>=5,23,84,208
+Region IV-A (CALABARZON),Cavite,Imus City,5234791.0,23.0,5234791.0,84.0,5450827.0,208,5234791.0,city_median>=5,23,84,208
+Region IV-A (CALABARZON),Cavite,Tagaytay City,16500000.0,6.0,5234791.0,84.0,5450827.0,208,16500000.0,city_median>=5,6,84,208
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2631935.0,8.0,5234791.0,84.0,5450827.0,208,2631935.0,city_median>=5,8,84,208
+Region IV-A (CALABARZON),Laguna,Binan City,3953040.0,13.0,4589352.5,54.0,5450827.0,208,3953040.0,city_median>=5,13,54,208
+Region IV-A (CALABARZON),Laguna,Cabuyao City,16000000.0,3.0,4589352.5,54.0,5450827.0,208,4589352.5,inherit_province,3,54,208
+Region IV-A (CALABARZON),Laguna,Calamba City,4678200.0,21.0,4589352.5,54.0,5450827.0,208,4678200.0,city_median>=5,21,54,208
+Region IV-A (CALABARZON),Laguna,San Pablo City,3300000.0,8.0,4589352.5,54.0,5450827.0,208,3300000.0,city_median>=5,8,54,208
+Region IV-A (CALABARZON),Laguna,San Pedro City,6500000.0,4.0,4589352.5,54.0,5450827.0,208,4589352.5,inherit_province,4,54,208
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,5450000.0,5.0,4589352.5,54.0,5450827.0,208,5450000.0,city_median>=5,5,54,208
+Region IV-A (CALABARZON),Quezon,Lucena City,1856100.0,3.0,1856100.0,3.0,5450827.0,208,5450827.0,inherit_region,3,3,208
+Region IV-A (CALABARZON),Quezon,Tayabas City,,,1856100.0,3.0,5450827.0,208,5450827.0,inherit_region,0,3,208
+Region IV-A (CALABARZON),Rizal,Antipolo City,12500000.0,40.0,12500000.0,40.0,5450827.0,208,12500000.0,city_median>=5,40,40,208

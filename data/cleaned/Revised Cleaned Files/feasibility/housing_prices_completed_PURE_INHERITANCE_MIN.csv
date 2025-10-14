@@ -1,0 +1,51 @@
+Region,Province,City,PRICE_median_2024_final,price_source_flag
+NCR,NCR,Caloocan City,4500000.0,city_median>=5
+NCR,NCR,City of Manila,28643000.0,inherit_province
+NCR,NCR,Las Pinas City,17000000.0,city_median>=5
+NCR,NCR,Makati City,121500000.0,city_median>=5
+NCR,NCR,Malabon City,28643000.0,inherit_province
+NCR,NCR,Mandaluyong City,28643000.0,inherit_province
+NCR,NCR,Marikina City,8500000.0,city_median>=5
+NCR,NCR,Muntinlupa City,33904000.0,city_median>=5
+NCR,NCR,Navotas City,28643000.0,inherit_province
+NCR,NCR,Paranaque City,24950000.0,city_median>=5
+NCR,NCR,Pasay City,28643000.0,inherit_province
+NCR,NCR,Pasig City,25500000.0,city_median>=5
+NCR,NCR,Quezon City,22995980.0,city_median>=5
+NCR,NCR,San Juan City,28000000.0,city_median>=5
+NCR,NCR,Taguig City,112000000.0,city_median>=5
+NCR,NCR,Valenzuela City,28643000.0,inherit_province
+Region III (Central Luzon),Bataan,Balanga City,6262000.0,inherit_region
+Region III (Central Luzon),Bulacan,Malolos City,5733000.0,city_median>=5
+Region III (Central Luzon),Bulacan,Meycauayan City,5638500.0,inherit_province
+Region III (Central Luzon),Bulacan,San Jose del Monte City,5638500.0,inherit_province
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,5403000.0,city_median>=5
+Region III (Central Luzon),Nueva Ecija,Gapan City,5180500.0,inherit_province
+Region III (Central Luzon),Nueva Ecija,Palayan City,5180500.0,inherit_province
+Region III (Central Luzon),Nueva Ecija,San Jose City,2931250.0,city_median>=5
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,5180500.0,inherit_province
+Region III (Central Luzon),Pampanga,Angeles City,12400000.0,city_median>=5
+Region III (Central Luzon),Pampanga,Mabalacat City,2706500.0,city_median>=5
+Region III (Central Luzon),Pampanga,San Fernando City,8300000.0,city_median>=5
+Region III (Central Luzon),Tarlac,Tarlac City,5705000.0,city_median>=5
+Region III (Central Luzon),Zambales,Olongapo City,6262000.0,inherit_region
+Region IV-A (CALABARZON),Batangas,Batangas City,4332483.0,city_median>=5
+Region IV-A (CALABARZON),Batangas,Lipa City,5026399.0,city_median>=5
+Region IV-A (CALABARZON),Batangas,Tanauan City,2180000.0,city_median>=5
+Region IV-A (CALABARZON),Cavite,Bacoor City,9779200.0,city_median>=5
+Region IV-A (CALABARZON),Cavite,Cavite City,5234791.0,inherit_province
+Region IV-A (CALABARZON),Cavite,City of Carmona,5234791.0,inherit_province
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,9500000.0,city_median>=5
+Region IV-A (CALABARZON),Cavite,General Trias City,4058400.0,city_median>=5
+Region IV-A (CALABARZON),Cavite,Imus City,5234791.0,city_median>=5
+Region IV-A (CALABARZON),Cavite,Tagaytay City,16500000.0,city_median>=5
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2631935.0,city_median>=5
+Region IV-A (CALABARZON),Laguna,Binan City,3953040.0,city_median>=5
+Region IV-A (CALABARZON),Laguna,Cabuyao City,4589352.5,inherit_province
+Region IV-A (CALABARZON),Laguna,Calamba City,4678200.0,city_median>=5
+Region IV-A (CALABARZON),Laguna,San Pablo City,3300000.0,city_median>=5
+Region IV-A (CALABARZON),Laguna,San Pedro City,4589352.5,inherit_province
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,5450000.0,city_median>=5
+Region IV-A (CALABARZON),Quezon,Lucena City,5450827.0,inherit_region
+Region IV-A (CALABARZON),Quezon,Tayabas City,5450827.0,inherit_region
+Region IV-A (CALABARZON),Rizal,Antipolo City,12500000.0,city_median>=5
