@@ -1,0 +1,51 @@
+Region,Province,City,income_per_hh_2018,income_per_hh_2021,income_per_hh_2023p,income_total_2023p_millions,geo_source_for_income
+NCR,NCR,Caloocan City,371460,334580,393240,154161.91,city
+NCR,NCR,City of Manila,423150,413680,482790,246232.67,city
+NCR,NCR,Las Pinas City,519190,414530,594930,96816.95,city
+NCR,NCR,Makati City,651400,579570,799540,164347.09,city
+NCR,NCR,Malabon City,357800,350280,380600,34270.92,city
+NCR,NCR,Mandaluyong City,666560,476560,666020,93875.35,city
+NCR,NCR,Marikina City,475240,482950,556550,60399.48,city
+NCR,NCR,Muntinlupa City,461380,399400,506180,80328.59,city
+NCR,NCR,Navotas City,354760,327420,336980,21291.41,city
+NCR,NCR,Paranaque City,521160,477670,556450,114375.68,city
+NCR,NCR,Pasay City,429850,393060,477310,58005.62,city
+NCR,NCR,Pasig City,451830,429920,590370,130765.02,city
+NCR,NCR,Quezon City,478680,429280,480700,359208.8,city
+NCR,NCR,San Juan City,588490,549370,842810,24320.15,city
+NCR,NCR,Taguig City,428620,376130,519600,150373.59,city
+NCR,NCR,Valenzuela City,369330,370890,403070,69892.16,city
+Region III (Central Luzon),Bataan,Balanga City,397360,372430,387330,83190.7,province
+Region III (Central Luzon),Bulacan,Malolos City,356940,340370,371940,342693.71,province
+Region III (Central Luzon),Bulacan,Meycauayan City,356940,340370,371940,342693.71,province
+Region III (Central Luzon),Bulacan,San Jose del Monte City,356940,340370,371940,342693.71,province
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,308780,267120,323630,194488.54,province
+Region III (Central Luzon),Nueva Ecija,Gapan City,308780,267120,323630,194488.54,province
+Region III (Central Luzon),Nueva Ecija,Palayan City,308780,267120,323630,194488.54,province
+Region III (Central Luzon),Nueva Ecija,San Jose City,308780,267120,323630,194488.54,province
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,308780,267120,323630,194488.54,province
+Region III (Central Luzon),Pampanga,Angeles City,398260,443240,501930,69727.85,city
+Region III (Central Luzon),Pampanga,Mabalacat City,333400,372140,431510,251756.6,province
+Region III (Central Luzon),Pampanga,San Fernando City,333400,372140,431510,251756.6,province
+Region III (Central Luzon),Tarlac,Tarlac City,280110,305770,367820,134488.68,province
+Region III (Central Luzon),Zambales,Olongapo City,382060,335530,385440,24236.46,city
+Region IV-A (CALABARZON),Batangas,Batangas City,360560,356560,402170,327130.55,province
+Region IV-A (CALABARZON),Batangas,Lipa City,360560,356560,402170,327130.55,province
+Region IV-A (CALABARZON),Batangas,Tanauan City,360560,356560,402170,327130.55,province
+Region IV-A (CALABARZON),Cavite,Bacoor City,394680,392610,457620,527020.97,province
+Region IV-A (CALABARZON),Cavite,Cavite City,394680,392610,457620,527020.97,province
+Region IV-A (CALABARZON),Cavite,City of Carmona,394680,392610,457620,527020.97,province
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,394680,392610,457620,527020.97,province
+Region IV-A (CALABARZON),Cavite,General Trias City,394680,392610,457620,527020.97,province
+Region IV-A (CALABARZON),Cavite,Imus City,394680,392610,457620,527020.97,province
+Region IV-A (CALABARZON),Cavite,Tagaytay City,394680,392610,457620,527020.97,province
+Region IV-A (CALABARZON),Cavite,Trece Martires City,394680,392610,457620,527020.97,province
+Region IV-A (CALABARZON),Laguna,Binan City,400740,347150,441890,440820.18,province
+Region IV-A (CALABARZON),Laguna,Cabuyao City,400740,347150,441890,440820.18,province
+Region IV-A (CALABARZON),Laguna,Calamba City,400740,347150,441890,440820.18,province
+Region IV-A (CALABARZON),Laguna,San Pablo City,400740,347150,441890,440820.18,province
+Region IV-A (CALABARZON),Laguna,San Pedro City,400740,347150,441890,440820.18,province
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,400740,347150,441890,440820.18,province
+Region IV-A (CALABARZON),Quezon,Lucena City,363230,329700,361930,24776.36,city
+Region IV-A (CALABARZON),Quezon,Tayabas City,233290,221050,247110,122275.35,province
+Region IV-A (CALABARZON),Rizal,Antipolo City,470410,429230,506050,393926.36,province

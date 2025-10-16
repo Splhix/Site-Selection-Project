@@ -37,8 +37,8 @@ Amort_1yr, Amort_3yr, Amort_5yr, Amort_10yr, Amort_15yr,
 Amort_20yr, Amort_25yr, Amort_30yr
 ```
 
----
 
+---
 ## Income-to-Payment Ratio (IPR)
 Monthly income per household:
 ```

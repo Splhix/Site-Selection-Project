@@ -1,1 +1,0 @@
-http://geoserver.geoportal.gov.ph:80/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geoportal:land_cover_map_ncr_2020&maxFeatures=500000000&outputFormat=SHAPE-ZIP&bbox=10128778.314324267,41381.55492308086,15493484.056224255,2577043.253242999

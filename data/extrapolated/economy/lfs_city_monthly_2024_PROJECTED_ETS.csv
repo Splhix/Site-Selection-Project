@@ -1,0 +1,601 @@
+Region,Province,City,year,month,EMP_w,observed,projection_reliance,ts_model
+NCR,NCR,Caloocan City,2024,1,474923,TRUE,,
+NCR,NCR,Caloocan City,2024,2,551737,TRUE,,
+NCR,NCR,Caloocan City,2024,3,465683,TRUE,,
+NCR,NCR,Caloocan City,2024,4,416757,TRUE,,
+NCR,NCR,Caloocan City,2024,5,472811,TRUE,,
+NCR,NCR,Caloocan City,2024,6,410530,TRUE,,
+NCR,NCR,Caloocan City,2024,7,455193,TRUE,,
+NCR,NCR,Caloocan City,2024,8,569950,TRUE,,
+NCR,NCR,Caloocan City,2024,9,457673,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Caloocan City,2024,10,439910,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Caloocan City,2024,11,460507,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Caloocan City,2024,12,444233,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,City of Manila,2024,1,1004911,TRUE,,
+NCR,NCR,City of Manila,2024,2,738080,TRUE,,
+NCR,NCR,City of Manila,2024,3,858662,TRUE,,
+NCR,NCR,City of Manila,2024,4,872618,TRUE,,
+NCR,NCR,City of Manila,2024,5,901643,TRUE,,
+NCR,NCR,City of Manila,2024,6,742345,TRUE,,
+NCR,NCR,City of Manila,2024,7,902916,TRUE,,
+NCR,NCR,City of Manila,2024,8,828545,TRUE,,
+NCR,NCR,City of Manila,2024,9,754998,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,City of Manila,2024,10,851668,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,City of Manila,2024,11,924090,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,City of Manila,2024,12,878757,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Las Pinas City,2024,1,220833,TRUE,,
+NCR,NCR,Las Pinas City,2024,2,200044,TRUE,,
+NCR,NCR,Las Pinas City,2024,3,198535,TRUE,,
+NCR,NCR,Las Pinas City,2024,4,206852,TRUE,,
+NCR,NCR,Las Pinas City,2024,5,218328,TRUE,,
+NCR,NCR,Las Pinas City,2024,6,183354,TRUE,,
+NCR,NCR,Las Pinas City,2024,7,213520,TRUE,,
+NCR,NCR,Las Pinas City,2024,8,181256,TRUE,,
+NCR,NCR,Las Pinas City,2024,9,227335,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Las Pinas City,2024,10,217626,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Las Pinas City,2024,11,215377,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Las Pinas City,2024,12,220285,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Makati City,2024,1,695503,TRUE,,
+NCR,NCR,Makati City,2024,2,667753,TRUE,,
+NCR,NCR,Makati City,2024,3,564693,TRUE,,
+NCR,NCR,Makati City,2024,4,739868,TRUE,,
+NCR,NCR,Makati City,2024,5,689395,TRUE,,
+NCR,NCR,Makati City,2024,6,590175,TRUE,,
+NCR,NCR,Makati City,2024,7,567435,TRUE,,
+NCR,NCR,Makati City,2024,8,588931,TRUE,,
+NCR,NCR,Makati City,2024,9,655700,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Makati City,2024,10,656094,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Makati City,2024,11,716566,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Makati City,2024,12,694636,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Malabon City,2024,1,123897,TRUE,,
+NCR,NCR,Malabon City,2024,2,124978,TRUE,,
+NCR,NCR,Malabon City,2024,3,130905,TRUE,,
+NCR,NCR,Malabon City,2024,4,135632,TRUE,,
+NCR,NCR,Malabon City,2024,5,137006,TRUE,,
+NCR,NCR,Malabon City,2024,6,103249,TRUE,,
+NCR,NCR,Malabon City,2024,7,115183,TRUE,,
+NCR,NCR,Malabon City,2024,8,180569,TRUE,,
+NCR,NCR,Malabon City,2024,9,135516,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Malabon City,2024,10,129151,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Malabon City,2024,11,134943,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Malabon City,2024,12,118997,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Mandaluyong City,2024,1,275393,TRUE,,
+NCR,NCR,Mandaluyong City,2024,2,240433,TRUE,,
+NCR,NCR,Mandaluyong City,2024,3,360655,TRUE,,
+NCR,NCR,Mandaluyong City,2024,4,281289,TRUE,,
+NCR,NCR,Mandaluyong City,2024,5,279770,TRUE,,
+NCR,NCR,Mandaluyong City,2024,6,342303,TRUE,,
+NCR,NCR,Mandaluyong City,2024,7,300555,TRUE,,
+NCR,NCR,Mandaluyong City,2024,8,302791,TRUE,,
+NCR,NCR,Mandaluyong City,2024,9,323972,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Mandaluyong City,2024,10,310214,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Mandaluyong City,2024,11,280858,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Mandaluyong City,2024,12,350480,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Marikina City,2024,1,203677,TRUE,,
+NCR,NCR,Marikina City,2024,2,250928,TRUE,,
+NCR,NCR,Marikina City,2024,3,163960,TRUE,,
+NCR,NCR,Marikina City,2024,4,253382,TRUE,,
+NCR,NCR,Marikina City,2024,5,231168,TRUE,,
+NCR,NCR,Marikina City,2024,6,178707,TRUE,,
+NCR,NCR,Marikina City,2024,7,193153,TRUE,,
+NCR,NCR,Marikina City,2024,8,258211,TRUE,,
+NCR,NCR,Marikina City,2024,9,161340,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Marikina City,2024,10,205417,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Marikina City,2024,11,200772,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Marikina City,2024,12,227317,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Muntinlupa City,2024,1,321348,TRUE,,
+NCR,NCR,Muntinlupa City,2024,2,316236,TRUE,,
+NCR,NCR,Muntinlupa City,2024,3,300064,TRUE,,
+NCR,NCR,Muntinlupa City,2024,4,368332,TRUE,,
+NCR,NCR,Muntinlupa City,2024,5,266731,TRUE,,
+NCR,NCR,Muntinlupa City,2024,6,447785,TRUE,,
+NCR,NCR,Muntinlupa City,2024,7,252757,TRUE,,
+NCR,NCR,Muntinlupa City,2024,8,282508,TRUE,,
+NCR,NCR,Muntinlupa City,2024,9,288136,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Muntinlupa City,2024,10,311521,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Muntinlupa City,2024,11,364979,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Muntinlupa City,2024,12,323735,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Navotas City,2024,1,75672,TRUE,,
+NCR,NCR,Navotas City,2024,2,106708,TRUE,,
+NCR,NCR,Navotas City,2024,3,71666,TRUE,,
+NCR,NCR,Navotas City,2024,4,75522,TRUE,,
+NCR,NCR,Navotas City,2024,5,111341,TRUE,,
+NCR,NCR,Navotas City,2024,6,82815,TRUE,,
+NCR,NCR,Navotas City,2024,7,80881,TRUE,,
+NCR,NCR,Navotas City,2024,8,93879,TRUE,,
+NCR,NCR,Navotas City,2024,9,74432,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Navotas City,2024,10,71932,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Navotas City,2024,11,89653,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Navotas City,2024,12,79773,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Paranaque City,2024,1,395054,TRUE,,
+NCR,NCR,Paranaque City,2024,2,476501,TRUE,,
+NCR,NCR,Paranaque City,2024,3,292678,TRUE,,
+NCR,NCR,Paranaque City,2024,4,401986,TRUE,,
+NCR,NCR,Paranaque City,2024,5,386505,TRUE,,
+NCR,NCR,Paranaque City,2024,6,408313,TRUE,,
+NCR,NCR,Paranaque City,2024,7,413624,TRUE,,
+NCR,NCR,Paranaque City,2024,8,398100,TRUE,,
+NCR,NCR,Paranaque City,2024,9,389367,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Paranaque City,2024,10,411076,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Paranaque City,2024,11,416084,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Paranaque City,2024,12,366976,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Pasay City,2024,1,321981,TRUE,,
+NCR,NCR,Pasay City,2024,2,319890,TRUE,,
+NCR,NCR,Pasay City,2024,3,270527,TRUE,,
+NCR,NCR,Pasay City,2024,4,315968,TRUE,,
+NCR,NCR,Pasay City,2024,5,340803,TRUE,,
+NCR,NCR,Pasay City,2024,6,331535,TRUE,,
+NCR,NCR,Pasay City,2024,7,339846,TRUE,,
+NCR,NCR,Pasay City,2024,8,294408,TRUE,,
+NCR,NCR,Pasay City,2024,9,355486,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Pasay City,2024,10,338278,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Pasay City,2024,11,328437,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Pasay City,2024,12,345463,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Pasig City,2024,1,536107,TRUE,,
+NCR,NCR,Pasig City,2024,2,502388,TRUE,,
+NCR,NCR,Pasig City,2024,3,593311,TRUE,,
+NCR,NCR,Pasig City,2024,4,526181,TRUE,,
+NCR,NCR,Pasig City,2024,5,551715,TRUE,,
+NCR,NCR,Pasig City,2024,6,527069,TRUE,,
+NCR,NCR,Pasig City,2024,7,556784,TRUE,,
+NCR,NCR,Pasig City,2024,8,526522,TRUE,,
+NCR,NCR,Pasig City,2024,9,531990,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Pasig City,2024,10,548053,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Pasig City,2024,11,517175,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Pasig City,2024,12,557502,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Quezon City,2024,1,1742223,TRUE,,
+NCR,NCR,Quezon City,2024,2,1682591,TRUE,,
+NCR,NCR,Quezon City,2024,3,2057732,TRUE,,
+NCR,NCR,Quezon City,2024,4,1786168,TRUE,,
+NCR,NCR,Quezon City,2024,5,1806716,TRUE,,
+NCR,NCR,Quezon City,2024,6,1906622,TRUE,,
+NCR,NCR,Quezon City,2024,7,1738936,TRUE,,
+NCR,NCR,Quezon City,2024,8,1776387,TRUE,,
+NCR,NCR,Quezon City,2024,9,1762268,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Quezon City,2024,10,1810941,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Quezon City,2024,11,1892331,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Quezon City,2024,12,1939831,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,San Juan City,2024,1,59883,TRUE,,
+NCR,NCR,San Juan City,2024,2,68391,TRUE,,
+NCR,NCR,San Juan City,2024,3,48293,TRUE,,
+NCR,NCR,San Juan City,2024,4,63080,TRUE,,
+NCR,NCR,San Juan City,2024,5,84537,TRUE,,
+NCR,NCR,San Juan City,2024,6,39091,TRUE,,
+NCR,NCR,San Juan City,2024,7,48429,TRUE,,
+NCR,NCR,San Juan City,2024,8,98053,TRUE,,
+NCR,NCR,San Juan City,2024,9,69797,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,San Juan City,2024,10,62744,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,San Juan City,2024,11,70713,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,San Juan City,2024,12,91033,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Taguig City,2024,1,631789,TRUE,,
+NCR,NCR,Taguig City,2024,2,683479,TRUE,,
+NCR,NCR,Taguig City,2024,3,679550,TRUE,,
+NCR,NCR,Taguig City,2024,4,614460,TRUE,,
+NCR,NCR,Taguig City,2024,5,603662,TRUE,,
+NCR,NCR,Taguig City,2024,6,653615,TRUE,,
+NCR,NCR,Taguig City,2024,7,668415,TRUE,,
+NCR,NCR,Taguig City,2024,8,612018,TRUE,,
+NCR,NCR,Taguig City,2024,9,642856,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Taguig City,2024,10,715030,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Taguig City,2024,11,661297,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Taguig City,2024,12,679553,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Valenzuela City,2024,1,267075,TRUE,,
+NCR,NCR,Valenzuela City,2024,2,285213,TRUE,,
+NCR,NCR,Valenzuela City,2024,3,263108,TRUE,,
+NCR,NCR,Valenzuela City,2024,4,250457,TRUE,,
+NCR,NCR,Valenzuela City,2024,5,256887,TRUE,,
+NCR,NCR,Valenzuela City,2024,6,271760,TRUE,,
+NCR,NCR,Valenzuela City,2024,7,264075,TRUE,,
+NCR,NCR,Valenzuela City,2024,8,319921,TRUE,,
+NCR,NCR,Valenzuela City,2024,9,348138,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Valenzuela City,2024,10,252768,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Valenzuela City,2024,11,299885,FALSE,time_series,"ETS(A,?,A)_log"
+NCR,NCR,Valenzuela City,2024,12,248243,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bataan,Balanga City,2024,1,54187,TRUE,,
+Region III (Central Luzon),Bataan,Balanga City,2024,2,21341,TRUE,,
+Region III (Central Luzon),Bataan,Balanga City,2024,3,182112,TRUE,,
+Region III (Central Luzon),Bataan,Balanga City,2024,4,78074,TRUE,,
+Region III (Central Luzon),Bataan,Balanga City,2024,5,9693,TRUE,,
+Region III (Central Luzon),Bataan,Balanga City,2024,6,106831,TRUE,,
+Region III (Central Luzon),Bataan,Balanga City,2024,7,49029,TRUE,,
+Region III (Central Luzon),Bataan,Balanga City,2024,8,48884,TRUE,,
+Region III (Central Luzon),Bataan,Balanga City,2024,9,41690,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bataan,Balanga City,2024,10,37904,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bataan,Balanga City,2024,11,53713,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bataan,Balanga City,2024,12,68612,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,Malolos City,2024,1,73885,TRUE,,
+Region III (Central Luzon),Bulacan,Malolos City,2024,2,1676,TRUE,,
+Region III (Central Luzon),Bulacan,Malolos City,2024,3,52134,TRUE,,
+Region III (Central Luzon),Bulacan,Malolos City,2024,4,126142,TRUE,,
+Region III (Central Luzon),Bulacan,Malolos City,2024,5,277215,TRUE,,
+Region III (Central Luzon),Bulacan,Malolos City,2024,6,49535,TRUE,,
+Region III (Central Luzon),Bulacan,Malolos City,2024,7,17337,TRUE,,
+Region III (Central Luzon),Bulacan,Malolos City,2024,8,13430,TRUE,,
+Region III (Central Luzon),Bulacan,Malolos City,2024,9,44391,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,Malolos City,2024,10,105462,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,Malolos City,2024,11,135359,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,Malolos City,2024,12,74988,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,1,104080,TRUE,,
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,2,3718,TRUE,,
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,3,259145,TRUE,,
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,4,56106,TRUE,,
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,5,273761,TRUE,,
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,6,29883,TRUE,,
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,7,132010,TRUE,,
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,8,3445,TRUE,,
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,9,97879,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,10,49587,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,11,24509,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,12,61558,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,1,178091,TRUE,,
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,2,11172,TRUE,,
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,3,186718,TRUE,,
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,4,150338,TRUE,,
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,5,8240,TRUE,,
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,6,389627,TRUE,,
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,7,383879,TRUE,,
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,8,225601,TRUE,,
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,9,28689,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,10,254081,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,11,202607,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,12,316770,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,1,192462,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,2,308610,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,3,75736,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,4,200245,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,5,166287,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,6,248359,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,7,207732,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,8,368009,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,9,68163,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,10,186767,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,11,255342,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,12,242305,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,1,51891,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,2,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,3,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,4,153467,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,5,6681,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,6,11404,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,7,6017,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,8,6163,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,9,13,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,10,65053,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,11,2,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,12,37,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,1,16362,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,2,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,3,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,4,2277,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,5,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,6,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,7,2010,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,8,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,9,4,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,10,10644,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,11,7086,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,12,2501,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,1,147116,TRUE,,
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,2,277697,TRUE,,
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,3,32529,TRUE,,
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,4,58523,TRUE,,
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,5,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,6,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,7,2038,TRUE,,
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,8,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,9,15,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,10,40586,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,11,0,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,12,0,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,1,91739,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,2,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,3,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,4,24526,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,5,0,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,6,755929,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,7,15911,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,8,577642,TRUE,,
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,9,2,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,10,19508,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,11,29,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,12,16,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,Angeles City,2024,1,345088,TRUE,,
+Region III (Central Luzon),Pampanga,Angeles City,2024,2,318218,TRUE,,
+Region III (Central Luzon),Pampanga,Angeles City,2024,3,399423,TRUE,,
+Region III (Central Luzon),Pampanga,Angeles City,2024,4,372992,TRUE,,
+Region III (Central Luzon),Pampanga,Angeles City,2024,5,345661,TRUE,,
+Region III (Central Luzon),Pampanga,Angeles City,2024,6,355028,TRUE,,
+Region III (Central Luzon),Pampanga,Angeles City,2024,7,360247,TRUE,,
+Region III (Central Luzon),Pampanga,Angeles City,2024,8,388801,TRUE,,
+Region III (Central Luzon),Pampanga,Angeles City,2024,9,286396,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,Angeles City,2024,10,358330,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,Angeles City,2024,11,380126,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,Angeles City,2024,12,345457,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,1,141405,TRUE,,
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,2,79424,TRUE,,
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,3,35362,TRUE,,
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,4,105088,TRUE,,
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,5,55343,TRUE,,
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,6,380984,TRUE,,
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,7,211993,TRUE,,
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,8,175291,TRUE,,
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,9,187170,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,10,102482,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,11,72026,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,12,137736,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,San Fernando City,2024,1,168513,TRUE,,
+Region III (Central Luzon),Pampanga,San Fernando City,2024,2,383331,TRUE,,
+Region III (Central Luzon),Pampanga,San Fernando City,2024,3,152860,TRUE,,
+Region III (Central Luzon),Pampanga,San Fernando City,2024,4,274327,TRUE,,
+Region III (Central Luzon),Pampanga,San Fernando City,2024,5,214326,TRUE,,
+Region III (Central Luzon),Pampanga,San Fernando City,2024,6,279938,TRUE,,
+Region III (Central Luzon),Pampanga,San Fernando City,2024,7,200587,TRUE,,
+Region III (Central Luzon),Pampanga,San Fernando City,2024,8,157893,TRUE,,
+Region III (Central Luzon),Pampanga,San Fernando City,2024,9,200198,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,San Fernando City,2024,10,150357,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,San Fernando City,2024,11,171753,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Pampanga,San Fernando City,2024,12,228918,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Tarlac,Tarlac City,2024,1,184050,TRUE,,
+Region III (Central Luzon),Tarlac,Tarlac City,2024,2,122564,TRUE,,
+Region III (Central Luzon),Tarlac,Tarlac City,2024,3,38259,TRUE,,
+Region III (Central Luzon),Tarlac,Tarlac City,2024,4,182141,TRUE,,
+Region III (Central Luzon),Tarlac,Tarlac City,2024,5,38583,TRUE,,
+Region III (Central Luzon),Tarlac,Tarlac City,2024,6,32923,TRUE,,
+Region III (Central Luzon),Tarlac,Tarlac City,2024,7,166725,TRUE,,
+Region III (Central Luzon),Tarlac,Tarlac City,2024,8,164536,TRUE,,
+Region III (Central Luzon),Tarlac,Tarlac City,2024,9,110189,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Tarlac,Tarlac City,2024,10,155216,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Tarlac,Tarlac City,2024,11,202455,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Tarlac,Tarlac City,2024,12,101705,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Zambales,Olongapo City,2024,1,117463,TRUE,,
+Region III (Central Luzon),Zambales,Olongapo City,2024,2,109278,TRUE,,
+Region III (Central Luzon),Zambales,Olongapo City,2024,3,133921,TRUE,,
+Region III (Central Luzon),Zambales,Olongapo City,2024,4,140549,TRUE,,
+Region III (Central Luzon),Zambales,Olongapo City,2024,5,123897,TRUE,,
+Region III (Central Luzon),Zambales,Olongapo City,2024,6,131293,TRUE,,
+Region III (Central Luzon),Zambales,Olongapo City,2024,7,134292,TRUE,,
+Region III (Central Luzon),Zambales,Olongapo City,2024,8,113769,TRUE,,
+Region III (Central Luzon),Zambales,Olongapo City,2024,9,134733,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Zambales,Olongapo City,2024,10,127923,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Zambales,Olongapo City,2024,11,115484,FALSE,time_series,"ETS(A,?,A)_log"
+Region III (Central Luzon),Zambales,Olongapo City,2024,12,154604,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,1,158301,TRUE,,
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,2,37848,TRUE,,
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,3,126208,TRUE,,
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,4,63803,TRUE,,
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,5,10141,TRUE,,
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,6,228112,TRUE,,
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,7,197810,TRUE,,
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,8,26266,TRUE,,
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,9,97705,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,10,104609,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,11,199569,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,12,63993,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,1,253842,TRUE,,
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,2,225753,TRUE,,
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,3,454918,TRUE,,
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,4,163014,TRUE,,
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,5,39566,TRUE,,
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,6,249921,TRUE,,
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,7,132661,TRUE,,
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,8,304189,TRUE,,
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,9,233685,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,10,156273,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,11,313798,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,12,346976,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,1,89757,TRUE,,
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,2,163694,TRUE,,
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,3,505269,TRUE,,
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,4,121693,TRUE,,
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,5,183626,TRUE,,
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,6,48636,TRUE,,
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,7,18561,TRUE,,
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,8,0,TRUE,,
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,9,28864,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,10,114732,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,11,38383,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,12,5,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,1,221588,TRUE,,
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,2,245654,TRUE,,
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,3,29399,TRUE,,
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,4,123768,TRUE,,
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,5,29764,TRUE,,
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,6,7228,TRUE,,
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,7,265157,TRUE,,
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,8,72244,TRUE,,
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,9,73536,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,10,272691,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,11,245634,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,12,95021,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,1,44925,TRUE,,
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,2,304910,TRUE,,
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,3,18766,TRUE,,
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,4,7329,TRUE,,
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,5,20441,TRUE,,
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,6,30406,TRUE,,
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,7,117755,TRUE,,
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,8,507988,TRUE,,
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,9,39871,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,10,41672,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,11,181929,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,12,32720,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,1,49810,TRUE,,
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,2,128374,TRUE,,
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,3,41126,TRUE,,
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,4,210725,TRUE,,
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,5,28009,TRUE,,
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,6,481098,TRUE,,
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,7,42311,TRUE,,
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,8,211255,TRUE,,
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,9,25208,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,10,87874,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,11,64477,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,12,81544,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,1,242993,TRUE,,
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,2,303249,TRUE,,
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,3,395794,TRUE,,
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,4,143878,TRUE,,
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,5,395648,TRUE,,
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,6,89745,TRUE,,
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,7,177228,TRUE,,
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,8,70534,TRUE,,
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,9,63481,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,10,246980,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,11,133080,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,12,355092,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,1,223328,TRUE,,
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,2,8280,TRUE,,
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,3,472032,TRUE,,
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,4,139643,TRUE,,
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,5,426307,TRUE,,
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,6,539231,TRUE,,
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,7,82672,TRUE,,
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,8,890613,TRUE,,
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,9,223231,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,10,129025,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,11,7452,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,12,373460,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Imus City,2024,1,149912,TRUE,,
+Region IV-A (CALABARZON),Cavite,Imus City,2024,2,55717,TRUE,,
+Region IV-A (CALABARZON),Cavite,Imus City,2024,3,267822,TRUE,,
+Region IV-A (CALABARZON),Cavite,Imus City,2024,4,277581,TRUE,,
+Region IV-A (CALABARZON),Cavite,Imus City,2024,5,179638,TRUE,,
+Region IV-A (CALABARZON),Cavite,Imus City,2024,6,22299,TRUE,,
+Region IV-A (CALABARZON),Cavite,Imus City,2024,7,185418,TRUE,,
+Region IV-A (CALABARZON),Cavite,Imus City,2024,8,51340,TRUE,,
+Region IV-A (CALABARZON),Cavite,Imus City,2024,9,151768,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Imus City,2024,10,158530,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Imus City,2024,11,106719,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Imus City,2024,12,69430,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,1,33452,TRUE,,
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,2,7183,TRUE,,
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,3,4523,TRUE,,
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,4,20912,TRUE,,
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,5,16565,TRUE,,
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,6,0,TRUE,,
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,7,43190,TRUE,,
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,8,1474,TRUE,,
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,9,11225,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,10,27541,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,11,47509,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,12,11875,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,1,114189,TRUE,,
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,2,27897,TRUE,,
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,3,0,TRUE,,
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,4,12579,TRUE,,
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,5,235203,TRUE,,
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,6,0,TRUE,,
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,7,45179,TRUE,,
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,8,14773,TRUE,,
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,9,42010,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,10,46599,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,11,20,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,12,14940,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Binan City,2024,1,235864,TRUE,,
+Region IV-A (CALABARZON),Laguna,Binan City,2024,2,293582,TRUE,,
+Region IV-A (CALABARZON),Laguna,Binan City,2024,3,61370,TRUE,,
+Region IV-A (CALABARZON),Laguna,Binan City,2024,4,61474,TRUE,,
+Region IV-A (CALABARZON),Laguna,Binan City,2024,5,170404,TRUE,,
+Region IV-A (CALABARZON),Laguna,Binan City,2024,6,502598,TRUE,,
+Region IV-A (CALABARZON),Laguna,Binan City,2024,7,305784,TRUE,,
+Region IV-A (CALABARZON),Laguna,Binan City,2024,8,47200,TRUE,,
+Region IV-A (CALABARZON),Laguna,Binan City,2024,9,144102,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Binan City,2024,10,217680,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Binan City,2024,11,133783,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Binan City,2024,12,227267,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,1,151536,TRUE,,
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,2,109789,TRUE,,
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,3,262071,TRUE,,
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,4,340537,TRUE,,
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,5,379337,TRUE,,
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,6,486698,TRUE,,
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,7,125013,TRUE,,
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,8,622667,TRUE,,
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,9,98810,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,10,185648,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,11,98810,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,12,98810,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,1,347406,TRUE,,
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,2,57253,TRUE,,
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,3,88864,TRUE,,
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,4,262413,TRUE,,
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,5,331697,TRUE,,
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,6,139178,TRUE,,
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,7,379939,TRUE,,
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,8,381447,TRUE,,
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,9,270828,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,10,325441,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,11,99443,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,12,159549,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,1,125680,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,2,2060,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,3,271371,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,4,182523,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,5,19309,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,6,0,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,7,94735,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,8,146340,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,9,35,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,10,97328,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,11,209313,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,12,40,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,1,83635,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,2,14059,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,3,9319,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,4,181323,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,5,7636,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,6,8701,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,7,22357,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,8,4853,TRUE,,
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,9,55259,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,10,42392,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,11,48790,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,12,55361,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,1,227488,TRUE,,
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,2,253336,TRUE,,
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,3,467674,TRUE,,
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,4,206869,TRUE,,
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,5,217857,TRUE,,
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,6,350089,TRUE,,
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,7,189185,TRUE,,
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,8,252013,TRUE,,
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,9,170267,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,10,246154,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,11,170267,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,12,170267,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,1,116968,TRUE,,
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,2,118799,TRUE,,
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,3,139920,TRUE,,
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,4,116440,TRUE,,
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,5,122162,TRUE,,
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,6,102599,TRUE,,
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,7,135117,TRUE,,
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,8,120227,TRUE,,
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,9,131907,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,10,112279,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,11,141105,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,12,127635,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,1,57466,TRUE,,
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,2,131836,TRUE,,
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,3,15499,TRUE,,
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,4,5591,TRUE,,
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,5,1695,TRUE,,
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,6,379942,TRUE,,
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,7,64804,TRUE,,
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,8,4502,TRUE,,
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,9,116874,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,10,21382,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,11,1525,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,12,1525,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,1,296804,TRUE,,
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,2,442862,TRUE,,
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,3,254418,TRUE,,
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,4,364118,TRUE,,
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,5,246823,TRUE,,
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,6,490194,TRUE,,
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,7,254491,TRUE,,
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,8,58022,TRUE,,
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,9,250945,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,10,217269,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,11,426633,FALSE,time_series,"ETS(A,?,A)_log"
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,12,309133,FALSE,time_series,"ETS(A,?,A)_log"
