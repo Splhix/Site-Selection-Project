@@ -1,6 +1,6 @@
 # CP2 Site Selection — Score Computation (IPR & Amortization Edition)
 **Anchor Year:** 2024  •  **Scope:** 50 HUC cities (NCR, Region III, Region IV-A)  
-**Rates Snapshot:** 2025-10-15 (Pag-IBIG Fixed Rates)
+**Rates Snapshot:** 2025-10-16 (Pag-IBIG Fixed Rates)
 
 ---
 
@@ -9,6 +9,7 @@ For any variable x:
 ```
 norm(x) = (x - min(x)) / (max(x) - min(x))
 ```
+If all values are equal for a metric, the normalized score is left blank (NA).
 
 ---
 
@@ -31,7 +32,7 @@ Where:
 25 yrs – 9.125%   30 yrs – 9.75%
 ```
 
-Generated columns:
+Generated columns (per city):
 ```
 Amort_1yr, Amort_3yr, Amort_5yr, Amort_10yr, Amort_15yr,
 Amort_20yr, Amort_25yr, Amort_30yr
@@ -49,35 +50,35 @@ Income-to-Payment Ratio per term:
 IPR_Y = MonthlyIncome / Amort_Y
 ```
 We compute IPR for all terms (1–30 years).  
-Primary affordability signal: **IPR_20yr**
+**Primary affordability signal:** `IPR_20yr`
 
 Interpretation: higher IPR = more affordable  
-(e.g., IPR ≈ 3.3 → P/I ≈ 30%).
+(e.g., IPR ≈ 3.3 → Payment/Income ≈ 30%).
 
 ---
 
-## Profitability Model
-
+## Profitability Model (Final Weights)
 ### 1) EconomyScore
 ```
-EmpScore  = norm(EMP_w_2024)
-GRDPpc    = norm(GRDP_grdp_pc_2024_const)
+EmpScore   = norm(EMP_w_2024)
+GRDPpc     = norm(GRDP_grdp_pc_2024_const)
 EconomyScore = 0.60*EmpScore + 0.40*GRDPpc
 ```
 
-### 2) DemandScore
+### 2) DemandScore  *(region-level input)*
 ```
 DemandScore = norm(DEM_units_single_duplex_2024)
 ```
+> Note: Demand is currently at **region** granularity, so it is **down-weighted** in the composite.
 
 ### 3) AffordabilityScore (IPR-Based)
 ```
 AffordabilityScore = norm(IPR_20yr)
 ```
 
-### 4) ProfitabilityScore
+### 4) ProfitabilityScore  *(down-weights region-level Demand)*
 ```
-ProfitabilityScore = (EconomyScore + DemandScore + AffordabilityScore) / 3
+ProfitabilityScore = 0.40*EconomyScore + 0.40*AffordabilityScore + 0.20*DemandScore
 ```
 
 ---
@@ -121,15 +122,15 @@ OR RISK_m5plus_50km >= 3
 ```
 FinalCityScore = 0.50*ProfitabilityScore + 0.50*HazardSafety_NoFault
 ```
-
-**Interpretation:** higher = more attractive (site is profitable + safe).  
-Show `RISK_Risk_Gate` (PASS/REVIEW) alongside for decision gating.
+**Interpretation:** higher = more attractive (profitable + safe).  
+Always show `RISK_Risk_Gate` (PASS/REVIEW) for decision gating.
 
 ---
 
 ## Transparency & Guardrails
-- Price policy: Pure inheritance (≥ 5 city listings → city median; else province → region → national).  
-- Outlier control: Log-price IQR trimming per city before median.  
-- Normalization: Min–max within 50 cities; uniform metrics left blank.  
-- Sensitivity (recommended): ±25 bps on rates and ±10% on inherited prices.  
-- Units: PHP for prices / amortizations; IPR unitless; scores 0–1 (higher = better).
+- **Price policy:** Pure inheritance (≥ 5 city listings → city median; else province → region → national).  
+- **Outlier control:** Log-price IQR trimming per city before medians.  
+- **Normalization:** Min–max within 50 cities; uniform metrics left blank (NA).  
+- **Sensitivity (recommended):** ±25 bps on rates and ±10% on inherited prices.  
+- **Demand note:** Demand is region-level; hence **20%** weight in Profitability.  
+- **Units:** Prices/amortizations in PHP; IPR unitless; scores 0–1 (higher = better).
