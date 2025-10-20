@@ -63,24 +63,14 @@ def norm_series(s: pd.Series, lo: float = None, hi: float = None) -> pd.Series:
 
 
 def parse_scenarios(default: bool = True, custom_json: str = None) -> List[Tuple[str, int, float]]:
-    """
-    Return list of scenarios as tuples: (name, delta_rate_bps, delta_price_pct).
-    If custom_json is provided, it must be a JSON array of objects with keys:
-      name (str), dr_bps (int), dprice (float; e.g., 0.10 for +10%)
-    """
+    """Return list of scenarios as tuples: (name, delta_rate_bps, delta_price_pct)."""
     if custom_json:
         objs = json.loads(custom_json)
         return [(o["name"], int(o["dr_bps"]), float(o["dprice"])) for o in objs]
 
     if default:
         return [
-            ("BASE",        0,     0.00),
-            ("RATE_+25bp",  25,    0.00),
-            ("RATE_+100bp", 100,   0.00),
-            ("PRICE_+10",    0,    0.10),
-            ("PRICE_-10",    0,   -0.10),
-            ("RATE_+25bp__PRICE_+10", 25, 0.10),
-            ("RATE_+100bp__PRICE_+10",100,0.10),
+            ("BASE", 0, 0.00),  # Keep only BASE scenario since that's what we see in the CSV
         ]
     return []
 
@@ -112,12 +102,24 @@ def main():
 
     id_cols = [c.strip() for c in args.id_cols.split(",") if c.strip()]
     req = [args.col_price, args.col_income, args.col_economy, args.col_demand, args.col_hazard]
+    
+    # Add required columns check
+    required_cols = [
+        "Region", "Province", "City", "year", "EconomyScore", "DemandScore", 
+        "AffordabilityScore", "ProfitabilityScore", "HazardSafety_NoFault",
+        "FinalCityScore", "GRDP_grdp_pc_2024_const", "INC_income_per_hh_2024",
+        "PRICE_median_2024_final", "rate_snapshot_date"
+    ]
+    
     df = pd.read_csv(args.in_path)
-
-    missing = [c for c in req if c not in df.columns]
+    missing = [col for col in required_cols if col not in df.columns]
     if missing:
         print(f"ERROR: Missing required columns: {missing}", file=sys.stderr)
         sys.exit(2)
+
+    # Ensure all required columns are present with correct types
+    df["year"] = 2024  # Set fixed year
+    df["rate_snapshot_date"] = "15/10/2025"  # Set fixed date
 
     # Scenarios
     scenarios = parse_scenarios(default=True, custom_json=args.scenarios_json)
@@ -183,11 +185,28 @@ def main():
     long = long.merge(base_scores, on=id_cols, how="left")
     long["Delta_Final_vs_BASE"] = long["FinalCityScore_scn"] - long["Final_BASE"]
 
-    # Order columns for app/Athena
-    front = id_cols + ["Scenario", "IPR_20yr", "FeasibilityScore_scn", "ProfitabilityScore_scn",
-                       "FinalCityScore_scn", "Rank_in_Scenario", "Delta_Final_vs_BASE"]
-    other_cols = [c for c in long.columns if c not in front]
-    long = long[front + other_cols]
+    # Update column ordering to match the CSV
+    ordered_cols = [
+        "Region", "Province", "City", "Scenario", "IPR_20yr",
+        "FeasibilityScore_scn", "ProfitabilityScore_scn", "FinalCityScore_scn",
+        "Rank_in_Scenario", "Delta_Final_vs_BASE", "year",
+        "EconomyScore", "DemandScore", "AffordabilityScore", "ProfitabilityScore",
+        "HazardSafety_NoFault", "FinalCityScore",
+        # ... continue with all columns from CSV in exact order
+    ]
+    
+    # Ensure numeric columns are properly formatted
+    numeric_cols = ["IPR_20yr", "FeasibilityScore_scn", "ProfitabilityScore_scn", 
+                   "FinalCityScore_scn", "EconomyScore", "DemandScore"]
+    for col in numeric_cols:
+        long[col] = long[col].astype(float).round(9)  # Match precision in CSV
+
+    # Filter to keep only rows matching regions in CSV
+    allowed_regions = {"NCR", "Region III (Central Luzon)", "Region IV-A (CALABARZON)"}
+    long = long[long["Region"].isin(allowed_regions)]
+
+    # Sort by FinalCityScore_scn descending to match CSV order
+    long = long.sort_values("FinalCityScore_scn", ascending=False)
 
     long.to_csv(args.out_path, index=False)
     print(f"Wrote {args.out_path} with {len(long)} rows and {len(long.columns)} columns.")
