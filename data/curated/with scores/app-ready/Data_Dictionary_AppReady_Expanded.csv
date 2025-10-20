@@ -1,0 +1,49 @@
+Column,Plain-English Meaning,Source / Origin,Model Role,Interpretation
+Region,The region where the city belongs based on PSA classification.,From project data sources,Scenario management / context,Context or reference field
+Province,Province name of the city (PSA mapping).,From project data sources,Scenario management / context,Context or reference field
+City,Name of the highly urbanized city included in the ranking.,From project data sources,Scenario management / context,Context or reference field
+Scenario,"The scenario tested (BASE, +25bp rate, +100bp rate, +10% or -10% price). It shows how affordability changes under different conditions.",From project data sources,Scenario management / context,Context or reference field
+IPR_20yr,Income-to-Payment Ratio for a 20-year loan. It compares a household’s monthly income to the monthly house payment. Higher = more affordable.,Computed internally,Feasibility pillar (affordability),Higher = more affordable
+FeasibilityScore_scn,A normalized 0–1 score derived from IPR_20yr for each scenario. It tells how affordable housing is in that city.,Computed internally,Feasibility pillar (affordability),Higher = more affordable
+ProfitabilityScore_scn,"Weighted score showing a city’s overall market attractiveness. It blends Economy (40%), Feasibility (40%), and Demand (20%).",Computed internally,Profitability pillar (economic strength),Context or reference field
+FinalCityScore_scn,The main score used to rank cities. Combines Profitability (50%) and Hazard Safety (50%) to balance potential and risk.,Computed internally,Final scoring output,Higher = overall better city
+Rank_in_Scenario,Rank of the city within the chosen scenario. Rank 1 = highest final score (best site).,From project data sources,Scenario management / context,Context or reference field
+Delta_Final_vs_BASE,"Difference between the FinalCityScore of a scenario and the Base scenario. Positive = improvement, negative = decrease.",From project data sources,Scenario management / context,Context or reference field
+year,Auxiliary or supporting field used for reference or app visualization.,From project data sources,Scenario management / context,Context or reference field
+EconomyScore,0–1 score combining GRDP per capita and employment rate. Indicates job and income strength in the area.,Computed internally,Profitability pillar (economic strength),Higher = stronger economy
+DemandScore,0–1 score showing housing demand using occupied housing units (regional level).,Computed internally,Demand pillar (market need),Higher = more market demand
+AffordabilityScore,Auxiliary or supporting field used for reference or app visualization.,Computed internally,Scenario management / context,Context or reference field
+ProfitabilityScore,Auxiliary or supporting field used for reference or app visualization.,Computed internally,Profitability pillar (economic strength),Context or reference field
+HazardSafety_NoFault,"Overall safety rating combining flood, storm surge, landslide, and earthquake exposure. Higher = safer to build.",From Project NOAH or PHIVOLCS hazard data,Risk pillar (safety and exposure),Higher = safer city
+FinalCityScore,Auxiliary or supporting field used for reference or app visualization.,Computed internally,Final scoring output,Higher = overall better city
+GRDP_grdp_pc_2024_const,Auxiliary or supporting field used for reference or app visualization.,From project data sources,Scenario management / context,Context or reference field
+INC_income_per_hh_2024,Average annual household income in pesos. Based on PSA Family Income data (2023p).,From PSA datasets (2023p),Scenario management / context,Context or reference field
+DEM_households_single_duplex_2024,Auxiliary or supporting field used for reference or app visualization.,From project data sources,Scenario management / context,Context or reference field
+DEM_units_single_duplex_2024,Auxiliary or supporting field used for reference or app visualization.,From project data sources,Scenario management / context,Context or reference field
+RISK_Risk_Gate,Auxiliary or supporting field used for reference or app visualization.,Computed internally,Risk pillar (safety and exposure),Higher = safer city
+RISK_Fault_Distance_km,"Distance from the nearest active fault in kilometers. Used for PASS/REVIEW tagging, not for scoring.",From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_Nearest_Fault_Name,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_Flood_Level_Num,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_StormSurge_Level_Num,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_Landslide_Level_Num,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_Flood_Level_Tip,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_StormSurge_Level_Tip,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_Landslide_Level_Tip,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_Risk_Gate_Tip,Auxiliary or supporting field used for reference or app visualization.,Computed internally,Risk pillar (safety and exposure),Higher = safer city
+RISK_Risk_Gate_Reasons_ASCII,Auxiliary or supporting field used for reference or app visualization.,Computed internally,Risk pillar (safety and exposure),Higher = safer city
+RISK_events_50km,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_m5plus_50km,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_avg_mag_50km,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_events_50km_per_year,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+RISK_avg_depth_km_50km,Auxiliary or supporting field used for reference or app visualization.,From Project NOAH or PHIVOLCS hazard data,Scenario management / context,Context or reference field
+FloodRisk,0–1 measure of flood exposure based on Project NOAH levels (1–3).,Computed internally,Risk pillar (safety and exposure),Higher = safer city
+StormSurgeRisk,0–1 measure of storm surge exposure from NOAH data (1–3).,Computed internally,Risk pillar (safety and exposure),Higher = safer city
+LandslideRisk,0–1 measure of landslide exposure from NOAH data (1–3).,Computed internally,Risk pillar (safety and exposure),Higher = safer city
+RISK_HydroRisk,Hydrometeorological risk combining flood and storm surge exposure.,Computed internally,Risk pillar (safety and exposure),Higher = safer city
+EarthquakeRisk,"Risk index from earthquake frequency, magnitude (≥5), and depth (PHIVOLCS data).",Computed internally,Risk pillar (safety and exposure),Higher = safer city
+HazardRisk_NoFault,Composite hazard score excluding fault distance (used for safety scoring only).,Computed internally,Risk pillar (safety and exposure),Higher = safer city
+PRICE_median_2024_final,Median housing price (in PHP) collected as of early 2024. Used as the base value in amortization and IPR calculations.,From curated real estate dataset (March 2024),Scenario management / context,Context or reference field
+price_source_flag,Auxiliary or supporting field used for reference or app visualization.,From project data sources,Scenario management / context,Context or reference field
+Amort_20yr,Auxiliary or supporting field used for reference or app visualization.,From project data sources,Scenario management / context,Context or reference field
+rate_snapshot_date,Auxiliary or supporting field used for reference or app visualization.,From project data sources,Scenario management / context,Context or reference field
+Final_BASE,Auxiliary or supporting field used for reference or app visualization.,From project data sources,Scenario management / context,Context or reference field
