@@ -1,0 +1,104 @@
+column,type,description
+Region,object,Administrative region of the city (PSA).
+Province,object,Province (PSA).
+City,object,Highly Urbanized City (HUC) name.
+EMP_w_2024,int64,Metadata or passthrough field used for diagnostics or audit.
+months_observed_2024,int64,Metadata or passthrough field used for diagnostics or audit.
+quality_flag,object,Metadata or passthrough field used for diagnostics or audit.
+projection_note,object,Metadata or passthrough field used for diagnostics or audit.
+DEM_Region_std,object,Metadata or passthrough field used for diagnostics or audit.
+DEM_geo_source_for_demand,object,Metadata or passthrough field used for diagnostics or audit.
+DEM_households_single_duplex_2020,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_units_single_duplex_2020,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_single_house_households_2020,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_single_house_occupied_units_2020,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_duplex_households_2020,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_duplex_occupied_units_2020,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_CAGR_occ_2015_2020,float64,Metadata or passthrough field used for diagnostics or audit.
+DEM_households_single_duplex_2024,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_units_single_duplex_2024,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_single_house_households_2024,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_single_house_occupied_units_2024,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_duplex_households_2024,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_duplex_occupied_units_2024,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_CAGR_occ_2015_2020.1,float64,Metadata or passthrough field used for diagnostics or audit.
+DEM_growth_rate_used_value,float64,Metadata or passthrough field used for diagnostics or audit.
+DEM_growth_rate_used_basis,object,Metadata or passthrough field used for diagnostics or audit.
+DEM_growth_rate_geo_source,object,Metadata or passthrough field used for diagnostics or audit.
+DEM_years_used_from,int64,Metadata or passthrough field used for diagnostics or audit.
+DEM_years_used_to,int64,Metadata or passthrough field used for diagnostics or audit.
+GRDP_city_raw,object,Metadata or passthrough field used for diagnostics or audit.
+GRDP_grdp_pc_2024_const,int64,Metadata or passthrough field used for diagnostics or audit.
+GRDP_geo_source_for_grdp,object,Metadata or passthrough field used for diagnostics or audit.
+INC_income_per_hh_2018,int64,Metadata or passthrough field used for diagnostics or audit.
+INC_income_per_hh_2021,int64,Metadata or passthrough field used for diagnostics or audit.
+INC_income_per_hh_2023p,int64,Metadata or passthrough field used for diagnostics or audit.
+INC_income_total_2023p_millions,float64,Metadata or passthrough field used for diagnostics or audit.
+INC_geo_source_for_income,object,Metadata or passthrough field used for diagnostics or audit.
+INC_cagr_21_23p,float64,Metadata or passthrough field used for diagnostics or audit.
+INC_cagr_18_23p,float64,Metadata or passthrough field used for diagnostics or audit.
+INC_growth_rate_used_income,float64,Metadata or passthrough field used for diagnostics or audit.
+INC_years_used_income,object,Metadata or passthrough field used for diagnostics or audit.
+INC_growth_rate_geo_source_income,object,Metadata or passthrough field used for diagnostics or audit.
+INC_switched_to_longer_cagr,bool,Metadata or passthrough field used for diagnostics or audit.
+INC_switch_reason,object,Metadata or passthrough field used for diagnostics or audit.
+INC_income_per_hh_2024,float64,Annual income per household (PHP).
+INC_qa_flag_missing_any_cagr,bool,Metadata or passthrough field used for diagnostics or audit.
+INC_qa_flag_nonpositive_2024,bool,Metadata or passthrough field used for diagnostics or audit.
+RISK_Risk_Gate,object,Metadata or passthrough field used for diagnostics or audit.
+RISK_Risk_Gate_Reasons,object,Metadata or passthrough field used for diagnostics or audit.
+RISK_Fault_Distance_km,float64,Distance to nearest active fault (km); used for PASS/REVIEW gate only.
+RISK_Nearest_Fault_Name,object,Metadata or passthrough field used for diagnostics or audit.
+RISK_Flood_Level_Num,int64,Flood hazard level (1–3) from Project NOAH.
+RISK_StormSurge_Level_Num,int64,Storm surge hazard level (1–3) from Project NOAH.
+RISK_Landslide_Level_Num,int64,Landslide hazard level (1–3) from Project NOAH.
+RISK_events_50km,int64,Metadata or passthrough field used for diagnostics or audit.
+RISK_events_50km_per_year,int64,Annual earthquake events within 50 km (count).
+RISK_m5plus_50km,int64,Earthquakes with magnitude ≥ 5 within 50 km (count).
+RISK_avg_mag_50km,float64,Metadata or passthrough field used for diagnostics or audit.
+RISK_avg_depth_km_50km,float64,Average depth (km) of events within 50 km.
+RISK_Flood_Level_Tip,object,Metadata or passthrough field used for diagnostics or audit.
+RISK_StormSurge_Level_Tip,object,Metadata or passthrough field used for diagnostics or audit.
+RISK_Landslide_Level_Tip,object,Metadata or passthrough field used for diagnostics or audit.
+RISK_Risk_Gate_Tip,object,Metadata or passthrough field used for diagnostics or audit.
+RISK_Risk_Gate_Reasons_ASCII,object,Metadata or passthrough field used for diagnostics or audit.
+PRICE_median_2024_final,float64,Median 2024 PHP listing price used as base; scenarios adjust by ±%.
+price_source_flag,object,Metadata or passthrough field used for diagnostics or audit.
+Amort_1yr,float64,Monthly amortization for 1-year term (PHP).
+Amort_3yr,float64,Monthly amortization for 3-year term (PHP).
+Amort_5yr,float64,Monthly amortization for 5-year term (PHP).
+Amort_10yr,float64,Monthly amortization for 10-year term (PHP).
+Amort_15yr,float64,Monthly amortization for 15-year term (PHP).
+Amort_20yr,float64,Monthly amortization for 20-year term (PHP).
+Amort_25yr,float64,Monthly amortization for 25-year term (PHP).
+Amort_30yr,float64,Monthly amortization for 30-year term (PHP).
+rate_snapshot_date,object,Metadata or passthrough field used for diagnostics or audit.
+rate_1yr,float64,Metadata or passthrough field used for diagnostics or audit.
+rate_3yr,float64,Metadata or passthrough field used for diagnostics or audit.
+rate_5yr,float64,Metadata or passthrough field used for diagnostics or audit.
+rate_10yr,float64,Metadata or passthrough field used for diagnostics or audit.
+rate_15yr,float64,Metadata or passthrough field used for diagnostics or audit.
+rate_20yr,float64,Metadata or passthrough field used for diagnostics or audit.
+rate_25yr,float64,Metadata or passthrough field used for diagnostics or audit.
+rate_30yr,float64,Metadata or passthrough field used for diagnostics or audit.
+MonthlyIncome,float64,Metadata or passthrough field used for diagnostics or audit.
+IPR_1yr,float64,IPR using 1-year term amortization.
+IPR_3yr,float64,IPR using 3-year term amortization.
+IPR_5yr,float64,IPR using 5-year term amortization.
+IPR_10yr,float64,IPR using 10-year term amortization.
+IPR_15yr,float64,IPR using 15-year term amortization.
+IPR_20yr,float64,Income-to-Payment Ratio at 20-year term; (Income per HH / 12) divided by scenario amortization.
+IPR_25yr,float64,IPR using 25-year term amortization.
+IPR_30yr,float64,IPR using 30-year term amortization.
+AffordabilityScore,float64,Legacy name for FeasibilityScore in earlier files.
+EconomyScore,float64,0–1 score combining employment and GRDP per capita (0.60/0.40).
+DemandScore,float64,0–1 score from occupied single/duplex housing units (region-level).
+HazardSafety_NoFault,float64,1 − HazardRisk_NoFault; composite safety excluding fault distance (gate-only).
+ProfitabilityScore,float64,Composite: 0.40*EconomyScore + 0.40*Feasibility/Affordability + 0.20*DemandScore (base).
+FinalCityScore,float64,0.50*ProfitabilityScore + 0.50*HazardSafety_NoFault (base).
+FloodRisk,float64,Scaled flood exposure: (Flood Level − 1)/2.
+StormSurgeRisk,float64,Scaled storm surge exposure: (Storm Surge Level − 1)/2.
+LandslideRisk,float64,Scaled landslide exposure: (Landslide Level − 1)/2.
+RISK_HydroRisk,float64,Hydrometeorological risk: 0.5*FloodRisk + 0.5*StormSurgeRisk.
+EarthquakeRisk,float64,0.45*norm(M≥5 count) + 0.35*norm(freq) + 0.20*(1 − norm(depth)).
+HazardRisk_NoFault,float64,0.40*EarthquakeRisk + 0.40*RISK_HydroRisk + 0.20*LandslideRisk.
