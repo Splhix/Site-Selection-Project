@@ -70,9 +70,23 @@ def parse_scenarios(default: bool = True, custom_json: str = None) -> List[Tuple
 
     if default:
         return [
-            ("BASE", 0, 0.00),  # Keep only BASE scenario since that's what we see in the CSV
+            ("BASE", 0, 0.00),
+            ("RATE_+25bp", 25, 0.00),
+            ("RATE_+50bp", 50, 0.00),
+            ("PRICE_+10", 0, 0.10),
+            ("PRICE_-10", 0, -0.10),
         ]
     return []
+
+
+def get_unit_model_params():
+    """Return unit model parameters."""
+    return {
+        'ANDREW': {'tcp': 5783032.65, 'rate': 0.085, 'term': 20},
+        'BERNIE': {'tcp': 5171067.08, 'rate': 0.085, 'term': 20},
+        'NATHAN': {'tcp': 4376525.02, 'rate': 0.085, 'term': 20},
+        'MARKET_MEDIAN': {'tcp': None, 'rate': 0.085, 'term': 20}  # TCP from data
+    }
 
 
 def main():
