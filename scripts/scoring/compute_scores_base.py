@@ -10,17 +10,67 @@ import os
 from utils import amort, minmax_norm, validate_required_columns
 
 
+def compute_ipr(df, unit_model_params):
+    """Compute Income-to-Payment Ratio for a specific unit model."""
+    income_mo = df['INC_income_per_hh_2024'] / 12.0
+    monthly_payment = amort(unit_model_params['tcp'], unit_model_params['rate'], unit_model_params['term'])
+    return income_mo / monthly_payment
+
+
+def compute_unit_model_scores(df, scenario="BASE"):
+    """Compute scores for each unit model type."""
+    # Unit model parameters
+    unit_models = {
+        'ANDREW': {'tcp': 5783032.65, 'rate': 0.085, 'term': 20},
+        'BERNIE': {'tcp': 5171067.08, 'rate': 0.085, 'term': 20},
+        'NATHAN': {'tcp': 4376525.02, 'rate': 0.085, 'term': 20},
+        'MARKET_MEDIAN': {'tcp': None, 'rate': 0.085, 'term': 20}  # TCP from data
+    }
+    
+    results = []
+    for model, params in unit_models.items():
+        df_model = df.copy()
+        
+        # For MARKET_MEDIAN, use the price from data
+        if model == 'MARKET_MEDIAN':
+            params['tcp'] = df_model['PRICE_median_2024_final']
+        
+        # Compute IPR and scores
+        df_model['UnitModel'] = model
+        df_model['Scenario'] = scenario
+        df_model['TCP_Model'] = params['tcp']
+        df_model['MonthlyPayment_Model'] = amort(params['tcp'], params['rate'], params['term'])
+        df_model['IPR_20yr'] = compute_ipr(df_model, params)
+        df_model['rate_snapshot_date'] = '15/10/2025'  # Configurable
+        
+        # Normalize scores
+        df_model['FeasibilityScore_scn'] = minmax_norm(df_model['IPR_20yr'])
+        
+        # Updated scoring weights per methodology
+        df_model['ProfitabilityScore_scn'] = (
+            0.40 * df_model['FeasibilityScore_scn'] +
+            0.40 * df_model['EconomyScore'] +
+            0.20 * df_model['DemandScore']
+        )
+        
+        # Final city score (50/50 split)
+        df_model['FinalCityScore_scn'] = (
+            0.50 * df_model['ProfitabilityScore_scn'] +
+            0.50 * df_model['HazardSafety_NoFault']
+        )
+        
+        results.append(df_model)
+    
+    return pd.concat(results, ignore_index=True)
+
+
 def main():
     # Input and output file paths
     IN_FACT = "data/curated/fact_table_2024.csv"
-    OUT = "data/curated/with scores/fact_table_FULL_FINAL.csv"
+    OUT = "data/curated/with scores/fact_table_with_unit_models.csv"
     
     # Create output directory
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    
-    # Constants
-    BASE_RATE_20Y = 0.085  # 8.5% annual
-    TERM_YEARS = 20
     
     print("Loading fact table...")
     
