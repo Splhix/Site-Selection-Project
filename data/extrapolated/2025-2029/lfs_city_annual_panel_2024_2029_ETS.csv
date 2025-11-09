@@ -1,0 +1,301 @@
+Region,Province,City,EMP_w_year,months_observed,Year,projection_reliance
+NCR,NCR,Caloocan City,468325.625,8,2024,observed
+NCR,NCR,Caloocan City,571405.5579900777,12,2025,time_series
+NCR,NCR,Caloocan City,606086.117601713,12,2026,time_series
+NCR,NCR,Caloocan City,642871.5591105542,12,2027,time_series
+NCR,NCR,Caloocan City,677711.4437562885,12,2028,time_series
+NCR,NCR,Caloocan City,696315.0669355823,12,2029,time_series
+NCR,NCR,City of Manila,759943.1111111111,8,2024,observed
+NCR,NCR,City of Manila,852693.6914634072,12,2025,time_series
+NCR,NCR,City of Manila,859069.735498751,12,2026,time_series
+NCR,NCR,City of Manila,865493.456604944,12,2027,time_series
+NCR,NCR,City of Manila,871965.2112887903,12,2028,time_series
+NCR,NCR,City of Manila,878485.3587228865,12,2029,time_series
+NCR,NCR,Las Pinas City,208612.125,8,2024,observed
+NCR,NCR,Las Pinas City,187884.88809932652,12,2025,time_series
+NCR,NCR,Las Pinas City,187422.90329720965,12,2026,time_series
+NCR,NCR,Las Pinas City,186962.05445636963,12,2027,time_series
+NCR,NCR,Las Pinas City,186502.33878362353,12,2028,time_series
+NCR,NCR,Las Pinas City,186043.75349265675,12,2029,time_series
+NCR,NCR,Makati City,652229.125,8,2024,observed
+NCR,NCR,Makati City,548713.1222313469,12,2025,time_series
+NCR,NCR,Makati City,462826.3078824939,12,2026,time_series
+NCR,NCR,Makati City,433003.4928646611,12,2027,time_series
+NCR,NCR,Makati City,432986.25,12,2028,time_series
+NCR,NCR,Makati City,432986.25,12,2029,time_series
+NCR,NCR,Malabon City,130835.5,8,2024,observed
+NCR,NCR,Malabon City,158228.04019117876,12,2025,time_series
+NCR,NCR,Malabon City,175067.90134812403,12,2026,time_series
+NCR,NCR,Malabon City,193699.99176761066,12,2027,time_series
+NCR,NCR,Malabon City,212276.3498491328,12,2028,time_series
+NCR,NCR,Malabon City,221693.04541852206,12,2029,time_series
+NCR,NCR,Mandaluyong City,304059.375,8,2024,observed
+NCR,NCR,Mandaluyong City,332638.61557279347,12,2025,time_series
+NCR,NCR,Mandaluyong City,362060.7039744899,12,2026,time_series
+NCR,NCR,Mandaluyong City,394085.1940379014,12,2027,time_series
+NCR,NCR,Mandaluyong City,425752.7840170643,12,2028,time_series
+NCR,NCR,Mandaluyong City,450752.95981739694,12,2029,time_series
+NCR,NCR,Marikina City,210669.25,8,2024,observed
+NCR,NCR,Marikina City,235817.7588775007,12,2025,time_series
+NCR,NCR,Marikina City,255588.94443614417,12,2026,time_series
+NCR,NCR,Marikina City,276528.25846728677,12,2027,time_series
+NCR,NCR,Marikina City,295286.9500793908,12,2028,time_series
+NCR,NCR,Marikina City,308069.3953362925,12,2029,time_series
+NCR,NCR,Muntinlupa City,320344.25,8,2024,observed
+NCR,NCR,Muntinlupa City,228370.71746474656,12,2025,time_series
+NCR,NCR,Muntinlupa City,190086.75,12,2026,time_series
+NCR,NCR,Muntinlupa City,190086.75,12,2027,time_series
+NCR,NCR,Muntinlupa City,190086.75,12,2028,time_series
+NCR,NCR,Muntinlupa City,190086.75,12,2029,time_series
+NCR,NCR,Navotas City,84523.0,8,2024,observed
+NCR,NCR,Navotas City,89322.07980198482,12,2025,time_series
+NCR,NCR,Navotas City,90853.16358860514,12,2026,time_series
+NCR,NCR,Navotas City,92410.49192267505,12,2027,time_series
+NCR,NCR,Navotas City,93994.51466610063,12,2028,time_series
+NCR,NCR,Navotas City,95605.6893919417,12,2029,time_series
+NCR,NCR,Paranaque City,396355.25,8,2024,observed
+NCR,NCR,Paranaque City,423033.3359627325,12,2025,time_series
+NCR,NCR,Paranaque City,450199.8616077115,12,2026,time_series
+NCR,NCR,Paranaque City,479110.9781699516,12,2027,time_series
+NCR,NCR,Paranaque City,509878.7204936714,12,2028,time_series
+NCR,NCR,Paranaque City,542622.3181219695,12,2029,time_series
+NCR,NCR,Pasay City,325218.375,8,2024,observed
+NCR,NCR,Pasay City,282627.5988148859,12,2025,time_series
+NCR,NCR,Pasay City,242796.83109726923,12,2026,time_series
+NCR,NCR,Pasay City,212681.28322477685,12,2027,time_series
+NCR,NCR,Pasay City,208241.25,12,2028,time_series
+NCR,NCR,Pasay City,208241.25,12,2029,time_series
+NCR,NCR,Pasig City,539566.375,8,2024,observed
+NCR,NCR,Pasig City,517208.49319339014,12,2025,time_series
+NCR,NCR,Pasig City,501264.680481757,12,2026,time_series
+NCR,NCR,Pasig City,485812.3623359112,12,2027,time_series
+NCR,NCR,Pasig City,470836.387617755,12,2028,time_series
+NCR,NCR,Pasig City,456322.0722482421,12,2029,time_series
+NCR,NCR,Quezon City,1825228.75,8,2024,observed
+NCR,NCR,Quezon City,1901727.2005590464,12,2025,time_series
+NCR,NCR,Quezon City,1985035.4589366773,12,2026,time_series
+NCR,NCR,Quezon City,2071993.1713011225,12,2027,time_series
+NCR,NCR,Quezon City,2162760.207930087,12,2028,time_series
+NCR,NCR,Quezon City,2257503.442479255,12,2029,time_series
+NCR,NCR,San Juan City,67003.75,8,2024,observed
+NCR,NCR,San Juan City,81324.94544564346,12,2025,time_series
+NCR,NCR,San Juan City,86103.313754074,12,2026,time_series
+NCR,NCR,San Juan City,91162.44221015538,12,2027,time_series
+NCR,NCR,San Juan City,96134.18006259523,12,2028,time_series
+NCR,NCR,San Juan City,101151.62395093024,12,2029,time_series
+NCR,NCR,Taguig City,653810.375,8,2024,observed
+NCR,NCR,Taguig City,689972.554594581,12,2025,time_series
+NCR,NCR,Taguig City,758171.3264465317,12,2026,time_series
+NCR,NCR,Taguig City,830499.6058392139,12,2027,time_series
+NCR,NCR,Taguig City,863705.066379133,12,2028,time_series
+NCR,NCR,Taguig City,868207.5,12,2029,time_series
+NCR,NCR,Valenzuela City,277294.125,8,2024,observed
+NCR,NCR,Valenzuela City,319153.6565067321,12,2025,time_series
+NCR,NCR,Valenzuela City,337328.7341805165,12,2026,time_series
+NCR,NCR,Valenzuela City,354840.46082600695,12,2027,time_series
+NCR,NCR,Valenzuela City,372929.7284965027,12,2028,time_series
+NCR,NCR,Valenzuela City,388902.2975777702,12,2029,time_series
+Region III (Central Luzon),Bataan,Balanga City,62672.5,8,2024,observed
+Region III (Central Luzon),Bataan,Balanga City,50971.779870175815,12,2025,time_series
+Region III (Central Luzon),Bataan,Balanga City,52346.872468754795,12,2026,time_series
+Region III (Central Luzon),Bataan,Balanga City,53759.06166587285,12,2027,time_series
+Region III (Central Luzon),Bataan,Balanga City,55209.3482360412,12,2028,time_series
+Region III (Central Luzon),Bataan,Balanga City,56698.75995219299,12,2029,time_series
+Region III (Central Luzon),Bulacan,Malolos City,80962.875,8,2024,observed
+Region III (Central Luzon),Bulacan,Malolos City,34579.061652926604,12,2025,time_series
+Region III (Central Luzon),Bulacan,Malolos City,28069.117563425145,12,2026,time_series
+Region III (Central Luzon),Bulacan,Malolos City,22784.75248106389,12,2027,time_series
+Region III (Central Luzon),Bulacan,Malolos City,18495.235714136183,12,2028,time_series
+Region III (Central Luzon),Bulacan,Malolos City,15013.27453110369,12,2029,time_series
+Region III (Central Luzon),Bulacan,Meycauayan City,91306.75,8,2024,observed
+Region III (Central Luzon),Bulacan,Meycauayan City,4576.604329638104,12,2025,time_series
+Region III (Central Luzon),Bulacan,Meycauayan City,2189.25,12,2026,time_series
+Region III (Central Luzon),Bulacan,Meycauayan City,2189.25,12,2027,time_series
+Region III (Central Luzon),Bulacan,Meycauayan City,2189.25,12,2028,time_series
+Region III (Central Luzon),Bulacan,Meycauayan City,2189.25,12,2029,time_series
+Region III (Central Luzon),Bulacan,San Jose del Monte City,194651.0,8,2024,observed
+Region III (Central Luzon),Bulacan,San Jose del Monte City,408238.72856939095,12,2025,time_series
+Region III (Central Luzon),Bulacan,San Jose del Monte City,413137.4166666667,12,2026,time_series
+Region III (Central Luzon),Bulacan,San Jose del Monte City,414317.48227674415,12,2027,time_series
+Region III (Central Luzon),Bulacan,San Jose del Monte City,418179.0969728579,12,2028,time_series
+Region III (Central Luzon),Bulacan,San Jose del Monte City,428740.3088834607,12,2029,time_series
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,207776.375,8,2024,observed
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,307638.6082492625,12,2025,time_series
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,348361.433092023,12,2026,time_series
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,383797.0921593085,12,2027,time_series
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,403562.79371709184,12,2028,time_series
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,419039.2970547332,12,2029,time_series
+Region III (Central Luzon),Nueva Ecija,Gapan City,33414.333333333336,8,2024,observed
+Region III (Central Luzon),Nueva Ecija,Gapan City,1708.6841846759644,12,2025,time_series
+Region III (Central Luzon),Nueva Ecija,Gapan City,661.0571731785598,12,2026,time_series
+Region III (Central Luzon),Nueva Ecija,Gapan City,255.75035464713463,12,2027,time_series
+Region III (Central Luzon),Nueva Ecija,Gapan City,98.94491211347547,12,2028,time_series
+Region III (Central Luzon),Nueva Ecija,Gapan City,38.27989074209122,12,2029,time_series
+Region III (Central Luzon),Nueva Ecija,Palayan City,9085.333333333334,8,2024,observed
+Region III (Central Luzon),Nueva Ecija,Palayan City,0.21084543136090808,12,2025,time_series
+Region III (Central Luzon),Nueva Ecija,Palayan City,0.0025274163100021878,12,2026,time_series
+Region III (Central Luzon),Nueva Ecija,Palayan City,3.0296284642420836e-05,12,2027,time_series
+Region III (Central Luzon),Nueva Ecija,Palayan City,3.631633061409198e-07,12,2028,time_series
+Region III (Central Luzon),Nueva Ecija,Palayan City,4.3532594337496e-09,12,2029,time_series
+Region III (Central Luzon),Nueva Ecija,San Jose City,74467.2,8,2024,observed
+Region III (Central Luzon),Nueva Ecija,San Jose City,200.5908211481809,12,2025,time_series
+Region III (Central Luzon),Nueva Ecija,San Jose City,30.29317784040344,12,2026,time_series
+Region III (Central Luzon),Nueva Ecija,San Jose City,4.574868473131185,12,2027,time_series
+Region III (Central Luzon),Nueva Ecija,San Jose City,0.6908955427758108,12,2028,time_series
+Region III (Central Luzon),Nueva Ecija,San Jose City,0.10433887964887806,12,2029,time_series
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,198040.2,8,2024,observed
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,79680.79824632425,12,2025,time_series
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,180593.0269998191,12,2026,time_series
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,215105.3536325201,12,2027,time_series
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,218156.4060989383,12,2028,time_series
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,225213.5580484758,12,2029,time_series
+Region III (Central Luzon),Pampanga,Angeles City,350694.125,8,2024,observed
+Region III (Central Luzon),Pampanga,Angeles City,371448.9921995245,12,2025,time_series
+Region III (Central Luzon),Pampanga,Angeles City,390442.326142645,12,2026,time_series
+Region III (Central Luzon),Pampanga,Angeles City,410406.84789849515,12,2027,time_series
+Region III (Central Luzon),Pampanga,Angeles City,431095.6430708219,12,2028,time_series
+Region III (Central Luzon),Pampanga,Angeles City,450546.0946094403,12,2029,time_series
+Region III (Central Luzon),Pampanga,Mabalacat City,140358.625,8,2024,observed
+Region III (Central Luzon),Pampanga,Mabalacat City,182440.6490988325,12,2025,time_series
+Region III (Central Luzon),Pampanga,Mabalacat City,219173.44863670677,12,2026,time_series
+Region III (Central Luzon),Pampanga,Mabalacat City,263302.07015040977,12,2027,time_series
+Region III (Central Luzon),Pampanga,Mabalacat City,311768.3932647939,12,2028,time_series
+Region III (Central Luzon),Pampanga,Mabalacat City,345512.4270708176,12,2029,time_series
+Region III (Central Luzon),Pampanga,San Fernando City,215250.0,8,2024,observed
+Region III (Central Luzon),Pampanga,San Fernando City,175880.1424251217,12,2025,time_series
+Region III (Central Luzon),Pampanga,San Fernando City,178102.33113061963,12,2026,time_series
+Region III (Central Luzon),Pampanga,San Fernando City,180354.10733500306,12,2027,time_series
+Region III (Central Luzon),Pampanga,San Fernando City,182635.86498325443,12,2028,time_series
+Region III (Central Luzon),Pampanga,San Fernando City,184948.003265566,12,2029,time_series
+Region III (Central Luzon),Tarlac,Tarlac City,125356.75,8,2024,observed
+Region III (Central Luzon),Tarlac,Tarlac City,121764.8544793339,12,2025,time_series
+Region III (Central Luzon),Tarlac,Tarlac City,111877.3542223453,12,2026,time_series
+Region III (Central Luzon),Tarlac,Tarlac City,102792.73474528275,12,2027,time_series
+Region III (Central Luzon),Tarlac,Tarlac City,94445.8008491556,12,2028,time_series
+Region III (Central Luzon),Tarlac,Tarlac City,86776.65128904168,12,2029,time_series
+Region III (Central Luzon),Zambales,Olongapo City,128483.5,8,2024,observed
+Region III (Central Luzon),Zambales,Olongapo City,116505.51530422154,12,2025,time_series
+Region III (Central Luzon),Zambales,Olongapo City,107529.40109346602,12,2026,time_series
+Region III (Central Luzon),Zambales,Olongapo City,99244.84750208668,12,2027,time_series
+Region III (Central Luzon),Zambales,Olongapo City,91753.80831372652,12,2028,time_series
+Region III (Central Luzon),Zambales,Olongapo City,86329.77568785184,12,2029,time_series
+Region IV-A (CALABARZON),Batangas,Batangas City,109530.375,8,2024,observed
+Region IV-A (CALABARZON),Batangas,Batangas City,26830.94690346436,12,2025,time_series
+Region IV-A (CALABARZON),Batangas,Batangas City,10740.550386639472,12,2026,time_series
+Region IV-A (CALABARZON),Batangas,Batangas City,7854.75,12,2027,time_series
+Region IV-A (CALABARZON),Batangas,Batangas City,7854.75,12,2028,time_series
+Region IV-A (CALABARZON),Batangas,Batangas City,7854.75,12,2029,time_series
+Region IV-A (CALABARZON),Batangas,Lipa City,239549.75,8,2024,observed
+Region IV-A (CALABARZON),Batangas,Lipa City,263699.78414563625,12,2025,time_series
+Region IV-A (CALABARZON),Batangas,Lipa City,284866.46323846147,12,2026,time_series
+Region IV-A (CALABARZON),Batangas,Lipa City,307732.1513208852,12,2027,time_series
+Region IV-A (CALABARZON),Batangas,Lipa City,332433.22460639285,12,2028,time_series
+Region IV-A (CALABARZON),Batangas,Lipa City,359117.00596720906,12,2029,time_series
+Region IV-A (CALABARZON),Batangas,Tanauan City,125068.57142857143,8,2024,observed
+Region IV-A (CALABARZON),Batangas,Tanauan City,0.00021623575255962392,12,2025,time_series
+Region IV-A (CALABARZON),Batangas,Tanauan City,1.7693698256219419e-06,12,2026,time_series
+Region IV-A (CALABARZON),Batangas,Tanauan City,1.447803863497449e-08,12,2027,time_series
+Region IV-A (CALABARZON),Batangas,Tanauan City,1.184679424733232e-10,12,2028,time_series
+Region IV-A (CALABARZON),Batangas,Tanauan City,9.693753240828653e-13,12,2029,time_series
+Region IV-A (CALABARZON),Cavite,Bacoor City,140140.25,8,2024,observed
+Region IV-A (CALABARZON),Cavite,Bacoor City,87447.13028101432,12,2025,time_series
+Region IV-A (CALABARZON),Cavite,Bacoor City,75305.47385109095,12,2026,time_series
+Region IV-A (CALABARZON),Cavite,Bacoor City,64849.633987000656,12,2027,time_series
+Region IV-A (CALABARZON),Cavite,Bacoor City,55845.54233818192,12,2028,time_series
+Region IV-A (CALABARZON),Cavite,Bacoor City,48091.629933807,12,2029,time_series
+Region IV-A (CALABARZON),Cavite,Cavite City,112392.5,8,2024,observed
+Region IV-A (CALABARZON),Cavite,Cavite City,423443.32591965696,12,2025,time_series
+Region IV-A (CALABARZON),Cavite,Cavite City,542451.25,12,2026,time_series
+Region IV-A (CALABARZON),Cavite,Cavite City,542451.25,12,2027,time_series
+Region IV-A (CALABARZON),Cavite,Cavite City,542451.25,12,2028,time_series
+Region IV-A (CALABARZON),Cavite,Cavite City,542451.25,12,2029,time_series
+Region IV-A (CALABARZON),Cavite,City of Carmona,120670.375,8,2024,observed
+Region IV-A (CALABARZON),Cavite,City of Carmona,179383.3651690485,12,2025,time_series
+Region IV-A (CALABARZON),Cavite,City of Carmona,275302.49129550304,12,2026,time_series
+Region IV-A (CALABARZON),Cavite,City of Carmona,341343.54440823256,12,2027,time_series
+Region IV-A (CALABARZON),Cavite,City of Carmona,395423.3173163463,12,2028,time_series
+Region IV-A (CALABARZON),Cavite,City of Carmona,421015.7612745831,12,2029,time_series
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,216718.75,8,2024,observed
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,163163.91607130214,12,2025,time_series
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,151721.8665426391,12,2026,time_series
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,141103.411695042,12,2027,time_series
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,131249.26947445387,12,2028,time_series
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,122332.0753606346,12,2029,time_series
+Region IV-A (CALABARZON),Cavite,General Trias City,292319.625,8,2024,observed
+Region IV-A (CALABARZON),Cavite,General Trias City,768432.9928957258,12,2025,time_series
+Region IV-A (CALABARZON),Cavite,General Trias City,839510.4229177552,12,2026,time_series
+Region IV-A (CALABARZON),Cavite,General Trias City,858357.5049075749,12,2027,time_series
+Region IV-A (CALABARZON),Cavite,General Trias City,859071.4235257417,12,2028,time_series
+Region IV-A (CALABARZON),Cavite,General Trias City,860694.9690562171,12,2029,time_series
+Region IV-A (CALABARZON),Cavite,Imus City,139681.25,8,2024,observed
+Region IV-A (CALABARZON),Cavite,Imus City,51095.85450453055,12,2025,time_series
+Region IV-A (CALABARZON),Cavite,Imus City,25722.07156919074,12,2026,time_series
+Region IV-A (CALABARZON),Cavite,Imus City,17276.567997533733,12,2027,time_series
+Region IV-A (CALABARZON),Cavite,Imus City,15708.0,12,2028,time_series
+Region IV-A (CALABARZON),Cavite,Imus City,15708.0,12,2029,time_series
+Region IV-A (CALABARZON),Cavite,Tagaytay City,22148.14285714286,8,2024,observed
+Region IV-A (CALABARZON),Cavite,Tagaytay City,203.83142114832876,12,2025,time_series
+Region IV-A (CALABARZON),Cavite,Tagaytay City,4.197115663335119,12,2026,time_series
+Region IV-A (CALABARZON),Cavite,Tagaytay City,0.08642327955214489,12,2027,time_series
+Region IV-A (CALABARZON),Cavite,Tagaytay City,0.0017795514461979433,12,2028,time_series
+Region IV-A (CALABARZON),Cavite,Tagaytay City,3.66429434994346e-05,12,2029,time_series
+Region IV-A (CALABARZON),Cavite,Trece Martires City,61487.666666666664,8,2024,observed
+Region IV-A (CALABARZON),Cavite,Trece Martires City,3494.6534754717413,12,2025,time_series
+Region IV-A (CALABARZON),Cavite,Trece Martires City,1445.3946075619267,12,2026,time_series
+Region IV-A (CALABARZON),Cavite,Trece Martires City,597.8176623898538,12,2027,time_series
+Region IV-A (CALABARZON),Cavite,Trece Martires City,247.25839960625265,12,2028,time_series
+Region IV-A (CALABARZON),Cavite,Trece Martires City,102.26649365199971,12,2029,time_series
+Region IV-A (CALABARZON),Laguna,Binan City,200092.375,8,2024,observed
+Region IV-A (CALABARZON),Laguna,Binan City,73193.10774809819,12,2025,time_series
+Region IV-A (CALABARZON),Laguna,Binan City,55573.591989663866,12,2026,time_series
+Region IV-A (CALABARZON),Laguna,Binan City,43655.013642156126,12,2027,time_series
+Region IV-A (CALABARZON),Laguna,Binan City,36686.354755876586,12,2028,time_series
+Region IV-A (CALABARZON),Laguna,Binan City,34462.46161743004,12,2029,time_series
+Region IV-A (CALABARZON),Laguna,Cabuyao City,235079.125,8,2024,observed
+Region IV-A (CALABARZON),Laguna,Cabuyao City,522734.55056474305,12,2025,time_series
+Region IV-A (CALABARZON),Laguna,Cabuyao City,560038.4541626672,12,2026,time_series
+Region IV-A (CALABARZON),Laguna,Cabuyao City,590786.25,12,2027,time_series
+Region IV-A (CALABARZON),Laguna,Cabuyao City,590786.25,12,2028,time_series
+Region IV-A (CALABARZON),Laguna,Cabuyao City,590786.25,12,2029,time_series
+Region IV-A (CALABARZON),Laguna,Calamba City,236954.875,8,2024,observed
+Region IV-A (CALABARZON),Laguna,Calamba City,326393.49963989283,12,2025,time_series
+Region IV-A (CALABARZON),Laguna,Calamba City,366552.66874752886,12,2026,time_series
+Region IV-A (CALABARZON),Laguna,Calamba City,402753.83012594323,12,2027,time_series
+Region IV-A (CALABARZON),Laguna,Calamba City,422377.7129347802,12,2028,time_series
+Region IV-A (CALABARZON),Laguna,Calamba City,436453.5780025672,12,2029,time_series
+Region IV-A (CALABARZON),Laguna,San Pablo City,109403.14285714286,8,2024,observed
+Region IV-A (CALABARZON),Laguna,San Pablo City,52942.58953914801,12,2025,time_series
+Region IV-A (CALABARZON),Laguna,San Pablo City,51105.57062520334,12,2026,time_series
+Region IV-A (CALABARZON),Laguna,San Pablo City,49332.29318139768,12,2027,time_series
+Region IV-A (CALABARZON),Laguna,San Pablo City,47620.545485802264,12,2028,time_series
+Region IV-A (CALABARZON),Laguna,San Pablo City,45968.192559523646,12,2029,time_series
+Region IV-A (CALABARZON),Laguna,San Pedro City,44473.75,8,2024,observed
+Region IV-A (CALABARZON),Laguna,San Pedro City,4426.067071109398,12,2025,time_series
+Region IV-A (CALABARZON),Laguna,San Pedro City,3902.25,12,2026,time_series
+Region IV-A (CALABARZON),Laguna,San Pedro City,3902.25,12,2027,time_series
+Region IV-A (CALABARZON),Laguna,San Pedro City,3902.25,12,2028,time_series
+Region IV-A (CALABARZON),Laguna,San Pedro City,3902.25,12,2029,time_series
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,235949.875,8,2024,observed
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,267285.287797732,12,2025,time_series
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,322211.1083037635,12,2026,time_series
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,384637.0515296056,12,2027,time_series
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,441410.5634809071,12,2028,time_series
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,477192.10800223955,12,2029,time_series
+Region IV-A (CALABARZON),Quezon,Lucena City,123763.125,8,2024,observed
+Region IV-A (CALABARZON),Quezon,Lucena City,128696.13012105956,12,2025,time_series
+Region IV-A (CALABARZON),Quezon,Lucena City,130296.81498128024,12,2026,time_series
+Region IV-A (CALABARZON),Quezon,Lucena City,131917.40869205713,12,2027,time_series
+Region IV-A (CALABARZON),Quezon,Lucena City,133558.15887385583,12,2028,time_series
+Region IV-A (CALABARZON),Quezon,Lucena City,135219.31622697305,12,2029,time_series
+Region IV-A (CALABARZON),Quezon,Tayabas City,66635.875,8,2024,observed
+Region IV-A (CALABARZON),Quezon,Tayabas City,8599.256678034866,12,2025,time_series
+Region IV-A (CALABARZON),Quezon,Tayabas City,5086.286872324416,12,2026,time_series
+Region IV-A (CALABARZON),Quezon,Tayabas City,3083.3978902987515,12,2027,time_series
+Region IV-A (CALABARZON),Quezon,Tayabas City,2000.8994718607082,12,2028,time_series
+Region IV-A (CALABARZON),Quezon,Tayabas City,1473.6313841325425,12,2029,time_series
+Region IV-A (CALABARZON),Rizal,Antipolo City,300976.125,8,2024,observed
+Region IV-A (CALABARZON),Rizal,Antipolo City,50538.076335667974,12,2025,time_series
+Region IV-A (CALABARZON),Rizal,Antipolo City,43765.59686115725,12,2026,time_series
+Region IV-A (CALABARZON),Rizal,Antipolo City,43518.0,12,2027,time_series
+Region IV-A (CALABARZON),Rizal,Antipolo City,43518.0,12,2028,time_series
+Region IV-A (CALABARZON),Rizal,Antipolo City,43518.0,12,2029,time_series
