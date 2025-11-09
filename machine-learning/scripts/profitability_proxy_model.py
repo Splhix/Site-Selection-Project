@@ -1,9 +1,10 @@
 # ---------------------------------------------------------
-# CP2 Construction Site Selection – Profitability Proxy-Based Model
+# CP2 Construction Site Selection – Proxy-Based ML Model
 # ---------------------------------------------------------
 # Objective:
-# Predict ProfitabilityScore_scn for new cities using raw economic,
-# demand, and hazard variables (no pillar scores).
+# Predict Potential Revenue (in PHP) of site locations using
+# validated profitability scores plus raw economic, demand,
+# and hazard indicators.
 # ---------------------------------------------------------
 
 import pandas as pd
@@ -33,18 +34,24 @@ data_path = os.path.join(
 
 df = pd.read_csv(data_path)
 
-# We'll focus on a consistent scenario + unit model
 SCENARIO_FILTER = "BASE"
-UNITMODEL_FILTER = "MARKET_MEDIAN"  # change if needed
+UNITMODEL_FILTER = "MARKET_MEDIAN"   # adjust if needed
 
-# Output folder for trained models
 OUTPUT_DIR = Path(project_root) / "machine-learning" / "models"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-TARGET_COL = "ProfitabilityScore_scn"
+# ---------------------------------------------------------
+# 2. FILTER & FEATURE PREPARATION
+# ---------------------------------------------------------
+mask = (df["Scenario"] == SCENARIO_FILTER) & (df["UnitModel"] == UNITMODEL_FILTER)
+df_sub = df.loc[mask].copy()
 
-# Raw/proxy-based feature columns (plus one derived ratio)
+if df_sub.empty:
+    raise ValueError("No data found for specified scenario/unit model filters.")
+
+# --- Core raw drivers and validated profitability predictor ---
 BASE_FEATURE_COLS = [
+    "ProfitabilityScore_scn",          # validated company metric
     "GRDP_grdp_pc_2024_const",
     "INC_income_per_hh_2024",
     "DEM_households_single_duplex_2024",
@@ -55,78 +62,75 @@ BASE_FEATURE_COLS = [
     "RISK_Landslide_Level_Num",
 ]
 
-# ---------------------------------------------------------
-# 2. FILTER & DERIVE FEATURES
-# ---------------------------------------------------------
-# Filter to chosen scenario + unit model for consistent target definition
-mask = (df["Scenario"] == SCENARIO_FILTER) & (df["UnitModel"] == UNITMODEL_FILTER)
-df_sub = df.loc[mask].copy()
-
-if df_sub.empty:
-    raise ValueError(f"No rows found for Scenario={SCENARIO_FILTER} & UnitModel={UNITMODEL_FILTER}")
-
-# Keep only needed columns
-needed_cols = BASE_FEATURE_COLS + [TARGET_COL]
-missing = [c for c in needed_cols if c not in df_sub.columns]
-if missing:
-    raise KeyError(f"Missing expected columns in fact table: {missing}")
-
-# Derive demand pressure ratio (households per unit)
+# --- Derive ratio feature: demand pressure ---
 df_sub["DEM_HH_to_units_ratio_2024"] = (
     df_sub["DEM_households_single_duplex_2024"] /
     df_sub["DEM_units_single_duplex_2024"].replace(0, np.nan)
 )
 
-# Final feature list (including derived ratio)
+# --- Compute Potential Revenue Proxy ---
+# Using TCP (unit price) × number of single/duplex units × assumed capture rate (7%)
+# Adjust the column name for TCP if needed (e.g., UnitModel_TCP or Price_Median)
+tcp_col_candidates = [c for c in df_sub.columns if "TCP" in c or "price" in c.lower()]
+if not tcp_col_candidates:
+    raise KeyError("No TCP/price column found; please verify your fact table column name.")
+TCP_COL = tcp_col_candidates[0]
+
+CAPTURE_RATE = 0.07
+df_sub["PotentialRevenueProxy"] = (
+    df_sub["DEM_units_single_duplex_2024"] *
+    df_sub[TCP_COL] *
+    CAPTURE_RATE
+)
+
+# --- Final feature list ---
 FEATURE_COLS = BASE_FEATURE_COLS + ["DEM_HH_to_units_ratio_2024"]
 
-# Drop rows with any NA in features or target
+TARGET_COL = "PotentialRevenueProxy"
+
+# --- Drop NA rows ---
 df_sub = df_sub[FEATURE_COLS + [TARGET_COL]].dropna()
 
-print(f"\nUsing {len(df_sub):,} rows for training (after filters & NA drop).")
-print(f"Scenario filter: {SCENARIO_FILTER}, UnitModel filter: {UNITMODEL_FILTER}")
+print(f"\nTraining rows: {len(df_sub):,}")
+print(f"Scenario: {SCENARIO_FILTER} | Unit Model: {UNITMODEL_FILTER}")
 print("Feature columns:", FEATURE_COLS)
-print("Target column:", TARGET_COL)
+print("Target:", TARGET_COL, "(proxy for potential revenue)")
 
 X = df_sub[FEATURE_COLS]
 y = df_sub[TARGET_COL]
 
 # ---------------------------------------------------------
-# 3. TRAIN/TEST SPLIT
+# 3. TRAIN / TEST SPLIT
 # ---------------------------------------------------------
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # ---------------------------------------------------------
-# 4. MODEL 1 – LINEAR REGRESSION (proxy-based)
+# 4. LINEAR REGRESSION MODEL
 # ---------------------------------------------------------
-linreg_pipeline = Pipeline([
+lin_pipe = Pipeline([
     ("scaler", StandardScaler()),
     ("model", LinearRegression())
 ])
-linreg_pipeline.fit(X_train, y_train)
+lin_pipe.fit(X_train, y_train)
 
-y_pred_lin = linreg_pipeline.predict(X_test)
+y_pred_lin = lin_pipe.predict(X_test)
 r2_lin = r2_score(y_test, y_pred_lin)
 mae_lin = mean_absolute_error(y_test, y_pred_lin)
-mse_lin = mean_squared_error(y_test, y_pred_lin)
-rmse_lin = mse_lin ** 0.5
+rmse_lin = mean_squared_error(y_test, y_pred_lin) ** 0.5
 
-print("\n=== PROXY LINEAR REGRESSION RESULTS ===")
+print("\n=== LINEAR REGRESSION (Potential Revenue) ===")
 print(f"R²:   {r2_lin:.4f}")
-print(f"MAE:  {mae_lin:.4f}")
-print(f"RMSE: {rmse_lin:.4f}")
+print(f"MAE:  {mae_lin:,.0f}")
+print(f"RMSE: {rmse_lin:,.0f}")
 
-linreg_model = linreg_pipeline.named_steps["model"]
-coef = linreg_model.coef_
+lin_model = lin_pipe.named_steps["model"]
+coef = lin_model.coef_
 print("\nFeature Coefficients (standardized inputs):")
-for name, c in zip(FEATURE_COLS, coef):
-    direction = "↑ increases profitability" if c > 0 else "↓ decreases profitability"
-    print(f"  {name}: {c:.3f} ({direction})")
+for n, c in zip(FEATURE_COLS, coef):
+    print(f"  {n}: {c:.3f}")
 
 # ---------------------------------------------------------
-# 5. MODEL 2 – RANDOM FOREST REGRESSOR (proxy-based)
+# 5. RANDOM FOREST REGRESSOR
 # ---------------------------------------------------------
 rf_model = RandomForestRegressor(
     n_estimators=300,
@@ -138,93 +142,86 @@ rf_model.fit(X_train, y_train)
 y_pred_rf = rf_model.predict(X_test)
 r2_rf = r2_score(y_test, y_pred_rf)
 mae_rf = mean_absolute_error(y_test, y_pred_rf)
-mse_rf = mean_squared_error(y_test, y_pred_rf)
-rmse_rf = mse_rf ** 0.5
+rmse_rf = mean_squared_error(y_test, y_pred_rf) ** 0.5
 
-print("\n=== PROXY RANDOM FOREST RESULTS ===")
+print("\n=== RANDOM FOREST (Potential Revenue) ===")
 print(f"R²:   {r2_rf:.4f}")
-print(f"MAE:  {mae_rf:.4f}")
-print(f"RMSE: {rmse_rf:.4f}")
+print(f"MAE:  {mae_rf:,.0f}")
+print(f"RMSE: {rmse_rf:,.0f}")
 
 importances = rf_model.feature_importances_
-print("\nFeature Importances (proxy model):")
-for name, imp in sorted(zip(FEATURE_COLS, importances), key=lambda x: -x[1]):
-    print(f"  {name}: {imp:.3f}")
+print("\nFeature Importances:")
+for n, imp in sorted(zip(FEATURE_COLS, importances), key=lambda x: -x[1]):
+    print(f"  {n}: {imp:.3f}")
 
 # ---------------------------------------------------------
-# 6. WHAT-IF SENSITIVITY TEST (e.g., improve income or GRDP)
+# 6. WHAT-IF SENSITIVITY (increase income by 10%)
 # ---------------------------------------------------------
-print("\n=== WHAT-IF SENSITIVITY TEST (INCOME) ===")
+print("\n=== WHAT-IF SENSITIVITY TEST (Income +10%) ===")
 sample = X.iloc[[0]].copy()
-print("Sample city baseline:")
-print(sample)
+base_lin = lin_pipe.predict(sample)[0]
+base_rf = rf_model.predict(sample)[0]
 
-base_pred_lin = linreg_pipeline.predict(sample)[0]
-base_pred_rf = rf_model.predict(sample)[0]
+whatif = sample.copy()
+whatif["INC_income_per_hh_2024"] *= 1.10
 
-# Simulate a 10% higher household income
-whatif_income = sample.copy()
-whatif_income["INC_income_per_hh_2024"] *= 1.10
+whatif_lin = lin_pipe.predict(whatif)[0]
+whatif_rf = rf_model.predict(whatif)[0]
 
-whatif_pred_lin = linreg_pipeline.predict(whatif_income)[0]
-whatif_pred_rf = rf_model.predict(whatif_income)[0]
-
-print(f"\nIf income per HH increases by 10%:")
-print(f"  Linear Regression → ΔProfitability: {whatif_pred_lin - base_pred_lin:.4f}")
-print(f"  Random Forest     → ΔProfitability: {whatif_pred_rf - base_pred_rf:.4f}")
+print(f"Linear Regression → ΔRevenue: {whatif_lin - base_lin:,.0f} PHP")
+print(f"Random Forest     → ΔRevenue: {whatif_rf - base_rf:,.0f} PHP")
 
 # ---------------------------------------------------------
-# 7. SAVE MODELS (proxy-based)
+# 7. SAVE MODELS
 # ---------------------------------------------------------
-lin_model_path = OUTPUT_DIR / "profitability_proxy_linear_model.pkl"
-rf_model_path = OUTPUT_DIR / "profitability_proxy_randomforest_model.pkl"
+lin_path = OUTPUT_DIR / "potential_revenue_linear_model.pkl"
+rf_path = OUTPUT_DIR / "potential_revenue_randomforest_model.pkl"
 
-joblib.dump(linreg_pipeline, lin_model_path)
-joblib.dump(rf_model, rf_model_path)
+joblib.dump(lin_pipe, lin_path)
+joblib.dump(rf_model, rf_path)
 
-print(f"\n💾 Proxy Linear model saved to: {lin_model_path}")
-print(f"💾 Proxy Random Forest model saved to: {rf_model_path}")
+print(f"\n💾 Linear model saved to: {lin_path}")
+print(f"💾 Random Forest model saved to: {rf_path}")
 
 # ---------------------------------------------------------
-# 8. NEW CITY PREDICTION TEST (ONLY RAW FEATURES)
+# 8. NEW CITY PREDICTION TEST
 # ---------------------------------------------------------
-print("\n=== NEW CITY PREDICTION TEST (PROXY MODEL) ===")
+print("\n=== NEW CITY PREDICTION TEST ===")
 
-# Example: completely new city with only raw data known
 new_city = pd.DataFrame({
-    "GRDP_grdp_pc_2024_const": [150000],       # example value
-    "INC_income_per_hh_2024": [350000],        # example value
+    "ProfitabilityScore_scn": [0.65],
+    "GRDP_grdp_pc_2024_const": [150000],
+    "INC_income_per_hh_2024": [350000],
     "DEM_households_single_duplex_2024": [50000],
     "DEM_units_single_duplex_2024": [30000],
-    "RISK_Fault_Distance_km": [12.5],
+    "RISK_Fault_Distance_km": [12.0],
     "RISK_Flood_Level_Num": [2],
     "RISK_StormSurge_Level_Num": [1],
     "RISK_Landslide_Level_Num": [1],
 })
-
-# Derive ratio for new city
 new_city["DEM_HH_to_units_ratio_2024"] = (
     new_city["DEM_households_single_duplex_2024"] /
-    new_city["DEM_units_single_duplex_2024"].replace(0, np.nan)
+    new_city["DEM_units_single_duplex_2024"]
 )
 
-print("\nIncoming NEW CITY raw data:")
+print("New city raw data:")
 print(new_city)
 
-pred_lin_new = linreg_pipeline.predict(new_city)[0]
+pred_lin_new = lin_pipe.predict(new_city)[0]
 pred_rf_new = rf_model.predict(new_city)[0]
 
-print("\nPredicted ProfitabilityScore_scn for NEW CITY:")
-print(f"  Proxy Linear Regression: {pred_lin_new:.4f}")
-print(f"  Proxy Random Forest:     {pred_rf_new:.4f}")
+print(f"\nPredicted Potential Revenue (PHP):")
+print(f"  Linear Regression: {pred_lin_new:,.0f}")
+print(f"  Random Forest:     {pred_rf_new:,.0f}")
 
 # ---------------------------------------------------------
 # 9. INTERPRETATION SUMMARY
 # ---------------------------------------------------------
-print("\n=== INTERPRETATION SUMMARY (PROXY MODEL) ===")
+print("\n=== INTERPRETATION SUMMARY ===")
 main_driver = sorted(zip(FEATURE_COLS, importances), key=lambda x: -x[1])[0][0]
-print(f"Strongest profitability driver (proxy model): {main_driver}")
-print("This proxy-based model uses raw economic, demand, and hazard variables")
-print("so that we can predict profitability and potential revenue even for")
-print("entirely new imported cities that do not yet have pillar scores.")
-print("\n✅ End of script. Proxy-based models are trained, saved, and ready for new cities.")
+print(f"Strongest driver of potential revenue: {main_driver}")
+print("This ML model extends the validated profitability logic by forecasting")
+print("expected revenue outcomes (in pesos) using economic, demand, and hazard variables.")
+print("It is therefore capable of predicting the profitability and potential revenue")
+print("of entirely new city data without requiring pillar scores.")
+print("\n✅ End of script. Models trained, saved, and ready for new-city predictions.")
