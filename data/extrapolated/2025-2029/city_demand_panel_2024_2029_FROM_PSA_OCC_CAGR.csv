@@ -1,0 +1,301 @@
+Region,Province,City,Year,DEM_households_single_duplex,DEM_units_single_duplex,demand_growth_rate,demand_growth_basis,demand_geo_source,demand_projection_method
+NCR,NCR,Caloocan City,2024,359385.0,336846.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Caloocan City,2025,366110.51543644496,343149.721559622,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Caloocan City,2026,372961.89187957044,349571.4106934507,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Caloocan City,2027,379941.4846868433,356113.27504159726,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Caloocan City,2028,387051.693293789,362777.5635578548,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Caloocan City,2029,394294.96203886607,369566.5672828412,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,City of Manila,2024,314658.0,286159.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,City of Manila,2025,320546.496281706,291514.167221163,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,City of Manila,2026,326545.18962962244,296969.5508114306,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,City of Manila,2027,332656.142266908,302527.026215625,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,City of Manila,2028,338881.45500907674,308188.50397556205,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,City of Manila,2029,345223.267986214,313955.930386855,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Las Pinas City,2024,141591.0,128203.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Las Pinas City,2025,144240.727885587,130602.18542927099,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Las Pinas City,2026,146940.04266488657,133046.26911150038,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Las Pinas City,2027,149689.8723048954,135536.09127066343,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Las Pinas City,2028,152491.16213854466,138072.50785465067,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Las Pinas City,2029,155344.87518968538,140656.39082952472,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Makati City,2024,84698.0,81534.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Makati City,2025,86283.03472998599,83059.823770038,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Makati City,2026,87897.73173175246,84614.20174049806,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Makati City,2027,89542.646103778,86197.66827345906,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Makati City,2028,91218.34333263029,87810.76773102881,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Makati City,2029,92925.39948736836,89454.05466248425,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Malabon City,2024,91533.0,85364.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Malabon City,2025,93245.944626081,86961.498225348,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Malabon City,2026,94990.94522423785,88588.89196379273,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Malabon City,2027,96768.60168855358,90246.74067868078,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Malabon City,2028,98579.52513950328,91935.61430313175,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Malabon City,2029,100424.33813404434,93656.09343596912,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Mandaluyong City,2024,68927.0,63018.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Mandaluyong City,2025,70216.896914139,64197.316142225995,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Mandaluyong City,2026,71530.93290366362,65398.70195602701,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Mandaluyong City,2027,72869.55970619265,66622.57045228791,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Mandaluyong City,2028,74233.23751314326,67869.34237096149,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Mandaluyong City,2029,75622.43512793501,69139.44632570993,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Marikina City,2024,94850.0,88251.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Marikina City,2025,96625.01882145,89902.52541920698,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Marikina City,2026,98433.25526879879,91584.95741409343,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Marikina City,2027,100275.33097526911,93298.8743689876,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Marikina City,2028,102151.87920730104,95044.86549207722,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Marikina City,2029,104063.54508225564,96823.53101796671,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Muntinlupa City,2024,112743.0,102307.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Muntinlupa City,2025,114852.86765405099,104221.568798799,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Muntinlupa City,2026,117002.21928065558,106171.96675577226,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Muntinlupa City,2027,119191.79378117833,108158.8643762452,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Muntinlupa City,2028,121422.34388475215,110182.94471335105,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Muntinlupa City,2029,123694.6364070506,112244.90360285006,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Navotas City,2024,59592.0,52092.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Navotas City,2025,60707.20212554399,53066.84744804399,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Navotas City,2026,61843.27409571173,54059.93814931225,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Navotas City,2027,63000.60646787809,55071.61350726113,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Navotas City,2028,64179.59710829187,56102.221314356626,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Navotas City,2029,65380.65132885375,57152.115871637965,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Paranaque City,2024,157581.0,147399.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Paranaque City,2025,160529.96405801698,150157.41854784297,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Paranaque City,2026,163534.11490261025,152967.45802177832,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Paranaque City,2027,166594.48529693074,155830.08445359717,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Paranaque City,2028,169712.1273312146,158746.28195336813,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Paranaque City,2029,172888.11278446944,161717.0530477533,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasay City,2024,74680.0,64970.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasay City,2025,76077.55830876,66185.84578629,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasay City,2026,77501.27046361512,67424.44485834325,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasay City,2027,78951.62590651658,68686.22302017115,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasay City,2028,80429.1232388112,69971.61404426303,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasay City,2029,81934.27039265,71281.05982070796,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasig City,2024,146885.0,134199.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasig City,2025,149633.799573945,136710.39431544297,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasig City,2026,152434.0400649184,139268.78675611524,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasig City,2027,155286.68413602954,141875.05684291132,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasig City,2028,158192.71246562374,144530.1005560421,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Pasig City,2029,161153.12408441879,147234.83064305352,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Quezon City,2024,627332.0,589559.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Quezon City,2025,639071.8640727239,600591.981774963,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Quezon City,2026,651031.4274568907,611831.4342964444,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Quezon City,2027,663214.8015959675,623281.2214491162,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Quezon City,2028,675626.1748747978,634945.2794262224,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Quezon City,2029,688269.8140594792,646827.6180827576,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,San Juan City,2024,18863.0,17492.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,San Juan City,2025,19216.001370890997,17819.344535843997,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,San Juan City,2026,19575.608794257794,18152.81498325597,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,San Juan City,2027,19941.945895482353,18492.52598228157,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,San Juan City,2028,20315.138613466734,18838.59431833537,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,San Juan City,2029,20695.315243928184,19191.138962349138,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Taguig City,2024,163009.0,147887.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Taguig City,2025,166059.54341661299,150654.55095885898,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Taguig City,2026,169167.1745715511,153473.89374735736,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Taguig City,2027,172332.9618022946,156345.99759556798,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Taguig City,2028,175557.99343914533,159271.8498716935,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Taguig City,2029,178843.37817937176,162252.4564215028,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Valenzuela City,2024,142922.0,130458.0,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Valenzuela City,2025,145596.63616235397,132899.38540230598,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Valenzuela City,2026,148321.32535084093,135386.45878605117,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Valenzuela City,2027,151097.00425563956,137920.07515415558,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Valenzuela City,2028,153924.62709610836,140501.1055100272,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+NCR,NCR,Valenzuela City,2029,156805.16594882595,143130.43715699427,0.018713957,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bataan,Balanga City,2024,214428.0,203892.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bataan,Balanga City,2025,220561.778769396,209724.393254844,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bataan,Balanga City,2026,226871.0161635607,215723.6239092876,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bataan,Balanga City,2027,233360.73123032134,221894.46439836532,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bataan,Balanga City,2028,240036.08658890915,228241.82367408113,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bataan,Balanga City,2029,246902.3925368635,234770.7511105181,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Malolos City,2024,807708.0,756960.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Malolos City,2025,830812.7353063561,778613.07318672,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Malolos City,2026,854578.3886593042,800885.5391794398,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Malolos City,2027,879023.865822469,823795.1158995283,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Malolos City,2028,904168.6133646475,847360.0280949348,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Malolos City,2029,930032.6341297077,871599.0218381191,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Meycauayan City,2024,807708.0,756960.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Meycauayan City,2025,830812.7353063561,778613.07318672,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Meycauayan City,2026,854578.3886593042,800885.5391794398,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Meycauayan City,2027,879023.865822469,823795.1158995283,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Meycauayan City,2028,904168.6133646475,847360.0280949348,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,Meycauayan City,2029,930032.6341297077,871599.0218381191,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2024,807708.0,756960.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2025,830812.7353063561,778613.07318672,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2026,854578.3886593042,800885.5391794398,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2027,879023.865822469,823795.1158995283,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2028,904168.6133646475,847360.0280949348,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Bulacan,San Jose del Monte City,2029,930032.6341297077,871599.0218381191,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2024,624890.0,595592.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2025,642765.1702912301,612629.092006744,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2026,661151.665316318,630153.5352607283,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2027,680064.1116762527,648179.2705939969,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2028,699517.5543704341,666720.6376203741,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Cabanatuan City,2029,719527.4687650896,685792.3861427407,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Gapan City,2024,624890.0,595592.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Gapan City,2025,642765.1702912301,612629.092006744,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Gapan City,2026,661151.665316318,630153.5352607283,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Gapan City,2027,680064.1116762527,648179.2705939969,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Gapan City,2028,699517.5543704341,666720.6376203741,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Gapan City,2029,719527.4687650896,685792.3861427407,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Palayan City,2024,624890.0,595592.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Palayan City,2025,642765.1702912301,612629.092006744,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Palayan City,2026,661151.665316318,630153.5352607283,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Palayan City,2027,680064.1116762527,648179.2705939969,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Palayan City,2028,699517.5543704341,666720.6376203741,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Palayan City,2029,719527.4687650896,685792.3861427407,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,San Jose City,2024,624890.0,595592.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,San Jose City,2025,642765.1702912301,612629.092006744,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,San Jose City,2026,661151.665316318,630153.5352607283,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,San Jose City,2027,680064.1116762527,648179.2705939969,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,San Jose City,2028,699517.5543704341,666720.6376203741,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,San Jose City,2029,719527.4687650896,685792.3861427407,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2024,624890.0,595592.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2025,642765.1702912301,612629.092006744,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2026,661151.665316318,630153.5352607283,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2027,680064.1116762527,648179.2705939969,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2028,699517.5543704341,666720.6376203741,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Nueva Ecija,Science City of Munoz,2029,719527.4687650896,685792.3861427407,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Angeles City,2024,114433.0,107421.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Angeles City,2025,117706.39109593102,110493.81068324701,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Angeles City,2026,121073.4185490922,113654.52005944119,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Angeles City,2027,124536.76085622849,116905.64249767916,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Angeles City,2028,128099.17313330648,120249.76429135753,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Angeles City,2029,131763.48930723086,123689.54571558945,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Mabalacat City,2024,597137.0,561482.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Mabalacat City,2025,614218.2872060591,577543.364984974,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Mabalacat City,2026,631788.1898766026,594064.1702461824,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Mabalacat City,2027,649860.6850069972,611057.5582137747,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Mabalacat City,2028,668450.1494088527,628537.0472611501,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,Mabalacat City,2029,687571.3711468888,646516.5424589289,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,San Fernando City,2024,597137.0,561482.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,San Fernando City,2025,614218.2872060591,577543.364984974,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,San Fernando City,2026,631788.1898766026,594064.1702461824,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,San Fernando City,2027,649860.6850069972,611057.5582137747,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,San Fernando City,2028,668450.1494088527,628537.0472611501,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Pampanga,San Fernando City,2029,687571.3711468888,646516.5424589289,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Tarlac,Tarlac City,2024,390605.0,380612.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Tarlac,Tarlac City,2025,401778.37594073504,391499.52310788404,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Tarlac,Tarlac City,2026,413271.36973048124,402698.4871567387,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Tarlac,Tarlac City,2027,425093.1241359322,414217.8010102928,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Tarlac,Tarlac City,2028,437253.0434554296,426066.6283730571,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Tarlac,Tarlac City,2029,449760.80100015656,438254.3950801234,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Zambales,Olongapo City,2024,56069.0,54070.0,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Zambales,Olongapo City,2025,57672.870958183004,55616.68894949,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Zambales,Olongapo City,2026,59322.62113751322,57207.62141121368,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Zambales,Olongapo City,2027,61019.56292719648,58844.06298442122,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Zambales,Olongapo City,2028,62765.04625773476,60527.31547121793,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region III (Central Luzon),Zambales,Olongapo City,2029,64560.459674806465,62258.717912157976,0.028605307,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Batangas City,2024,725868.0,683399.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Batangas City,2025,747584.757634572,703845.1561202711,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Batangas City,2026,769951.2443688685,724903.0270661337,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Batangas City,2027,792986.8990118556,746590.9143229942,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Batangas City,2028,816711.7419491821,768927.6669261203,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Batangas City,2029,841146.3925429808,791932.6978424184,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Lipa City,2024,725868.0,683399.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Lipa City,2025,747584.757634572,703845.1561202711,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Lipa City,2026,769951.2443688685,724903.0270661337,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Lipa City,2027,792986.8990118556,746590.9143229942,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Lipa City,2028,816711.7419491821,768927.6669261203,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Lipa City,2029,841146.3925429808,791932.6978424184,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Tanauan City,2024,725868.0,683399.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Tanauan City,2025,747584.757634572,703845.1561202711,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Tanauan City,2026,769951.2443688685,724903.0270661337,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Tanauan City,2027,792986.8990118556,746590.9143229942,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Tanauan City,2028,816711.7419491821,768927.6669261203,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Batangas,Tanauan City,2029,841146.3925429808,791932.6978424184,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Bacoor City,2024,864047.0,812280.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Bacoor City,2025,889897.842417463,836582.06028012,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Bacoor City,2026,916522.098843299,861611.1975950786,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Bacoor City,2027,943942.9085322632,887389.1648748121,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Bacoor City,2028,972184.1030269483,913938.3658605719,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Bacoor City,2029,1001270.2268698786,941281.874576111,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Cavite City,2024,864047.0,812280.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Cavite City,2025,889897.842417463,836582.06028012,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Cavite City,2026,916522.098843299,861611.1975950786,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Cavite City,2027,943942.9085322632,887389.1648748121,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Cavite City,2028,972184.1030269483,913938.3658605719,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Cavite City,2029,1001270.2268698786,941281.874576111,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,City of Carmona,2024,864047.0,812280.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,City of Carmona,2025,889897.842417463,836582.06028012,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,City of Carmona,2026,916522.098843299,861611.1975950786,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,City of Carmona,2027,943942.9085322632,887389.1648748121,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,City of Carmona,2028,972184.1030269483,913938.3658605719,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,City of Carmona,2029,1001270.2268698786,941281.874576111,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2024,864047.0,812280.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2025,889897.842417463,836582.06028012,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2026,916522.098843299,861611.1975950786,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2027,943942.9085322632,887389.1648748121,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2028,972184.1030269483,913938.3658605719,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Dasmarinas City,2029,1001270.2268698786,941281.874576111,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,General Trias City,2024,864047.0,812280.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,General Trias City,2025,889897.842417463,836582.06028012,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,General Trias City,2026,916522.098843299,861611.1975950786,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,General Trias City,2027,943942.9085322632,887389.1648748121,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,General Trias City,2028,972184.1030269483,913938.3658605719,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,General Trias City,2029,1001270.2268698786,941281.874576111,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Imus City,2024,864047.0,812280.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Imus City,2025,889897.842417463,836582.06028012,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Imus City,2026,916522.098843299,861611.1975950786,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Imus City,2027,943942.9085322632,887389.1648748121,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Imus City,2028,972184.1030269483,913938.3658605719,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Imus City,2029,1001270.2268698786,941281.874576111,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2024,864047.0,812280.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2025,889897.842417463,836582.06028012,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2026,916522.098843299,861611.1975950786,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2027,943942.9085322632,887389.1648748121,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2028,972184.1030269483,913938.3658605719,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Tagaytay City,2029,1001270.2268698786,941281.874576111,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2024,864047.0,812280.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2025,889897.842417463,836582.06028012,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2026,916522.098843299,861611.1975950786,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2027,943942.9085322632,887389.1648748121,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2028,972184.1030269483,913938.3658605719,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Cavite,Trece Martires City,2029,1001270.2268698786,941281.874576111,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Binan City,2024,764906.0,703478.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Binan City,2025,787790.709362074,724524.886248262,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Binan City,2026,811360.090987912,746201.4601637252,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Binan City,2027,835634.6291275582,768526.5609491839,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Binan City,2028,860635.4208855894,791519.5914449,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Binan City,2029,886384.1945566981,815200.5349916943,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2024,764906.0,703478.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2025,787790.709362074,724524.886248262,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2026,811360.090987912,746201.4601637252,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2027,835634.6291275582,768526.5609491839,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2028,860635.4208855894,791519.5914449,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Cabuyao City,2029,886384.1945566981,815200.5349916943,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Calamba City,2024,764906.0,703478.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Calamba City,2025,787790.709362074,724524.886248262,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Calamba City,2026,811360.090987912,746201.4601637252,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Calamba City,2027,835634.6291275582,768526.5609491839,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Calamba City,2028,860635.4208855894,791519.5914449,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Calamba City,2029,886384.1945566981,815200.5349916943,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pablo City,2024,764906.0,703478.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pablo City,2025,787790.709362074,724524.886248262,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pablo City,2026,811360.090987912,746201.4601637252,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pablo City,2027,835634.6291275582,768526.5609491839,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pablo City,2028,860635.4208855894,791519.5914449,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pablo City,2029,886384.1945566981,815200.5349916943,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pedro City,2024,764906.0,703478.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pedro City,2025,787790.709362074,724524.886248262,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pedro City,2026,811360.090987912,746201.4601637252,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pedro City,2027,835634.6291275582,768526.5609491839,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pedro City,2028,860635.4208855894,791519.5914449,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,San Pedro City,2029,886384.1945566981,815200.5349916943,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2024,764906.0,703478.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2025,787790.709362074,724524.886248262,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2026,811360.090987912,746201.4601637252,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2027,835634.6291275582,768526.5609491839,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2028,860635.4208855894,791519.5914449,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Laguna,Santa Rosa City,2029,886384.1945566981,815200.5349916943,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Lucena City,2024,69567.0,66242.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Lucena City,2025,71648.32839354301,68223.849949618,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Lucena City,2026,73791.92665472107,70264.99353805732,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Lucena City,2027,75999.65779392088,72367.20473191178,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Lucena City,2028,78273.44055968682,74532.31057189147,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Lucena City,2029,80615.25110631347,76762.1927607115,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),city,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Tayabas City,2024,528232.0,505959.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Tayabas City,2025,544035.818764328,521096.447822511,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Tayabas City,2026,560312.4613779036,536686.7827891962,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Tayabas City,2027,577076.0739402075,552743.554526635,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Tayabas City,2028,594341.2257783789,569280.7180435923,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Quezon,Tayabas City,2029,612122.9221094798,586312.6458593768,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Rizal,Antipolo City,2024,731821.0,695770.0,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Rizal,Antipolo City,2025,753715.861447109,716586.27576833,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Rizal,Antipolo City,2026,776265.7805624021,738025.3397236518,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Rizal,Antipolo City,2027,799490.3555767098,760105.8246478407,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Rizal,Antipolo City,2028,823409.7710671808,782846.920784471,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
+Region IV-A (CALABARZON),Rizal,Antipolo City,2029,848044.8154997835,806268.3925171378,0.029918329,PSA Occupied Housing Units CAGR (2015-2020),province,psa_occ_units_cagr_2015_2020_continued
