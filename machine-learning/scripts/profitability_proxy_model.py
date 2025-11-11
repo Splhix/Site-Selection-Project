@@ -29,7 +29,7 @@ data_path = os.path.join(
     "curated",
     "with scores",
     "app-ready",
-    "fact_table_app_READY_WITH_CLIENT_DATA_FINAL.csv"
+    "fact_table_app_READY_WITH_CLIENT_DATA_FINAL_2024_2029_DYNAMIC_TEXT_FIXED_RANK.csv"
 )
 
 df = pd.read_csv(data_path)
