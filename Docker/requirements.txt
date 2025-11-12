@@ -1,0 +1,11 @@
+# Core AWS and data handling
+boto3==1.34.144
+pandas==2.2.2
+numpy==1.26.4
+
+# ML model loading (joblib + pickle fallback)
+joblib==1.4.2
+scikit-learn==1.5.1
+
+# Optional: for local testing only (not used in Lambda runtime)
+# aws-lambda-ric==2.0.1
