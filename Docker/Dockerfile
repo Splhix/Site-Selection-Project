@@ -1,20 +1,28 @@
-# -----------------------------------------------------------
-# CP2 Site Selection — Lambda ETL + ML Inference
-# Base: AWS Lambda Python 3.11
-# -----------------------------------------------------------
+# ----------------------------------------------------------
+# CP2 Construction Site Selection – Lambda Container Image
+# Includes ETL + ML Inference for Feasibility & Revenue
+# ----------------------------------------------------------
+
 FROM public.ecr.aws/lambda/python:3.11
 
-# No extra system packages needed for this ETL
+# 1️⃣ Upgrade base tools
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 
-# Copy requirements first for layer caching
-COPY requirements.txt /var/task/
+# 2️⃣ Install prebuilt binary wheels (no compiling!)
+RUN pip install --no-cache-dir \
+    numpy==2.2.5 \
+    pandas==2.2.3 \
+    scipy==1.14.1 \
+    scikit-learn==1.5.2 \
+    joblib==1.4.2 \
+    boto3
 
-# Install Python dependencies
-RUN pip install --no-cache-dir -r /var/task/requirements.txt
+# 3️⃣ Copy your ETL script and model files
+COPY lambda_import_etl.py ${LAMBDA_TASK_ROOT}/
+COPY models/ ${LAMBDA_TASK_ROOT}/models/
 
-# Copy application code and models into /var/task
-COPY lambda_import_etl.py /var/task/
-COPY models/ /var/task/models/
+# (Optional) verify models exist in container
+RUN ls -R ${LAMBDA_TASK_ROOT}/models
 
-# Set the Lambda handler
+# 4️⃣ Define Lambda handler entry point
 CMD ["lambda_import_etl.lambda_handler"]
