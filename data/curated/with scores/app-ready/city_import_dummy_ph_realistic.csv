@@ -1,0 +1,9 @@
+Region,Province,City,GRDP_grdp_pc_2024_const,INC_income_per_hh_2024,DEM_households_single_duplex_2024,DEM_units_single_duplex_2024,RISK_Fault_Distance_km,RISK_Nearest_Fault_Name,RISK_Flood_Level_Num,RISK_StormSurge_Level_Num,RISK_Landslide_Level_Num,RISK_events_50km,RISK_m5plus_50km,RISK_avg_mag_50km,RISK_avg_depth_km_50km,EMP_w,TCP_MarketMedian
+Region V,Albay,Legazpi City,390000,420000,75000,71000,15.0,Mayon Segment Fault,2,1,1,75,1,2.8,25.0,140591,3780000.0
+Region VI,Iloilo,Iloilo City,420000,440000,110000,102000,18.5,Iloilo Fault Zone,1,1,1,65,1,2.5,24.0,269579,3960000.0
+Region VII,Cebu,Cebu City,480000,500000,130000,125000,10.2,Central Cebu Fault,2,1,1,80,2,3.0,23.5,290159,4500000.0
+Region VIII,Leyte,Tacloban City,360000,390000,60000,58000,25.0,Leyte Segment Fault,3,3,1,90,2,2.9,26.0,125920,3510000.0
+Region XI,Davao del Sur,Davao City,470000,480000,180000,170000,30.0,Cotabato Fault Zone,1,0,1,50,1,2.4,27.0,298083,4320000.0
+Region XII,South Cotabato,General Santos City,410000,420000,85000,82000,22.0,Sarangani Segment Fault,2,0,1,40,0,2.1,28.0,140760,3780000.0
+CAR,Benguet,Baguio City,400000,410000,50000,47000,5.0,Digdig Fault,1,0,3,95,3,3.2,22.0,77904,3690000.0
+BARMM,Maguindanao del Sur,Cotabato City,380000,370000,45000,42000,35.0,Midsayap Fault,2,0,1,60,0,2.0,29.0,106478,3330000.0
