@@ -84,8 +84,8 @@ FEAS_FEATURE_INFO_PATHS = [
     MODEL_DIR / "feasibility_feature_info.pkl",
 ]
 REV_MODEL_PATHS = [
-    MODEL_DIR / "potential_revenue_gradientboost_model.joblib",
-    MODEL_DIR / "potential_revenue_gradientboost_model.pkl",
+    MODEL_DIR / "potential_revenue_randomforest_model.joblib",
+    MODEL_DIR / "potential_revenue_randomforest_model.pkl",
 ]
 
 # -----------------------------
