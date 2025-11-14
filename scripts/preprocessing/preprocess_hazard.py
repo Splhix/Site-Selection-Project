@@ -7,7 +7,7 @@ Based on CP2 methods guide section 1.4.
 import pandas as pd
 import numpy as np
 import os
-from utils import standardize_geo, validate_required_columns
+from utils import standardize_geo, validate_required_columns, minmax_norm
 
 
 def main():
@@ -78,13 +78,46 @@ def main():
     if not df_earthquake.empty:
         df_earthquake = standardize_geo(df_earthquake)
         
-        # Look for earthquake-related columns
-        eq_cols = [col for col in df_earthquake.columns if any(keyword in col.lower() 
-                  for keyword in ['magnitude', 'depth', 'count', 'events'])]
+        # Look for earthquake-related columns for proper risk calculation
+        eq_events_col = None
+        eq_m5plus_col = None  
+        eq_depth_col = None
         
-        # Create earthquake risk metrics
-        if 'magnitude' in str(eq_cols).lower():
-            df_earthquake['EarthquakeRisk'] = pd.to_numeric(df_earthquake[eq_cols[0]], errors='coerce')
+        for col in df_earthquake.columns:
+            col_lower = col.lower()
+            if 'events' in col_lower and '50km' in col_lower:
+                eq_events_col = col
+            elif 'm5plus' in col_lower and '50km' in col_lower:
+                eq_m5plus_col = col
+            elif 'depth' in col_lower and '50km' in col_lower:
+                eq_depth_col = col
+        
+        # Calculate earthquake risk using proper weighted formula
+        # EarthquakeRisk = 0.45*EQ_m5plus + 0.35*EQ_freq + 0.20*EQ_depthR
+        
+        # Normalize components (0-1 scale)
+        if eq_events_col and eq_events_col in df_earthquake.columns:
+            EQ_freq = minmax_norm(pd.to_numeric(df_earthquake[eq_events_col], errors='coerce'))
+        else:
+            EQ_freq = 0.5  # Default medium risk
+            
+        if eq_m5plus_col and eq_m5plus_col in df_earthquake.columns:
+            EQ_m5plus = minmax_norm(pd.to_numeric(df_earthquake[eq_m5plus_col], errors='coerce'))
+        else:
+            EQ_m5plus = 0.5  # Default medium risk
+            
+        if eq_depth_col and eq_depth_col in df_earthquake.columns:
+            # For depth: deeper = safer, so we invert the normalization
+            EQ_depthR = 1 - minmax_norm(pd.to_numeric(df_earthquake[eq_depth_col], errors='coerce'))
+        else:
+            EQ_depthR = 0.5  # Default medium risk
+        
+        # Apply methodology weights: 45% magnitude, 35% frequency, 20% depth
+        df_earthquake['EarthquakeRisk'] = (
+            0.45 * EQ_m5plus.fillna(0.5) + 
+            0.35 * EQ_freq.fillna(0.5) + 
+            0.20 * EQ_depthR.fillna(0.5)
+        ).clip(0, 1)
     
     # Combine all hazard data
     df_combined = pd.DataFrame()
@@ -122,20 +155,32 @@ def main():
     target_regions = ['NCR', 'Region III (Central Luzon)', 'Region IV-A (CALABARZON)']
     df_combined = df_combined[df_combined['Region'].isin(target_regions)]
     
-    # Create hazard safety score (inverse of risk, normalized)
-    risk_cols = ['FloodRisk', 'StormSurgeRisk', 'LandslideRisk', 'EarthquakeRisk']
-    for col in risk_cols:
-        if col in df_combined.columns:
-            # Convert risk to safety (higher risk = lower safety)
-            df_combined[f'{col}_Safety'] = 1 - (df_combined[col] / 3.0)  # Assuming 1-3 scale
-            df_combined[f'{col}_Safety'] = df_combined[f'{col}_Safety'].clip(0, 1)
+    # Create hazard safety score using proper weighted formula from methodology
+    # First, ensure all required risk columns exist and are normalized to 0-1 scale
+    required_risks = ['FloodRisk', 'StormSurgeRisk', 'LandslideRisk', 'EarthquakeRisk']
     
-    # Create overall hazard safety score (average of individual safety scores)
-    safety_cols = [col for col in df_combined.columns if col.endswith('_Safety')]
-    if safety_cols:
-        df_combined['HazardSafety_NoFault'] = df_combined[safety_cols].mean(axis=1)
-    else:
-        df_combined['HazardSafety_NoFault'] = 0.5  # Default neutral score
+    # Normalize risk columns to 0-1 scale (assuming input is 1-3 scale)
+    for col in required_risks:
+        if col in df_combined.columns:
+            # Convert from 1-3 scale to 0-1 normalized risk
+            df_combined[col] = (df_combined[col] - 1.0) / 2.0
+            df_combined[col] = df_combined[col].clip(0, 1)
+        else:
+            df_combined[col] = 0.5  # Default medium risk if missing
+    
+    # Calculate HydroRisk (hydrometeorological risk) - weighted average of flood and storm surge
+    df_combined['HydroRisk'] = 0.5 * df_combined['FloodRisk'] + 0.5 * df_combined['StormSurgeRisk']
+    
+    # Calculate composite hazard risk using methodology weights
+    # HazardRisk_NoFault = 0.40*EarthquakeRisk + 0.40*HydroRisk + 0.20*LandslideRisk
+    df_combined['HazardRisk_NoFault'] = (
+        0.40 * df_combined['EarthquakeRisk'] + 
+        0.40 * df_combined['HydroRisk'] + 
+        0.20 * df_combined['LandslideRisk']
+    ).clip(0, 1)
+    
+    # Convert to safety score (higher = safer)
+    df_combined['HazardSafety_NoFault'] = (1 - df_combined['HazardRisk_NoFault']).clip(0, 1)
     
     # Sort by Region, Province, City
     df_combined = df_combined.sort_values(['Region', 'Province', 'City']).reset_index(drop=True)
