@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 from sklearn.model_selection import GroupKFold
-from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
@@ -29,8 +29,8 @@ OUTPUT_DIR = Path("models")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Portable names expected by your Dockerfile and ETL
-MODEL_OUT_JOBLIB = OUTPUT_DIR / "potential_revenue_gradientboost_model.joblib"
-MODEL_OUT_PKL    = OUTPUT_DIR / "potential_revenue_gradientboost_model.pkl"
+MODEL_OUT_JOBLIB = OUTPUT_DIR / "potential_revenue_randomforest_model.joblib"
+MODEL_OUT_PKL    = OUTPUT_DIR / "potential_revenue_randomforest_model.pkl"
 META_OUT         = OUTPUT_DIR / "potential_revenue_meta.pkl"
 
 SCENARIO    = "BASE"
@@ -113,12 +113,11 @@ y_mult = np.clip(m, LOWER_MULT, UPPER_MULT)
 # -----------------------------------------------------------
 pipe = Pipeline([
     ("scaler", StandardScaler(with_mean=True, with_std=True)),
-    ("gbr", GradientBoostingRegressor(
-        n_estimators=500,
-        learning_rate=0.04,
-        max_depth=3,
-        subsample=0.85,
-        random_state=RANDOM_SEED
+    ("rfr", RandomForestRegressor(
+        n_estimators=400,
+        max_depth=None,
+        random_state=RANDOM_SEED,
+        n_jobs=-1,
     ))
 ])
 
